@@ -1,7 +1,8 @@
- ---
-title: Welcome to Quartz
 ---
-Testando novo site
+title: Bloco de notas
+---
 
-This is a blank Quartz installation.
-See the [documentation](https://quartz.jzhao.xyz) for how to get started.
+> [!NOTE]  Olá, pretendo reunir aqui anotações que serão utilizadas em artigos e aulas.
+
+## Ultimas atualizações
+
