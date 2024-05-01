@@ -1,7 +1,7 @@
 ---
 longform:
   format: scenes
-  title: Estudo sobre Jesus
+  title: ✝Estudo sobre Jesus
   workflow: Default Workflow
   sceneFolder: /
   scenes:

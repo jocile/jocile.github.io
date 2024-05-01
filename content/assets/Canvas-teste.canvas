@@ -1,7 +1,7 @@
 {
 	"nodes":[
 		{"id":"b0ac9f08c06690d2","x":-300,"y":-280,"width":250,"height":60,"type":"text","text":"Teste1"},
-		{"id":"f7715a3533861b73","x":-60,"y":-120,"width":400,"height":340,"type":"file","file":"content/📖Teologia/Estudo sobre Jesus/Introdução.md"},
+		{"id":"f7715a3533861b73","x":-60,"y":-120,"width":400,"height":340,"type":"file","file":"content/📖Teologia/✝Estudo sobre Jesus/Introdução.md"},
 		{"id":"d983b3fdfa723541","x":-400,"y":-31,"width":288,"height":162,"type":"file","file":"public/static/og-image.png"}
 	],
 	"edges":[
