@@ -6,3 +6,5 @@ title: Bloco de notas
 
 ## Ultimas atualizações
 
+- [📖 Teologia - Páginas de estudos bíblicos](teologia/index)
+- [🌐 Navegue pelas Tags (Tópicos)](/tags/)
