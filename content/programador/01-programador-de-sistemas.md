@@ -104,24 +104,23 @@ Competências:
 - Planejamento integrado entre todos os docentes do curso;
 - Compromisso dos docentes com o desenvolvimento do Projeto no decorrer das Unidades Curriculares;
 
-1a. Problematização:
+1. Problematização:
 
 - definição do tema gerador, deve-se ter em vista uma situação plausível, identificada no campo de atuação profissional e que perpasse as competências do perfil de conclusão. Neste momento, são realizados
 - detalhamento do tema gerador e o levantamento das questões que nortearão a pesquisa e o desenvolvimento do projeto. As questões devem mobilizar ações que articulem as competências do curso para a resolução do problema.
 
-2a. Desenvolvimento:
+2. Desenvolvimento:
 
-- organizar e estruturar um plano de trabalho. Onde são e
-- elaborar as estratégias para atingir os objetivos e dar respostas às questões formuladas na etapa de problematização.
-- O plano de trabalho deve ser realizado conjuntamente pelos alunos e prever situações que extrapolem o espaço da sala de aula, estimulando a pesquisa em bibliotecas, a visita aos ambientes reais de trabalho, a contribuição de outros docentes e profissionais, além de outras ações para a busca da resolução do problema.
+- Organizar e estruturar um plano de trabalho. Onde são e elaborar as estratégias para atingir os objetivos e dar respostas às questões formuladas na etapa de problematização.
+- O plano de trabalho deve ser realizado conjuntamente pelos alunos e prever situações que extrapolem o espaço da sala de aula,
+- estimulando a pesquisa em bibliotecas, a visita aos ambientes reais de trabalho, a contribuição de outros docentes e profissionais, além de outras ações para a busca da resolução do problema.
 
-3a. Síntese:
+3. Síntese:
 
-- organização e avaliação das atividades desenvolvidas e dos resultados obtidos.
+- Organização e avaliação das atividades desenvolvidas e dos resultados obtidos.
 - É importante que a proposta de solução traga aspectos inovadores, tanto no próprio produto, quanto na forma de apresentação.
 
 > Exemplos de Proposta de Tema Gerador:
-{: .prompt-tip }
 
 - Demandas de organização e controle em Sistemas de Informação:
   - O desafio proposto trata-se do desenvolvimento de um módulo de um sistema para uma empresa,
@@ -134,8 +133,9 @@ Competências:
   - por meio de entrevista com uma ou mais pessoas com deficiência, levantar demandas e necessidades,
   - pesquisar os recursos disponíveis, produzindo uma aplicação que atenda às demandas desta população
 
+> [!info]
 > Outros Temas Geradores podem ser definidos em conjunto com os alunos, desde que constituam uma situação-problema e atendam aos 3 itens acima para a avaliação.
-{: .prompt-info }
+
 
 ## Bibliografia
 
