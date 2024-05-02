@@ -2,7 +2,6 @@
 title: Curso de Programador
 draft: false
 tags:
-  - aulas
   - programador
 ---
 
