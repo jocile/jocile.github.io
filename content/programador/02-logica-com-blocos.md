@@ -6,7 +6,11 @@ tags:
   - lógica
   - algoritmos
 ---
-A programação em blocos, também conhecida como programação visual, é uma maneira intuitiva e divertida de aprender e criar programas de computador. Imagine um quebra-cabeça, onde cada peça representa um comando ou ação. Ao encaixar as peças corretamente, você constrói a lógica do seu programa.
+A programação em blocos, também conhecida como programação visual, é uma maneira intuitiva e divertida de aprender e criar programas de computador. 
+
+[01-cronograma-programador-de-sistemas ⬅️](01-cronograma-programador-de-sistemas.md) | [➡️ 03-introdução-aos-algoritmos](03-introdução-aos-algoritmos.md)
+
+Imagine um quebra-cabeça, onde cada peça representa um comando ou ação. Ao encaixar as peças corretamente, você constrói a lógica do seu programa.
 
 Em vez de escrever linhas de código complexas, você utiliza blocos coloridos interativos para montar a sequência de instruções. Cada bloco possui uma função específica, como mover um personagem, tocar um som ou fazer um cálculo. As cores e formatos dos blocos facilitam a identificação de sua função, tornando a programação mais acessível para iniciantes.
 
@@ -96,6 +100,3 @@ O [code.org](https://studio.code.org/) é um excelente recurso para quem deseja 
 
 > [!nota]
 > Embora o Godot não seja uma plataforma de programação em blocos pura, seus recursos de script visual e linguagem amigável para iniciantes o tornam uma boa opção para quem se interessa pelo desenvolvimento de jogos sem ter muita experiência em codificação.
-
-
-[01-cronograma-programador-de-sistemas ⬅️](01-cronograma-programador-de-sistemas.md) | [➡️ 03-introdução-aos-algoritmos](03-introdução-aos-algoritmos.md)

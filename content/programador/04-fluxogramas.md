@@ -1,19 +1,69 @@
 ---
-title:  "04-fluxogramas"
+title: Fluxogramas
 draft: false
 tags:
   - programador
-  - lógica
   - algoritmos
+  - diagramas
 ---
-Podemos representar os algoritmos de forma gráfica, para isso utilizamos os fluxogramas.
 
-- Os fluxogramas são formados de caixas com formato variado que conectadas de forma ordenada e lógica informam as instruções a serem executadas. São muito populares por serem de fácil entendi- mento das ideias contidas no algoritmo.
+Fluxograma é uma maneira de representar um processo por meio de um desenho, ou seja, é uma forma simples e fácil de identificar o fluxo com que as atividades acontecem.
+
+[03-introdução-aos-algoritmos ⬅️](03-introdução-aos-algoritmos.md) | [➡️ 05-editor-de-Diagramas-mermaid](05-editor-de-Diagramas-mermaid.md)
+
+- Os fluxogramas são formados de caixas com formato variado que conectadas de forma ordenada e lógica informam as instruções a serem executadas. São muito populares por serem de fácil entendimento das ideias contidas no algoritmo.
 - A representação do fluxograma é ótima para descrever algoritmos de pequeno e médio tamanho.
 - **Visualização Clara:** Os fluxogramas transformam a lógica abstrata dos algoritmos em uma linguagem visual compreensível, facilitando o aprendizado e a análise de cada etapa do processo.
 - **Comunicação Eficaz:** Funcionam como ferramenta de comunicação entre desenvolvedores, permitindo que diferentes pessoas compreendam a estrutura e o funcionamento do algoritmo de forma clara e objetiva.
 - **Identificação de Falhas:** Ao visualizar o algoritmo passo a passo, fica mais fácil identificar erros de lógica, falhas de processamento ou inconsistências na sequência de instruções.
 - **Documentação Detalhada:** Os fluxogramas servem como documentação detalhada do algoritmo, registrando todas as etapas e decisões envolvidas no processo.
+
+## Tipos de fluxogramas
+
+- Diagrama de Blocos
+- Processo Simples
+- Funcional
+- Vertical
+
+Para saber mais acesse: [5 passos para criacao de um fluxograma](https://blog.zeev.it/5-passos-para-criacao-de-um-fluxograma/)
+
+## Como fazer fluxogramas
+
+Para criar diagramas de fluxo ou fluxogramas, primeiro é preciso um editor, como o Mermaid, em seguida seguir os seguintes passos:
+
+Escolha uma plataforma de edição de texto ou código que suporte a sintaxe do Mermaid. Algumas opções populares incluem VS Code, Atom, Sublime Text, ou mesmo o [editor online do Mermaid](https://mermaid.live/).
+
+Comece definindo o tipo de gráfico que você deseja criar, utilizando a sintaxe apropriada do Mermaid. Por exemplo, para criar um diagrama de fluxo, você pode começar com o seguinte código:
+
+```plaintext
+graph LR;
+A-->B;
+A-->C;
+B-->D;
+C-->D;
+```
+
+Resultado:
+
+```mermaid
+
+graph LR;
+
+A-->B;
+
+A-->C;
+
+B-->D;
+
+C-->D;
+
+  
+
+```
+
+Este código cria um diagrama de fluxo básico com quatro nós (A, B, C e D) e quatro setas conectando-os.
+
+Personalize seu gráfico adicionando nós adicionais, alterando as cores ou estilos, adicionando texto descritivo e ajustando o layout. Existem muitas opções de personalização disponíveis na sintaxe do Mermaid, e você pode encontrar uma lista completa de opções na documentação oficial.
 
 ## Formato
 
@@ -29,28 +79,80 @@ Podemos representar os algoritmos de forma gráfica, para isso utilizamos os flu
 
 Usando editor de diagramas [mermaid - fluxograma](https://mermaid.js.org/syntax/flowchart.html):
 
+## Símbolos do fluxograma
+
+Exemplo básico de um diagrama de fluxo com Mermaid que exiba todos os elementos comuns do fluxograma:
+
+```plaintext
+
+graph TD;
+
+Inicio([Inicio]) --> Entrada[\Entrada de dados/];
+Entrada --> Decisao{Tomar decisão?};
+Decisao -- Sim --> Processo[Processo 1];
+Processo -- Condição 1 --> Decisao2{Outra decisão?};
+Decisao2 -- Sim --> Processo2[Processo 2];
+Decisao2 -- Não --> Subprocesso[Subprocesso 1];
+Subprocesso --> Processo3((Conector));
+Processo2 --> Processo3;
+Processo3 --> DecisaoFinal((Conector));
+DecisaoFinal -- Resultado --> Exibir>Exibir resultado];
+Exibir -- Fim --> Fim([Fim]);
+Decisao -- Não --> Subprocesso2[Subprocesso 2];
+Subprocesso2 --> DecisaoFinal;
+```
+
+Resultado:
+
 ```mermaid
-flowchart TD
-A[Início] --> B{Ler número}
-B --> C[Verificar se o número é par]
-    C --> D[Se o número for par]
-        D --> E[Mostrar mensagem O número é par]
-        E --> F[Fim]
-    C --> G[Se o número não for par]
-        G --> H[Mostrar mensagem O número é ímpar]
-        H --> I[Fim]
+
+graph TD;
+
+Inicio([Inicio]) --> Entrada[\Entrada de dados/];
+
+Entrada --> Decisao{Tomar decisão?};
+
+Decisao -- Sim --> Processo[Processo 1];
+
+Processo -- Condição 1 --> Decisao2{Outra decisão?};
+
+Decisao2 -- Sim --> Processo2[Processo 2];
+
+Decisao2 -- Não --> Subprocesso[Subprocesso 1];
+
+Subprocesso --> Processo3((Conector));
+
+Processo2 --> Processo3;
+
+Processo3 --> DecisaoFinal((Conector));
+
+DecisaoFinal -- Resultado --> Exibir>Exibir resultado];
+
+Exibir -- Fim --> Fim([Fim]);
+
+Decisao -- Não --> Subprocesso2[Subprocesso 2];
+
+Subprocesso2 --> DecisaoFinal;
+
+  
 
 ```
 
-Neste exemplo, podemos observar os diversos símbolos utilizados para representar as diferentes etapas do algoritmo:
+Nesse exemplo, temos os seguintes elementos do fluxograma:
 
-- **A:** Símbolo de Início
-- **B:** Símbolo de Ação
-- **C:** Símbolo de Decisão
-- **D, E, G, H:** Símbolos de Ação
-- **F, I:** Símbolos de Fim
+- Início: Representado pelo nó Inicio.
+- Entrada: Representa uma entrada de dados pelo usuário.
+- Decisão: Representado pelo nó Decisao com uma seta saindo para Processo 1 quando a resposta é sim, e para Subprocesso 2 quando a resposta é não.
+- Processo: Representado pelo nó Processo 1, Processo 2, Processo 3.
+- Condição: Representada pela seta com texto Condição 1.
+- Subprocesso: Representado pelo nó Subprocesso 1 e Subprocesso 2.
+- Exibir resultado: mostra o resultado na saída padrão.
+- Conclusão: Representado pelo nó DecisaoFinal com uma seta saindo para Fim quando a decisão é tomada.
 
-Ao combiná-los de forma correta, podemos criar fluxogramas que representam a lógica de diversos algoritmos de forma clara e visualmente intuitiva.
+> [!info]  
+> Lembre-se de que a sintaxe do Mermaid pode ser personalizada para atender às suas necessidades específicas de fluxograma. Portanto, você pode alterar as cores, formas, tamanhos e estilos dos nós e das setas, bem como adicionar texto descritivo e ajustar o layout para tornar seu diagrama de fluxo mais claro e legível.
+
+[Veja a lista completa de símbolos aqui!](https://blog.zeev.it/wp-content/uploads/2021/01/OD_SML_info.png)
 
 ## Exemplos
 
@@ -93,7 +195,6 @@ E --> F[Verificar resto da divisão]
 
 Um fluxograma pode ser usado para representar o processo de calcular a média de três notas, mostrando os passos de somar as notas e dividir o resultado por três.
 
-
 ```mermaid
 flowchart TD
 A[Início] --> B{Ler nota 1}
@@ -125,5 +226,3 @@ L --> M[Fim]
 11. **Armazenar média:** O valor da variável `media` é armazenado em uma variável chamada `média`.
 12. **Mostrar média na tela:** A média é exibida na tela do usuário.
 13. **Fim:** O algoritmo termina.
-
-[03-introdução-aos-algoritmos ⬅️](03-introdução-aos-algoritmos.md) | [➡️ 05-editor-de-Diagramas-mermaid](05-editor-de-Diagramas-mermaid.md)

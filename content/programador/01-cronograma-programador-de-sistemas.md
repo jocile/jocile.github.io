@@ -8,6 +8,7 @@ tags:
 ---
 O Programador de Sistemas é o profissional que especifica, desenvolve, testa e implanta sistema de informação, contemplando requisitos de segurança e disponibilidade. Além disso, modela dados, documenta e faz a manutenção em sistemas.
 
+[➡️02-logica-com-blocos](02-logica-com-blocos.md)
 ## Objetivo profissional
 
 Este profissional possui um mercado de trabalho vasto e diversificado, atuando em empresas dos mais diferentes setores e segmentos e, ainda, de forma empreendedora, como autônomo prestando serviços a todas as organizações que façam uso de sistemas informatizados. Relaciona-se com equipes de desenvolvimento, outros profissionais de TI, bem como clientes e usuários de programas.
@@ -150,5 +151,3 @@ Competências:
 - BRAGA, P. H. C. Testes de software. São Paulo: Pearson Education do Brasil, 2016. (ebook)
 - GALOTTI, G. M. A. Qualidade de Software. São Paulo: Pearson Education do Brasil, 2016. (ebook)
 - SOMERVILLE, I. Engenharia de software. São Paulo: Pearson Education do Brasil, 2018. (ebook)
-
-[➡️02-logica-com-blocos](02-logica-com-blocos.md)

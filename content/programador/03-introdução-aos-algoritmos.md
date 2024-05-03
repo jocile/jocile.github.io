@@ -6,7 +6,11 @@ tags:
   - lógica
   - algoritmos
 ---
-Algoritmos são conjuntos de instruções precisas e ordenadas que definem como realizar uma tarefa ou resolver um problema. Eles são a base da programação e estão presentes em diversos aspectos da nossa vida, desde o funcionamento de computadores e smartphones até a forma como realizamos tarefas cotidianas.
+Algoritmos são conjuntos de instruções precisas e ordenadas que definem como realizar uma tarefa ou resolver um problema. 
+
+[02-logica-com-blocos ⬅️](02-logica-com-blocos.md) | [➡️ 04-fluxogramas](04-fluxogramas.md)
+
+Algoritmos são a base da programação e estão presentes em diversos aspectos da nossa vida, desde o funcionamento de computadores e Smartfones até a forma como realizamos tarefas cotidianas.
 
 ## Características
 
@@ -132,5 +136,3 @@ Podemos representar os algoritmos de forma gráfica com [fluxogramas](04-fluxogr
 
 - [Desenvolvimento de sistemas Allen Oberleitner](https://jocile.notion.site/Desenvolvimento-de-sistemas-Allen-Oberleitner-7f43c99c571d43ecafd026cda967461e)
 - [Lógica de programação Gley Fabiano Cardoso Xavier](https://jocile.notion.site/L-gica-de-programa-o-Gley-Fabiano-Cardoso-Xavier-1dbcc1c64e45402d9f130d07fd2914dd)
-
-[02-logica-com-blocos ⬅️](02-logica-com-blocos.md) | [➡️ 04-fluxogramas](04-fluxogramas.md)

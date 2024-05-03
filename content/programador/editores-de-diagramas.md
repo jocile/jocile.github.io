@@ -1,5 +1,5 @@
 ---
-title: 06 Links de diagramas
+title: Editores de diagramas
 draft: false
 tags:
   - diagramas
@@ -8,10 +8,11 @@ tags:
   - uml
 ---
 
-## Editores de diagramas
+## Editores de diagramas online
 
 - [editor de Diagramas-mermaid](05-editor-de-Diagramas-mermaid.md)
-- [Editor de diagramas PlantUML](https://plantuml.com/)
+- [excalidraw](https://excalidraw.com/)
+- [PlantUML](https://plantuml.com/)
 - [Draw.io app.diagrams.net](https://app.diagrams.net/)
 - [Draw.io exemplos](https://gist.github.com/jocile/b98add89c82e8629eb11b409c5dd0e69)
 - [Modelos de diagramas Lucidchard UML](https://www.lucidchart.com/pages/pt/modelos-e-exemplos-de-diagramas-uml)
@@ -26,5 +27,3 @@ tags:
 - [Padrões de projeto](https://github.com/jocile/patterns/wiki)
 - [Design Patterns for Humans](https://roadmap.sh/guides/design-patterns-for-humans)
 - [Livro de lógica](https://bibliotecadigitalsenac.com.br/?from=explorar%2F3002%2Fall%3FcontentInfo%3D1306#/legacy/epub/1306)
-
-[⬅️05-editor-de-Diagramas-mermaid](05-editor-de-Diagramas-mermaid.md)

@@ -1,18 +1,20 @@
 ---
-title: 05 Editor de Diagramas Mermaid
+title: Editor de Diagramas Mermaid
 draft: false
 tags:
   - diagramas
   - uml
   - algoritmos
 ---
-Mermaid não é a criatura mítica do mar, mas sim uma poderosa e versátil ferramenta de diagramação e criação de gráficos. Aqui está um resumo do que ela é:
+Mermaid não é uma poderosa e versátil ferramenta de diagramação e criação de gráficos. 
+
+[04-fluxogramas ⬅️](04-fluxogramas.md) | [➡️ Editores de diagramas](editores-de-diagramas.md)
 
 ## **O que é**
 
 - Uma ferramenta baseada em JavaScript que permite criar diversos diagramas e gráficos usando uma sintaxe simples baseada em texto.
 - Pense nisso como escrever código para gerar elementos visuais.
-- A sintaxe é inspirada no Markdown, tornando-a fácil de aprender e usar, mesmo para aqueles sem experiência prévia em codificação.
+- A sintaxe é inspirada no [Markdown](documentacao-com-Markdown.md), tornando-a fácil de aprender e usar, mesmo para aqueles sem experiência prévia em codificação.
 
 ## **O que ela pode fazer**
 
@@ -141,5 +143,3 @@ gantt
 - Site oficial: [https://mermaid.js.org/](https://mermaid.js.org/)
 - Tutorial Mermaid: [https://mermaid.js.org/intro/getting-started.html](https://mermaid.js.org/intro/getting-started.html)
 - Editor Online Mermaid: [https://mermaid.live/](https://mermaid.live/)
-
-[04-fluxogramas ⬅️](04-fluxogramas.md) | [➡️ 06-links-de-diagramas](06-links-de-diagramas.md)
