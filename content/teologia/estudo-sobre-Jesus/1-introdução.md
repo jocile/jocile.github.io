@@ -50,3 +50,4 @@ Neste texto, exploraremos a magnitude da influência de Jesus Cristo, tanto em s
 
 A magnitude da influência de Jesus Cristo é inegável. Sua mensagem de amor, compaixão, justiça e paz continua a inspirar e transformar vidas em todo o mundo. As fontes de informação sobre Jesus, embora limitadas, nos permitem conhecer sua vida, obra e ensinamentos com razoável confiabilidade. Os Evangelhos, como relatos teológicos da vida de Jesus, oferecem uma base sólida para a fé cristã e para a compreensão do impacto duradouro de Jesus na história da humanidade.
 
+[2-Fontes-historicas➡️](2-Fontes-historicas.md)

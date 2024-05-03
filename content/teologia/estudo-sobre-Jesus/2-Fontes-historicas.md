@@ -40,3 +40,5 @@ Apesar dos desafios, a maioria dos estudiosos da Bíblia, tanto religiosos quant
 ## **Conclusão**
 
 Ao combinarmos as fontes históricas extra-bíblicas com a análise crítica dos Evangelhos, podemos construir uma imagem mais completa e confiável de Jesus de Nazaré. É importante reconhecer as limitações de cada fonte e abordar o tema com mente aberta e espírito crítico. A pesquisa histórica rigorosa, aliada à fé e à reflexão teológica, nos permite alcançar uma compreensão mais profunda da figura de Jesus e do significado de sua mensagem para a humanidade.
+
+[1-introdução ⬅️](1-introdução.md) | [➡️ 3-ideias-sobre-Jesus](3-ideias-sobre-Jesus.md)

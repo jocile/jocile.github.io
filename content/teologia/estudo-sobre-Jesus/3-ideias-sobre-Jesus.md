@@ -17,3 +17,5 @@ São conhecidas diversas ideias sobre a pessoa de Jesus, destacando a magnitude 
 - **N.T. (ortodoxo, trinitário)**: A compreensão ortodoxa e trinitária de Jesus conforme o Novo Testamento
 
 Essas ideias refletem a diversidade de entendimentos sobre a figura de Jesus ao longo da história e a complexidade em definir sua identidade de forma unânime.
+
+[2-Fontes-historicas ⬅️](2-Fontes-historicas.md) | [➡️ 3.1-nao-existencia](3.1-nao-existencia.md)
