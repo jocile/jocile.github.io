@@ -3,7 +3,7 @@ title: Curso de Programador em 2023
 draft: false
 tags:
   - programador
-  - aulas
+  - aulas/2023
 ---
 
 ## Referências

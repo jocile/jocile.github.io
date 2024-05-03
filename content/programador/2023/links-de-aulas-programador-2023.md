@@ -2,8 +2,8 @@
 title: Links de aulas de programador em 2023
 draft: false
 tags:
-  - aulas
   - programador
+  - aulas/2023
 ---
 Aulas de março de 2023 → a junho de 2023
 

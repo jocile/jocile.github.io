@@ -1,5 +1,5 @@
 ---
-title: 01 Programador de Sistemas
+title: 01 Cronograma Programador de Sistemas
 tags:
   - Senac
   - planejamento
@@ -136,7 +136,6 @@ Competências:
 > [!info]
 > Outros Temas Geradores podem ser definidos em conjunto com os alunos, desde que constituam uma situação-problema e atendam aos 3 itens acima para a avaliação.
 
-
 ## Bibliografia
 
 - XAVIER, Gley Fabiano Cardoso. Lógica de Programação.  13ª ed. Senac, São Paulo SP.
@@ -151,3 +150,5 @@ Competências:
 - BRAGA, P. H. C. Testes de software. São Paulo: Pearson Education do Brasil, 2016. (ebook)
 - GALOTTI, G. M. A. Qualidade de Software. São Paulo: Pearson Education do Brasil, 2016. (ebook)
 - SOMERVILLE, I. Engenharia de software. São Paulo: Pearson Education do Brasil, 2018. (ebook)
+
+[➡️02-logica-com-blocos](02-logica-com-blocos.md)
