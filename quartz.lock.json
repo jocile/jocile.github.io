@@ -22,8 +22,8 @@
     "bases-page": {
       "source": "github:quartz-community/bases-page",
       "resolved": "https://github.com/quartz-community/bases-page.git",
-      "commit": "af346b7ceec47c644a38a01f9986def6b03a66ab",
-      "installedAt": "2026-04-27T19:44:27.869Z"
+      "commit": "22c04e982c52d08ec88e3654ea9ac4427e4569d3",
+      "installedAt": "2026-05-17T20:51:06.388Z"
     },
     "breadcrumbs": {
       "source": "github:quartz-community/breadcrumbs",
@@ -200,9 +200,9 @@
         "subdir": "plugin"
       },
       "resolved": "https://github.com/saberzero1/quartz-themes.git",
-      "commit": "047d2564c2b16b3f31b750d5c2104374765b678f",
+      "commit": "3b1262fc74acb8b15f04eca12537080232f7ec7d",
       "subdir": "plugin",
-      "installedAt": "2026-05-16T15:54:33.635Z"
+      "installedAt": "2026-05-17T21:33:45.269Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",
