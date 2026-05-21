@@ -4,25 +4,50 @@ title: Welcome to Quartz 5
 
 Quartz is a fast, batteries-included static-site generator that transforms Markdown content into fully functional websites. Thousands of students, developers, and teachers are [[showcase|already using Quartz]] to publish personal notes, websites, and [digital gardens](https://jzhao.xyz/posts/networked-thought) to the web.
 
-## Getting Started
+## 🪴 Get Started
 
-Quartz requires **at least [Node](https://nodejs.org/) v22** and `npm` v10.9.2 to function correctly. Ensure you have this installed on your machine before continuing.
+Quartz requires **at least [Node](https://nodejs.org/) v22** and `npm` v10.9.2 to function correctly. Ensure you have these installed on your machine before continuing.
 
-### New to Quartz?
+```shell
+# 1. Clone the Quartz repository (v5 branch)
+git clone -b v5 https://github.com/jackyzha0/quartz.git
+cd quartz
 
-1. **[[installation|Set up your repository]]** — Fork and clone the Quartz template
-2. **[[installation|Initialize]]** — Run `npx quartz create` to choose a template and configure your site
-3. **[[build|Build]]** — Preview your site locally with `npx quartz build --serve`
-4. **[[hosting|Deploy]]** — Host your site for free on GitHub Pages, Cloudflare, or Netlify
+# 2. Install dependencies
+npm i
+
+# 3. Initialize your site (choose a template, set your base URL, import content)
+npx quartz create
+
+# 4. Install plugins referenced by your chosen template
+npx quartz plugin install --from-config
+
+# 5. Preview your site locally
+npx quartz build --serve
+```
+
+Your site is now running at `http://localhost:8080`. From here:
+
+- **[[authoring-content|Write content]]** in the `content/` folder
+- **[[installation|Push to GitHub]]** with `npx quartz sync`
+- **[[hosting|Deploy]]** to GitHub Pages, Cloudflare, Netlify, or Vercel
+
+For the full walkthrough, see the [[getting-started/index|Getting Started]] guide.
 
 ### Returning User?
 
-If you've already set up Quartz and are cloning your repository on a new machine:
+Already have a Quartz repository and cloning it on a new machine?
 
 ```shell
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+npm ci
 npx quartz plugin install
 npx quartz build --serve
 ```
+
+> [!tip]
+> If you hit build errors on a fresh clone, try `npx quartz plugin install --latest` to refresh plugins to their latest versions. See [[troubleshooting#Plugins fail to build on a fresh clone]] for details.
 
 ## 🔧 Features
 
