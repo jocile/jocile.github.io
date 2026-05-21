@@ -22,8 +22,8 @@
     "bases-page": {
       "source": "github:quartz-community/bases-page",
       "resolved": "https://github.com/quartz-community/bases-page.git",
-      "commit": "22c04e982c52d08ec88e3654ea9ac4427e4569d3",
-      "installedAt": "2026-05-17T20:51:06.388Z"
+      "commit": "3181c2bcccaf3ba069dd3f4a91d4108e5370d3a6",
+      "installedAt": "2026-05-21T22:09:56.279Z"
     },
     "breadcrumbs": {
       "source": "github:quartz-community/breadcrumbs",
@@ -160,8 +160,8 @@
     "note-properties": {
       "source": "github:quartz-community/note-properties",
       "resolved": "https://github.com/quartz-community/note-properties.git",
-      "commit": "140360c565d3e03690b71b68ec696525cb7146e5",
-      "installedAt": "2026-05-21T20:15:22.351Z"
+      "commit": "c032ef78dd71493f05f12be647fc3b0f7ee06cb6",
+      "installedAt": "2026-05-21T22:14:57.793Z"
     },
     "obsidian-flavored-markdown": {
       "source": "github:quartz-community/obsidian-flavored-markdown",
@@ -200,9 +200,9 @@
         "subdir": "plugin"
       },
       "resolved": "https://github.com/saberzero1/quartz-themes.git",
-      "commit": "cba794599cddfaaca6ee9a29518b1319cbfdb32d",
+      "commit": "4a29fc0b3cbd30a13f74ab25b14c0c649944b126",
       "subdir": "plugin",
-      "installedAt": "2026-05-21T15:57:59.626Z"
+      "installedAt": "2026-05-21T22:28:01.665Z"
     },
     "reader-mode": {
       "source": "github:quartz-community/reader-mode",
