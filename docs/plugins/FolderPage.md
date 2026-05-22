@@ -14,7 +14,9 @@ Example: [[advanced/|Advanced]]
 
 This plugin accepts the following configuration options:
 
-- `sort`: A function of type `(f1: QuartzPluginData, f2: QuartzPluginData) => number{:ts}` used to sort entries. Defaults to sorting by date and tie-breaking on lexographical order.
+- `showFolderCount`: Whether to display the number of pages in the folder. Defaults to `true`.
+- `showSubfolders`: Whether to include pages from subfolders in the listing. Defaults to `true`.
+- `sort`: A function of type `(f1: QuartzPluginData, f2: QuartzPluginData) => number{:ts}` used to sort entries. Defaults to sorting by date and tie-breaking on lexographical order. Requires a TS override.
 - `prefixFolders`: If `true`, generated folder page titles are prefixed with "Folder: " (e.g. "Folder: notes"). Defaults to `false`.
 
 ## API

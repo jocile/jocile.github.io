@@ -17,6 +17,7 @@ This plugin accepts the following configuration options:
 - `minEntries`: The minimum number of heading entries required for the TOC to be displayed. Default is `1`.
 - `showByDefault`: If `true` (default), the TOC should be displayed by default. Can be overridden by frontmatter settings.
 - `collapseByDefault`: If `true`, the TOC will start in a collapsed state. Default is `false`.
+- `layout`: The visual layout of the TOC component. Can be `"modern"` or `"legacy"`. Default is `"modern"`.
 
 > [!warning]
 > This plugin needs the `Plugin.TableOfContents` component in `quartz.config.yaml` to determine where to display the TOC. Without it, nothing will be displayed. They should always be added or removed together.
