@@ -13,6 +13,7 @@ This plugin determines the created, modified, and published dates for a document
 This plugin accepts the following configuration options:
 
 - `priority`: The data sources to consult for date information. Highest priority first. Possible values are `"frontmatter"`, `"git"`, and `"filesystem"`. Defaults to `["frontmatter", "git", "filesystem"]`.
+- `defaultDateType`: Which date type to use when displaying dates. Can be `"created"`, `"modified"`, or `"published"`. Defaults to `"modified"`.
 
 When loading the frontmatter, the value of [[Frontmatter#List]] is used.
 

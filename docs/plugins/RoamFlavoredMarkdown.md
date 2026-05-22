@@ -19,6 +19,8 @@ This plugin accepts the following configuration options:
 - `audioComponent`: If `true` (default), converts Roam `{{[[audio]]:URL}}` shortcodes into embeded HTML audio.
 - `pdfComponent`: If `true` (default), converts Roam `{{[[pdf]]:URL}}` shortcodes into embeded HTML PDF viewer.
 - `blockquoteComponent`: If `true` (default), converts Roam `{{[[>]]}}` shortcodes into Quartz blockquotes.
+- `tableComponent`: If `true` (default), converts Roam table syntax into HTML tables.
+- `attributeComponent`: If `true` (default), converts Roam attribute syntax into rendered attributes.
 
 ## API
 
