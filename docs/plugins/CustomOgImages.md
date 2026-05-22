@@ -59,8 +59,10 @@ ExternalPlugin.CustomOgImages({
 | `colorScheme`    | string    | "lightMode"  | Theme to use for generating images ("darkMode" or "lightMode")    |
 | `width`          | number    | 1200         | Width of the generated image in pixels                            |
 | `height`         | number    | 630          | Height of the generated image in pixels                           |
-| `excludeRoot`    | boolean   | false        | Whether to exclude the root index page from auto-generated images |
-| `imageStructure` | component | defaultImage | Custom component to use for image generation                      |
+| `excludeRoot`       | boolean   | false                    | Whether to exclude the root index page from auto-generated images |
+| `defaultTitle`      | string    | "Untitled"               | Fallback title when a page has no title                           |
+| `defaultDescription`| string    | "No description provided"| Fallback description when a page has no description               |
+| `imageStructure`    | component | defaultImage             | Custom component to use for image generation                      |
 
 ## Frontmatter Properties
 
