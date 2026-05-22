@@ -16,7 +16,6 @@ This plugin accepts the following configuration options:
 - `suppressBibliography`: whether to suppress the bibliography at the end of the document. Defaults to `false`.
 - `linkCitations`: whether to link citations to the bibliography. Defaults to `false`.
 - `csl`: the citation style to use. Defaults to `apa`. Reference [rehype-citation](https://rehype-citation.netlify.app/custom-csl) for more options.
-- `prettyLink`: whether to use pretty links for citations. Defaults to `true`.
 
 ## API
 

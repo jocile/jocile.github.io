@@ -19,7 +19,7 @@ This plugin accepts the following configuration options:
 **YAML options** (in `quartz.config.yaml`):
 
 - `title`: The title of the explorer. Defaults to `Explorer`.
-- `folderClickBehavior`: The behavior when a folder is clicked. Can be `"link"` to navigate or `"collapse"` to toggle. Defaults to `collapse`.
+- `folderClickBehavior`: The behavior when a folder is clicked. Can be `"link"` to navigate or `"collapse"` to toggle. Defaults to `link`.
 - `folderDefaultState`: The default state of folders. Can be `"collapsed"` or `"open"`. Defaults to `collapsed`.
 - `useSavedState`: Whether to use local storage to save the state of the explorer. Defaults to `true`.
 
@@ -37,7 +37,7 @@ This plugin accepts the following configuration options:
   enabled: true
   options:
     title: Explorer
-    folderClickBehavior: collapse
+    folderClickBehavior: link
     folderDefaultState: collapsed
     useSavedState: true
 ```
