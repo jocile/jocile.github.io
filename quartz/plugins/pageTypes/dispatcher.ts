@@ -88,7 +88,7 @@ async function emitPage(
           ? "/"
           : new URL(`https://${cfg.baseUrl ?? "example.com"}`).pathname) as FullSlug)
       : pathToRoot(slug)
-  const externalResources = pageResources(baseDir, resources)
+  const externalResources = pageResources(baseDir, resources, ctx)
   const componentData: QuartzComponentProps = {
     ctx,
     fileData,
@@ -126,7 +126,7 @@ function populateVirtualPageHtmlAst(
   const cfg = ctx.cfg.configuration
   for (const ve of virtualEntries) {
     const BodyComponent = ve.layout.pageBody
-    const externalResources = pageResources(pathToRoot(ve.vpSlug), resources)
+    const externalResources = pageResources(pathToRoot(ve.vpSlug), resources, ctx)
     const componentData: QuartzComponentProps = {
       ctx,
       fileData: ve.vfile.data,

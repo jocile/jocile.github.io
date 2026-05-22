@@ -1,7 +1,7 @@
 import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import BodyConstructor from "./Body"
-import { JSResourceToScriptElement, StaticResources } from "../util/resources"
+import { CSSResource, JSResourceToScriptElement, StaticResources } from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
 import { clone } from "../util/clone"
 import { visit } from "unist-util-visit"
@@ -11,6 +11,7 @@ import { i18n } from "../i18n"
 import { styleText } from "util"
 import { resolveFrame } from "./frames"
 import type { TreeTransform } from "../plugins/types"
+import type { BuildCtx } from "../util/ctx"
 
 interface RenderComponents {
   head: QuartzComponent
@@ -28,20 +29,37 @@ const headerRegex = new RegExp(/h[1-6]/)
 export function pageResources(
   baseDir: FullSlug | RelativeURL,
   staticResources: StaticResources,
+  ctx?: BuildCtx,
 ): StaticResources {
+  const hashedNames = ctx?.hashedResourceNames
+  const cssFile = hashedNames?.["index.css"] ?? "index.css"
+  const prescriptFile = hashedNames?.["prescript.js"] ?? "prescript.js"
+  const postscriptFile = hashedNames?.["postscript.js"] ?? "postscript.js"
+
+  const componentCssResources: CSSResource[] = []
+  if (ctx?.componentCssMap) {
+    const seen = new Set<string>()
+    for (const filename of ctx.componentCssMap.values()) {
+      if (seen.has(filename)) continue
+      seen.add(filename)
+      componentCssResources.push({ content: joinSegments(baseDir, filename) })
+    }
+  }
+
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
 
   const resources: StaticResources = {
     css: [
       {
-        content: joinSegments(baseDir, "index.css"),
+        content: joinSegments(baseDir, cssFile),
       },
+      ...componentCssResources,
       ...staticResources.css,
     ],
     js: [
       {
-        src: joinSegments(baseDir, "prescript.js"),
+        src: joinSegments(baseDir, prescriptFile),
         loadTime: "beforeDOMReady",
         contentType: "external",
       },
@@ -57,7 +75,7 @@ export function pageResources(
   }
 
   resources.js.push({
-    src: joinSegments(baseDir, "postscript.js"),
+    src: joinSegments(baseDir, postscriptFile),
     loadTime: "afterDOMReady",
     moduleType: "module",
     contentType: "external",

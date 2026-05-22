@@ -1,3 +1,4 @@
+import { createHash } from "crypto"
 import { FullSlug, joinSegments } from "../../util/path"
 import { QuartzEmitterPlugin } from "../types"
 
@@ -10,6 +11,7 @@ import customStyles from "../../styles/custom.scss"
 import popoverStyle from "../../components/styles/popover.scss"
 import { BuildCtx } from "../../util/ctx"
 import { QuartzComponent } from "../../components/types"
+import { normalizeResource } from "../../util/resources"
 import { componentRegistry } from "../../components/registry"
 import {
   googleFontHref,
@@ -21,10 +23,15 @@ import { Features, transform } from "lightningcss"
 import { transform as transpile } from "esbuild"
 import { write } from "./helpers"
 
+function hashContent(content: string | Buffer): string {
+  return createHash("sha256").update(content).digest("hex").slice(0, 8)
+}
+
 type ComponentResources = {
   css: string[]
   beforeDOMLoaded: string[]
   afterDOMLoaded: string[]
+  componentCssStrings: Set<string>
 }
 
 function getComponentResources(ctx: BuildCtx): ComponentResources {
@@ -47,27 +54,18 @@ function getComponentResources(ctx: BuildCtx): ComponentResources {
     afterDOMLoaded: new Set<string>(),
   }
 
-  function normalizeResource(resource: string | string[] | undefined): string[] {
-    if (!resource) return []
-    if (Array.isArray(resource)) return resource
-    return [resource]
-  }
-
   for (const component of allComponents) {
     const { css, beforeDOMLoaded, afterDOMLoaded } = component
-    const normalizedCss = normalizeResource(css)
-    const normalizedBeforeDOMLoaded = normalizeResource(beforeDOMLoaded)
-    const normalizedAfterDOMLoaded = normalizeResource(afterDOMLoaded)
-
-    normalizedCss.forEach((c) => componentResources.css.add(c))
-    normalizedBeforeDOMLoaded.forEach((b) => componentResources.beforeDOMLoaded.add(b))
-    normalizedAfterDOMLoaded.forEach((a) => componentResources.afterDOMLoaded.add(a))
+    for (const c of normalizeResource(css)) componentResources.css.add(c)
+    for (const b of normalizeResource(beforeDOMLoaded)) componentResources.beforeDOMLoaded.add(b)
+    for (const a of normalizeResource(afterDOMLoaded)) componentResources.afterDOMLoaded.add(a)
   }
 
   return {
     css: [...componentResources.css],
     beforeDOMLoaded: [...componentResources.beforeDOMLoaded],
     afterDOMLoaded: [...componentResources.afterDOMLoaded],
+    componentCssStrings: new Set(componentResources.css),
   }
 }
 
@@ -330,10 +328,18 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       // that everyone else had the chance to register a listener for it
       addGlobalPageResources(ctx, componentResources)
 
+      // Separate global CSS (added by addGlobalPageResources, e.g. popover CSS)
+      // from component CSS. Global CSS was pushed onto componentResources.css
+      // AFTER getComponentResources() returned, so it's not in componentCssStrings.
+      const globalCss = componentResources.css.filter(
+        (c) => !componentResources.componentCssStrings.has(c),
+      )
+
+      // Core CSS: theme + fonts + global CSS + base styles (no per-component CSS)
       const quartzBase = joinStyles(
         ctx.cfg.configuration.theme,
         googleFontsStyleSheet,
-        ...componentResources.css,
+        ...globalCss,
         baseStyles,
       )
       const stylesheet = `@layer quartz-base {\n${quartzBase}\n}\n${customStyles}`
@@ -343,35 +349,83 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         joinScripts(componentResources.afterDOMLoaded),
       ])
 
+      const lightningTargets = {
+        safari: (15 << 16) | (6 << 8), // 15.6
+        ios_saf: (15 << 16) | (6 << 8), // 15.6
+        edge: 115 << 16,
+        firefox: 102 << 16,
+        chrome: 109 << 16,
+      }
+
+      const cssContent = transform({
+        filename: "index.css",
+        code: Buffer.from(stylesheet),
+        minify: true,
+        targets: lightningTargets,
+        include: Features.MediaQueries,
+      }).code.toString()
+
+      const useHashing = !ctx.argv.serve
+
+      const cssStringToFilename = new Map<string, string>()
+      for (const cssString of componentResources.componentCssStrings) {
+        if (cssStringToFilename.has(cssString)) continue
+
+        const wrapped = `@layer quartz-base {\n${cssString}\n}`
+        const minified = transform({
+          filename: "component.css",
+          code: Buffer.from(wrapped),
+          minify: true,
+          targets: lightningTargets,
+          include: Features.MediaQueries,
+        }).code.toString()
+
+        const hash = hashContent(minified)
+        const slug = `component-${hash}`
+        const filename = `${slug}.css`
+        cssStringToFilename.set(cssString, filename)
+
+        yield write({
+          ctx,
+          slug: slug as FullSlug,
+          ext: ".css",
+          content: minified,
+        })
+      }
+
+      ctx.componentCssMap = cssStringToFilename
+
+      const cssHash = useHashing ? hashContent(cssContent) : null
+      const prescriptHash = useHashing ? hashContent(prescript) : null
+      const postscriptHash = useHashing ? hashContent(postscript) : null
+
+      const cssSlug = cssHash ? `index-${cssHash}` : "index"
+      const prescriptSlug = prescriptHash ? `prescript-${prescriptHash}` : "prescript"
+      const postscriptSlug = postscriptHash ? `postscript-${postscriptHash}` : "postscript"
+
+      ctx.hashedResourceNames = {
+        "index.css": `${cssSlug}.css`,
+        "prescript.js": `${prescriptSlug}.js`,
+        "postscript.js": `${postscriptSlug}.js`,
+      }
+
       yield write({
         ctx,
-        slug: "index" as FullSlug,
+        slug: cssSlug as FullSlug,
         ext: ".css",
-        content: transform({
-          filename: "index.css",
-          code: Buffer.from(stylesheet),
-          minify: true,
-          targets: {
-            safari: (15 << 16) | (6 << 8), // 15.6
-            ios_saf: (15 << 16) | (6 << 8), // 15.6
-            edge: 115 << 16,
-            firefox: 102 << 16,
-            chrome: 109 << 16,
-          },
-          include: Features.MediaQueries,
-        }).code.toString(),
+        content: cssContent,
       })
 
       yield write({
         ctx,
-        slug: "prescript" as FullSlug,
+        slug: prescriptSlug as FullSlug,
         ext: ".js",
         content: prescript,
       })
 
       yield write({
         ctx,
-        slug: "postscript" as FullSlug,
+        slug: postscriptSlug as FullSlug,
         ext: ".js",
         content: postscript,
       })
