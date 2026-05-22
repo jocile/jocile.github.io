@@ -310,3 +310,38 @@ example.com {
     }
 }
 ```
+
+## Caching
+
+Quartz emits CSS and JS files with content hashes in their filenames (e.g. `index-a3f2c1b.css`, `component-7d4e2f.css`). Since the filename changes whenever the content changes, these files can be cached indefinitely. HTML files should not be cached long-term since they reference the hashed filenames and need to stay fresh.
+
+### Cloudflare Pages / Vercel / Netlify
+
+These platforms handle caching automatically. No configuration is needed — hashed assets will be served with appropriate cache headers out of the box.
+
+### Nginx
+
+```nginx title="nginx.conf"
+# Immutable cache for hashed assets
+location ~* \.(css|js)$ {
+    if ($uri ~* "-[0-9a-f]{8}\.") {
+        add_header Cache-Control "public, max-age=31536000, immutable";
+    }
+}
+```
+
+### Caddy
+
+```caddy title="Caddyfile"
+@hashed path_regexp hashed -[0-9a-f]{8}\.(css|js)$
+header @hashed Cache-Control "public, max-age=31536000, immutable"
+```
+
+### Apache
+
+```apache title=".htaccess"
+# Immutable cache for content-hashed assets
+<FilesMatch "-[0-9a-f]{8}\.(css|js)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+```
