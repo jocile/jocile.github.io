@@ -1,7 +1,12 @@
 import { render } from "preact-render-to-string"
 import { QuartzComponent, QuartzComponentProps } from "./types"
 import BodyConstructor from "./Body"
-import { CSSResource, JSResourceToScriptElement, StaticResources } from "../util/resources"
+import {
+  CSSResource,
+  JSResource,
+  JSResourceToScriptElement,
+  StaticResources,
+} from "../util/resources"
 import { FullSlug, RelativeURL, joinSegments, normalizeHastElement } from "../util/path"
 import { clone } from "../util/clone"
 import { visit } from "unist-util-visit"
@@ -46,6 +51,27 @@ export function pageResources(
     }
   }
 
+  const extracted = ctx?.extractedInlineResources
+  const resolvedCss: CSSResource[] = staticResources.css.map((resource) => {
+    if (!(resource.inline ?? false) || !extracted) return resource
+    const filename = extracted.get(resource.content)
+    if (!filename) return resource
+    return { content: joinSegments(baseDir, filename) }
+  })
+
+  const resolvedJs: JSResource[] = staticResources.js.map((resource) => {
+    if (resource.contentType !== "inline" || !extracted) return resource
+    const filename = extracted.get(resource.script)
+    if (!filename) return resource
+    return {
+      src: joinSegments(baseDir, filename),
+      loadTime: resource.loadTime,
+      contentType: "external" as const,
+      moduleType: resource.moduleType,
+      spaPreserve: resource.spaPreserve,
+    }
+  })
+
   const contentIndexPath = joinSegments(baseDir, "static/contentIndex.json")
   const contentIndexScript = `const fetchData = fetch("${contentIndexPath}").then(data => data.json())`
 
@@ -55,7 +81,7 @@ export function pageResources(
         content: joinSegments(baseDir, cssFile),
       },
       ...componentCssResources,
-      ...staticResources.css,
+      ...resolvedCss,
     ],
     js: [
       {
@@ -69,7 +95,7 @@ export function pageResources(
         spaPreserve: true,
         script: contentIndexScript,
       },
-      ...staticResources.js,
+      ...resolvedJs,
     ],
     additionalHead: staticResources.additionalHead,
   }

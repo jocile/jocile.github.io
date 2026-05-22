@@ -275,7 +275,7 @@ function addGlobalPageResources(ctx: BuildCtx, componentResources: ComponentReso
 export const ComponentResources: QuartzEmitterPlugin = () => {
   return {
     name: "ComponentResources",
-    async *emit(ctx, _content, _resources) {
+    async *emit(ctx, _content, resources) {
       const cfg = ctx.cfg.configuration
       // component specific scripts and styles
       const componentResources = getComponentResources(ctx)
@@ -394,6 +394,59 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       }
 
       ctx.componentCssMap = cssStringToFilename
+
+      // Extract inline CSS/JS from plugin externalResources() into external files.
+      // This prevents large inline payloads (e.g. theme CSS) from being duplicated
+      // into every HTML page's <head>.
+      const extractedInlineResources = new Map<string, string>()
+      for (const cssResource of resources.css) {
+        if (!(cssResource.inline ?? false)) continue
+
+        let output: string
+        try {
+          output = transform({
+            filename: "plugin-resource.css",
+            code: Buffer.from(cssResource.content),
+            minify: true,
+            targets: lightningTargets,
+            include: Features.MediaQueries,
+          }).code.toString()
+        } catch {
+          output = cssResource.content
+        }
+
+        const hash = hashContent(output)
+        const slug = `static/resource-style-${hash}`
+        const filename = `${slug}.css`
+        extractedInlineResources.set(cssResource.content, filename)
+
+        yield write({
+          ctx,
+          slug: slug as FullSlug,
+          ext: ".css",
+          content: output,
+        })
+      }
+
+      for (const jsResource of resources.js) {
+        if (jsResource.contentType !== "inline") continue
+
+        const minified = await joinScripts([jsResource.script])
+        const hash = hashContent(minified)
+        const loadTimePrefix = jsResource.loadTime === "beforeDOMReady" ? "before" : "after"
+        const slug = `static/resource-${loadTimePrefix}-${hash}`
+        const filename = `${slug}.js`
+        extractedInlineResources.set(jsResource.script, filename)
+
+        yield write({
+          ctx,
+          slug: slug as FullSlug,
+          ext: ".js",
+          content: minified,
+        })
+      }
+
+      ctx.extractedInlineResources = extractedInlineResources
 
       const cssHash = useHashing ? hashContent(cssContent) : null
       const prescriptHash = useHashing ? hashContent(prescript) : null
