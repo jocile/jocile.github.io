@@ -328,6 +328,8 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       // that everyone else had the chance to register a listener for it
       addGlobalPageResources(ctx, componentResources)
 
+      const useHashing = !ctx.argv.serve
+
       // Separate global CSS (added by addGlobalPageResources, e.g. popover CSS)
       // from component CSS. Global CSS was pushed onto componentResources.css
       // AFTER getComponentResources() returned, so it's not in componentCssStrings.
@@ -344,10 +346,47 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
       )
       const stylesheet = `@layer quartz-base {\n${quartzBase}\n}\n${customStyles}`
 
-      const [prescript, postscript] = await Promise.all([
-        joinScripts(componentResources.beforeDOMLoaded),
-        joinScripts(componentResources.afterDOMLoaded),
-      ])
+      const prescript = await joinScripts(componentResources.beforeDOMLoaded)
+
+      let postscript: string
+      if (!useHashing) {
+        // Serve mode: monolithic IIFE bundle for fast rebuilds
+        postscript = await joinScripts(componentResources.afterDOMLoaded)
+      } else {
+        // Production: emit each afterDOMLoaded script as an individual cached file,
+        // then generate an orchestrator that imports them with correct ordering.
+        // The last script is always the SPA router (pushed last by addGlobalPageResources),
+        // which must execute after all other scripts register their nav listeners.
+        const scripts = componentResources.afterDOMLoaded
+        const scriptFilenames: string[] = []
+
+        for (let i = 0; i < scripts.length; i++) {
+          const hash = hashContent(scripts[i])
+          const slug = `static/scripts/script-${i}-${hash}`
+          const filename = `${slug}.js`
+          scriptFilenames.push(filename)
+
+          yield write({
+            ctx,
+            slug: slug as FullSlug,
+            ext: ".js",
+            content: scripts[i],
+          })
+        }
+
+        // Generate orchestrator: import all component scripts in parallel,
+        // then import SPA router last (it dispatches the initial nav event)
+        const componentImports = scriptFilenames
+          .slice(0, -1)
+          .map((f) => `import("./${f}")`)
+          .join(",\n  ")
+
+        const spaImport = `await import("./${scriptFilenames[scriptFilenames.length - 1]}");`
+
+        postscript = [`await Promise.all([\n  ${componentImports}\n]);`, spaImport]
+          .filter(Boolean)
+          .join("\n")
+      }
 
       const lightningTargets = {
         safari: (15 << 16) | (6 << 8), // 15.6
@@ -364,8 +403,6 @@ export const ComponentResources: QuartzEmitterPlugin = () => {
         targets: lightningTargets,
         include: Features.MediaQueries,
       }).code.toString()
-
-      const useHashing = !ctx.argv.serve
 
       const cssStringToFilename = new Map<string, string>()
       for (const cssString of componentResources.componentCssStrings) {
