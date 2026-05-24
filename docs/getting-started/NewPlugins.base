@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("plugins")
+    - note.new-in-v5 == true
+properties:
+  title:
+    displayName: Plugin
+  description:
+    displayName: Description
+views:
+  - type: table
+    name: New in v5
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC

@@ -1,0 +1,98 @@
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("plugins")
+    - "!file.name.startsWith('index')"
+    - "!file.name.contains('Demo')"
+formulas:
+  category: |
+    if(file.hasTag("plugin/transformer"), "Transformer",
+    if(file.hasTag("plugin/filter"), "Filter",
+    if(file.hasTag("plugin/pageType"), "Page Type",
+    if(file.hasTag("plugin/emitter"), "Emitter",
+    if(file.hasTag("plugin/component"), "Component",
+    "Other")))))
+  source: |
+    if(file.hasTag("plugin/transformer"), "community",
+    if(file.hasTag("plugin/filter"), "community",
+    if(file.hasTag("plugin/pageType"), "community",
+    if(file.hasTag("plugin/emitter"), "community",
+    if(file.hasTag("plugin/component"), "community",
+    "internal")))))
+properties:
+  title:
+    displayName: Plugin
+  formula.category:
+    displayName: Type
+  description:
+    displayName: Description
+views:
+  - type: table
+    name: All Plugins
+    groupBy:
+      property: formula.category
+      direction: ASC
+    order:
+      - title
+      - formula.category
+      - description
+    sort:
+      - property: formula.category
+        direction: ASC
+      - property: title
+        direction: ASC
+  - type: table
+    name: Transformers
+    filters:
+      and:
+        - file.hasTag("plugin/transformer")
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Filters
+    filters:
+      and:
+        - file.hasTag("plugin/filter")
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Page Types
+    filters:
+      and:
+        - file.hasTag("plugin/pageType")
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Emitters
+    filters:
+      and:
+        - file.hasTag("plugin/emitter")
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Components
+    filters:
+      and:
+        - file.hasTag("plugin/component")
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC

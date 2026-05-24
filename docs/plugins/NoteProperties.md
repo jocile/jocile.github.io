@@ -3,6 +3,7 @@ title: NoteProperties
 tags:
   - plugin/component
 image:
+new-in-v5: true
 ---
 
 The NoteProperties plugin is documented under [[Frontmatter]].

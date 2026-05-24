@@ -3,6 +3,7 @@ title: ReaderMode
 tags:
   - plugin/component
 image:
+new-in-v5: true
 ---
 
 Distraction-free reading mode.

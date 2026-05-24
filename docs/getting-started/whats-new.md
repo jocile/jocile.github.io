@@ -153,16 +153,7 @@ Quartz 5 supports multiple locales out of the box. Set `locale: ja-JP` (or any s
 
 Plugins new to v5 (not available in v4):
 
-| Plugin             | Description                                            |
-| ------------------ | ------------------------------------------------------ |
-| [[CanvasPage]]     | Renders `.canvas` files as interactive pages           |
-| [[BasesPage]]      | Database-style views with filters, sorts, and grouping |
-| [[EncryptedPages]] | Password-protect individual pages                      |
-| [[NoteProperties]] | Display frontmatter properties on the page             |
-| [[UnlistedPages]]  | Hide pages from navigation while still publishing them |
-| [[StackedPages]]   | Andy Matuschak-style stacked page navigation           |
-| [[ReaderMode]]     | Distraction-free reading toggle                        |
-| [[Spacer]]         | Flexible spacer for layout adjustments                 |
+![[NewPlugins.base]]
 
 ## For Plugin Developers
 
