@@ -78,12 +78,23 @@ export async function emitContent(ctx: BuildCtx, content: ProcessedContent[]) {
   const otherEmitters = cfg.plugins.emitters.filter(
     (e) => e.name !== "PageTypeDispatcher" && e.name !== "ComponentResources",
   )
+  let emitErrors = 0
   const counts = await Promise.all(
     otherEmitters.map((emitter) =>
-      runEmitter(emitter, ctx, contentWithVirtual, staticResources, log),
+      runEmitter(emitter, ctx, contentWithVirtual, staticResources, log).catch((err) => {
+        emitErrors++
+        console.error(`Emitter "${emitter.name}" failed:`, err.message ?? err)
+        return 0
+      }),
     ),
   )
   emittedFiles += counts.reduce((sum, c) => sum + c, 0)
+
+  if (emitErrors > 0) {
+    console.warn(
+      `\nBuild completed with ${emitErrors} emitter failure(s). Output may be incomplete.`,
+    )
+  }
 
   log.end(`Emitted ${emittedFiles} files to \`${argv.output}\` in ${perf.timeSince()}`)
 }
