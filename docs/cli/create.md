@@ -40,7 +40,6 @@ When you run `quartz create`, you must choose a strategy for your content:
 - **new**: Creates a fresh, empty content folder. Use this if you are starting a new project from scratch.
 - **copy**: Copies all files from your source directory into the Quartz content folder. This is the safest option for existing vaults as it doesn't touch your original files.
 - **symlink**: Creates a symbolic link from the Quartz content folder to your source directory. Any changes you make in your source directory (e.g. in Obsidian) will be immediately reflected in Quartz.
-- **move**: Moves your files from the source directory into the Quartz content folder.
 
 ## Link Resolution
 

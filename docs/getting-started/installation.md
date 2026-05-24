@@ -9,12 +9,9 @@ This page walks you through the full Quartz setup: from cloning the repository t
 ## 1. Clone Quartz
 
 ```bash
-git clone -b v5 https://github.com/jackyzha0/quartz.git
+git clone https://github.com/jackyzha0/quartz.git
 cd quartz
 ```
-
-> [!note]
-> Quartz 5 is currently in beta, so the default branch is still v4. The `-b v5` flag ensures you clone the right branch.
 
 ## 2. Install Dependencies
 
