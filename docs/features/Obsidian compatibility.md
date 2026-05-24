@@ -208,14 +208,15 @@ Here is a sentence with a footnote.[^1]
 
 Quartz focuses on supporting Obsidian's core features. Functionality from Obsidian community plugins is handled by Quartz community plugins:
 
-| Obsidian Plugin | Quartz Support |
-| --------------- | -------------- |
-| Dataview | Supported via [Quartz Syncer](https://community.obsidian.md/plugins/quartz-syncer) — exports Dataview queries as static content during sync |
-| Excalidraw | Planned as a future community plugin |
-| Leaflet Maps | Supported via the `obsidian-plugin-leaflet` community plugin |
+| Obsidian Plugin | Quartz Support                                                                                                                              |
+| --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
+| Dataview        | Supported via [Quartz Syncer](https://community.obsidian.md/plugins/quartz-syncer) — exports Dataview queries as static content during sync |
+| Excalidraw      | Planned as a future community plugin                                                                                                        |
+| Leaflet Maps    | Supported via the `obsidian-plugin-leaflet` community plugin                                                                                |
+| Style Settings  | Supported via the `quartz-themes` community plugin                                                                                          |
 
 > [!tip]
-> As a general rule: Obsidian core features are supported by Quartz directly, while Obsidian community plugin features are supported by corresponding Quartz community plugins.
+> As a general rule: Obsidian core features are supported by Quartz directly, while Obsidian community plugin features are supported by corresponding Quartz community plugins. Not all Obsidian community plugins will have Quartz equivalents, but popular ones are likely to be supported by the community.
 
 ## Configuration
 
