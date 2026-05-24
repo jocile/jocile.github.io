@@ -242,6 +242,7 @@ plugins:
 > Some plugin options require JavaScript callback functions (e.g. custom sort, filter, or map functions) that can't be expressed in YAML. For these, use the TS override in `quartz.ts`:
 >
 > ```ts title="quartz.ts"
+> import { loadQuartzConfig, loadQuartzLayout } from "./quartz/plugins/loader/config-loader"
 > import * as ExternalPlugin from "./.quartz/plugins"
 >
 > ExternalPlugin.Explorer({
@@ -250,9 +251,13 @@ plugins:
 >     return node
 >   },
 > })
+>
+> const config = await loadQuartzConfig()
+> export default config
+> export const layout = await loadQuartzLayout()
 > ```
 >
-> Options set in `quartz.ts` are merged with YAML options and take precedence. See the plugin-specific documentation for available callback options.
+> Options set in `quartz.ts` are merged with YAML options and take precedence. Plugin overrides must be placed **before** `loadQuartzConfig()` so they are applied when components are instantiated during config loading. See the plugin-specific documentation for available callback options.
 
 You can see a list of all plugins and their configuration options [[tags/plugin|here]].
 

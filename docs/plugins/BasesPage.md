@@ -51,6 +51,7 @@ For custom view renderers, use a TS override in `quartz.ts`:
 ```ts title="quartz.ts (override)"
 import * as ExternalPlugin from "./.quartz/plugins"
 
+// Must be placed before loadQuartzConfig()
 ExternalPlugin.BasesPage({
   defaultViewType: "table",
   customViews: {

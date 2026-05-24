@@ -47,6 +47,7 @@ This plugin accepts the following configuration options:
 ```ts title="quartz.ts"
 import * as ExternalPlugin from "./.quartz/plugins"
 
+// Must be placed before loadQuartzConfig()
 ExternalPlugin.Explorer({
   mapFn: (node) => {
     node.displayName = node.displayName.toUpperCase()

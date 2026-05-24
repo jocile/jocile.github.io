@@ -43,12 +43,13 @@ For the TS override approach (needed for custom `imageStructure`):
 import * as ExternalPlugin from "./.quartz/plugins"
 import { defaultImage } from "./quartz/plugins/emitters/ogImage"
 
+// Must be placed before loadQuartzConfig()
 ExternalPlugin.CustomOgImages({
   colorScheme: "lightMode",
   width: 1200,
   height: 630,
   excludeRoot: false,
-  imageStructure: defaultImage, // custom JSX component — requires TS
+  imageStructure: defaultImage,
 })
 ```
 

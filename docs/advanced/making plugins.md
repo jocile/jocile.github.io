@@ -696,15 +696,15 @@ For options that require JavaScript callback functions (not expressible in YAML)
 ```ts title="quartz.ts (override)"
 import * as ExternalPlugin from "./.quartz/plugins"
 
+// Must be placed before loadQuartzConfig()
 ExternalPlugin.MyPlugin({
-  // callback functions or other non-serializable options
   customFn: (data) => {
     // ...
   },
 })
 ```
 
-Options set via `quartz.ts` are merged with YAML options at instantiation time, with `quartz.ts` overrides taking precedence.
+Options set via `quartz.ts` are merged with YAML options at instantiation time, with `quartz.ts` overrides taking precedence. These calls must be placed **before** `loadQuartzConfig()` in your `quartz.ts`.
 
 ### Development Workflow
 
