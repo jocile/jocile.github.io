@@ -4,7 +4,7 @@ description: Parses and resolves internal links. Removing it is not recommended.
 tags:
   - plugin/transformer
 image:
-repository: "quartz-community/crawl-links"
+repository: "[quartz-community/crawl-links](https://github.com/quartz-community/crawl-links)"
 enabled: true
 required: true
 ---

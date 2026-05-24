@@ -4,7 +4,7 @@ description: Shows pages that link to the current page.
 tags:
   - plugin/component
 image:
-repository: "quartz-community/backlinks"
+repository: "[quartz-community/backlinks](https://github.com/quartz-community/backlinks)"
 enabled: true
 required: false
 ---

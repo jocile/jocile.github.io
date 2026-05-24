@@ -4,7 +4,7 @@ description: Emits the site favicon.
 tags:
   - plugin/emitter
 image:
-repository: "quartz-community/favicon"
+repository: "[quartz-community/favicon](https://github.com/quartz-community/favicon)"
 enabled: true
 required: false
 ---

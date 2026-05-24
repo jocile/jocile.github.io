@@ -4,7 +4,7 @@ description: Renders tags as clickable links.
 tags:
   - plugin/component
 image:
-repository: "quartz-community/tag-list"
+repository: "[quartz-community/tag-list](https://github.com/quartz-community/tag-list)"
 enabled: false
 required: false
 ---

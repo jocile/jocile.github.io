@@ -4,7 +4,7 @@ description: File tree explorer sidebar.
 tags:
   - plugin/component
 image:
-repository: "quartz-community/explorer"
+repository: "[quartz-community/explorer](https://github.com/quartz-community/explorer)"
 enabled: true
 required: false
 ---

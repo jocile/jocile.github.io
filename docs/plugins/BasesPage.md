@@ -6,7 +6,7 @@ tags:
   - plugin/component
 image:
 new-in-v5: true
-repository: "quartz-community/bases-page"
+repository: "[quartz-community/bases-page](https://github.com/quartz-community/bases-page)"
 enabled: true
 required: false
 ---

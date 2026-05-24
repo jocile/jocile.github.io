@@ -10,7 +10,7 @@ tags:
 publish: true
 enableToc: true
 image:
-repository: "quartz-community/note-properties"
+repository: "[quartz-community/note-properties](https://github.com/quartz-community/note-properties)"
 enabled: true
 required: true
 ---

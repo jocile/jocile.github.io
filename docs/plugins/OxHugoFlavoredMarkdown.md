@@ -4,7 +4,7 @@ description: Compatibility for ox-hugo exported Org-mode files.
 tags:
   - plugin/transformer
 image:
-repository: "quartz-community/ox-hugo"
+repository: "[quartz-community/ox-hugo](https://github.com/quartz-community/ox-hugo)"
 enabled: false
 required: false
 ---

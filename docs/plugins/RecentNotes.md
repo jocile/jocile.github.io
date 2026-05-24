@@ -4,7 +4,7 @@ description: Displays a list of recently modified notes.
 tags:
   - plugin/component
 image:
-repository: "quartz-community/recent-notes"
+repository: "[quartz-community/recent-notes](https://github.com/quartz-community/recent-notes)"
 enabled: false
 required: false
 ---

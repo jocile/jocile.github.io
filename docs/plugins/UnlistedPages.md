@@ -5,7 +5,7 @@ tags:
   - plugin/transformer
 image:
 new-in-v5: true
-repository: "quartz-community/unlisted-pages"
+repository: "[quartz-community/unlisted-pages](https://github.com/quartz-community/unlisted-pages)"
 enabled: true
 required: false
 ---

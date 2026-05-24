@@ -4,7 +4,7 @@ description: Displays creation date and reading time.
 tags:
   - plugin/component
 image:
-repository: "quartz-community/content-meta"
+repository: "[quartz-community/content-meta](https://github.com/quartz-community/content-meta)"
 enabled: true
 required: false
 ---

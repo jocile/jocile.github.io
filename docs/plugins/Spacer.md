@@ -5,7 +5,7 @@ tags:
   - plugin/component
 image:
 new-in-v5: true
-repository: "quartz-community/spacer"
+repository: "[quartz-community/spacer](https://github.com/quartz-community/spacer)"
 enabled: true
 required: false
 ---

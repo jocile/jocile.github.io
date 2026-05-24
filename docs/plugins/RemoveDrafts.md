@@ -4,7 +4,7 @@ description: Filters out pages marked as drafts.
 tags:
   - plugin/filter
 image:
-repository: "quartz-community/remove-draft"
+repository: "[quartz-community/remove-draft](https://github.com/quartz-community/remove-draft)"
 enabled: true
 required: false
 ---

@@ -4,7 +4,7 @@ description: Emits a CNAME file for custom domain deployment.
 tags:
   - plugin/emitter
 image:
-repository: "quartz-community/cname"
+repository: "[quartz-community/cname](https://github.com/quartz-community/cname)"
 enabled: true
 required: false
 ---

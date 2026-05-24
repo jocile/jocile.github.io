@@ -4,7 +4,7 @@ description: Renders the site title as a home link.
 tags:
   - plugin/component
 image:
-repository: "quartz-community/page-title"
+repository: "[quartz-community/page-title](https://github.com/quartz-community/page-title)"
 enabled: true
 required: false
 ---

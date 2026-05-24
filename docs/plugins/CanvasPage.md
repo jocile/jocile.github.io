@@ -5,7 +5,7 @@ tags:
   - plugin/pageType
 image: "#7852ee"
 new-in-v5: true
-repository: "quartz-community/canvas-page"
+repository: "[quartz-community/canvas-page](https://github.com/quartz-community/canvas-page)"
 enabled: true
 required: false
 ---

@@ -4,7 +4,7 @@ description: Obsidian-specific Markdown extensions (wikilinks, callouts, highlig
 tags:
   - plugin/transformer
 image:
-repository: "quartz-community/obsidian-flavored-markdown"
+repository: "[quartz-community/obsidian-flavored-markdown](https://github.com/quartz-community/obsidian-flavored-markdown)"
 enabled: true
 required: false
 ---

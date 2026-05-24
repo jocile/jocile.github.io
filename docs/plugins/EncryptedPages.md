@@ -6,7 +6,7 @@ tags:
   - plugin/emitter
 image: "#FF1493"
 new-in-v5: true
-repository: "quartz-community/encrypted-pages"
+repository: "[quartz-community/encrypted-pages](https://github.com/quartz-community/encrypted-pages)"
 enabled: true
 required: false
 ---

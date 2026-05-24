@@ -4,7 +4,7 @@ description: Determines creation and modification dates from frontmatter, git, o
 tags:
   - plugin/transformer
 image:
-repository: "quartz-community/created-modified-date"
+repository: "[quartz-community/created-modified-date](https://github.com/quartz-community/created-modified-date)"
 enabled: true
 required: false
 ---

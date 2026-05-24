@@ -4,7 +4,7 @@ description: Generates Open Graph social preview images.
 tags:
   - feature/emitter
 image: "[[social-image-preview-dark.png]]"
-repository: "quartz-community/og-image"
+repository: "[quartz-community/og-image](https://github.com/quartz-community/og-image)"
 enabled: true
 required: false
 ---

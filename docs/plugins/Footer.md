@@ -4,7 +4,7 @@ description: Page footer with configurable links.
 tags:
   - plugin/component
 image:
-repository: "quartz-community/footer"
+repository: "[quartz-community/footer](https://github.com/quartz-community/footer)"
 enabled: true
 required: false
 ---

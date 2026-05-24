@@ -4,7 +4,7 @@ description: "Only publishes pages explicitly marked with publish: true."
 tags:
   - plugin/filter
 image:
-repository: "quartz-community/explicit-publish"
+repository: "[quartz-community/explicit-publish](https://github.com/quartz-community/explicit-publish)"
 enabled: false
 required: false
 ---

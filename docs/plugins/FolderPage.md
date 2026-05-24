@@ -4,7 +4,7 @@ description: Generates listing pages for folders.
 tags:
   - plugin/pageType
 image:
-repository: "quartz-community/folder-page"
+repository: "[quartz-community/folder-page](https://github.com/quartz-community/folder-page)"
 enabled: true
 required: false
 ---

@@ -4,7 +4,7 @@ description: Generates listing pages for tags.
 tags:
   - plugin/pageType
 image:
-repository: "quartz-community/tag-page"
+repository: "[quartz-community/tag-page](https://github.com/quartz-community/tag-page)"
 enabled: true
 required: false
 ---

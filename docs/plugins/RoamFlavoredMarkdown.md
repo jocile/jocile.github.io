@@ -4,7 +4,7 @@ description: Compatibility for Roam Research export format.
 tags:
   - plugin/transformer
 image:
-repository: "quartz-community/roam"
+repository: "[quartz-community/roam](https://github.com/quartz-community/roam)"
 enabled: false
 required: false
 ---

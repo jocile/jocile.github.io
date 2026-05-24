@@ -5,7 +5,7 @@ tags:
   - plugin/component
 image:
 new-in-v5: true
-repository: "quartz-community/stacked-pages"
+repository: "[quartz-community/stacked-pages](https://github.com/quartz-community/stacked-pages)"
 enabled: true
 required: false
 ---

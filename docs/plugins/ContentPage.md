@@ -4,7 +4,7 @@ description: Generates HTML pages for Markdown content.
 tags:
   - plugin/pageType
 image:
-repository: "quartz-community/content-page"
+repository: "[quartz-community/content-page](https://github.com/quartz-community/content-page)"
 enabled: true
 required: false
 ---
