@@ -127,16 +127,16 @@ Additional features:
 
 The CLI is simpler and more helpful:
 
-| Command | Description |
-|---------|-------------|
-| `npx quartz create` | Interactive setup wizard with templates |
-| `npx quartz build --serve` | Build and serve with hot reload |
-| `npx quartz sync` | Commit and push to GitHub |
-| `npx quartz upgrade` | Pull latest Quartz updates |
-| `npx quartz plugin install` | Install plugins from lockfile |
-| `npx quartz plugin add <source>` | Add a new plugin |
-| `npx quartz plugin list` | List installed plugins |
-| `npx quartz plugin prune` | Remove unused plugins |
+| Command                          | Description                             |
+| -------------------------------- | --------------------------------------- |
+| `npx quartz create`              | Interactive setup wizard with templates |
+| `npx quartz build --serve`       | Build and serve with hot reload         |
+| `npx quartz sync`                | Commit and push to GitHub               |
+| `npx quartz upgrade`             | Pull latest Quartz updates              |
+| `npx quartz plugin install`      | Install plugins from lockfile           |
+| `npx quartz plugin add <source>` | Add a new plugin                        |
+| `npx quartz plugin list`         | List installed plugins                  |
+| `npx quartz plugin prune`        | Remove unused plugins                   |
 
 Other improvements:
 
@@ -153,16 +153,16 @@ Quartz 5 supports multiple locales out of the box. Set `locale: ja-JP` (or any s
 
 Plugins new to v5 (not available in v4):
 
-| Plugin | Description |
-|--------|-------------|
-| [[CanvasPage]] | Renders `.canvas` files as interactive pages |
-| [[BasesPage]] | Database-style views with filters, sorts, and grouping |
-| [[EncryptedPages]] | Password-protect individual pages |
-| [[NoteProperties]] | Display frontmatter properties on the page |
-| [[UnlistedPages]] | Hide pages from navigation while still publishing them |
-| [[StackedPages]] | Andy Matuschak-style stacked page navigation |
-| [[ReaderMode]] | Distraction-free reading toggle |
-| [[Spacer]] | Flexible spacer for layout adjustments |
+| Plugin             | Description                                            |
+| ------------------ | ------------------------------------------------------ |
+| [[CanvasPage]]     | Renders `.canvas` files as interactive pages           |
+| [[BasesPage]]      | Database-style views with filters, sorts, and grouping |
+| [[EncryptedPages]] | Password-protect individual pages                      |
+| [[NoteProperties]] | Display frontmatter properties on the page             |
+| [[UnlistedPages]]  | Hide pages from navigation while still publishing them |
+| [[StackedPages]]   | Andy Matuschak-style stacked page navigation           |
+| [[ReaderMode]]     | Distraction-free reading toggle                        |
+| [[Spacer]]         | Flexible spacer for layout adjustments                 |
 
 ## For Plugin Developers
 
