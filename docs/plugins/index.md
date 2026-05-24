@@ -139,6 +139,7 @@ views:
     sort:
       - property: title
         direction: ASC
+
 ```
 
 > [!note] Multi-category plugins
