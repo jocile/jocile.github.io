@@ -2,7 +2,7 @@ filters:
   and:
     - file.ext == "md"
     - file.inFolder("plugins")
-    - note.new-in-v5 == true
+    - note["new-in-v5"] == true
 properties:
   title:
     displayName: Plugin

@@ -153,7 +153,27 @@ Quartz 5 supports multiple locales out of the box. Set `locale: ja-JP` (or any s
 
 Plugins new to v5 (not available in v4):
 
-![[NewPlugins.base]]
+```base
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("plugins")
+    - note["new-in-v5"] == true
+properties:
+  title:
+    displayName: Plugin
+  description:
+    displayName: Description
+views:
+  - type: table
+    name: New in v5
+    order:
+      - title
+      - description
+    sort:
+      - property: title
+        direction: ASC
+```
 
 ## For Plugin Developers
 

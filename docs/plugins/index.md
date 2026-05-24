@@ -22,7 +22,124 @@ Quartz plugins fall into several categories:
 
 ## First-party plugins
 
-![[Plugins.base]]
+```base
+filters:
+  and:
+    - file.ext == "md"
+    - file.inFolder("plugins")
+    - "!file.name.startsWith('index')"
+    - "!file.name.contains('Demo')"
+    - "!file.name.contains('Static')"
+    - "!file.name.contains('Assets')"
+    - "!file.name.contains('ComponentResources')"
+    - "!file.name.contains('NotFoundPage')"
+formulas:
+  category: |
+    if(file.hasTag("plugin/transformer"), "Transformer",
+    if(file.hasTag("plugin/filter"), "Filter",
+    if(file.hasTag("plugin/pageType"), "Page Type",
+    if(file.hasTag("plugin/emitter"), "Emitter",
+    if(file.hasTag("plugin/component"), "Component",
+    "Other")))))
+properties:
+  title:
+    displayName: Plugin
+  repository:
+    displayName: Repository
+  enabled:
+    displayName: Enabled
+  required:
+    displayName: Required
+  description:
+    displayName: Description
+views:
+  - type: table
+    name: All Plugins
+    groupBy:
+      property: formula.category
+      direction: ASC
+    order:
+      - title
+      - repository
+      - enabled
+      - required
+      - description
+    sort:
+      - property: formula.category
+        direction: ASC
+      - property: title
+        direction: ASC
+  - type: table
+    name: Transformers
+    filters:
+      and:
+        - file.hasTag("plugin/transformer")
+    order:
+      - title
+      - repository
+      - enabled
+      - required
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Filters
+    filters:
+      and:
+        - file.hasTag("plugin/filter")
+    order:
+      - title
+      - repository
+      - enabled
+      - required
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Page Types
+    filters:
+      and:
+        - file.hasTag("plugin/pageType")
+    order:
+      - title
+      - repository
+      - enabled
+      - required
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Emitters
+    filters:
+      and:
+        - file.hasTag("plugin/emitter")
+    order:
+      - title
+      - repository
+      - enabled
+      - required
+      - description
+    sort:
+      - property: title
+        direction: ASC
+  - type: table
+    name: Components
+    filters:
+      and:
+        - file.hasTag("plugin/component")
+    order:
+      - title
+      - repository
+      - enabled
+      - required
+      - description
+    sort:
+      - property: title
+        direction: ASC
+```
 
 > [!note] Multi-category plugins
 > Some plugins span multiple categories. **TableOfContents** is both a transformer and a component. **EncryptedPages** is a transformer, emitter, and component. They appear in each relevant category above.
