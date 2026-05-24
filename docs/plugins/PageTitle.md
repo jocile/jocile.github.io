@@ -3,6 +3,9 @@ title: PageTitle
 tags:
   - plugin/component
 image:
+repository: "quartz-community/page-title"
+enabled: true
+required: false
 ---
 
 This plugin renders the site-wide page title (configured via the `pageTitle` field in [[configuration]]) as a clickable link to the home page. It typically appears in the left sidebar.

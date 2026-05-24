@@ -4,6 +4,9 @@ tags:
   - plugin/transformer
 image:
 new-in-v5: true
+repository: "quartz-community/unlisted-pages"
+enabled: true
+required: false
 ---
 
 Zero-config transformer that makes `unlisted: true` in a page's frontmatter a first-class way to opt out of every listing surface on your site. The page is still emitted as HTML and remains accessible by direct URL, but is absent from `contentIndex.json`, RSS, sitemap, graph, explorer, search, backlinks, recent notes, folder listings, and tag listings.

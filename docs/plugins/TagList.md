@@ -3,6 +3,9 @@ title: TagList
 tags:
   - plugin/component
 image:
+repository: "quartz-community/tag-list"
+enabled: false
+required: false
 ---
 
 This plugin renders the page's tags as a list of clickable links. Each tag links to its corresponding [[TagPage|tag page]], making it easy for readers to browse related content by topic.

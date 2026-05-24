@@ -3,6 +3,9 @@ title: Darkmode
 tags:
   - plugin/component
 image: "#0052cc"
+repository: "quartz-community/darkmode"
+enabled: true
+required: false
 ---
 
 Dark mode toggle.

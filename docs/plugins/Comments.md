@@ -3,6 +3,9 @@ title: Comments
 tags:
   - plugin/component
 image: "[[giscus-results.png]]"
+repository: "quartz-community/comments"
+enabled: false
+required: false
 ---
 
 Comment system (giscus, utterances, etc.).

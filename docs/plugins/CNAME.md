@@ -3,6 +3,9 @@ title: CNAME
 tags:
   - plugin/emitter
 image:
+repository: "quartz-community/cname"
+enabled: true
+required: false
 ---
 
 This plugin emits a `CNAME` record that points your subdomain to the default domain of your site.

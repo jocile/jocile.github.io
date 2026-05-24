@@ -4,6 +4,9 @@ tags:
   - plugin/component
 image:
 new-in-v5: true
+repository: "quartz-community/stacked-pages"
+enabled: true
+required: false
 ---
 
 Andy Matuschak-style stacked pages (sliding panes). Clicking internal links opens pages side by side in a horizontal stack, allowing you to trace your path through your notes. Each pane shows a full page and can be individually scrolled or closed.

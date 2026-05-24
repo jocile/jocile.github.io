@@ -3,6 +3,9 @@ title: Backlinks
 tags:
   - plugin/component
 image:
+repository: "quartz-community/backlinks"
+enabled: true
+required: false
 ---
 
 Shows pages that link to the current page.

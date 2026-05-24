@@ -3,6 +3,9 @@ title: RecentNotes
 tags:
   - plugin/component
 image:
+repository: "quartz-community/recent-notes"
+enabled: false
+required: false
 ---
 
 Shows recently modified notes.

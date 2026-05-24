@@ -10,6 +10,9 @@ tags:
 publish: true
 enableToc: true
 image:
+repository: "quartz-community/note-properties"
+enabled: true
+required: true
 ---
 
 This plugin parses the frontmatter of the page using the [gray-matter](https://github.com/jonschlinkert/gray-matter) library and optionally displays selected properties in a collapsible panel. See [[authoring content#Syntax]], [[Obsidian compatibility]] and [[OxHugo compatibility]] for more information.

@@ -4,6 +4,10 @@ filters:
     - file.inFolder("plugins")
     - "!file.name.startsWith('index')"
     - "!file.name.contains('Demo')"
+    - "!file.name.contains('Static')"
+    - "!file.name.contains('Assets')"
+    - "!file.name.contains('ComponentResources')"
+    - "!file.name.contains('NotFoundPage')"
 formulas:
   category: |
     if(file.hasTag("plugin/transformer"), "Transformer",
@@ -12,18 +16,15 @@ formulas:
     if(file.hasTag("plugin/emitter"), "Emitter",
     if(file.hasTag("plugin/component"), "Component",
     "Other")))))
-  source: |
-    if(file.hasTag("plugin/transformer"), "community",
-    if(file.hasTag("plugin/filter"), "community",
-    if(file.hasTag("plugin/pageType"), "community",
-    if(file.hasTag("plugin/emitter"), "community",
-    if(file.hasTag("plugin/component"), "community",
-    "internal")))))
 properties:
   title:
     displayName: Plugin
-  formula.category:
-    displayName: Type
+  repository:
+    displayName: Repository
+  enabled:
+    displayName: Enabled
+  required:
+    displayName: Required
   description:
     displayName: Description
 views:
@@ -34,7 +35,9 @@ views:
       direction: ASC
     order:
       - title
-      - formula.category
+      - repository
+      - enabled
+      - required
       - description
     sort:
       - property: formula.category
@@ -48,6 +51,9 @@ views:
         - file.hasTag("plugin/transformer")
     order:
       - title
+      - repository
+      - enabled
+      - required
       - description
     sort:
       - property: title
@@ -59,6 +65,9 @@ views:
         - file.hasTag("plugin/filter")
     order:
       - title
+      - repository
+      - enabled
+      - required
       - description
     sort:
       - property: title
@@ -70,6 +79,9 @@ views:
         - file.hasTag("plugin/pageType")
     order:
       - title
+      - repository
+      - enabled
+      - required
       - description
     sort:
       - property: title
@@ -81,6 +93,9 @@ views:
         - file.hasTag("plugin/emitter")
     order:
       - title
+      - repository
+      - enabled
+      - required
       - description
     sort:
       - property: title
@@ -92,6 +107,9 @@ views:
         - file.hasTag("plugin/component")
     order:
       - title
+      - repository
+      - enabled
+      - required
       - description
     sort:
       - property: title

@@ -3,6 +3,9 @@ title: Graph
 tags:
   - plugin/component
 image:
+repository: "quartz-community/graph"
+enabled: true
+required: false
 ---
 
 Interactive graph visualization.

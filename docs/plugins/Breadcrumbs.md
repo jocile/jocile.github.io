@@ -3,6 +3,9 @@ title: Breadcrumbs
 tags:
   - plugin/component
 image:
+repository: "quartz-community/breadcrumbs"
+enabled: true
+required: false
 ---
 
 Navigation breadcrumb trail.

@@ -4,6 +4,9 @@ tags:
   - plugin/transformer
   - plugin/component
 image: https://images.unsplash.com/photo-1768527338896-3765921e992d
+repository: "quartz-community/table-of-contents"
+enabled: true
+required: false
 ---
 
 This plugin generates a table of contents (TOC) for Markdown documents. See [[table of contents]] for more information.

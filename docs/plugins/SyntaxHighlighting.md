@@ -3,6 +3,9 @@ title: SyntaxHighlighting
 tags:
   - plugin/transformer
 image: https://images.unsplash.com/photo-1580569214296-5cf2bffc5ccd
+repository: "quartz-community/syntax-highlighting"
+enabled: true
+required: false
 ---
 
 This plugin is used to add syntax highlighting to code blocks in Quartz. See [[syntax highlighting]] for more information.

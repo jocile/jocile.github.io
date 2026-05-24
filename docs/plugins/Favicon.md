@@ -3,6 +3,9 @@ title: Favicon
 tags:
   - plugin/emitter
 image:
+repository: "quartz-community/favicon"
+enabled: true
+required: false
 ---
 
 This plugin emits a `favicon.ico` into the `public` folder. It creates the favicon from `icon.png` located in the `quartz/static` folder.

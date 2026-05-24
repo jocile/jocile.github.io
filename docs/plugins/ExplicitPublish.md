@@ -3,6 +3,9 @@ title: ExplicitPublish
 tags:
   - plugin/filter
 image:
+repository: "quartz-community/explicit-publish"
+enabled: false
+required: false
 ---
 
 This plugin filters content based on an explicit `publish` flag in the frontmatter, allowing only content that is explicitly marked for publication to pass through. It's the opt-in version of [[RemoveDrafts]]. See [[private pages]] for more information.

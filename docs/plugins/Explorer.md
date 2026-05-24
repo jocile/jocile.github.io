@@ -3,6 +3,9 @@ title: Explorer
 tags:
   - plugin/component
 image:
+repository: "quartz-community/explorer"
+enabled: true
+required: false
 ---
 
 File tree explorer sidebar.

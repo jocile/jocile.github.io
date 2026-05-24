@@ -5,6 +5,9 @@ tags:
   - plugin/emitter
 image: "#FF1493"
 new-in-v5: true
+repository: "quartz-community/encrypted-pages"
+enabled: true
+required: false
 ---
 
 Password-protected encrypted pages. Encrypts page content at build time using AES-256-GCM and decrypts client-side with the Web Crypto API. Passwords are set per-page via frontmatter. A companion emitter writes an encrypted shadow content index so unlisted encrypted pages can be dynamically revealed in graph, explorer, and search after a successful decryption — without ever leaking their metadata to visitors who do not hold the password.

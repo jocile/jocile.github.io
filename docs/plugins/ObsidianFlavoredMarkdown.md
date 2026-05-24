@@ -3,6 +3,9 @@ title: ObsidianFlavoredMarkdown
 tags:
   - plugin/transformer
 image:
+repository: "quartz-community/obsidian-flavored-markdown"
+enabled: true
+required: false
 ---
 
 This plugin provides support for [[Obsidian compatibility]].

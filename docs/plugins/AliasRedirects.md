@@ -3,6 +3,9 @@ title: AliasRedirects
 tags:
   - plugin/emitter
 image: https://images.unsplash.com/photo-1601735479770-bb5de9dbe844
+repository: "quartz-community/alias-redirects"
+enabled: true
+required: false
 ---
 
 This plugin emits HTML redirect pages for aliases and permalinks defined in the frontmatter of content files.

@@ -3,6 +3,9 @@ title: Citations
 tags:
   - plugin/transformer
 image: https://images.unsplash.com/photo-1582079133805-43655f026448
+repository: "quartz-community/citations"
+enabled: false
+required: false
 ---
 
 This plugin adds Citation support to Quartz.

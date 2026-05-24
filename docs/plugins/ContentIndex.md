@@ -3,6 +3,9 @@ title: ContentIndex
 tags:
   - plugin/emitter
 image:
+repository: "quartz-community/content-index"
+enabled: true
+required: false
 ---
 
 This plugin emits both RSS and an XML sitemap for your site. The [[RSS Feed]] allows users to subscribe to content on your site and the sitemap allows search engines to better index your site. The plugin also emits a `contentIndex.json` file which is used by dynamic frontend components like search and graph.

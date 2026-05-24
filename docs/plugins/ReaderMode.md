@@ -4,6 +4,9 @@ tags:
   - plugin/component
 image:
 new-in-v5: true
+repository: "quartz-community/reader-mode"
+enabled: true
+required: false
 ---
 
 Distraction-free reading mode.
