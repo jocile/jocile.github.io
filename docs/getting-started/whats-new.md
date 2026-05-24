@@ -162,6 +162,8 @@ filters:
 properties:
   title:
     displayName: Plugin
+  repository:
+    displayName: Repository
   description:
     displayName: Description
 views:
@@ -169,6 +171,7 @@ views:
     name: New in v5
     order:
       - title
+      - repository
       - description
     sort:
       - property: title
