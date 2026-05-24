@@ -1,5 +1,6 @@
 ---
 title: BasesPage
+description: Renders Obsidian Bases files as database-style views.
 tags:
   - plugin/pageType
   - plugin/component

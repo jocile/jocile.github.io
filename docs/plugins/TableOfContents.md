@@ -1,5 +1,6 @@
 ---
 title: TableOfContents
+description: Generates and renders a table of contents from headings.
 tags:
   - plugin/transformer
   - plugin/component

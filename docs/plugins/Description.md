@@ -1,5 +1,6 @@
 ---
 title: Description
+description: Generates page descriptions for metadata and previews.
 tags:
   - plugin/transformer
 image:

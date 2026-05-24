@@ -1,5 +1,6 @@
 ---
 title: PageTitle
+description: Renders the site title as a home link.
 tags:
   - plugin/component
 image:

@@ -1,5 +1,6 @@
 ---
 title: AliasRedirects
+description: Generates redirect pages from frontmatter aliases.
 tags:
   - plugin/emitter
 image: https://images.unsplash.com/photo-1601735479770-bb5de9dbe844

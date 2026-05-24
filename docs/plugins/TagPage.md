@@ -1,5 +1,6 @@
 ---
 title: TagPage
+description: Generates listing pages for tags.
 tags:
   - plugin/pageType
 image:

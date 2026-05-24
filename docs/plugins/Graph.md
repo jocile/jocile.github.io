@@ -1,5 +1,6 @@
 ---
 title: Graph
+description: Interactive link graph visualization.
 tags:
   - plugin/component
 image:

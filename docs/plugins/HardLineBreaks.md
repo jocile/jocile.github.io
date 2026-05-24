@@ -1,5 +1,6 @@
 ---
 title: HardLineBreaks
+description: Treats single newlines as hard line breaks.
 tags:
   - plugin/transformer
 image: "#ff8000"

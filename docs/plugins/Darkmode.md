@@ -1,5 +1,6 @@
 ---
 title: Darkmode
+description: Toggle between light and dark themes.
 tags:
   - plugin/component
 image: "#0052cc"

@@ -1,5 +1,6 @@
 ---
 title: Spacer
+description: Flexible spacer for layout groups.
 tags:
   - plugin/component
 image:

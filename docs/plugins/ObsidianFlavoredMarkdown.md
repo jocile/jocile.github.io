@@ -1,5 +1,6 @@
 ---
 title: ObsidianFlavoredMarkdown
+description: Obsidian-specific Markdown extensions (wikilinks, callouts, highlights, tags, embeds).
 tags:
   - plugin/transformer
 image:

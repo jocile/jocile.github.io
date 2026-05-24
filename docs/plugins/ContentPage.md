@@ -1,5 +1,6 @@
 ---
 title: ContentPage
+description: Generates HTML pages for Markdown content.
 tags:
   - plugin/pageType
 image:

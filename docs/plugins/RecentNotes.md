@@ -1,5 +1,6 @@
 ---
 title: RecentNotes
+description: Displays a list of recently modified notes.
 tags:
   - plugin/component
 image:

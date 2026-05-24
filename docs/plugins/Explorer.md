@@ -1,5 +1,6 @@
 ---
 title: Explorer
+description: File tree explorer sidebar.
 tags:
   - plugin/component
 image:

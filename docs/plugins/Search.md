@@ -1,5 +1,6 @@
 ---
 title: Search
+description: Full-text search with tag filtering and keyboard navigation.
 tags:
   - plugin/component
 image: https://images.unsplash.com/photo-1516382799247-87df95d790b7

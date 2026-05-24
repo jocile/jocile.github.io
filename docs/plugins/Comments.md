@@ -1,5 +1,6 @@
 ---
 title: Comments
+description: Comment system integration (Giscus, Utterances, etc.).
 tags:
   - plugin/component
 image: "[[giscus-results.png]]"

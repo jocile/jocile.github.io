@@ -1,5 +1,6 @@
 ---
 title: ContentIndex
+description: Generates sitemap, RSS feed, and content index.
 tags:
   - plugin/emitter
 image:

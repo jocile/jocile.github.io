@@ -1,5 +1,6 @@
 ---
 title: CrawlLinks
+description: Parses and resolves internal links. Removing it is not recommended.
 tags:
   - plugin/transformer
 image:

@@ -1,5 +1,6 @@
 ---
 title: SyntaxHighlighting
+description: Syntax highlighting for code blocks.
 tags:
   - plugin/transformer
 image: https://images.unsplash.com/photo-1580569214296-5cf2bffc5ccd

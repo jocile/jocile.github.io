@@ -1,5 +1,6 @@
 ---
 title: Latex
+description: Renders LaTeX math expressions via KaTeX or Typst.
 tags:
   - plugin/transformer
 image:

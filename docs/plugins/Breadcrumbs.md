@@ -1,5 +1,6 @@
 ---
 title: Breadcrumbs
+description: Breadcrumb navigation trail.
 tags:
   - plugin/component
 image:

@@ -1,5 +1,6 @@
 ---
 title: NoteProperties
+description: Displays frontmatter properties in a collapsible panel.
 tags:
   - plugin/component
 image:

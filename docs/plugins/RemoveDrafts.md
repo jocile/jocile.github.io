@@ -1,5 +1,6 @@
 ---
 title: RemoveDrafts
+description: Filters out pages marked as drafts.
 tags:
   - plugin/filter
 image:

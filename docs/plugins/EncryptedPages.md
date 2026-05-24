@@ -1,5 +1,6 @@
 ---
 title: EncryptedPages
+description: Password-protected encrypted pages with shadow content index.
 tags:
   - plugin/transformer
   - plugin/emitter

@@ -1,5 +1,6 @@
 ---
 title: RoamFlavoredMarkdown
+description: Compatibility for Roam Research export format.
 tags:
   - plugin/transformer
 image:
