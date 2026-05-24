@@ -21,5 +21,6 @@ Follow these in order:
 
 ## Upgrading & Migrating
 
+- **[[whats-new|What's New in Quartz 5]]** — Overview of new features and changes
 - **[[upgrading|Upgrading Quartz]]** — Keep your Quartz installation up to date
 - **[[migrating|Migrating to Quartz 5]]** — Migrate from Quartz 4 or Quartz 3

@@ -9,8 +9,8 @@ Quartz is a fast, batteries-included static-site generator that transforms Markd
 Quartz requires **at least [Node](https://nodejs.org/) v22** and `npm` v10.9.2 to function correctly. Ensure you have these installed on your machine before continuing.
 
 ```shell
-# 1. Clone the Quartz repository (v5 branch)
-git clone -b v5 https://github.com/jackyzha0/quartz.git
+# 1. Clone the Quartz repository
+git clone https://github.com/jackyzha0/quartz.git
 cd quartz
 
 # 2. Install dependencies
