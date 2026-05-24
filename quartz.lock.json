@@ -22,8 +22,8 @@
     "bases-page": {
       "source": "github:quartz-community/bases-page",
       "resolved": "https://github.com/quartz-community/bases-page.git",
-      "commit": "73c1d15ef09950acb5089a0ba6e9d35eda893f44",
-      "installedAt": "2026-05-22T18:10:02.590Z"
+      "commit": "f91edc8df4c993d9dfcaf1639f9047128fde4db4",
+      "installedAt": "2026-05-24T17:23:10.165Z"
     },
     "breadcrumbs": {
       "source": "github:quartz-community/breadcrumbs",
