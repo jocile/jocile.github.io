@@ -166,8 +166,8 @@
     "obsidian-flavored-markdown": {
       "source": "github:quartz-community/obsidian-flavored-markdown",
       "resolved": "https://github.com/quartz-community/obsidian-flavored-markdown.git",
-      "commit": "ecff614ae6dd5158970b52026ba5db5500096c60",
-      "installedAt": "2026-05-24T15:36:16.996Z"
+      "commit": "186d6bd990a1b88ab35c4f66ea4f257f1e7b4a51",
+      "installedAt": "2026-05-25T23:55:00.345Z"
     },
     "obsidian-plugin-excalidraw": {
       "source": "github:quartz-community/obsidian-plugin-excalidraw",
