@@ -211,7 +211,7 @@ Quartz focuses on supporting Obsidian's core features. Functionality from Obsidi
 | Obsidian Plugin | Quartz Support                                                                                                                              |
 | --------------- | ------------------------------------------------------------------------------------------------------------------------------------------- |
 | Dataview        | Supported via [Quartz Syncer](https://community.obsidian.md/plugins/quartz-syncer) — exports Dataview queries as static content during sync |
-| Excalidraw      | Planned as a future community plugin                                                                                                        |
+| Excalidraw      | Supported via the `obsidian-plugin-excalidraw` community plugin                                                                             |
 | Leaflet Maps    | Supported via the `obsidian-plugin-leaflet` community plugin                                                                                |
 | Style Settings  | Supported via the `quartz-themes` community plugin                                                                                          |
 
