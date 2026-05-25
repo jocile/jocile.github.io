@@ -269,6 +269,13 @@ plugins:
     options:
       theme: its-theme
       variation: ttrpg-dnd
+  - source: github:quartz-community/obsidian-plugin-excalidraw
+    enabled: true
+    options:
+      enableInteraction: true
+      darkMode: auto
+      exportPadding: 20
+    order: 50
 layout:
   groups:
     toolbar:
