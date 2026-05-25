@@ -172,8 +172,8 @@
     "obsidian-plugin-excalidraw": {
       "source": "github:quartz-community/obsidian-plugin-excalidraw",
       "resolved": "https://github.com/quartz-community/obsidian-plugin-excalidraw.git",
-      "commit": "5821c07b8976b3ba873f4ed6130810049c819882",
-      "installedAt": "2026-05-25T15:07:58.044Z"
+      "commit": "9c5ff6bd6d2ee27814aeaf98ac4ddfd025a985fa",
+      "installedAt": "2026-05-25T17:40:01.376Z"
     },
     "obsidian-plugin-ttrpg-tools-maps": {
       "source": "github:quartz-community/obsidian-plugin-ttrpg-tools-maps",
