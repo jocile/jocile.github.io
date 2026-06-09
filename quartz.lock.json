@@ -4,8 +4,8 @@
     "alias-redirects": {
       "source": "github:quartz-community/alias-redirects",
       "resolved": "https://github.com/quartz-community/alias-redirects.git",
-      "commit": "39231fd8a3b477ec7045b7df91898da9c919d134",
-      "installedAt": "2026-06-03T13:32:35.181Z"
+      "commit": "73a98dda7e4f55239310833299d91daf8611349f",
+      "installedAt": "2026-06-09T17:57:45.809Z"
     },
     "article-title": {
       "source": "github:quartz-community/article-title",
