@@ -127,6 +127,12 @@
       "commit": "93304d22e1d7f09f93a33658ec273f7cb8d17793",
       "installedAt": "2026-06-03T13:32:35.810Z"
     },
+    "fonts": {
+      "source": "github:quartz-community/fonts",
+      "resolved": "https://github.com/quartz-community/fonts.git",
+      "commit": "8be5be706d19ca34fa8e342327b78e11aff3d4f0",
+      "installedAt": "2026-06-10T21:13:18.081Z"
+    },
     "footer": {
       "source": "github:quartz-community/footer",
       "resolved": "https://github.com/quartz-community/footer.git",
