@@ -10,7 +10,7 @@ enabled: true
 required: false
 ---
 
-This plugin provides fine-grained control over fonts in your Quartz site. It supports per-heading font families, automatic theme font discovery when used with [[plugins/QuartzTheme|QuartzTheme]], Google Fonts integration with automatic weight and italic loading, and falls back to Obsidian's default system font stacks.
+This plugin provides fine-grained control over fonts in your Quartz site. It supports per-heading font families, automatic theme font discovery when used with [Quartz Themes](https://github.com/saberzero1/quartz-themes), Google Fonts integration with automatic weight and italic loading, and falls back to Obsidian's default system font stacks.
 
 > [!note]
 > For information on how to add, remove or configure plugins, see the [[configuration#Plugins|Configuration]] page.
@@ -51,8 +51,8 @@ This plugin accepts the following configuration options:
 | `code`          | `FontSpecification` | Obsidian default | Font family for code and monospace elements.                                                                           |
 | `interface`     | `FontSpecification` | Obsidian default | Font family for UI elements.                                                                                           |
 | `h1` – `h6`     | `FontSpecification` | `header` value   | Per-heading font family overrides.                                                                                     |
-| `useThemeFonts` | `boolean`           | `true`           | Use fonts from QuartzTheme as defaults when it is installed.                                                           |
-| `fontOrigin`    | `string`            | `"local"`        | `"googleFonts"` to load from Google Fonts CDN, `"selfHosted"` to download and serve locally, `"local"` for no loading. |
+| `useThemeFonts` | `boolean`           | `true`           | Use fonts from [Quartz Themes](https://github.com/saberzero1/quartz-themes) as defaults when it is installed.          |
+| `fontOrigin`    | `string`            | `"googleFonts"`  | `"googleFonts"` to load from Google Fonts CDN, `"selfHosted"` to download and serve locally, `"local"` for no loading. |
 
 ### Default options
 
@@ -61,7 +61,7 @@ This plugin accepts the following configuration options:
   enabled: true
   options:
     useThemeFonts: true
-    fontOrigin: local
+    fontOrigin: googleFonts
 ```
 
 ### Font resolution
@@ -70,7 +70,7 @@ Fonts are resolved using a priority chain:
 
 ```
 User config (plugin options)
-  → Theme fonts (from QuartzTheme, if installed)
+  → Theme fonts (from Quartz Themes, if installed)
     → Obsidian defaults (system font stacks)
 ```
 
@@ -86,16 +86,16 @@ For the site title:
 title option → header option → theme font → Obsidian default
 ```
 
-## Usage with QuartzTheme
+## Usage with Quartz Themes
 
-When [[plugins/QuartzTheme|QuartzTheme]] is installed and enabled, Fonts automatically discovers the theme's font metadata and uses it as defaults. Any options you explicitly set in Fonts will override the theme fonts.
+When [Quartz Themes](https://github.com/saberzero1/quartz-themes) is installed and enabled, Fonts automatically discovers the theme's font metadata and uses it as defaults. Any options you explicitly set in Fonts will override the theme fonts.
 
-Fonts must run **after** QuartzTheme. This is handled automatically by plugin ordering (QuartzTheme = 50, Fonts = 60).
+Fonts must run **after** Quartz Themes. This is handled automatically by plugin ordering (Quartz Themes = 10, Fonts = 60).
 
 > [!warning]
-> If QuartzTheme is enabled but hasn't run yet when Fonts executes, you'll see a warning in the console. Make sure QuartzTheme has a lower `defaultOrder` than Fonts.
+> If Quartz Themes is enabled but hasn't run yet when Fonts executes, you'll see a warning in the console. Make sure Quartz Themes has a lower `defaultOrder` than Fonts.
 
-## Usage without QuartzTheme
+## Usage without Quartz Themes
 
 Fonts works standalone. Without a theme, it falls back to Obsidian's default system font stacks. You can set fonts explicitly via the plugin options.
 
