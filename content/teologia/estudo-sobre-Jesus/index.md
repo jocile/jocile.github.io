@@ -1,4 +1,6 @@
 ---
+publish: true
+description: Site de anotações sobre estudos bíblicos
 longform:
   format: scenes
   title: Estudo sobre Jesus ✝

@@ -1,6 +1,8 @@
 ---
 title: 1. A Magnitude da Influência de Jesus
 draft: false
+publish: true
+description: exploraremos a magnitude da influência de Jesus Cristo, tanto em seu tempo quanto nos séculos que se seguiram. 
 tags:
   - Jesus
 ---

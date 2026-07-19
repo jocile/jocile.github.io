@@ -1,6 +1,7 @@
 ---
 title: 2. Fontes históricas
-draft: false
+publish: true
+description: Embora os Evangelhos sejam a principal fonte de informação sobre Jesus, outros registros históricos também contribuem para nossa compreensão de sua vida e obra.
 tags:
   - Jesus
 ---

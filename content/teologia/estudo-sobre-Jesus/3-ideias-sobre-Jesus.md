@@ -1,5 +1,7 @@
 ---
 title: 3. Ideias sobre Jesus
+publish: true
+description: São conhecidas diversas ideias sobre a pessoa de Jesus, destacando a magnitude de sua influência e as diferentes percepções sobre sua existência.
 draft: false
 tags:
   - Jesus
