@@ -273,7 +273,7 @@ plugins:
       exportPadding: 20
     order: 50
   - source: github:quartz-community/tui
-    enabled: true
+    enabled: false
     options: {}
     order: 50
 layout:
