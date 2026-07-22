@@ -11,4 +11,3 @@ private/
 replit.nix
 .quartz/
 quartz/cli/tui/dist/
-quartz.config.yaml
