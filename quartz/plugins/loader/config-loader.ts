@@ -2,6 +2,7 @@ import fs from "fs"
 import path from "path"
 import YAML from "yaml"
 import { styleText } from "util"
+import { createRequire } from "node:module"
 import { QuartzConfig, GlobalConfiguration, FullPageLayout } from "../../cfg"
 import { QuartzComponent, QuartzComponentConstructor } from "../../components/types"
 import { PluginTypes } from "../types"
@@ -200,8 +201,14 @@ async function resolvePluginManifest(source: PluginSource): Promise<PluginManife
 async function readManifestFromPackageJson(source: PluginSource): Promise<PluginManifest | null> {
   try {
     const gitSpec = parsePluginSource(source)
-    const pluginDir = path.join(process.cwd(), ".quartz", "plugins", gitSpec.name)
-    const pkgPath = path.join(pluginDir, "package.json")
+    const require = createRequire(import.meta.url)
+    let pkgPath: string
+    if (gitSpec.npmPackage) {
+      pkgPath = require.resolve(`${gitSpec.name}/package.json`, { paths: [process.cwd()] })
+    } else {
+      const pluginDir = path.join(process.cwd(), ".quartz", "plugins", gitSpec.name)
+      pkgPath = path.join(pluginDir, "package.json")
+    }
     if (!fs.existsSync(pkgPath)) return null
 
     const pkg = JSON.parse(fs.readFileSync(pkgPath, "utf-8"))
@@ -259,6 +266,9 @@ export async function loadQuartzConfig(
   for (const entry of enabledEntries) {
     try {
       const gitSpec = parsePluginSource(entry.source)
+      if (gitSpec.npmPackage) {
+        continue
+      }
       const result = await installPlugin(gitSpec, { verbose: false })
       if (result.nativeDeps.size > 0) {
         allNativeDeps.set(gitSpec.name, result.nativeDeps)

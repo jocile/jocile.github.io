@@ -31,6 +31,8 @@ export interface GitPluginSpec {
   subdir?: string
   /** Whether this is a local path source */
   local?: boolean
+  /** Whether this is an npm package (installed in node_modules) */
+  npmPackage?: boolean
 }
 
 export type PluginInstallSource = string | GitPluginSpec
@@ -87,6 +89,7 @@ export function parsePluginSource(source: PluginSource): GitPluginSpec {
       ref: ref || expanded.ref || undefined,
       subdir,
       local: expanded.local,
+      npmPackage: expanded.npmPackage,
     }
   }
 
@@ -127,6 +130,11 @@ export function parsePluginSource(source: PluginSource): GitPluginSpec {
     const [url, ref] = source.split("#")
     const name = extractRepoName(url)
     return { name, repo: url, ref: ref || undefined }
+  }
+
+  // Handle npm scoped packages (e.g. @quartz-community/syntax-highlighting)
+  if (typeof source === "string" && source.startsWith("@") && source.includes("/") && !source.includes(":")) {
+    return { name: source, repo: "", npmPackage: true }
   }
 
   // Assume it's a plain repo name and try github
