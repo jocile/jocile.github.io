@@ -73,8 +73,8 @@
     "yargs": "^18.0.0"
   },
   "devDependencies": {
-    "@quartz-community/types": "github:quartz-community/types",
-    "@quartz-community/utils": "github:quartz-community/utils",
+    "@quartz-community/types": "^0.2.1",
+    "@quartz-community/utils": "^0.1.0",
     "@types/hast": "^3.0.4",
     "@types/node": "^25.0.10",
     "@types/pretty-time": "^1.1.5",

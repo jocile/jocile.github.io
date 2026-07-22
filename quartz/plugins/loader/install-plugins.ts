@@ -2,7 +2,7 @@
 import fs from "fs"
 import path from "path"
 import YAML from "yaml"
-import { installPlugins, parsePluginSource } from "./gitLoader.js"
+import { installPlugins, parsePluginSource, regeneratePluginIndex } from "./gitLoader.js"
 import type { PluginSource, QuartzPluginsJson } from "./types.js"
 
 function resolveConfigPath(): string {
@@ -57,19 +57,30 @@ async function main() {
     .map((source: PluginSource) => parsePluginSource(source))
     .filter((spec) => !spec.npmPackage)
 
-  if (specs.length === 0) {
-    console.log("No external Git plugins to install.")
+  const npmSpecs = externalPlugins
+    .map((source: PluginSource) => parsePluginSource(source))
+    .filter((spec) => spec.npmPackage)
+
+  if (specs.length === 0 && npmSpecs.length === 0) {
+    console.log("No external plugins to install.")
     return
   }
 
-  console.log(`Installing ${specs.length} plugin(s) from Git...`)
-  const installed = await installPlugins(specs, { verbose: true })
+  if (specs.length > 0) {
+    console.log(`Installing ${specs.length} plugin(s) from Git...`)
+    const installed = await installPlugins(specs, { verbose: true })
 
-  if (installed.size === externalPlugins.length) {
-    console.log("✓ All plugins installed successfully")
-  } else {
-    console.error(`✗ Only ${installed.size}/${externalPlugins.length} plugins installed`)
-    process.exit(1)
+    if (installed.size === specs.length) {
+      console.log("✓ All Git plugins installed successfully")
+    } else {
+      console.error(`✗ Only ${installed.size}/${specs.length} Git plugins installed`)
+      process.exit(1)
+    }
+  }
+
+  if (npmSpecs.length > 0) {
+    console.log(`Found ${npmSpecs.length} npm plugin(s), regenerating plugin index...`)
+    await regeneratePluginIndex({ verbose: true, npmPackages: npmSpecs.map((s) => s.name) })
   }
 }
 
