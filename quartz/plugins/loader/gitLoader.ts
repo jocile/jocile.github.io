@@ -951,8 +951,29 @@ export async function regeneratePluginIndex(
 
     const dtsContent = fs.readFileSync(distIndex, "utf-8")
     const exportedNames = parseExportsFromDts(dtsContent)
-    const named = exportedNames.filter((e) => !e.startsWith("type "))
-    const types = exportedNames.filter((e) => e.startsWith("type ")).map((e) => e.slice(5))
+    const dtsTypes = exportedNames.filter((e) => e.startsWith("type ")).map((e) => e.slice(5))
+    const dtsNamed = exportedNames.filter((e) => !e.startsWith("type "))
+
+    const jsIndex = path.join(pluginDir, "dist", "index.js")
+    let jsExports = new Set<string>()
+    if (fs.existsSync(jsIndex)) {
+      const jsContent = fs.readFileSync(jsIndex, "utf-8")
+      const jsExportMatches = jsContent.matchAll(/export\s*{\s*([^}]+)\s*}/g)
+      for (const m of jsExportMatches) {
+        for (const n of m[1].split(",")) {
+          const clean = n
+            .trim()
+            .split(/\s+as\s+/)
+            .pop()
+            ?.trim()
+          if (clean) jsExports.add(clean)
+        }
+      }
+    }
+
+    const named = jsExports.size > 0 ? dtsNamed.filter((n) => jsExports.has(n)) : dtsNamed
+    const extraTypes = jsExports.size > 0 ? dtsNamed.filter((n) => !jsExports.has(n)) : []
+    const types = [...dtsTypes, ...extraTypes]
 
     const overridable = named.filter((n) => isOverridableExport(n, dtsContent))
     const passthrough = named.filter((n) => !isOverridableExport(n, dtsContent))
@@ -988,8 +1009,29 @@ export async function regeneratePluginIndex(
 
     const dtsContent = fs.readFileSync(distIndex, "utf-8")
     const exportedNames = parseExportsFromDts(dtsContent)
-    const named = exportedNames.filter((e) => !e.startsWith("type "))
-    const types = exportedNames.filter((e) => e.startsWith("type ")).map((e) => e.slice(5))
+    const dtsTypes = exportedNames.filter((e) => e.startsWith("type ")).map((e) => e.slice(5))
+    const dtsNamed = exportedNames.filter((e) => !e.startsWith("type "))
+
+    const jsIndex = path.join(path.dirname(distIndex), "index.js")
+    let jsExports = new Set<string>()
+    if (fs.existsSync(jsIndex)) {
+      const jsContent = fs.readFileSync(jsIndex, "utf-8")
+      const jsExportMatches = jsContent.matchAll(/export\s*{\s*([^}]+)\s*}/g)
+      for (const m of jsExportMatches) {
+        for (const n of m[1].split(",")) {
+          const clean = n
+            .trim()
+            .split(/\s+as\s+/)
+            .pop()
+            ?.trim()
+          if (clean) jsExports.add(clean)
+        }
+      }
+    }
+
+    const named = jsExports.size > 0 ? dtsNamed.filter((n) => jsExports.has(n)) : dtsNamed
+    const extraTypes = jsExports.size > 0 ? dtsNamed.filter((n) => !jsExports.has(n)) : []
+    const types = [...dtsTypes, ...extraTypes]
 
     const overridable = named.filter((n) => isOverridableExport(n, dtsContent))
     const passthrough = named.filter((n) => !isOverridableExport(n, dtsContent))

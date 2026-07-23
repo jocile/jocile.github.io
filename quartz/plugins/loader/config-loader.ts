@@ -433,14 +433,20 @@ export async function loadQuartzConfig(
     const instances = []
     for (const { entry, manifest } of items) {
       try {
-        const gitSpec = parsePluginSource(entry.source)
-        const entryPoint = getPluginEntryPoint(gitSpec.name)
-        const module = await import(toFileUrl(entryPoint))
+        const spec = parsePluginSource(entry.source)
+        let module
+        if (spec.npmPackage) {
+          module = await import(spec.name)
+        } else {
+          const entryPoint = getPluginEntryPoint(spec.name)
+          module = await import(toFileUrl(entryPoint))
+        }
+        const pluginName = spec.npmPackage ? spec.name : spec.name
         if (manifest?.components && Object.keys(manifest.components).length > 0) {
-          await loadComponentsFromPackage(gitSpec.name, manifest)
+          await loadComponentsFromPackage(pluginName, manifest)
         }
         if (manifest?.frames && Object.keys(manifest.frames).length > 0) {
-          await loadFramesFromPackage(gitSpec.name, manifest)
+          await loadFramesFromPackage(pluginName, manifest)
         }
 
         const factory = findFactory(module, expectedCategory)
@@ -452,7 +458,7 @@ export async function loadQuartzConfig(
           )
           continue
         }
-        const pluginOverrides = componentRegistry.getOptionOverrides(gitSpec.name)
+        const pluginOverrides = componentRegistry.getOptionOverrides(spec.name)
         const options = { ...manifest?.defaultOptions, ...entry.options, ...pluginOverrides }
         const instance = factory(Object.keys(options).length > 0 ? options : undefined)
         if (!instance || typeof instance !== "object") {
