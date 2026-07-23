@@ -1,10 +1,11 @@
 ---
-title:  "02-lógica com blocos"
+title: 02-lógica com blocos
 draft: false
 tags:
   - programador
   - lógica
   - algoritmos
+description: componentes montados como peças
 ---
 A programação em blocos, também conhecida como programação visual, é uma maneira intuitiva e divertida de aprender e criar programas de computador. 
 

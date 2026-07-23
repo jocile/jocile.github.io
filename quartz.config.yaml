@@ -28,8 +28,8 @@ configuration:
         dark: "#2b2b2b"
         secondary: "#284b63"
         tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#fff23688"
+        highlight: "#d4d4d4"
+        textHighlight: "#d4d4d4"
       darkMode:
         light: "#161618"
         lightgray: "#393639"
@@ -38,8 +38,8 @@ configuration:
         dark: "#ebebec"
         secondary: "#7b97aa"
         tertiary: "#84a59d"
-        highlight: rgba(143, 159, 169, 0.15)
-        textHighlight: "#b3aa0288"
+        highlight: "#393639"
+        textHighlight: "#4e4e4e"
 plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
@@ -225,10 +225,21 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub Community: https://github.com/jocile/jocile.github.io/discussions
+        LinkedIn: https://www.linkedin.com/in/jocileserra
+        Instagram: https://www.instagram.com/jocileserra
+        YouTube: https://www.youtube.com/@jocileserra
+        X: https://x.com/jocileserra
   - source: github:quartz-community/recent-notes
-    enabled: true
+    enabled: false
+    options:
+      limit: 5
+      showTags: false
+      hideTagPages: true
+      hideFolderPages: true
+    layout:
+      position: afterBody
+      priority: 20
   - source: github:quartz-community/spacer
     enabled: true
     options: {}
