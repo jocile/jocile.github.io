@@ -42,7 +42,7 @@
 //  §30  Modo leitura (reader mode)
 //  §31  Binder / Stacked pages
 //  §32  Destaque de sintaxe (qt-code tokens)
-//  §33  ícones em SVG
+//  §33  Ícones em SVG
 // ════════════════════════════════════════════════════════════════════════════
 
 // ─────────────────────────────────────────────────────────────────────────────
@@ -269,25 +269,25 @@ body {
     color: $light-text;
   }
 
-  // Sidebar genérica
+  // Sidebar genérica — fundo sempre escuro (wine), usa creme
   .page > div#quartz-body div.sidebar {
     background-color: var(--background-secondary);
-    color: $light-text;
+    color: $dark-text;
   }
 
-  // Sidebar esquerda (explorer / navegação)
+  // Sidebar esquerda (explorer / navegação) — fundo escuro, usa creme
   body[data-slug] div#quartz-root.page,
   .page > div#quartz-body div.sidebar.left,
   .page > div#quartz-body div.sidebar.left:has(.explorer),
   .page > div#quartz-body div.sidebar.left .explorer .explorer-content {
     background-color: var(--tab-container-background);
-    color: $light-text;
+    color: $dark-text;
   }
 
-  // Sidebar direita — sem borda
+  // Sidebar direita — fundo escuro, usa creme
   .page > div#quartz-body div.sidebar.right {
     background-color: var(--tab-container-background);
-    color: $light-text;
+    color: $dark-text;
     border-left: 0px $light-accent-gold;
   }
 
@@ -1145,7 +1145,7 @@ body {
 body {
   .nav-files-container {
     background-color: transparent;
-    color: $light-text;
+    color: $dark-text;  // sidebar sempre tem fundo escuro
     font-family: $font-mono;
   }
 
@@ -1160,8 +1160,8 @@ body {
   }
 
   .explorer .folder-container > div {
-    // Claro: o folder usa $light-text; Escuro sobrescrito abaixo
-    color: $light-text;
+    // Sidebar sempre tem fundo escuro — usa $dark-text em ambos os temas
+    color: $dark-text;
     font-family: $font-mono;
     font-weight: 400;
   }
