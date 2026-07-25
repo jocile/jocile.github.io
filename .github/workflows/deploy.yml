@@ -29,6 +29,7 @@ jobs:
           cache: "npm"      # Cache integrado do setup-node — substitui o passo separado de cache ~/.npm
 
       - name: Cache Quartz plugins
+        id: cache-plugins 
         uses: actions/cache@v6
         with:
           path: .quartz/plugins
@@ -40,6 +41,7 @@ jobs:
         run: npm ci
 
       - name: Install Quartz plugins
+        if: steps.cache-plugins.outputs.cache-hit != 'true'   # ← pular se cache hit
         run: npx quartz plugin install
 
       - name: Build Quartz
