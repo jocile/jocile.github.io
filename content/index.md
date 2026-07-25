@@ -9,7 +9,7 @@ enableToc: false
 
 ## Olá 👋
 
-<span style="float: left; width: 150px; height: 150px; border-radius: 50%; overflow: hidden; flex-shrink: 0; border: 3px solid #aaa; margin: 0 20px;">![[avatar.jpeg|150x150]]</span>
+<span class="avatar-container">![[avatar.jpeg|150x150]]</span>
 
 >[!info] 🔭 Sou o professor 🎓 [[Jocile|Jocilé]] e atualmente sou **Instrutor de Informática e Desenvolvimento de Sistemas** no 🏫 [SENAC CE](https://cursos.ce.senac.br/unidade/senac-sobral/).
 

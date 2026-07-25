@@ -2,16 +2,33 @@
 // @use "themes"; // Usado com instalação manual de temas
 // put your custom CSS here!
 
-/* Para ambas as colunas 
-.sidebar {
-  background-color: #adaaa4fb !important;
-}*/
+/* Força a imagem a preencher a estrutura interna do Quartz */
+.avatar-container {
+  float: left;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 3px solid #aaa;
+  margin: 0 20px;
+  /* Remove alinhamentos de texto e espaços do contêiner */
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
 
-/* ul.explorer-ul {
-    background-color: #adaaa4fb;  Substitua pela cor desejada */
-    /* padding: 10px;             Opcional: adiciona um espaçamento interno */
-    /* border-radius: 5px;        Opcional: arredonda os cantos da lista 
-}*/
+/* Zera margens/paddings de tags extras geradas pelo Markdown (<p>, <picture>, <img>) */
+.avatar-container p,
+.avatar-container picture,
+.avatar-container img {
+  margin: 0 !important;
+  padding: 0 !important;
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
 
 /* =========== Exibição de tabela em formato de cards =========== */
 
