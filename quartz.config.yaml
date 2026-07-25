@@ -269,14 +269,10 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
-  - source:
-      name: quartz-themes
-      repo: github:saberzero1/quartz-themes
-      subdir: plugin
-    enabled: true
+  - source: "@quartz-themes/core"
     options:
-      theme: retronotes
-      variation: null
+      theme: "tech001"
+      mode: "both"
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
