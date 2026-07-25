@@ -1,7 +1,17 @@
 @use "./variables.scss" as *;
-
+@use "themes";
 // put your custom CSS here!
 
+/* Para ambas as colunas 
+.sidebar {
+  background-color: #adaaa4fb !important;
+}*/
+
+/* ul.explorer-ul {
+    background-color: #adaaa4fb;  Substitua pela cor desejada */
+    /* padding: 10px;             Opcional: adiciona um espaçamento interno */
+    /* border-radius: 5px;        Opcional: arredonda os cantos da lista 
+}*/
 
 /* =========== Exibição de tabela em formato de cards =========== */
 

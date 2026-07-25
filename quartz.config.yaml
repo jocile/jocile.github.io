@@ -22,7 +22,7 @@ configuration:
     colors:
       lightMode:
         light: "#faf8f8"
-        lightgray: "#e5e5e5"
+        lightgray: "#cccccc"
         gray: "#b8b8b8"
         darkgray: "#4e4e4e"
         dark: "#2b2b2b"
@@ -32,7 +32,7 @@ configuration:
         textHighlight: "#d4d4d4"
       darkMode:
         light: "#161618"
-        lightgray: "#393639"
+        lightgray: "#555555"
         gray: "#646464"
         darkgray: "#d4d4d4"
         dark: "#ebebec"
@@ -275,17 +275,14 @@ plugins:
       subdir: plugin
     enabled: true
     options:
-      theme: default
+      theme: retronotes
+      variation: null
   - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
       enableInteraction: true
       darkMode: auto
       exportPadding: 20
-    order: 50
-  - source: github:quartz-community/tui
-    enabled: false
-    options: {}
     order: 50
 layout:
   groups:
