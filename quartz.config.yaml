@@ -12,6 +12,7 @@ configuration:
     - private
     - templates
     - .obsidian
+    - gemini-scribe
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
@@ -159,6 +160,11 @@ plugins:
       priority: 50
   - source: "@quartz-community/graph"
     enabled: true
+    options:
+      localGraph: 
+        showTags: false
+      globalGraph:
+        showTags: false
     layout:
       position: right
       priority: 10
@@ -260,6 +266,10 @@ plugins:
         - description
         - tags
         - aliases
+        - status
+        - horas-aula
+        - habilidades
+        - link
       excludedProperties: []
       hidePropertiesView: false
       delimiters: ---
