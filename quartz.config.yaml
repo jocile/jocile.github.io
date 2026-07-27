@@ -108,7 +108,7 @@ plugins:
   - source: "@quartz-community/roam"
     enabled: false
     order: 92
-  - source: "@quartz-community/fonts"
+  - source: github:quartz-community/fonts
     enabled: true
   - source: "@quartz-community/remove-draft"
     enabled: true
@@ -273,7 +273,7 @@ plugins:
     options:
       theme: "tech001"
       mode: "both"
-  - source: "@quartz-community/obsidian-plugin-excalidraw"
+  - source: github:quartz-community/obsidian-plugin-excalidraw
     enabled: true
     options:
       enableInteraction: true
