@@ -1,6 +1,5 @@
 ---
 title: _🔭
-publish: true
 description: Site de anotações sobre estudos do professor Jocilé
 quartz-properties: false
 enableToc: false

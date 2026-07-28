@@ -1,6 +1,5 @@
 ---
 title: "Programador de Sistemas"
-publish: true
 description: Páginas do curso de Programador de Sistemas
 ---
 > [!NOTE] Pastas
