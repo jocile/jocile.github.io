@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: pt-BR
-  baseUrl: jocile.github.io
+  baseUrl: jocile.com
   ignorePatterns:
     - private
     - templates
