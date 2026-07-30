@@ -28,6 +28,42 @@ npx quartz plugin install --latest
 
 See the [[upgrade|CLI reference for upgrade]] for more details on available flags.
 
+### Layout System Changes
+
+The `footer` layout slot is now an array of components, consistent with other layout slots like `header`, `left`, and `right`. Additionally, `header` and `footer` are now configurable layout positions — plugins can declare `layout: { position: header }` or `layout: { position: footer }` in their YAML config.
+
+**If you override layouts in `quartz.ts`**, update any `footer` assignments to use arrays:
+
+```ts title="quartz.ts"
+// Before
+export const layout = await loadQuartzLayout({
+  defaults: { footer: MyFooterComponent },
+})
+
+// After
+export const layout = await loadQuartzLayout({
+  defaults: { footer: [MyFooterComponent] },
+})
+```
+
+**If you have a custom page frame**, update the `render` function to iterate the footer array:
+
+```tsx
+// Before
+render({ footer: Footer, ...rest }: PageFrameProps) {
+  return <Footer {...componentData} />
+}
+
+// After
+render({ footer, ...rest }: PageFrameProps) {
+  return footer.map((F) => <F {...componentData} />)
+}
+```
+
+Both changes are caught by TypeScript at compile time — running `npx quartz build` will show the error.
+
+No changes are needed for `quartz.config.yaml` — the YAML format is unchanged.
+
 ### Cleaning Up Unused Plugins
 
 If you've removed plugins from your configuration during an upgrade, you can clean up the leftover files:

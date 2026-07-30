@@ -8,7 +8,7 @@ import { BuildCtx } from "../../util/ctx"
 
 export type PluginCategory = "transformer" | "filter" | "emitter" | "pageType" | "component"
 
-export type LayoutPosition = "left" | "right" | "beforeBody" | "afterBody"
+export type LayoutPosition = "left" | "right" | "beforeBody" | "afterBody" | "header" | "footer"
 
 export type LayoutDisplay = "all" | "mobile-only" | "desktop-only"
 

@@ -100,7 +100,7 @@ plugins:
     order: 92
   - source: "@quartz-community/quartz-fonts"
     enabled: true
-  - source: "@quartz-community/remove-draft"
+  - source: github:quartz-community/remove-draft
     enabled: true
   - source: "@quartz-community/explicit-publish"
     enabled: false
@@ -200,7 +200,7 @@ plugins:
       links:
         GitHub: https://github.com/jackyzha0/quartz
         Discord Community: https://discord.gg/cRFFHYye7t
-  - source: "@quartz-community/recent-notes"
+  - source: github:quartz-community/recent-notes
     enabled: false
   - source: "@quartz-community/spacer"
     enabled: true
@@ -247,7 +247,7 @@ plugins:
       position: body
       priority: 100
       display: all
-  - source: "@quartz-community/stacked-pages"
+  - source: github:quartz-community/stacked-pages
     enabled: false
     layout:
       position: afterBody
