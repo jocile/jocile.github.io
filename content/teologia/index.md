@@ -1,6 +1,4 @@
 ---
 title: 📖 Teologia
+description: Páginas de estudos bíblicos
 ---
-> [!NOTE] Páginas de estudos bíblicos
-> [🗂️ Estudo sobre Jesus ✝](/teologia/estudo-sobre-Jesus/index.md)
-

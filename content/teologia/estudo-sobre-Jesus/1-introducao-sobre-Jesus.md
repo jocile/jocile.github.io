@@ -1,11 +1,11 @@
 ---
 title: 1. A Magnitude da Influência de Jesus
-draft: false
-publish: true
-description: exploraremos a magnitude da influência de Jesus Cristo, tanto em seu tempo quanto nos séculos que se seguiram. 
+description: "exploraremos a magnitude da influência de Jesus Cristo, tanto em seu tempo quanto nos séculos que se seguiram. "
 tags:
-  - Jesus
+  - Teologia/Jesus
 ---
+# 1-introdução
+
 Neste texto, exploraremos a magnitude da influência de Jesus Cristo, tanto em seu tempo quanto nos séculos que se seguiram. Abordaremos os seguintes aspectos:
 
 - **A Amplitude da Influência:** Apesar de nunca ter escrito nada e ter passado a maior parte de sua vida na Palestina, Jesus teve um impacto global e duradouro.

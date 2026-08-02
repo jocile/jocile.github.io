@@ -1,9 +1,8 @@
 ---
 title: 2. Fontes históricas
-publish: true
-description: Embora os Evangelhos sejam a principal fonte de informação sobre Jesus, outros registros históricos também contribuem para nossa compreensão de sua vida e obra.
+description: "Embora os Evangelhos sejam a principal fonte de informação sobre Jesus, outros registros históricos também contribuem para nossa compreensão de sua vida e obra."
 tags:
-  - Jesus
+  - Teologia/Jesus
 ---
 Embora os Evangelhos sejam a principal fonte de informação sobre Jesus, outros registros históricos também contribuem para nossa compreensão de sua vida e obra. É importante analisar criticamente essas fontes para discernir a historicidade dos eventos e a figura de Jesus.
 
@@ -42,4 +41,4 @@ Apesar dos desafios, a maioria dos estudiosos da Bíblia, tanto religiosos quant
 
 Ao combinarmos as fontes históricas extra-bíblicas com a análise crítica dos Evangelhos, podemos construir uma imagem mais completa e confiável de Jesus de Nazaré. É importante reconhecer as limitações de cada fonte e abordar o tema com mente aberta e espírito crítico. A pesquisa histórica rigorosa, aliada à fé e à reflexão teológica, nos permite alcançar uma compreensão mais profunda da figura de Jesus e do significado de sua mensagem para a humanidade.
 
-[1-introdução ⬅️](1-introdução.md) | [➡️ 3-ideias-sobre-Jesus](3-ideias-sobre-Jesus.md)
+[1-introdução ⬅️](1-introducao-sobre-Jesus.md) | [➡️ 3-ideias-sobre-Jesus](3-ideias-sobre-Jesus.md)

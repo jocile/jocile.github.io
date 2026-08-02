@@ -1,5 +1,5 @@
 ---
-publish: true
+title: 🗂️ Estudo sobre Jesus ✝
 description: Site de anotações sobre estudos bíblicos
 longform:
   format: scenes
@@ -7,7 +7,7 @@ longform:
   workflow: Default Workflow
   sceneFolder: /
   scenes:
-    - 1-introdução
+    - 1-introducao-sobre-Jesus
     - 2-Fontes-historicas
     - 3-ideias-sobre-Jesus
     - - 3.1-nao-existencia

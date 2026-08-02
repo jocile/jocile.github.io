@@ -17,28 +17,4 @@ enableToc: false
 - [🌐 Navegue pelas Tags (Tópicos)](/tags/).
 - [👨🏻‍💻Aulas de Programador de Sistemas (Senac)](programador/index)
 
-## Atualizações
-
-```base
-filters:
-  and:
-    - file.ext == "md"
-formulas:
-  days_alive: (today() - file.mtime).days.ceil()
-  Data: (file.mtime).format("MM-DD")
-properties:
-  file.name:
-    displayName: Notas recentes
-  formula.days_alive:
-    displayName: Dias atrás
-  description:
-    displayName: Descrição
-views:
-  - type: table
-    name: Recentes
-    order:
-      - file.name
-      - description
-      - formula.Data
-    limit: 10
-```
+![[Base.base]]

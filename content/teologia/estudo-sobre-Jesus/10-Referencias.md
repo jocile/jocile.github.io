@@ -1,8 +1,8 @@
 ---
 title: 10. Referências
-draft: false
+description: "Referências bibliográficas"
 tags:
-  - Referências
+  - Teologia/Referências
 ---
 
 ## Fontes utilizadas
