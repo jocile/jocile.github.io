@@ -3,9 +3,8 @@ title: 01 Cronograma Programador de Sistemas
 description: é o profissional que especifica, desenvolve, testa e implanta sistema de informação
 tags:
   - Senac
-  - planejamento
+  - aulas/planejamento
   - programador
-  - aulas
 ---
 O Programador de Sistemas é o profissional que especifica, desenvolve, testa e implanta sistema de informação, contemplando requisitos de segurança e disponibilidade. Além disso, modela dados, documenta e faz a manutenção em sistemas.
 

@@ -22,7 +22,7 @@ Veja o texto importante do Salmo 119:105 - "Lâmpada para os meus pés é a tua 
 
 Eis o papel da Palavra de Deus em nossas vidas espirituais!
 
-###Como Estudar Corretamente?
+### Como Estudar Corretamente?
 
 Agora vamos ver como devemos estudá-la:
 
@@ -86,4 +86,4 @@ Precisamos alimentar nossa vida espiritual todos os dias, como fizemos ao longo 
 
 Assista esta aula em:
 
-! [Bibliologia I - Primeira Aula - Teologia Grátis - YouTube](https://www.youtube.com/watch?v=7E-iXidFMxI)
+![Bibliologia I - Primeira Aula - Teologia Grátis - YouTube](https://www.youtube.com/watch?v=7E-iXidFMxI)
