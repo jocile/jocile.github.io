@@ -57,23 +57,6 @@ properties:
   formula.days_alive:
     displayName: Dias atrás
 views:
-  - type: list
-    name: Atualizado recentemente
-    order:
-      - file.name
-      - formula.last_modified
-    limit: 20
-  - type: cards
-    name: Cards
-    order:
-      - file.name
-      - file.image
-      - formula.section
-      - formula.last_modified
-    sort:
-      - property: formula.last_modified
-        direction: DESC
-    limit: 24
   - type: table
     name: Tabela
     order:
@@ -84,5 +67,6 @@ views:
       - property: formula.Data
         direction: DESC
     limit: 20
+
 ```
 
