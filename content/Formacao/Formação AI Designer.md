@@ -1,20 +1,20 @@
 ---
 class: classe-formacao
-description: "Criação de Landing Pages de Alta Conversão utilizando IA."
+description: Criação de Landing Pages de Alta Conversão utilizando IA.
 topics:
   - "[[Inteligencia Artificial]]"
-  - "Automação"
-  - "Webdesign"
-status: 🏗️ in-progress
+  - Automação
+  - Webdesign
+status: 🏗️ em progresso
 horas-aula: 8
 habilidades:
   - Inteligência Artificial
   - "[[Webdesign]]"
 link: "[Asimov Academy - Formação AI Designer](https://asimov.academy/ai_designer-formacao)"
 certificado: ""
-finished: 
+finished:
 started: 2026-05-23
-tags: 
+tags:
   - Formação
   - Inteligencia-artificial
   - Webdesign

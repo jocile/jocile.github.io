@@ -1,8 +1,8 @@
 ---
 class: classe-formacao
 title: Especialização em Redes e Segurança
-description: Lista de disciplinas da formação
-status: ✅ done
+description: Lista de disciplinas da especialização em Redes e Segurança
+status: ✅ Concluído
 horas-aula: 380
 habilidades:
   - Redes de Computadores

@@ -5,7 +5,7 @@ topics:
   - Excel
   - Copilot
   - Dashboards
-status: 🏗️ in-progress
+status: 🏗️ em progresso
 horas-aula: 26
 habilidades:
   - GitHub Copilot

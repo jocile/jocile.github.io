@@ -1,19 +1,22 @@
 ---
 class: classe-formacao
-title: "Python backend developer"
-description: "Lista de disciplinas da formação"
-topics: [Python, Lógica de programação, "[[Introdução aos algoritmos|Algoritmos]]"]
-status: 🏗️ in-progress
+title: Python backend developer
+description: Lista de disciplinas da formação
+topics:
+  - Python
+  - Lógica de programação
+  - "[[Introdução aos algoritmos|Algoritmos]]"
+status: 🏗️ em progresso
 horas-aula: 35
 habilidades:
   - "[[Python]]"
   - POO
   - "[[Django]]"
 link: "[DIO formacao-python-backend-developer](https://web.dio.me/track/formacao-python-backend-developer)"
-certificado: 
-started: 
-finished: 
-tags: 
+certificado:
+started:
+finished:
+tags:
   - Formação
   - Python
 ---

@@ -14,7 +14,7 @@ topics:
   - "[[Inteligencia Artificial]]"
   - "[[Machine Learning]]"
   - "[[Introdução aos algoritmos|Algoritmos]]"
-status: 🏗️ in-progress
+status: 🏗️ em progresso
 horas-aula: 92
 habilidades:
   - "[[Machine Learning]]"

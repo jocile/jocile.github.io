@@ -1,12 +1,12 @@
 ---
 class: classe-formacao
 title: Formação em JavaScript
-description: Lista de disciplinas da formação
+description: Lista de disciplinas da formação em java Script
 topics:
   - Lógica de programação
   - JavaScript
   - Algoritmos
-status: 🏗️ in-progress
+status: 🏗️ em progresso
 horas-aula: 39
 habilidades:
   - JavaScript

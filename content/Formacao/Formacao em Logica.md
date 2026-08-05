@@ -1,13 +1,13 @@
 ---
 class: classe-formacao
 title: Formação em Lógica
-description: Lista de disciplinas da formação
+description: Lista de disciplinas da formação em lógica de programação
 topics:
   - Lógica de programação
   - JavaScript
   - Algoritmos
   - Formação em programação
-status: ✅ done
+status: ✅ Concluído
 horas-aula: 41
 habilidades:
   - JavaScript

@@ -1,11 +1,11 @@
 ---
 class: classe-formacao
 title: Bacharel em Ciências da Computação
-description: Lista de disciplinas da formação
+description: Lista de disciplinas do Curso Superior em Ciências da Computação
 cssclasses:
   - row-lines
   - row-hover
-status: ✅ done
+status: ✅ Concluído
 horas-aula: 3600
 habilidades:
   - Inteligência Artificial

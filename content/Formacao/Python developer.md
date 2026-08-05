@@ -1,19 +1,22 @@
 ---
 class: classe-formacao
-title: "Python developer"
-description: "Lista de disciplinas da formação"
-topics: [Python, Lógica de programação, "[[Introdução aos algoritmos|Algoritmos]]"]
-status: 🏗️ in-progress
+title: Python developer
+description: Lista de disciplinas da formação
+topics:
+  - Python
+  - Lógica de programação
+  - "[[Introdução aos algoritmos|Algoritmos]]"
+status: 🏗️ em progresso
 horas-aula: 64
 habilidades:
   - "[[Python]]"
   - Lógica
   - Estrutura de dados
 link: "[DIO Python Developer](https://web.dio.me/track/formacao-python-developer)"
-certificado: 
-started: 
-finished: 
-tags: 
+certificado:
+started:
+finished:
+tags:
   - Formação
   - Python
   - Estrutura

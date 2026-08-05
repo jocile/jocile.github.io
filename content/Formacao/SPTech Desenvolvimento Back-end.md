@@ -1,7 +1,7 @@
 ---
 class: classe-formacao
 description: Lista de disciplinas da formação
-status: 🏗️ in-progress
+status: 🏗️ em progresso
 horas-aula: 73
 habilidades:
   - Webdesign

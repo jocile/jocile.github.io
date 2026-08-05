@@ -1,14 +1,14 @@
 ---
 class: classe-formacao
 title: Web Designer Senac
-description: Lista de disciplinas da formação
+description: Lista de disciplinas da formação em designe WEB
 topics:
   - Webdesign
   - HTML5
   - CSS3
   - WebSites
   - FrontEnd
-status: ✅ done
+status: ✅ Concluído
 horas-aula: 160:00
 habilidades:
   - Webdesign

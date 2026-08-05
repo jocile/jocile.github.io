@@ -1,8 +1,8 @@
 ---
 class: classe-formacao
 title: Formação CSS Web Developer
-description: Lista de disciplinas da formação
-status: ✅ done
+description: Lista de disciplinas da formação em designe com CSS 3
+status: ✅ Concluído
 horas-aula: 43
 habilidades:
   - Webdesign

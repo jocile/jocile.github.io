@@ -1,9 +1,9 @@
 ---
 class: classe-formacao
-description: "Dominando análise, manipulação e visualização de dados com Python."
+description: Dominando análise, manipulação e visualização de dados com Python.
 topics:
   - Análise de dados
-status: 🏗️ in-progress
+status: 🏗️ em progresso
 horas-aula: 28
 habilidades:
   - Análise de Dados
@@ -11,9 +11,9 @@ habilidades:
   - Dashboard
 link: "[Asimov Academy - Formação Analista de Dados](https://asimov.academy/dados-formacao/)"
 certificado: ""
-finished: 
+finished:
 started: 2026-05-23
-tags: 
+tags:
   - Formação
   - Python
   - Dashboard

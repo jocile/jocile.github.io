@@ -1,14 +1,14 @@
 ---
 class: classe-formacao
 title: Formação HTML Web Developer
-description: Lista de disciplinas da formação
+description: Lista de disciplinas da formação em desenvolvimento de sistemas
 topics:
   - Webdesign
   - HTML5
   - CSS3
   - WebSites
   - FrontEnd
-status: ✅ done
+status: ✅ Concluído
 horas-aula: 21
 habilidades:
   - Webdesign

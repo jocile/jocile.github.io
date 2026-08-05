@@ -1,12 +1,12 @@
 ---
 class: classe-formacao
 title: Técnico em Eletroeletrônica
-description: Lista de disciplinas da formação
+description: Lista de disciplinas da formação técnica em elétrica e eletrônica
 topics:
   - Eletrônica
   - Automação
   - Elétrica
-status: ✅ done
+status: ✅ Concluído
 horas-aula: 1200:00
 habilidades:
   - Elétrica

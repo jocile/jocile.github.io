@@ -1,11 +1,11 @@
 ---
 class: classe-formacao
-description: Lista de disciplinas da formação
+description: Lista de disciplinas da formação Web com React
 topics:
   - Webdesign
   - React
   - JavaScript
-status: ✅ done
+status: ✅ Concluído
 horas-aula: 34
 habilidades:
   - Webdesign

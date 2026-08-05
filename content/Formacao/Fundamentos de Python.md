@@ -1,12 +1,12 @@
 ---
 class: classe-formacao
 title: Fundamentos de Python
-description: Lista de disciplinas da formação
+description: Lista de disciplinas da formação em desenvolvimento de sistemas
 topics:
   - Python
   - Lógica de programação
   - Algoritmos
-status: ✅ done
+status: ✅ Concluído
 horas-aula: 26
 habilidades:
   - "[[Python]]"

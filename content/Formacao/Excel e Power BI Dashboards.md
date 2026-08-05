@@ -5,7 +5,7 @@ topics:
   - Excel
   - PowerBI
   - Dashboards
-status: 🏗️ in-progress
+status: 🏗️ em progresso
 horas-aula: 90
 habilidades:
   - Excel

@@ -5,7 +5,7 @@ topics:
   - "[[Inteligencia Artificial]]"
   - Automação
   - Criação de agentes
-status: 🏗️ in-progress
+status: 🏗️ em progresso
 horas-aula: 45
 habilidades:
   - Inteligência Artificial

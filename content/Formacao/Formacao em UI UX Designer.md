@@ -1,12 +1,12 @@
 ---
 class: classe-formacao
 title: Formação em UX Designer
-description: Lista de disciplinas da formação
+description: Lista de disciplinas da formação em designe de interfaces
 topics:
   - Design
   - Projetos de interface de usuário
   - Projetos de aplicativos
-status: 🏗️ in-progress
+status: 🏗️ em progresso
 horas-aula: 30
 habilidades:
   - Webdesign

@@ -1,7 +1,7 @@
 ---
 class: classe-formacao
-description: Lista de disciplinas da formação
-status: ✅ done
+description: Lista de disciplinas da formação com sistemas em Java
+status: ✅ Concluído
 horas-aula: 160
 habilidades:
   - Java

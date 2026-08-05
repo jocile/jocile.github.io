@@ -1,8 +1,8 @@
 ---
 class: classe-formacao
 title: Formação em PHP Experience
-description: Lista de disciplinas da formação
-status: ✅ done
+description: Lista de disciplinas da formação em programação com PHP
+status: ✅ Concluído
 horas-aula: 40
 habilidades:
   - Webdesign

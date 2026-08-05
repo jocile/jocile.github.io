@@ -5,7 +5,7 @@ topics:
   - Copilot
   - "[[Inteligencia Artificial]]"
   - "[[Prompts]]"
-status: 🏗️ in-progress
+status: 🏗️ em progresso
 horas-aula: 35
 habilidades:
   - GitHub Copilot
