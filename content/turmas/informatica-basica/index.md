@@ -12,3 +12,10 @@ status: Iniciando
 horas-aula:
   - 66
 ---
+
+> [!success]- 🖥️ Habilidades
+> 1. Gerencia arquivos conforme recursos do sistema operacional cliente.
+> 2. Utiliza ferramentas de pesquisa, agenda e mensagens de acordo com os serviços de internet.
+> 3. Elabora e edita textos e apresentações eletrônicas, conforme recursos dos aplicativos de escritório.
+> 4. Elabora e edita dados numéricos e gráficos de acordo com os recursos do editor de planilhas eletrônicas.
+> 5. Armazena e compartilha dados de acordo com os requisitos da solução.

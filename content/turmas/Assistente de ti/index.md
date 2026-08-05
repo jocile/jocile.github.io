@@ -16,3 +16,13 @@ horas-aula:
   - 36
   - 20
 ---
+
+> [!example]- Unidades Curriculares
+> 
+> |  📅 Unidades Curriculares                                                               | Carga horária |
+> | ----------------------------------------------------------------------------------- | ------------- |
+> | UC1: Operar sistemas operacionais cliente, aplicativos de escritório e periféricos. | 72            |
+> | UC2: Instalar e configurar componentes de hardware                                  | 36            |
+> | UC3: Instalar e configurar sistemas operacionais cliente, softwares e periféricos   | 36            |
+> | UC4: Configurar e operar rede local de computadores.                                | 36            |
+> | UC 5: Projeto Integrador - Assistente de Tecnologias da Informação                  | 20            |

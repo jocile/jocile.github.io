@@ -15,3 +15,15 @@ horas-aula:
   - 36
   - 20
 ---
+
+## Organização curricular
+
+O Modelo Pedagógico Senac estrutura o currículo do curso Programador de Sistemas com base nos fazeres profissionais – as competências –, organizados a partir das seguintes Unidades Curriculares: (UCs):
+
+| **Unidades Curriculares**                                  | **Carga Horária** |
+| ---------------------------------------------------------- | ----------------- |
+| UC1: Desenvolver sistemas de informação                    | 72 horas          |
+| UC2: Implementar banco de dados                            | 72 horas          |
+| UC3: Realizar testes e manutenção do sistema de informação | 36 horas          |
+| UC4: ProjetoIntegrador emProgramador deSistemas            | 20 horas          |
+| **Carga Horária Total**                                    | 200               |

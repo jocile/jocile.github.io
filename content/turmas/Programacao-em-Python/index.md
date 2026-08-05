@@ -14,3 +14,13 @@ horas-aula:
   - 60
   - 60
 ---
+
+## Organização Curricular
+
+| Unidades Curriculares                                        | Carga horária | Aulas |
+| ------------------------------------------------------------ | ------------- | ----- |
+| UC 1: Desenvolver algoritmos em Python                       | 36            | 9     |
+| UC 2: Desenvolver aplicações com interface gráfica em Python | 60            | 15    |
+| UC 3: Desenvolver aplicações web com Python e periféricos    | 60            | 15    |
+| TOTAL:                                                       | 156           | 39    |
+ 
