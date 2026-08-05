@@ -15,6 +15,6 @@ enableToc: false
 - [👨‍🏫Sobre mim](https://github.com/jocile), meus [🗃projetos](https://jocile.github.io/site/projetos/), e [📚aulas passadas](https://jocile.github.io/site/blog/);
 - [📖 Teologia - Páginas de estudos bíblicos](teologia/index);
 - [🌐 Navegue pelas Tags (Tópicos)](/tags/).
-- [👨🏻‍💻Aulas de Programador de Sistemas (Senac)](programador/index)
+- [👨🏻‍💻Aulas de Programador de Sistemas (Senac)](turmas/programador%20de%20sistema/index.md)
 
 ![[Base.base]]

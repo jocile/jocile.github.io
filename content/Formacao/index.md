@@ -1,4 +1,4 @@
 ---
-title: Formação
+title: 🎓 Formação
 description: minha Formação
 ---

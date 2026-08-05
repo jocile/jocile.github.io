@@ -22,13 +22,13 @@ configuration:
       code: IBM Plex Mono
     colors:
       lightMode:
-        light: "#f9f6f0"          # Fundo da página principal
-        lightgray: "#e5e0d8"      # Bordas e divisores
-        gray: "#8c827a"           # Subtítulos e datas
-        darkgray: "#2c2a29"       # Texto principal
-        dark: "#1a1817"           # Títulos (H1, H2)
-        secondary: "#8b263e"      # Links e nós do gráfico
-        tertiary: "#d4a373"       # Hover em links
+        light: "#f9f6f0" # Fundo da página principal
+        lightgray: "#e5e0d8" # Bordas e divisores
+        gray: "#8c827a" # Subtítulos e datas
+        darkgray: "#2c2a29" # Texto principal
+        dark: "#1a1817" # Títulos (H1, H2)
+        secondary: "#8b263e" # Links e nós do gráfico
+        tertiary: "#d4a373" # Hover em links
         highlight: "rgba(212, 163, 115, 0.15)" # Fundo de destaques/tags
         textHighlight: "#d4d4d4"
       darkMode:
@@ -161,7 +161,7 @@ plugins:
   - source: "@quartz-community/graph"
     enabled: true
     options:
-      localGraph: 
+      localGraph:
         showTags: false
       globalGraph:
         showTags: false
@@ -267,6 +267,10 @@ plugins:
         - tags
         - aliases
         - status
+        - Carga-horária
+        - Unidades-curriculares
+        - Período
+        - Horário
         - horas-aula
         - habilidades
         - link
