@@ -22,6 +22,7 @@ tags:
   - Excel
   - Powerbi
   - Dashboard
+title: Excel com IA
 ---
 
 # Santander - Excel com Inteligência Artificial - 2º Semestre

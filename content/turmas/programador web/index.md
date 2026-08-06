@@ -14,14 +14,14 @@ horas-aula: [36, 48, 96, 36, 24]
 
 > [!example]- Unidades Curriculares
 > 
-> | **Unidades Curriculares**                        | **Carga horária** | Aulas |
-> | ------------------------------------------------ | :---------------: | :---: |
-> | UC1: Elaborar projetos de aplicações para web    | 36 horas          | 9     |
-> | UC2: Estruturar aplicações *front-end* para web | 48 horas          | 12    |
-> | UC3: Desenvolver aplicações *back-end* para web | 96 horas          | 24    |
-> | UC4: Publicar aplicações web                      | 36 horas          | 9     |
-> | UC5: Projeto Integrador Programador Web         | 24 horas          | 6     |
-> | **Carga horária total**                          | **240 horas**     | 60    |
+> | | **Unidades Curriculares**                        | **Carga horária** | Aulas |
+> | ---| ------------------------------------------------ | :---------------: | :---: |
+> | UC1: | Elaborar projetos de aplicações para web    | 36 horas          | 9     |
+> | UC2: | Estruturar aplicações *front-end* para web | 48 horas          | 12    |
+> | UC3: | Desenvolver aplicações *back-end* para web | 96 horas          | 24    |
+> | UC4: | Publicar aplicações web                      | 36 horas          | 9     |
+> | UC5: | Projeto Integrador Programador Web         | 24 horas          | 6     |
+> |  | **Carga horária total**                          | **240 horas**     | 60    |
 
 ## UC1 - Elaborar projetos de aplicações para web
 

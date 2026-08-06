@@ -19,6 +19,7 @@ tags:
   - Formação
   - Agentes
   - Inteligencia-artificial
+title: Do Prompt ao agente
 ---
 # CI&T - Do Prompt ao Agente
 

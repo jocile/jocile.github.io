@@ -19,6 +19,7 @@ tags:
   - Formação
   - React
   - Webdesign
+title: Formação React Developer
 ---
 # Formação React Developer
 

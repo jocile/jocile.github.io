@@ -21,6 +21,7 @@ tags:
   - Excel
   - Powerbi
   - Dashboard
+title: Excel e power BI
 ---
 
 # Klabin - Excel e Power BI Dashboards

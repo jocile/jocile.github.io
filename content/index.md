@@ -17,6 +17,8 @@ enableToc: false
 - [🌐 Navegue pelas Tags (Tópicos)](/tags/).
 - [👨🏻‍💻Aulas de Programador de Sistemas (Senac)](turmas/programador%20de%20sistema/index.md)
 
+## Atualizações
+
 ```base
 filters:
   and:
@@ -25,6 +27,7 @@ filters:
     - file.name != "404"
     - "!formula.Data.isEmpty()"
     - file.folder != "private"
+    - file.name != this.file.name
 formulas:
   doc_type: |
     if(file.hasTag("teologia"), "teologia",
@@ -60,9 +63,10 @@ views:
   - type: table
     name: Tabela
     order:
-      - file.name
       - formula.Data
+      - file.name
       - description
+      - title
     sort:
       - property: formula.Data
         direction: DESC

@@ -17,6 +17,7 @@ tags:
   - Formação
   - Python
   - Dashboard
+title: Analista de Dados
 ---
 # Analista de Dados
 

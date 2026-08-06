@@ -18,6 +18,7 @@ tags:
   - Formação
   - Inteligencia-artificial
   - Webdesign
+title: Formação IA Designer
 ---
 # Formação AI Designer
 
