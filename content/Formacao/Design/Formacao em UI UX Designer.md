@@ -61,5 +61,3 @@ tags:
 > [!summary]- Tornando-se um(a) UI/UX Designer Completo(a)
 > - Estratégias e Mercado UX Ul Designer
 > - Desafio de projeto: Implementando Todas as Etapas para a Criação de um Protótipo Profissional
-
-[[Formacao Overview]]

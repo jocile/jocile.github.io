@@ -61,5 +61,3 @@ title: Engenheiro de Agentes de IA
 > - FilmPro - Agente para Recomendação de Filmes
 > - Auto Retoucher - Criando uma AI para fotógrafos
 > - MCPs na prática: conectando sua IA a qualquer ferramenta em Python
-
-[[Formacao Overview]] - [[Inteligencia Artificial]] - [[agentes de ia]]

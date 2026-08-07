@@ -33,5 +33,3 @@ title: Formação IA Designer
 > - Git e GitHub - Controle de Versão e Colaboração
 > - CursorAI - ganhe 10x mais produtividade com a IDE de IA
 > - Dominando o Antigravity
-
-[[Formacao Overview]] - [[Inteligencia Artificial]] - [[agentes de ia]]

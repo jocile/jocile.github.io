@@ -54,4 +54,4 @@ tags:
 > - Iniciando com seu primeiro [[Frameworks CSS|Framework CSS]]: Bootstrap
 > - [Clonando o Site da HBO Max com Animações em HTML e CSS](https://github.com/jocile/desafio-hbomax-clone)
 
-[[Formacao Overview|Voltar para as formações]] | [visualizar os exemplos](https://jocile.github.io/webdesigner/)
+[visualizar os exemplos](https://jocile.github.io/webdesigner/)

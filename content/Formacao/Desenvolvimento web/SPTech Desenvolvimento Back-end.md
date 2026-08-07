@@ -19,6 +19,7 @@ tags:
   - PHP
   - Webdesign
   - Lógica
+title: SPTech Desenvolvimento Back-end
 ---
 # SPTech Desenvolvimento Back-end
 
@@ -38,5 +39,3 @@ tags:
 > - Conceitos e Melhores Práticas com Bancos de Dados PostgreSQL
 > - Orientação a Objetos, Exceções e Banco de Dados com PHP
 > - Desenvolvimento Avançado em PHP
-
-[[Formacao Overview]]

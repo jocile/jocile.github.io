@@ -122,5 +122,3 @@ Grade curricular do curso de Ciências da Computação - 2006.1 - 2007.1
 > | MACFI037 | Matemática comercial e financeira |n |4 |60  |
 > | INTAD037 | Introdução a administração |n |4 |60  |
 > | TOAVC037 | Tópicos avançados em computação |s |4 |60|
-
-[[Formacao Overview]]

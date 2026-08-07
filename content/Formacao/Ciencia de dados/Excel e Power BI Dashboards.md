@@ -104,5 +104,3 @@ title: Excel e power BI
 > - Gerenciamento de Workspaces com Power BI
 > - Gerenciamento de Datasets com Power BI
 > - Desafio de projeto - Criando Relatórios Dinâmicos com o uso de Parâmetros no Power BI
-
-[[Formacao Overview]] - [[Excel com Inteligencia Artificial]]

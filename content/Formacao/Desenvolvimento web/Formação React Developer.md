@@ -65,4 +65,4 @@ title: Formação React Developer
 > - Introdução ao Next.js
 > - Desafio de projeto - Criando o Seu Blog Pessoal Com Next.js
 
-[[BootCamp React]] - [[Formacao Overview]]
+[[BootCamp React]] 

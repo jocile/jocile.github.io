@@ -56,5 +56,3 @@ title: Analista de Dados
 
 >[!check]- Projetos do nível 3
 > - [ ] SalesApp - WebApp para controle e análise de vendas
-
-[[Formacao Overview]] - [[Inteligencia Artificial]] - [[agentes de ia]]

@@ -58,5 +58,3 @@ tags:
 ## Referências
 
 - [Repositório de Referência da Trilha "JavaScript Developer".](https://github.com/digitalinnovationone/javascript-developer-m1)
-- [[Formacao Overview]]
-- [[Programador Web 2026]]

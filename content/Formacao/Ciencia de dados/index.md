@@ -1,15 +1,14 @@
 ---
-title: 🧑‍💼 Minhas turmas
-description: "Minhas turmas no [SENAC](https://cursos.ce.senac.br/unidade/senac-sobral/)"
+title: 💻 Ciência de Dados
+description: Formação em Análise e Ciência de Dados
 ---
-
-## Acompanhe aqui o cronograma e materiais usados nas aulas
 
 ```base
 filters:
   and:
-    - file.tags.contains("turma")
-    - file.inFolder(this.file.folder)
+    - file.ext == "md"
+    - file.folder == "Formacao/Ciencia de dados"
+    - file.path != this.file.path
 formulas:
   Título: link(file, title)
 views:
@@ -18,9 +17,10 @@ views:
     order:
       - formula.Título
       - status
-      - Carga-horária
       - description
     sort:
+      - property: status
+        direction: ASC
       - property: formula.Título
         direction: ASC
     columnSize:

@@ -55,5 +55,3 @@ title: Do Prompt ao agente
 
 > [!summary]- Desafio Projeto Final - Desenvolvendo uma Solução com Copiloto de IA
 > - Desafio de projeto: Calculadora EcoTrip: Simulador de Impacto Ambiental para Viagens
-
-[[Formacao Overview]]

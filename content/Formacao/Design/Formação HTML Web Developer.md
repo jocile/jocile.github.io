@@ -54,4 +54,4 @@ tags:
 > - HTML: Recursos Especiais: Datalist, Code, kbd e pre, Details e summary, Meter e progress, Mark e Javascript, Canvas, Novos atributos do HTML 5.
 > - Recriando o Wikipedia com Layout Moderno
 
-[[Formacao Overview|Voltar para as formações]] | [visualizar os exemplos](https://jocile.github.io/webdesigner/)
+[visualizar os exemplos](https://jocile.github.io/webdesigner/)

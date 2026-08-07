@@ -43,5 +43,3 @@ tags:
 > - Introdução a APIs e REST com PHP
 > - Desenvolvimento Avançado em PHP
 > - Desafio de projeto - Laravel: Construindo uma API do Zero
-
-[[Formacao Overview]]

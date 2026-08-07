@@ -3,7 +3,8 @@ title: _🔭
 description: Site de anotações sobre estudos do professor Jocilé
 quartz-properties: false
 enableToc: false
-
+showReadingTime: false
+showComma: false
 ---
 
 ## Olá 👋
@@ -12,12 +13,12 @@ enableToc: false
 
 >[!info] 🔭 Sou o professor 🎓 [[Jocile|Jocilé]] e atualmente sou **Instrutor de Informática e Desenvolvimento de Sistemas** no 🏫 [SENAC CE](https://psg.ce.senac.br/oportunidades/).
 
-- [👨‍🏫Sobre mim](https://github.com/jocile), meus [🗃projetos](https://jocile.github.io/site/projetos/), e [📚aulas passadas](https://jocile.github.io/site/blog/);
+- [👨‍🏫Sobre mim](https://github.com/jocile), meus [🗃projetos](projetos/index), e [📚aulas passadas](https://jocile.github.io/site/blog/);
 - [📖 Teologia - Páginas de estudos bíblicos](teologia/index);
 - [🌐 Navegue pelas Tags (Tópicos)](/tags/).
 - [👨🏻‍💻Aulas de Programador de Sistemas (Senac)](turmas/programador%20de%20sistema/index.md)
 
-## Atualizações
+### Atualizações
 
 ```base
 filters:
@@ -27,23 +28,27 @@ filters:
     - file.name != "404"
     - "!formula.Data.isEmpty()"
     - file.folder != "private"
-    - file.name != this.file.name
+    - file.path != "index.md"
+    - file.path != "projetos/index.md"
 formulas:
   doc_type: |
     if(file.hasTag("teologia"), "teologia",
     if(file.hasTag("formacao"), "formação",
+    if(file.hasTag("projeto"), "projeto",
     if(file.inFolder("formacao"), "formação",
     if(file.inFolder("teologia"), "teologia",
-    if(file.inFolder("programador"), "programador",
-    if(file.inFolder("cli"), "cli", "guia"))))))
+    if(file.inFolder("turmas"), "turma",
+    if(file.inFolder("ci"), "ci", "guia")))))))
   last_modified: file.mtime.relative()
   section: |
     if(file.inFolder("Formacao"), "formação",
     if(file.inFolder("teologia"), "teologia",
-    if(file.inFolder("programador"), "programador",
-    if(file.inFolder("tags"), "tags", "core"))))
+    if(file.inFolder("projetos"), "projeto",
+    if(file.inFolder("turmas"), "turma",
+    if(file.inFolder("tags"), "tags", "core")))))
   Data: (file.mtime).format("MM-DD")
   days_alive: (today() - file.mtime).days.ceil()
+  Título: link(file, title)
 properties:
   title:
     displayName: Título
@@ -64,9 +69,9 @@ views:
     name: Tabela
     order:
       - formula.Data
-      - file.name
+      - formula.Título
+      - formula.section
       - description
-      - title
     sort:
       - property: formula.Data
         direction: DESC

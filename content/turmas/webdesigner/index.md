@@ -1,14 +1,14 @@
 ---
-title: Web Designer
+title: 🌐 Web Designer
 description: Desenhista de páginas para internet
 tags:
   - turma
 Carga-horária: 160 horas em 40 aulas
 Período: 14/01/26 a 14/04/26
-Horário: 
+Horário:
 Unidades-curriculares: 4
 link: "[Senac PSG - Programador Web](https://psg.ce.senac.br/oportunidade/programador-web-2/)"
-status: Concluído
+status: ✅ Concluído
 horas-aula:
   - 36
   - 72

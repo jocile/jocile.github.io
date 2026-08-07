@@ -61,5 +61,3 @@ tags:
 > - Deploy de uma API FastAPI Assíncrona
 > - Boas Práticas para APIs RESTful Assíncronas com FastAPI
 > - Criando sua API Bancária Assíncrona com FastAPI
-
-[[Formacao Overview]]

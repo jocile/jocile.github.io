@@ -8,7 +8,7 @@ Período:
 Horário:
 Unidades-curriculares: 2
 link: "[Senac PSG - Excel básico e avançado](https://cursos.ce.senac.br/produto/excel-basico-e-avancado/)"
-status: Concluído
+status: ✅ Concluído
 horas-aula:
   - 36
   - 36

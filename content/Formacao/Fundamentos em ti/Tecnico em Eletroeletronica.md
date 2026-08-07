@@ -56,5 +56,3 @@ tags:
 
 >[!summary]- 5º Semestre
 > - Estágio Supervisionado
-
-[[Formacao Overview]]

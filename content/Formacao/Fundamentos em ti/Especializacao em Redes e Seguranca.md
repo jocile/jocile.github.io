@@ -40,5 +40,3 @@ tags:
 > - Metodologia do Trabalho Científico
 > - Monografia ou
 > - Artigo Científico com Obrigatoriedade de Publicação
-
-[[Formacao Overview]]

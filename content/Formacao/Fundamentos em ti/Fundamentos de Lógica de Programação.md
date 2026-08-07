@@ -33,5 +33,3 @@ tags:
 > - Executando Decisões e Repetições no Código
 > - Dominando Funções: Reutilizando Código com Eficiência
 > - Modelando Estruturas com Objetos em Código
-
-[[Formacao Overview]]

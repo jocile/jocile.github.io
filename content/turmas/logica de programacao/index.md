@@ -4,11 +4,11 @@ description: Criando algoritmos estruturados em programação
 tags:
   - turma
 Carga-horária: 60 horas em 15 aulas
-Período: 
-Horário: 
+Período:
+Horário:
 Unidades-curriculares: 1
 link: "[Senac PSG - Programador Web](https://psg.ce.senac.br/oportunidade/programador-web-2/)"
-status: Concluído
+status: ✅ Concluído
 horas-aula:
   - 60
 ---

@@ -58,5 +58,3 @@ title: Excel com IA
 > - Criando um Processo de ETL com Excel e Power Query
 > - Analisando Bases de Dados com Excel e Copilot
 > - Desafio de projeto: Criando um Dashboard de Vendas do Xbox com Excel
-
-[[Formacao Overview]] - [[Excel e Power BI Dashboards]]
