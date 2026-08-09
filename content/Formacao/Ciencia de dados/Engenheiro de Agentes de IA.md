@@ -2,7 +2,7 @@
 class: classe-formacao
 description: Dominando os frameworks mais avançados para criar agentes de IA com Python.
 topics:
-  - "[[Inteligencia Artificial]]"
+  - "[[Inteligência Artificial]]"
   - Automação
   - Criação de agentes
 status: 🏗️ em progresso

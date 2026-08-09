@@ -11,7 +11,7 @@ horas-aula: 26
 habilidades:
   - "[[Python]]"
   - Lógica
-  - "[[Inteligencia Artificial]]"
+  - "[[Inteligência Artificial]]"
 link: "[DIO - Python Fundamentals](https://web.dio.me/track/formacao-python-fundamentals)"
 certificado: "![[formacao python fundamentals.png]]"
 started:

@@ -2,7 +2,7 @@
 class: classe-formacao
 description: Criação de Landing Pages de Alta Conversão utilizando IA.
 topics:
-  - "[[Inteligencia Artificial]]"
+  - "[[Inteligência Artificial]]"
   - Automação
   - Webdesign
 status: 🏗️ em progresso

@@ -3,7 +3,7 @@ class: classe-formacao
 description: uma jornada educacional gratuita para quem quer sair do básico e aprender a usar Inteligência Artificial em tarefas reais do dia a dia dev
 topics:
   - Copilot
-  - "[[Inteligencia Artificial]]"
+  - "[[Inteligência Artificial]]"
   - "[[Prompts]]"
 status: 🏗️ em progresso
 horas-aula: 35
@@ -41,7 +41,7 @@ title: Do Prompt ao agente
 > - Escrevendo Prompts Eficazes
 
 > [!summary]- [[Como criar agentes de IA|Criando Agentes de IA]]
-> - [[Fundamentos e Arquitetura de Agentes Autônomos]]
+> - [[Fundamentos e Arquitetura de Agentes Autonomos]]
 > - Visão Geral do Ecossistema de Agentes
 > - Instalação e Configuração do Ambiente de Agentes
 > - Primeiros Passos Para Criar Agentes

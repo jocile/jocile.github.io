@@ -11,14 +11,14 @@ tags:
   - mapa
   - Formação
 topics:
-  - "[[Inteligencia Artificial]]"
+  - "[[Inteligência Artificial]]"
   - "[[Machine Learning]]"
   - "[[Introdução aos algoritmos|Algoritmos]]"
 status: 🏗️ em progresso
 horas-aula: 92
 habilidades:
   - "[[Machine Learning]]"
-  - "[[Inteligencia Artificial]]"
+  - "[[Inteligência Artificial]]"
   - "[[agentes de ia]]"
   - "[[engenharia de prompt]]"
 link: "[Formação Machine Learning Especialist](https://web.dio.me/track/formacao-machine-learning-specialist)"

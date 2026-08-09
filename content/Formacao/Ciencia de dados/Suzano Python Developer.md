@@ -11,7 +11,7 @@ horas-aula: 57:00
 habilidades:
   - "[[Python]]"
   - Copilot
-  - "[[Inteligencia Artificial]]"
+  - "[[Inteligência Artificial]]"
 link: "[DIO Suzano Python Developer](https://web.dio.me/track/suzano-python-developer)"
 certificado: "![[formacao python Suzano.png]]"
 started:
