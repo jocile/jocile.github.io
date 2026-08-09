@@ -1,19 +1,10 @@
 ---
-class: classe-formacao
-dg-note-icon: default
 title: Machine Learning Especialist
 description: Gráfico das disciplinas do cursos de Escpecialista em Machine Learning
 tags:
   - excalidraw
-  - Inteligencia-artificial
-  - Machine-Learning
-  - Curso
-  - mapa
+  - Inteligencia-artificial/Machine-Learning
   - Formação
-topics:
-  - "[[Inteligência Artificial]]"
-  - "[[Machine Learning]]"
-  - "[[Introdução aos algoritmos|Algoritmos]]"
 status: 🏗️ em progresso
 horas-aula: 92
 habilidades:

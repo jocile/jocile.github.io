@@ -45,7 +45,7 @@ formulas:
     if(file.inFolder("teologia"), "teologia",
     if(file.inFolder("projetos"), "projeto",
     if(file.inFolder("turmas"), "turma",
-    if(file.inFolder("tags"), "tags", "core")))))
+    if(file.inFolder("tags"), "tags", "nota")))))
   Data: (file.mtime).format("MM-DD")
   days_alive: (today() - file.mtime).days.ceil()
   Título: link(file, title)

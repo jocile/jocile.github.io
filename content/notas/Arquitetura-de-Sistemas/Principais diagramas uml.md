@@ -1,0 +1,208 @@
+---
+title: Principais diagramas UML
+description: "Principais Diagramas UML"
+date: 2026-08-09
+draft: false
+tags:
+  - excalidraw
+  - diagrama
+excalidraw-plugin: parsed
+excalidraw-export-dark: false
+excalidraw-autoexport: svg
+excalidraw-export-transparent: true
+cssclasses:
+  - ex-pageheight
+excalidraw-open-md: true
+---
+
+## Diagrama de classes
+
+```mermaid
+classDiagram
+Animal <|-- Duck
+Animal <|-- Fish
+Animal <|-- Zebra
+Animal : +int age
+Animal : +String gender
+Animal: +isMammal()
+Animal: +mate()
+class Duck{
+  +String beakColor
+  +swim()
+  +quack()
+}
+class Fish{
+  -int sizeInFeet
+  -canEat()
+}
+
+class Zebra{
+  +bool is_wild
+  +run()
+}
+```
+
+
+## Diagrama de banco de dados
+
+### Diagrama conceitual
+
+![[Desafio clinica.svg|500]]
+
+### Diagrama Entidade Relacionamento - DER
+
+```mermaid
+erDiagram
+ALUNO{
+int id_aluno PK
+string nome
+string endereco
+string telefone
+}
+CURSO{
+int id_curso PK
+string nome_curso
+string tipo
+}
+MATRICULA{
+int id_matricula PK
+int id_aluno FK
+int id_curso FK
+}
+ALUNO ||--o{ MATRICULA: "matricula"
+CURSO ||--o{ MATRICULA: "matricula"
+```
+
+## Diagrama de casos de uso
+
+Para criar um modelo de diagrama de caso de uso, vamos considerar os principais atores e os casos de uso para o sistema de registro de alunos e cursos. Utilizaremos o Mermaid para desenhar este diagrama.
+
+### Atores
+
+- **Administrador:** Responsável por gerenciar alunos e cursos.
+- **Aluno:** Usuário que se matricula nos cursos.
+
+### Casos de Uso
+
+- **Cadastrar Aluno:** Permitir que o administrador adicione novos alunos ao sistema.
+- **Consultar Aluno:** Permitir que o administrador e o aluno visualizem informações do aluno.
+- **Atualizar Aluno:** Permitir que o administrador atualize informações dos alunos.
+- **Deletar Aluno:** Permitir que o administrador remova alunos do sistema.
+- **Cadastrar Curso:** Permitir que o administrador adicione novos cursos ao sistema.
+- **Consultar Curso:** Permitir que o administrador e o aluno visualizem informações dos cursos.
+- **Atualizar Curso:** Permitir que o administrador atualize informações dos cursos.
+- **Deletar Curso:** Permitir que o administrador remova cursos do sistema.
+- **Matricular Aluno em Curso:** Permitir que o administrador registre a matrícula de alunos nos cursos.
+
+### Diagrama de Caso de Uso de aluno
+
+![](Principais%20diagramas.svg)
+
+### Explicação
+
+- **Atores:**
+  - `Administrador`: Representa o usuário que gerencia o sistema, realizando operações de CRUD (Create, Read, Update, Delete) tanto para alunos quanto para cursos, além de matricular alunos em cursos.
+  - `Aluno`: Representa o usuário que consulta suas informações e as dos cursos.
+
+- **Casos de Uso:**
+  - **Cadastrar Aluno, Consultar Aluno, Atualizar Aluno, Deletar Aluno:** Funcionalidades para gerenciar o cadastro de alunos.
+  - **Cadastrar Curso, Consultar Curso, Atualizar Curso, Deletar Curso:** Funcionalidades para gerenciar o cadastro de cursos.
+  - **Matricular Aluno em Curso:** Funcionalidade para registrar a inscrição de alunos nos cursos.
+
+Esse diagrama visualiza as interações dos atores com o sistema, facilitando a compreensão dos requisitos e funcionalidades principais.
+
+## Referências
+
+- [Class diagrams | Mermaid](https://mermaid.js.org/syntax/classDiagram.html)
+- [Editor de Diagramas mermaid](Editor%20de%20Diagramas%20mermaid.md)
+- [Arquitetura de Sistemas com diagramas UML](Arquitetura%20de%20Sistemas%20com%20diagramas%20UML.md)
+
+%%
+
+## Text Elements
+Administrador ^fegVSs3z
+
+Cadastrar aluno ^NCm3eqM7
+
+Consultar aluno ^nwh1nrs7
+
+Atualizar aluno ^yVyrTcOW
+
+Deletar aluno ^0hUAjzo5
+
+
+## Drawing
+```compressed-json
+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
+```
+%%
