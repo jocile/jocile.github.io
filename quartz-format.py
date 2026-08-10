@@ -282,22 +282,37 @@ class NoteFormatter:
                     f"possível rascunho: {is_draft_candidate(str(fm.get('title','')), body)}"
                 )
 
-        # 5. description
+        # 5. description — fonte prioritária: dg-metatags.description
         if not fm.get("description"):
-            desc = generate_description(body)
-            if desc:
-                fm["description"] = desc
-                result["changes"].append("description gerada do 1º parágrafo")
-            else:
-                result["warnings"].append("description ausente e não foi possível gerar automaticamente")
+            dg_meta = fm.get("dg-metatags") or {}
+            meta_desc = dg_meta.get("description") if isinstance(dg_meta, dict) else None
 
-        # 6. H1 duplicado
+            if meta_desc:
+                fm["description"] = meta_desc
+                result["changes"].append("description extraída de dg-metatags.description")
+            else:
+                desc = generate_description(body)
+                if desc:
+                    fm["description"] = desc
+                    result["changes"].append("description gerada do 1º parágrafo")
+                else:
+                    result["warnings"].append("description ausente e não foi possível gerar automaticamente")
+
+        # 6. Limpeza de campos Obsidian/Digital Garden não usados pelo Quartz
+        cleanup_keys = ["dg-note-icon", "dg-publish", "cssclasses", "dg-metatags", "topics"]
+        removed_keys = [k for k in cleanup_keys if k in fm]
+        for k in removed_keys:
+            del fm[k]
+        if removed_keys:
+            result["changes"].append(f"campos removidos: {', '.join(removed_keys)}")
+
+        # 7. H1 duplicado
         if fm.get("title"):
             body, removed = remove_duplicate_h1(body, str(fm["title"]))
             if removed:
                 result["changes"].append("H1 duplicado removido do corpo")
 
-        # 7. Avisos de wikilinks e imagens com path relativo
+        # 8. Avisos de wikilinks e imagens com path relativo
         n_links = len(re.findall(r"\[\[[^\]]+\]\]", body))
         if n_links:
             result["warnings"].append(
