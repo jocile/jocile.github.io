@@ -1,7 +1,6 @@
 ---
 title: Exercicio De Normalizacao De Banco De Dados
-description: Para consolidar o entendimento sobre a normalização de dados, vamos realizar
-  um exercício prático. Neste exercício, você terá que aplicar as formas normais…
+description: Para consolidar o entendimento sobre a normalização de dados, vamos realizar um exercício prático. Neste exercício, você terá que aplicar as formas normais…
 date: '2026-08-09'
 draft: false
 tags:

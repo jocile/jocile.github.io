@@ -1,12 +1,9 @@
 ---
-title: Diagrama Logico De Banco De Dados
-description: 'Vamos abordar um tema essencial para o desenvolvimento de sistemas de
-  informação: o modelo lógico de banco de dados. Este artigo será dividido em tópicos
-  para…'
+title: Diagrama Lógico De Banco De Dados
+description: 'Vamos abordar um tema essencial para o desenvolvimento de sistemas de informação: o modelo lógico de banco de dados. Este artigo será dividido em tópicos para…'
 date: '2026-08-09'
 draft: false
 tags:
-- programador
 - banco-de-dados
 - diagrama
 ---

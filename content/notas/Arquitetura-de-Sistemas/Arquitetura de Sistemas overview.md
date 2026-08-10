@@ -1,5 +1,5 @@
 ---
-title: Diagrama Arquitetura de Sistemas
+title: Arquitetura de Sistemas overview
 description: A arquitetura de software projeta e documenta o sistema, define o que vai ser usado (requisitos) e o que não vai ser usado - evitando perda de tempo,…
 date: 2026-08-09
 draft: false

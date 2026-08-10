@@ -5,15 +5,11 @@ tags:
   - excalidraw
   - Inteligencia-artificial
 excalidraw-plugin: parsed
-excalidraw-export-dark: false
-excalidraw-autoexport: svg
-excalidraw-export-transparent: true
-excalidraw-open-md: true
 cssclasses:
   - ex-pageheight
 ---
 
-![[O mundo da IA.svg]]
+![[Diagrama o mundo da IA.excalidraw]]
 
 %%
 # Excalidraw Data

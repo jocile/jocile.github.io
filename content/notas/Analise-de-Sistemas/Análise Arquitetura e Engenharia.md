@@ -1,7 +1,6 @@
 ---
 title: Análise Arquitetura e Engenharia
-description: A principal diferença entre essas áreas está no "foco" e na "etapa" do
-  ciclo de vida do software em que cada uma atua. Pense nelas como as diferentes funções…
+description: A principal diferença entre essas áreas está no foco e na etapa do ciclo de vida do software em que cada uma atua. Pense nelas como as diferentes funções…
 date: '2026-08-09'
 draft: false
 ---

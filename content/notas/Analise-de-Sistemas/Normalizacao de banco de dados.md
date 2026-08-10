@@ -1,7 +1,6 @@
 ---
 title: Normalizacao De Banco De Dados
-description: A normalização é um processo essencial no design de banco de dados que
-  envolve a organização dos dados para reduzir redundâncias e dependências. Este processo…
+description: A normalização é um processo essencial no design de banco de dados que envolve a organização dos dados para reduzir redundâncias e dependências. Este processo…
 date: '2026-08-09'
 draft: false
 tags:
