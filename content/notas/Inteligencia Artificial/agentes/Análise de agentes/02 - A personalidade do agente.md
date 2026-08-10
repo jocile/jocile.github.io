@@ -1,13 +1,10 @@
 ---
-dg-note-icon: 2
-dg-publish: true
-topics:
-  - "[[Inteligência Artificial]]"
-  - Análise de Agentes
-dg-metatags:
-  description: é uma instrução oculta que o usuário final geralmente não vê, mas que define a identidade, as regras de comportamento e os limites
+title: 02 - A personalidade do agente
+tags:
+  - Inteligencia-artificial/Agentes
+  - Inteligencia-artificial/Skill
+description: é uma instrução oculta que o usuário final geralmente não vê, mas que define a identidade, as regras de comportamento e os limites
 ---
-#Agentes #Prompt 
 
 # A personalidade do agente
 

@@ -1,13 +1,10 @@
 ---
-dg-note-icon: 2
-dg-publish: true
-topics:
-  - "[[Inteligência Artificial]]"
-  - Análise de Agentes
-dg-metatags:
-  description: Classificação de habilidades de agentes de IA
+title: 01 - Taxonomia de Skills
+tags:
+  - Inteligencia-artificial/Agentes
+  - Inteligencia-artificial/Skill
+description: Classificação de habilidades de agentes de IA
 ---
-#Agentes #agentic-skills 
 
 # Taxonomia de Habilidades
 
