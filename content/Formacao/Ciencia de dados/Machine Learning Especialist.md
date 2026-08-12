@@ -8,7 +8,7 @@ tags:
 status: 🏗️ em progresso
 horas-aula: 92
 habilidades:
-  - "[[Machine Learning]]"
+  - "[[notas/Inteligencia Artificial/Machine Learning/index]]"
   - "[[Inteligência Artificial]]"
   - "[[agentes de ia]]"
   - "[[engenharia de prompt]]"
@@ -108,11 +108,11 @@ Deep Learning ^uvYU6oKQ
 Módulo 6
 Deep Learning Frameworks ^0OFD9ixi
 
-1. Bibliotecas de [[Machine Learning]] ^jExyyufP
+1. Bibliotecas de [[notas/Inteligencia Artificial/Machine Learning/index]] ^jExyyufP
 
-2. Bibliotecas [[Pandas]] e Scikit-Learning ^TG4xV0iO
+2. Bibliotecas Pandas e Scikit-Learning ^TG4xV0iO
 
-3. Frameworks de [[Machine Learning]] ^LSzanhLg
+3. Frameworks de [[notas/Inteligencia Artificial/Machine Learning/index]] ^LSzanhLg
 
 4. Desenvolvimento de algoritmos no TensorFlow ^JhEhM6Lo
 
@@ -136,7 +136,7 @@ Processamento de imagens ^RRfLeXDB
 6. Filtros de eliminação de ruídos ^AWLViGHc
 
 Módulo 8
-Visão computacional com [[Machine Learning]] ^TbLx6xJV
+Visão computacional com [[notas/Inteligencia Artificial/Machine Learning/index]] ^TbLx6xJV
 
 1. Introdução à visão computacional ^s2jXTvMz
 

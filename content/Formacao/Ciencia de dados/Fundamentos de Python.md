@@ -9,7 +9,7 @@ topics:
 status: ✅ Concluído
 horas-aula: 26
 habilidades:
-  - "[[Python]]"
+  - Python
   - Lógica
   - "[[Inteligência Artificial]]"
 link: "[DIO - Python Fundamentals](https://web.dio.me/track/formacao-python-fundamentals)"

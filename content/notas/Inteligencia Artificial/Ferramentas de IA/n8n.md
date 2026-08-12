@@ -166,7 +166,7 @@ Você saberá que teve sucesso quando a janela de chat do n8n responder à sua p
 
 - Explore a criação de fluxos conectando o n8n a planilhas ou ao Trello.
 - Leia mais sobre a teoria de agentes em Engenharia de [[agentes de ia]].
-- Aprofunde-se em [[Inteligência Artificial Overview-|Inteligência Artificial]] e [[Machine Learning]].
+- Aprofunde-se em [[Inteligência Artificial]] e [[notas/Inteligencia Artificial/Machine Learning/index|machine Learning]].
 
 ## Referências
 

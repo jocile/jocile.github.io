@@ -317,7 +317,7 @@ A live encerra com uma profunda reflexão sobre o mercado de trabalho atual.
 
 ### Tópicos Relacionados
 
-- Engenharia de [[agentes de ia]] e [[Machine Learning]].
+- Engenharia de [[agentes de ia]] e [[notas/Inteligencia Artificial/Machine Learning/index]].
 - [SKILL para simulação de entrevistas técnicas com Gemini e OpenClaw · GitHub](https://gist.github.com/jocile/0a61f048865d806ae39e04f7edfd7eaf)
 - [GitHub - digitalinnovationone/potencializando-estudos-carreira-com-ia: Curso "Potencializando Seus Estudos e Carreira com IA: De Chatbots a Agentes" · GitHub](https://github.com/digitalinnovationone/potencializando-estudos-carreira-com-ia)
 - [GitHub - digitalinnovationone/dio-pro-vitalicio-week-2026-agentes-ia: DIO PRO Vitalício Week: Agentes de IA · GitHub](https://github.com/digitalinnovationone/dio-pro-vitalicio-week-2026-agentes-ia)

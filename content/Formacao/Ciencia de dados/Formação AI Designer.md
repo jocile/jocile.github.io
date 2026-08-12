@@ -9,7 +9,7 @@ status: 🏗️ em progresso
 horas-aula: 8
 habilidades:
   - Inteligência Artificial
-  - "[[Webdesign]]"
+  - Webdesign
 link: "[Asimov Academy - Formação AI Designer](https://asimov.academy/ai_designer-formacao)"
 certificado: ""
 finished:

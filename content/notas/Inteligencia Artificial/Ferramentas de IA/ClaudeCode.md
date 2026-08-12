@@ -6,8 +6,6 @@ tags:
 ---
 # Claude Code Guia Avançado: Dominando Agentes Multiplicadores
 
-#Inteligencia-artificial #claudecode 
-
 > [!summary] O Claude Code não é apenas mais um chatbot de perguntas e respostas, criado pela Anthropic, ele é uma aplicação que roda dentro do seu terminal, permitindo que a IA controle o seu computador, execute comandos, analise arquivos, rode testes e até tire prints da tela. É, essencialmente, um agente que pode executar tarefas complexas de programação e automação de ponta a ponta.
 
 > [!tip] Aprenda a transformar o Claude Code de uma ferramenta útil para um **multiplicador de produtividade** usando Model Context Protocol (MCP), Skills personalizadas e Sub-agentes em paralelo.
@@ -295,12 +293,6 @@ graph TD
 ```bash
 /barra compact \nResume conversa, mantendo apenas informações críticas para próxima iteração.
 ```
-
-## Próximos Passos Avançados
-
-- [[Claude Code Guia Básico - Do Zero ao Expert]] (Conceitos fundamentais)
-- [[23-Inteligencia-Artificial/Fluxo-de-Trabalho/Antigravity.md]] (Antegravity protocol em ação real)
-- [[34-Linguagens-de-Programacao/Tecnologias-Frontend/Frameworks.js]] (Stack recomendado para dashboards complexos)
 
 ## Tópicos Relacionados
 
