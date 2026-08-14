@@ -17,17 +17,13 @@ Uso:
     # Gravar saída em outra pasta (não sobrescreve os originais)
     python quartz-format.py content/ --output content-formatado/
 
-    # Marcar rascunhos suspeitos automaticamente
-    python quartz-format.py content/ --auto-drafts --dry-run
-
     Opções disponíveis:
 
-    --dry-run            # Mostra todas as mudanças sem gravar nenhum arquivo 
-    --backup             # Cria cópia `.md.bak` antes de editar cada arquivo
-    --recursive          # Processa subpastas recursivamente
-    --auto-drafts        # Marca como `draft: true` notas suspeitas (WIP, sem parágrafos)
-    --output DIR         # Grava os arquivos formatados em `DIR` em vez de sobrescrever
-    --report FILE        # Salva relatório completo em Markdown no arquivo `FILE` 
+    --dry-run        # Mostra todas as mudanças sem gravar nenhum arquivo
+    --backup         # Cria cópia `.md.bak` antes de editar cada arquivo
+    --recursive      # Processa subpastas recursivamente
+    --output DIR     # Grava os arquivos formatados em `DIR` em vez de sobrescrever
+    --report FILE    # Salva relatório completo em Markdown no arquivo `FILE`
 
 """
 
@@ -35,7 +31,6 @@ import argparse
 import re
 import shutil
 import sys
-from datetime import datetime
 from pathlib import Path
 
 try:
@@ -47,7 +42,6 @@ except ImportError:
 
 # ── Configurações ──────────────────────────────────────────────────────────────
 
-DRAFT_PREFIXES = ("wip", "draft", "rascunho", "todo", "fixme", "xxx")
 PRIVATE_TAGS   = {"private", "privado", "pessoal", "personal"}
 DESC_MAX_LEN   = 160
 
@@ -88,7 +82,7 @@ def parse_frontmatter(content: str) -> tuple[dict, str]:
 
 def serialize_frontmatter(fm: dict) -> str:
     """Serializa o frontmatter para YAML com bloco '---', campos em ordem preferida."""
-    ordered_keys = ["title", "description", "date", "lastmod", "draft", "tags", "aliases"]
+    ordered_keys = ["title", "description", "lastmod", "tags", "aliases"]
     ordered = {k: fm[k] for k in ordered_keys if k in fm}
     ordered.update({k: v for k, v in fm.items() if k not in ordered and not k.startswith("__")})
 
@@ -191,29 +185,14 @@ def remove_duplicate_h1(body: str, title: str) -> tuple[str, bool]:
     return body, False
 
 
-def is_draft_candidate(title: str, body: str) -> str | None:
-    """Retorna o motivo se a nota parece rascunho, ou None."""
-    if any(title.lower().startswith(p) for p in DRAFT_PREFIXES):
-        return f"título começa com prefixo de rascunho"
-
-    stripped = strip_code_blocks(body)
-    paragraphs = [
-        l for l in stripped.split("\n")
-        if l.strip() and not re.match(r"^(#{1,6} |[-*+] |\d+\. |>|\|)", l)
-    ]
-    if not paragraphs:
-        return "nota sem parágrafos de texto"
-    return None
-
 
 # ── Processador de nota ───────────────────────────────────────────────────────
 
 class NoteFormatter:
-    def __init__(self, *, dry_run=False, backup=False, auto_drafts=False, output_dir=None):
-        self.dry_run     = dry_run
-        self.backup      = backup
-        self.auto_drafts = auto_drafts
-        self.output_dir  = Path(output_dir) if output_dir else None
+    def __init__(self, *, dry_run=False, backup=False, output_dir=None):
+        self.dry_run    = dry_run
+        self.backup     = backup
+        self.output_dir = Path(output_dir) if output_dir else None
 
     def process_file(self, path: Path) -> dict:
         result = {"changes": [], "warnings": [], "error": None, "skipped": False}
@@ -240,12 +219,7 @@ class NoteFormatter:
                 fm["title"] = path.stem.replace("-", " ").replace("_", " ").title()
                 result["changes"].append(f"title gerado do nome do arquivo: '{fm['title']}'")
 
-        # 2. date
-        if not fm.get("date"):
-            fm["date"] = datetime.fromtimestamp(path.stat().st_mtime).strftime("%Y-%m-%d")
-            result["changes"].append(f"date adicionada (mtime): {fm['date']}")
-
-        # 3. tags inline → frontmatter
+        # 2. tags inline → frontmatter
         inline_tags, body = extract_inline_tags(body)
         if inline_tags:
             result["changes"].append(f"tags inline movidas: #{', #'.join(inline_tags)}")
@@ -256,33 +230,13 @@ class NoteFormatter:
 
         if private_found:
             all_tags = [t for t in all_tags if t not in PRIVATE_TAGS]
-            if not fm.get("draft"):
-                fm["draft"] = True
-                result["changes"].append(
-                    f"draft: true (tag privada: #{', #'.join(private_found)})"
-                )
 
         if all_tags:
             fm["tags"] = all_tags
             if all_tags != normalize_tags(existing_tags):
                 result["changes"].append("tags normalizadas e atualizadas")
 
-        # 4. draft
-        if "draft" not in fm:
-            reason = is_draft_candidate(str(fm.get("title", "")), body) if self.auto_drafts else None
-            if reason:
-                fm["draft"] = True
-                result["changes"].append(f"draft: true (auto: {reason})")
-            else:
-                fm["draft"] = False
-                result["changes"].append("draft: false adicionado")
-
-            if not self.auto_drafts and is_draft_candidate(str(fm.get("title", "")), body):
-                result["warnings"].append(
-                    f"possível rascunho: {is_draft_candidate(str(fm.get('title','')), body)}"
-                )
-
-        # 5. description — fonte prioritária: dg-metatags.description
+        # 3. description — fonte prioritária: dg-metatags.description
         if not fm.get("description"):
             dg_meta = fm.get("dg-metatags") or {}
             meta_desc = dg_meta.get("description") if isinstance(dg_meta, dict) else None
@@ -298,21 +252,21 @@ class NoteFormatter:
                 else:
                     result["warnings"].append("description ausente e não foi possível gerar automaticamente")
 
-        # 6. Limpeza de campos Obsidian/Digital Garden não usados pelo Quartz
-        cleanup_keys = ["dg-note-icon", "dg-publish", "cssclasses", "dg-metatags", "topics"]
+        # 4. Limpeza de campos Obsidian/Digital Garden não usados pelo Quartz
+        cleanup_keys = ["date", "draft", "dg-note-icon", "dg-publish", "cssclasses", "dg-metatags", "topics"]
         removed_keys = [k for k in cleanup_keys if k in fm]
         for k in removed_keys:
             del fm[k]
         if removed_keys:
             result["changes"].append(f"campos removidos: {', '.join(removed_keys)}")
 
-        # 7. H1 duplicado
+        # 5. H1 duplicado
         if fm.get("title"):
             body, removed = remove_duplicate_h1(body, str(fm["title"]))
             if removed:
                 result["changes"].append("H1 duplicado removido do corpo")
 
-        # 8. Avisos de wikilinks e imagens com path relativo
+        # 6. Avisos de wikilinks e imagens com path relativo
         n_links = len(re.findall(r"\[\[[^\]]+\]\]", body))
         if n_links:
             result["warnings"].append(
@@ -398,16 +352,14 @@ Exemplos:
   python quartz-format.py content/ --dry-run
   python quartz-format.py content/ --backup --recursive --report relatorio.md
   python quartz-format.py content/ --output content-formatado/
-  python quartz-format.py content/ --auto-drafts
         """,
     )
     parser.add_argument("directory",     help="Diretório com as notas .md")
-    parser.add_argument("--dry-run",     action="store_true", help="Mostrar mudanças sem gravar")
-    parser.add_argument("--backup",      action="store_true", help="Criar .md.bak antes de editar")
-    parser.add_argument("--recursive",   action="store_true", help="Processar subpastas")
-    parser.add_argument("--auto-drafts", action="store_true", help="Marcar rascunhos suspeitos como draft: true")
-    parser.add_argument("--output",      metavar="DIR",       help="Gravar saída em outro diretório")
-    parser.add_argument("--report",      metavar="FILE",      help="Salvar relatório Markdown em FILE")
+    parser.add_argument("--dry-run",   action="store_true", help="Mostrar mudanças sem gravar")
+    parser.add_argument("--backup",    action="store_true", help="Criar .md.bak antes de editar")
+    parser.add_argument("--recursive", action="store_true", help="Processar subpastas")
+    parser.add_argument("--output",    metavar="DIR",       help="Gravar saída em outro diretório")
+    parser.add_argument("--report",    metavar="FILE",      help="Salvar relatório Markdown em FILE")
     args = parser.parse_args()
 
     directory = Path(args.directory)
@@ -418,7 +370,6 @@ Exemplos:
     formatter = NoteFormatter(
         dry_run=args.dry_run,
         backup=args.backup,
-        auto_drafts=args.auto_drafts,
         output_dir=args.output,
     )
 
