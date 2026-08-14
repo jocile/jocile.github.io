@@ -3,6 +3,7 @@ title: Traduções da Bíblia
 description: Tabelas e ilustrações sobre o histórico de traduções da Bíblia
 tags:
 - Teologia
+- Teologia/bibliologia
 ---
 
 ## Traduções da Bíblia ao longo do tempo

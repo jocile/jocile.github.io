@@ -52,11 +52,11 @@ Em alguns casos, pode ser necessário usar tags XML para separar o processo de r
 
 **Exemplo:**
 
-Suponha que você esteja trabalhando com um problema de aritmética, como "Se o preço do produto é R$ 100 e há um desconto de 20%, então qual é o preço final?". Em vez de apenas fornecer a resposta final (R$ 80), o modelo pode ser instruído a seguir os passos do raciocínio:
+Suponha que você esteja trabalhando com um problema de aritmética, como "Se o preço do produto é R\$ 100 e há um desconto de 20\%, então qual é o preço final?". Em vez de apenas fornecer a resposta final (R\$ 80), o modelo pode ser instruído a seguir os passos do raciocínio:
 
-1. "Preço original: R$ 100"
-2. "Desconto: 20% de R$ 100 = R$ 20"
-3. "Preço final: R$ 100 - R$ 20 = R$ 80"
+1. "Preço original: R\$ 100"
+2. "Desconto: 20\% de R$ 100 = R\$ 20"
+3. "Preço final: R\$ 100 - R$ 20 = R\$ 80"
 
 Nesse exemplo, as tags XML podem ser usadas para separar o processo de raciocínio da resposta final:
 

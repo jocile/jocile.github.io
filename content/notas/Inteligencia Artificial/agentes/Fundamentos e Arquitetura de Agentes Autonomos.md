@@ -36,7 +36,7 @@ Este guia consolida o aprendizado cobrindo desde a evolução dos modelos de lin
 ### Módulo 2: Componentes Essenciais dos Agentes
 
 A arquitetura interna de tomada de decisão de um agente baseia-se em um ciclo contínuo de:\
-**Percepção (Input) $\rightarrow$ Raciocínio (Reasoning) $\rightarrow$ Ação (Action) $\rightarrow$ Feedback (Observation)**
+**Percepção (Input) ➡️  Raciocínio (Reasoning) ➡️ Ação (Action) ➡️ Feedback (Observation)**
 
 ```
  +-----------------------+
@@ -110,8 +110,8 @@ Uma LLM isolada é apenas um gerador de texto. Ao acoplar **Tools** (Ferramentas
 
 Os fluxos de trabalho dos agentes podem ser configurados de duas formas:
 1. **Síncrono (Sequencial)**: Cada etapa aguarda a conclusão da anterior.
-   - *Exemplo em Vendas*: Explicar a solução $\rightarrow$ Entender o problema do cliente $\rightarrow$ Tratar objeções $\rightarrow$ Capturar contato $\rightarrow$ Agendar visita física.
-2. **Assíncrono (Paralelo)**: O agente principal dispara várias consultas a ferramentas simultaneamente, coleta os resultados e sintetiza a resposta final.
+   - *Exemplo em Vendas*: Explicar a solução ➡️ Entender o problema do cliente ➡️  Tratar objeções ➡️ Capturar contato ➡️ Agendar visita física.
+1. **Assíncrono (Paralelo)**: O agente principal dispara várias consultas a ferramentas simultaneamente, coleta os resultados e sintetiza a resposta final.
 
 ---
 

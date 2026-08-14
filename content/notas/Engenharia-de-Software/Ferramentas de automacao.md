@@ -59,7 +59,7 @@ As ferramentas de automação são uma grande aliada para os programadores, perm
 | ------------------------------------------ | ---------------------- | ------------------- | ------------------- | ------------------- |
 | facilidade de uso                          | muita                  | média               | pouca               | pouca               |
 | flexibilidade                              | pouca                  | média               | muita               | muita               |
-| Preços                                     | A partir de $19,99/mês | A partir de $15/mês | A partir de $25/mês | A partir de $29/mês |
+| Preços                                     | A partir de \$19,99/mês | A partir de \$15/mês | A partir de \$25/mês | A partir de $29/mês |
 | Integrações prontas                        | facilitada             | pouca               | pouca               | pouca               |
 | Conectar diferentes aplicativos e serviços | avançada               | amigável            | avançada            | avançada            |
 | Criar fluxos de trabalho personalizados    | equipes internas       | freelancers         | técnico             | backend             |

@@ -44,7 +44,7 @@ Porém, em tarefas longas, o agente precisa de uma ajuda extra para não se perd
 
 ### O método ReAct
 
-Uma das formas mais comuns de programar esse Raciocínio é usando o método **ReAct** (Raciocinar + Agir). Ele funciona em um ciclo de três passos: **Pensamento** (analisar a situação) $\rightarrow$ **Ação** (usar uma ferramenta) $\rightarrow$ **Observação** (ver o resultado).
+Uma das formas mais comuns de programar esse Raciocínio é usando o método **ReAct** (Raciocinar + Agir). Ele funciona em um ciclo de três passos: **Pensamento** (analisar a situação) ➡️  **Ação** (usar uma ferramenta) ➡️  **Observação** (ver o resultado).
 
 Vamos testar essa lógica na prática para ver como o agente se planeja. Se você der a ele a seguinte tarefa: _"Qual é a temperatura atual em São Paulo e o que eu devo vestir para sair agora?"_.
 
@@ -139,9 +139,9 @@ Pensando em adaptar essa equipe para que ela seja funcional e viável de program
 
 Como não podemos aplicar automaticamente e precisamos buscar os dados, qual destas opções de equipe ajustada parece mais útil para você?
 
-1. 🔍 **Pesquisador** (vasculha a web e traz dezenas de vagas brutas) $\rightarrow$ ⚖️ **Revisor** (filtra as melhores para o seu currículo) $\rightarrow$ 📝 **Redator** (cria a tabela final organizada).
+1. 🔍 **Pesquisador** (vasculha a web e traz dezenas de vagas brutas) ➡️  ⚖️ **Revisor** (filtra as melhores para o seu currículo) ➡️  📝 **Redator** (cria a tabela final organizada).
     
-2. 🔍 **Pesquisador** (vasculha e traz vagas) $\rightarrow$ ⚖️ **Revisor** (filtra para o seu perfil) $\rightarrow$ 🎯 **Estrategista de Carreira** (escreve um roteiro ou carta de apresentação personalizada para você usar na hora de se candidatar manualmente).
+2. 🔍 **Pesquisador** (vasculha e traz vagas) ➡️  ⚖️ **Revisor** (filtra para o seu perfil) ➡️  🎯 **Estrategista de Carreira** (escreve um roteiro ou carta de apresentação personalizada para você usar na hora de se candidatar manualmente).
 
 A grande vantagem de criar sua própria equipe de agentes é que podemos adaptar a estrutura para juntar o melhor dos dois mundos.
 

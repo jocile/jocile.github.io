@@ -2,7 +2,7 @@
 title: Manuscritos Bíblicos - linha do tempo
 description: Gráfico sobre a linha do tempo dos manuscritos bíblicos
 tags:
-- Teologia
+- Teologia/bibliologia
 - diagrama
 ---
 
