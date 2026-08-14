@@ -1,5 +1,5 @@
 ---
-class: classe-formacao
+quartz-properties: true
 description: Lista de disciplinas da formação
 status: 🏗️ em progresso
 horas-aula: 73

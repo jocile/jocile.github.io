@@ -1,10 +1,6 @@
 ---
-class: classe-formacao
+quartz-properties: true
 description: uma jornada educacional gratuita para quem quer sair do básico e aprender a usar Inteligência Artificial em tarefas reais do dia a dia dev
-topics:
-  - Copilot
-  - "[[Inteligência Artificial]]"
-  - "[[Prompts]]"
 status: 🏗️ em progresso
 horas-aula: 35
 habilidades:

@@ -1,5 +1,5 @@
 ---
-class: classe-formacao
+quartz-properties: true
 title: Bacharel em Ciências da Computação
 description: Lista de disciplinas do Curso Superior em Ciências da Computação
 cssclasses:

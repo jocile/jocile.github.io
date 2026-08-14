@@ -1,5 +1,5 @@
 ---
-class: classe-formacao
+quartz-properties: true
 title: Formação CSS Web Developer
 description: Lista de disciplinas da formação em designe com CSS 3
 status: ✅ Concluído

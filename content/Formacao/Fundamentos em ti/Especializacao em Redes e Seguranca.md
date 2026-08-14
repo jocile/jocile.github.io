@@ -1,5 +1,5 @@
 ---
-class: classe-formacao
+quartz-properties: true
 title: Especialização em Redes e Segurança
 description: Lista de disciplinas da especialização em Redes e Segurança
 status: ✅ Concluído

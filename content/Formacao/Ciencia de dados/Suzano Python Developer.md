@@ -1,11 +1,7 @@
 ---
-class: classe-formacao
+quartz-properties: true
 title: Suzano Python Developer
 description: Lista de disciplinas da formação em desenvolvimento de sistemas
-topics:
-  - Python
-  - Lógica de programação
-  - Algoritmos
 status: ✅ Concluído
 horas-aula: 57:00
 habilidades:

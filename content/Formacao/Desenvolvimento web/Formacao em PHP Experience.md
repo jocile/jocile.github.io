@@ -1,5 +1,5 @@
 ---
-class: classe-formacao
+quartz-properties: true
 title: Formação em PHP Experience
 description: Lista de disciplinas da formação em programação com PHP
 status: ✅ Concluído

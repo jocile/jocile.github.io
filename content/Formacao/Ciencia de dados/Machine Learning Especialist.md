@@ -1,4 +1,5 @@
 ---
+quartz-properties: true
 title: Machine Learning Especialist
 description: Gráfico das disciplinas do cursos de Escpecialista em Machine Learning
 tags:

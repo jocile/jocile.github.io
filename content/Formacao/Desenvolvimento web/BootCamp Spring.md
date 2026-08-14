@@ -1,5 +1,5 @@
 ---
-class: classe-formacao
+quartz-properties: true
 description: Lista de disciplinas da formação com sistemas em Java
 status: ✅ Concluído
 horas-aula: 160

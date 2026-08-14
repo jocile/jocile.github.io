@@ -1,10 +1,6 @@
 ---
-class: classe-formacao
+quartz-properties: true
 description: Dominando os frameworks mais avançados para criar agentes de IA com Python.
-topics:
-  - "[[Inteligência Artificial]]"
-  - Automação
-  - Criação de agentes
 status: 🏗️ em progresso
 horas-aula: 45
 habilidades:

@@ -1,10 +1,6 @@
 ---
-class: classe-formacao
+quartz-properties: true
 description: Criação de Landing Pages de Alta Conversão utilizando IA.
-topics:
-  - "[[Inteligência Artificial]]"
-  - Automação
-  - Webdesign
 status: 🏗️ em progresso
 horas-aula: 8
 habilidades:

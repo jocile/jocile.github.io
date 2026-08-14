@@ -1,10 +1,6 @@
 ---
-class: classe-formacao
+quartz-properties: true
 description: Lista de disciplinas da formação Web com React
-topics:
-  - Webdesign
-  - React
-  - JavaScript
 status: ✅ Concluído
 horas-aula: 34
 habilidades:

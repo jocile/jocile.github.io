@@ -1,5 +1,5 @@
 ---
-class: classe-formacao
+quartz-properties: true
 description: Lista de disciplinas da formação em designe WEB
 status: ✅ Concluído
 horas-aula: 160

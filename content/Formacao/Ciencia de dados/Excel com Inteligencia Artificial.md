@@ -1,5 +1,5 @@
 ---
-class: classe-formacao
+quartz-properties: true
 description: Entendendo as principais fórmulas e dominando as principais práticas do mercado para tratar e exibir dados em relatórios com eficiência e o apoio da IA
 topics:
   - Excel

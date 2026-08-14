@@ -1,11 +1,7 @@
 ---
-class: classe-formacao
+quartz-properties: true
 title: Python backend developer
 description: Lista de disciplinas da formação
-topics:
-  - Python
-  - Lógica de programação
-  - "[[Introdução aos algoritmos|Algoritmos]]"
 status: 🏗️ em progresso
 horas-aula: 35
 habilidades:

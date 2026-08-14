@@ -1,8 +1,6 @@
 ---
-class: classe-formacao
+quartz-properties: true
 description: Dominando análise, manipulação e visualização de dados com Python.
-topics:
-  - Análise de dados
 status: 🏗️ em progresso
 horas-aula: 28
 habilidades:
