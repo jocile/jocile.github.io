@@ -43,7 +43,7 @@ tags:
 > - Criar Uma Página Web Utilizando as Tags Aprendidas
 
 > [!summary]- HTML I: Conceitos Básicos
-> - Trabalhando com [[Formulários]] em HTML
+> - Trabalhando com [[Formularios]] em HTML
 > - [[Estruturando seu HTML]] + Formatações
 > - Trabalhando com Mídias utilizando HTML
 > - Criando [Tabelas com HTML](https://jocile.github.io/webdesigner/formacao-html/2-HTML-Conceitos-Basicos/4%20-%20Criando%20Tabelas/index.html)

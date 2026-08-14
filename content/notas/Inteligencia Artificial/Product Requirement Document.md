@@ -37,7 +37,7 @@ Um PRD "Vibe-Optimizado" inclui:
 
 1. **Visão Geral e Personas:** O propósito do software e o público-alvo. Servem como a "Estrela do Norte" para a IA tomar decisões em casos de ambiguidades.
 2. **Stack Tecnológica ou Tabela de Funcionalidades (MoSCoW):**: Definição explícita de linguagens, frameworks (ex: Next.js, FastAPI) e bancos de dados. Isso evita que a IA sugira ou utilize bibliotecas incompatíveis. Essa definição clara do que é obrigatório (_Must-have_) e do que não será incluído (_Won't-have_) serve para evitar o aumento de escopo (_scope creep_).
-3. **Lista de Páginas e Fluxos de Usuário:** Mapeamento de todas as telas e o comportamento esperado ao interagir com botões ou [[Formulários]].
+3. **Lista de Páginas e Fluxos de Usuário:** Mapeamento de todas as telas e o comportamento esperado ao interagir com botões ou [[Formularios]].
 4. **Esquema de Banco de Dados:** Detalhamento das tabelas, relacionamentos, tipos de dados e políticas de segurança (como Row Level Security - RLS).
 5. **Critérios de Aceitação e User Stories:** Instruções testáveis (formato Given-When-Then) e descrições do que o usuário deseja realizar.
 6. **[[requisitos|Requisitos]] Não Funcionais:** Diretrizes claras sobre segurança (IAM, OAuth), performance e escalabilidade, que modelos generativos costumam negligenciar se não forem instruídos.

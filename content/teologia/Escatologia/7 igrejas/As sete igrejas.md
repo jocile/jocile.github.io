@@ -31,7 +31,7 @@ Aqui estão os estágios da história da igreja, de acordo com alguns estudiosos
 - [Tiatira](Tiatira.md): Representa a igreja da Idade Média, marcada pela idolatria e corrupção.
 - [Sardes](Sardes.md): Representa a igreja da Reforma, que está fraca, mundana e degenerada. Apesar de ter um nome de que vive, esta igreja está morta espiritualmente.
 - [Filadelfia](Filadelfia.md): Representa a igreja do reavivamento, caracterizada pelo amor fraternal e fidelidade.
-- [Laodicéia](Laodicéia.md): Representa a igreja do fim dos tempos, que é morna e indiferente.
+- [Laodiceia](Laodiceia.md): Representa a igreja do fim dos tempos, que é morna e indiferente.
 
 >[!important] É importante notar que nem todos os estudiosos concordam com esta interpretação. Alguns veem as cartas como tendo uma aplicação mais ampla, enquanto outros as interpretam de forma literal.
 
