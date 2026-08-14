@@ -5,7 +5,7 @@ tags:
   - engenharia-de-software
 ---
 
-## **O Programador Pragmático
+## O Programador Pragmático
 
 ### **Introdução**
 
