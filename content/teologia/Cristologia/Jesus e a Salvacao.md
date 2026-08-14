@@ -11,7 +11,7 @@ tags:
 
 ## Jesus é a Salvação
 
-A Bíblia oferece uma rica discussão sobre a relação intrínseca entre Jesus e a salvação. Através de uma análise cuidadosa, podemos extrair insights valiosos sobre como a figura de Jesus se torna central na [[Teologia]] cristã, atuando como o pivô da redenção da humanidade.
+A Bíblia oferece uma rica discussão sobre a relação intrínseca entre Jesus e a salvação. Através de uma análise cuidadosa, podemos extrair insights valiosos sobre como a figura de Jesus se torna central na [[Teologia -]] cristã, atuando como o pivô da redenção da humanidade.
 
 ### **Jesus como a Chave da Salvação:**
 

@@ -12,7 +12,7 @@ O liberalismo busca a liberdade de pensamento e ação, em contraste com visões
 
 ## **A Abordagem Liberal na Teologia**
 
-Quando aplicado à [[Teologia]], o liberalismo implica uma abordagem educacional e espiritual que valoriza a liberdade de interpretação e questionamento. Ao contrário de interpretações literalistas, os liberais buscam entender os textos sagrados considerando contextos linguísticos, históricos e sociais, sem se prender a interpretações dogmáticas.
+Quando aplicado à [[Teologia -]], o liberalismo implica uma abordagem educacional e espiritual que valoriza a liberdade de interpretação e questionamento. Ao contrário de interpretações literalistas, os liberais buscam entender os textos sagrados considerando contextos linguísticos, históricos e sociais, sem se prender a interpretações dogmáticas.
 
 Descrever o liberalismo em poucas palavras é difícil; assim, o melhor que podemos fazer é fornecer uma breve descrição, adicionando algumas ideias específicas do liberalismo sobre a identidade de Jesus Cristo. De acordo com o Oxford Dictionary, a palavra liberal é originalmente definida como "um epíteto distintivo das artes e ciências consideradas dignas de um homem livre, em oposição às atividades servis ou mecânicas".
 
@@ -28,7 +28,7 @@ Quando Jesus estava no templo, ocupado com os assuntos de seu Pai, Maria e José
 
 Uma das características marcantes do pensamento liberal é a disposição para questionar as narrativas tradicionais. Isso se reflete na análise crítica dos evangelhos e na busca por entender o contexto histórico por trás dos relatos bíblicos. Por exemplo, a purificação do templo por Jesus é interpretada não apenas como um ato religioso, mas também como uma manifestação política contra a opressão econômica.
 
-Quando aplicado à [[Teologia]], o liberalismo implica uma realização educacional e espiritual, que valoriza as dignidades, responsabilidades e direitos da liberdade. Segundo essa definição, um liberal é alguém que busca a liberdade, ao contrário do conservador, que pode estar preso à tradição e a interpretações mecânicas e absolutistas.
+Quando aplicado à [[Teologia -]], o liberalismo implica uma realização educacional e espiritual, que valoriza as dignidades, responsabilidades e direitos da liberdade. Segundo essa definição, um liberal é alguém que busca a liberdade, ao contrário do conservador, que pode estar preso à tradição e a interpretações mecânicas e absolutistas.
 
 Os liberais procuram interpretar sem os preconceitos e convenções tradicionais. Eles desconfiam das autoridades e, às vezes, se rebelam contra elas. Talvez acreditem na revelação, mas não a associam a nenhum livro ou indivíduo específico. Podem aceitar o sobrenatural, mas sua compreensão disso não é limitada por textos sagrados, regras ou autoridades religiosas.
 
@@ -44,4 +44,4 @@ Alguns liberais aceitam certos milagres e declarações de Jesus, enquanto rejei
 
 ## **Conclusão: Desafiando Paradigmas**
 
-Em suma, o liberalismo na [[Teologia]] oferece uma abordagem dinâmica e questionadora para entender a figura de Jesus Cristo e seus ensinamentos. Ao desafiar as interpretações tradicionais e explorar novas perspectivas, os teólogos liberais nos convidam a repensar nossa compreensão do divino e do humano.
+Em suma, o liberalismo na [[Teologia -]] oferece uma abordagem dinâmica e questionadora para entender a figura de Jesus Cristo e seus ensinamentos. Ao desafiar as interpretações tradicionais e explorar novas perspectivas, os teólogos liberais nos convidam a repensar nossa compreensão do divino e do humano.

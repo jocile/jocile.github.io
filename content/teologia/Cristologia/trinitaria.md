@@ -13,7 +13,7 @@ A posição da N.T. (ortodoxa, trinitária) é que o conceito de Jesus, que fina
 ## Origem e Desenvolvimento da Doutrina da Trindade
 
 - A palavra "trindade" não é encontrada na Bíblia, mas foi introduzida pelo pai Tertuliano no final do século II d.C.
-- Tornou-se uma parte formal da [[Teologia]] cristã no século IV.
+- Tornou-se uma parte formal da [[Teologia -]] cristã no século IV.
 - É considerada uma doutrina distintiva do cristianismo, reunindo os principais aspectos da verdade cristã em relação ao ser e atividades de Deus.
 
 ## Definição e Tentativa de Compreensão da Trindade

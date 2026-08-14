@@ -28,7 +28,7 @@ A doutrina da emanação propõe que tudo o que existe se origina de uma Realida
 
 ## **Conclusão:**
 
-A doutrina da emanação, embora presente em algumas teologias primitivas, foi alvo de debates e críticas. A compreensão da natureza de Deus e sua relação com a criação continua a ser um tema central na [[Teologia]] cristã.
+A doutrina da emanação, embora presente em algumas teologias primitivas, foi alvo de debates e críticas. A compreensão da natureza de Deus e sua relação com a criação continua a ser um tema central na [[Teologia -]] cristã.
 
 ## **Recursos Adicionais:**
 

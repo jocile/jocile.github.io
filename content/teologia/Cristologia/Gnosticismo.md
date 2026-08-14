@@ -37,7 +37,7 @@ A visão gnóstica de Jesus, embora marginalizada pela Igreja primitiva, continu
 
 **Observações:**
 
-- Este texto oferece uma introdução à visão gnóstica sobre Jesus, focando nos aspectos mais relevantes para a [[Teologia]] cristã.
+- Este texto oferece uma introdução à visão gnóstica sobre Jesus, focando nos aspectos mais relevantes para a [[Teologia -]] cristã.
 - Para um estudo mais aprofundado do Gnosticismo e suas diversas vertentes, é recomendável consultar livros e artigos especializados em história do Cristianismo e estudos bíblicos.
 - É importante lembrar que o Gnosticismo não era um movimento monolítico, mas sim um conjunto de ideias diversas que se desenvolveram ao longo do tempo.
 
