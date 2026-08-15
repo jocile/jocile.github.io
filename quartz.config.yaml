@@ -5,7 +5,8 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: plausible
+    provider: google
+    tagId: G-WTBKY14B0H
   locale: pt-BR
   baseUrl: jocile.com
   ignorePatterns:
