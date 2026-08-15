@@ -18,9 +18,10 @@ tags:
   - Estrutura
 ---
 
-# Formação em Python developer 64 ha.
+## Formação em Python developer 64 ha
 
 >[!check]- Desafios de projeto:
+>
 > - [x] [Criando um Sistema Bancário com Python](https://github.com/jocile/sistema-bancario)
 > - [x] [Otimizando o Sistema Bancário com Funções Python](https://github.com/jocile/sistema-bancario)
 > - [x] [Modelando o Sistema Bancário em POO com Python](https://github.com/jocile/sistema-bancario)
@@ -31,6 +32,7 @@ tags:
 > - [ ] Consumindo a API do Twitter com Python
 
 > [!summary]- Fundamentos de Python
+>
 > - Ambiente de Desenvolvimento e Primeiros passos com Python
 > - Conhecendo a Linguagem de Programação Python
 > - Tipos de Operadores com Python
@@ -40,6 +42,7 @@ tags:
 > - Desafio de projeto - Criando um Sistema Bancário com Python
 
 > [!summary]- Aprendendo Estruturas de Dados com Python
+>
 > - Trabalhando com Listas em Python
 > - Conhecendo Tuplas em Python
 > - Explorando Conjuntos em Python
@@ -49,6 +52,7 @@ tags:
 > - Desafio de projeto - Otimizando o Sistema Bancário com Funções Python
 
 > [!summary]- Programação Orientada a Objetos com Python
+>
 > - Introdução à Programação Orientada a Objetos (POO) com Python
 > - Aprendendo o Conceito de Herança com Python
 > - Aplicando Encapsulamento em Python
@@ -57,6 +61,7 @@ tags:
 > - Desafio de Projeto - Modelando o Sistema Bancário em POO com Python
 
 > [!summary]- Integração Com Python e Frameworks
+>
 > - Integrando Python com Banco de Dados Relacionais Utilizando SQLAlchemy
 > - Integrando Python com MongoDB Utilizando Pymongo
 > - Primeiros Passos com o Framework Django
@@ -66,12 +71,14 @@ tags:
 > - Desafio de projeto - Criando uma API com Flask no Ambiente COLAB
 
 > [!summary]- Tratamento de Dados com Python
+>
 > - Fundamentos de ETL (Extract, Transform, Load) com Python
 > - Segurança da Informação com Python
 > - Desafio de projeto - Análise de dados com Python e Pandas
 > - Desafio de projeto - Criando um Pacote de Processamento de Imagens com Python
 
 > [!summary]- Praticando Desenvolvimento Web Com Python
+>
 > - Desenvolvendo Rest APIs Com Python e Flask
 > - Desenvolvimento Web com Python e Django
 > - Desafio de projeto - Consumindo a API do Twitter com Python

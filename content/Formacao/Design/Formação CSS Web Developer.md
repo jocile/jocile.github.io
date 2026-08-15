@@ -30,10 +30,10 @@ tags:
 >[!info]- Links
 > - [Arquivos da formacao-css](https://github.com/jocile/webdesigner/tree/main/formacao-css)
 > - [Visualizar os exemplos](https://jocile.github.io/webdesigner/)
-> - [[CSS Webdeveloper|Diagrama das disciplinas do curso desenvolvedor CSS]]
+> - [[CSS Webdeveloper grafico|Diagrama das disciplinas do curso desenvolvedor CSS]]
 
 > [!summary]- Primeiros Passos com CSS
-> - Fundamentos do [[CSS]]
+> - Fundamentos do [[Introducao ao CSS]]
 > - Estilizações Básicas com CSS: [[Estilizando Cores com css|cores]], [imagens](https://jocile.github.io/webdesigner/formacao-css/1-Primeiros-passos-com-css/imagens-preenchimento.html), fundo dos elementos, [bordas](https://jocile.github.io/webdesigner/formacao-css/1-Primeiros-passos-com-css/bordas-propriedades.html), [fontes](https://jocile.github.io/webdesigner/formacao-css/1-Primeiros-passos-com-css/textos.html), [textos](https://www.w3schools.com/css/css_text_align.asp), sombras.
 > - [[Unidades de medida do css]]: [[Variaveis CSS]]
 > - [Criando sua Primeira Landing Page com HTML e CSS](https://github.com/jocile/trilha-css-desafio-01)
