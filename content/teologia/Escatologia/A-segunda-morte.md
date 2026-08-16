@@ -42,11 +42,11 @@ A Bíblia se refere à "segunda morte" como um evento distinto da morte física,
 ### **É importante notar que:**
 
 - A segunda morte é um tema escatológico central, ligada ao conceito de julgamento final e destino eterno.
-- A crença na segunda morte é fundamental para a compreensão da mensagem de salvação e do juízo final na [Teologia -](Teologia%20-.md) cristã..
+- A crença na segunda morte é fundamental para a compreensão da mensagem de salvação e do juízo final na [[teologia/index|Teologia]] cristã..
 
 A Bíblia deixa claro que a segunda morte é um evento de extrema seriedade, representando a consequência final para aqueles que rejeitam a graça de Deus e a vida eterna oferecida em Cristo.
 
-A afirmação bíblica "quem tem Jesus tem a vida" contrasta fortemente com o conceito da segunda morte, enfatizando que a fé em Jesus Cristo garante a vida eterna e a salvação, enquanto a segunda morte representa a separação eterna de Deus para aqueles que não creem. Essa dicotomia é fundamental na [Teologia -](Teologia%20-.md) cristã e é amplamente abordada nas fontes.
+A afirmação bíblica "quem tem Jesus tem a vida" contrasta fortemente com o conceito da segunda morte, enfatizando que a fé em Jesus Cristo garante a vida eterna e a salvação, enquanto a segunda morte representa a separação eterna de Deus para aqueles que não creem. Essa dicotomia é fundamental na [[teologia/index|Teologia]] cristã e é amplamente abordada nas fontes.
 
 ### **Vida em Cristo:**
 

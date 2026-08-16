@@ -1,4 +1,5 @@
 ---
+quartz-properties: true
 title: ✨ Lógica de programação
 description: Criando algoritmos estruturados em programação
 tags:

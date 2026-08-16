@@ -12,6 +12,9 @@ filters:
     - file.inFolder(this.file.folder)
 formulas:
   Título: link(file, title)
+properties:
+  note.description:
+    displayName: descrição
 views:
   - type: table
     name: Tabela

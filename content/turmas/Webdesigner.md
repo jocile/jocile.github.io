@@ -1,4 +1,5 @@
 ---
+quartz-properties: true
 title: 🌐 Web Designer
 description: Desenhista de páginas para internet
 tags:

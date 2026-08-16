@@ -1,4 +1,5 @@
 ---
+quartz-properties: true
 title: 🪛 Assistente de TI
 description: Operação em aplicativos de escritório, redes e hardware.
 tags:

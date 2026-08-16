@@ -3,7 +3,7 @@ title: Alianças Bíblicas
 description: A Bíblia descreve o relacionamento entre Deus e seu povo em termos de
   alianças
 tags:
-- Teologia
+- Teologia/alianças
 ---
 
 ## Alianças bíblicas

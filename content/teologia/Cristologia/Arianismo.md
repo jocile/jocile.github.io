@@ -15,7 +15,7 @@ O Arianismo, uma corrente teológica do século IV d.C., deve seu nome a Ário, 
 
 - **Monarquianismo e Logos:** Ário combinou o monarquianismo, que enfatiza a unicidade de Deus, com a cristologia do "Logos" de Orígenes. O "Logos", segundo Orígenes, era uma emanação divina, mas não Deus em si mesmo.
 - **Visão de Cristo:** Ário defendia que Jesus, o "Logos" encarnado, era a primeira e mais perfeita criatura de Deus, mas não Deus em essência. Essa crença negava a natureza divina de Cristo e o colocava em um status inferior ao Pai.
-- **Influências Platônicas:** A [[Teologia -]] ariana apresenta semelhanças com a filosofia platônica, particularmente na distinção entre o mundo transcendente (Deus) e o mundo inferior (criação).
+- **Influências Platônicas:** A [[teologia/index|Teologia]] ariana apresenta semelhanças com a filosofia platônica, particularmente na distinção entre o mundo transcendente (Deus) e o mundo inferior (criação).
 
 ## **Desenvolvimento e Condenação:**
 

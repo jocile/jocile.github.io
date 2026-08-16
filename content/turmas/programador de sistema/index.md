@@ -1,4 +1,5 @@
 ---
+quartz-properties: true
 title: 👨🏻‍💻 Programador de Sistema
 description: Páginas do curso de Programador de Sistemas
 tags:

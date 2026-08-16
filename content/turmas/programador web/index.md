@@ -1,4 +1,5 @@
 ---
+quartz-properties: true
 title: 👨🏻‍💻 Programador Web
 description: estrutura em front-end e desenvolve em back-end, publicando aplicações web.
 tags:

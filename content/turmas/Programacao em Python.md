@@ -1,4 +1,5 @@
 ---
+quartz-properties: true
 title: 👨🏻‍💻 Programação em Python
 description: Estruturando algoritmos e implementando soluções usando Python
 tags:

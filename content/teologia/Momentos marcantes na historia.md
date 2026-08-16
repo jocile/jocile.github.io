@@ -2,7 +2,7 @@
 title: Momentos Marcantes Na História
 description: Desde Abraão até os mártires das ditaduras Latino-Americanas
 tags:
-- Teologia/história
+- Teologia/História
 ---
 
 ## Alguns pressupostos importantes

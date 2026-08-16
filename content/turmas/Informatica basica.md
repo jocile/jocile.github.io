@@ -1,4 +1,5 @@
 ---
+quartz-properties: true
 title: 🖥️ Informática Básica
 description: Operar sistemas operacionais cliente, aplicativos de escritório e periféricos.
 tags:

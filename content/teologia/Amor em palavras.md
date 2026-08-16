@@ -3,7 +3,7 @@ title: Amor em palavras
 description: Como a palavra bíblica amor foi traduzida a partir do grego, hebraico
   e latim
 tags:
-- Teologia
+- Teologia/hermeneutica
 ---
 
 ## Amor em palavras

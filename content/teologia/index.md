@@ -4,5 +4,3 @@ description: Páginas de estudos bíblicos
 aliases:
   - Teologia
 ---
-
-![[Teologia -]]

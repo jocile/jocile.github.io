@@ -9,7 +9,7 @@ tags:
 
 ## O Segundo Advento de Cristo: Uma Reflexão Teológica e Histórica
 
-A doutrina do Segundo Advento de Cristo, conhecida também como "Parousia" (παρουσία), é central na fé cristã, especialmente no que concerne à escatologia, o estudo das últimas coisas. Desde os primeiros dias do cristianismo, a expectativa do retorno de Cristo permeava a vida e a esperança dos crentes, influenciando a [Teologia -](Teologia%20-.md) e a prática da igreja primitiva. No entanto, essa crença nem sempre foi corretamente compreendida, o que levou a diversas interpretações e, em alguns casos, a excessos e confusões. Este artigo pretende analisar a concepção inicial dessa doutrina, os desafios enfrentados pelos cristãos primitivos e como líderes da igreja ao longo dos séculos trataram essas questões.
+A doutrina do Segundo Advento de Cristo, conhecida também como "Parousia" (παρουσία), é central na fé cristã, especialmente no que concerne à escatologia, o estudo das últimas coisas. Desde os primeiros dias do cristianismo, a expectativa do retorno de Cristo permeava a vida e a esperança dos crentes, influenciando a [[teologia/index|Teologia]] e a prática da igreja primitiva. No entanto, essa crença nem sempre foi corretamente compreendida, o que levou a diversas interpretações e, em alguns casos, a excessos e confusões. Este artigo pretende analisar a concepção inicial dessa doutrina, os desafios enfrentados pelos cristãos primitivos e como líderes da igreja ao longo dos séculos trataram essas questões.
 
 ### A Expectativa Imediata dos Cristãos Primitivos
 
