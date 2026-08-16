@@ -2,6 +2,7 @@
 title: Eva Oferecendo A Fruta E Sara Oferecendo A Serva
 description: Comparação do fato de Sara oferecer a serva para Abraão com Eva oferecendo
   a fruta para Adão
+tags:
 - Teologia/Historia/Hebreus
 ---
 
