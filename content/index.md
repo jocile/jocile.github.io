@@ -14,7 +14,7 @@ cssclasses:
 
 <span class="avatar-container">![[avatar.jpeg|150x150]]</span>
 
->[!info] 🔭 Sou o professor 🎓 [[Jocile|Jocilé]] e atualmente sou **Instrutor de Informática e Desenvolvimento de Sistemas** no 🏫 [SENAC CE](https://psg.ce.senac.br/oportunidades/).
+>[!info] 🔭 Sou o [[professor Jocile|professor 🎓 Jocilé]] e atualmente sou **Instrutor de Informática e Desenvolvimento de Sistemas** no 🏫 [SENAC CE](https://psg.ce.senac.br/oportunidades/).
 
 - [👨‍🏫Sobre mim](https://github.com/jocile), meus [🗃projetos](projetos/index), e [📚aulas passadas](https://jocile.github.io/site/blog/);
 - [📖 Teologia - Páginas de estudos bíblicos](teologia/index);
@@ -37,6 +37,7 @@ SORT file.mtime DESC LIMIT 24 -->
 
 | ✨ Atualizações                                                                                                                          | Data              | 📄 Descrição                                                                                                                                               |
 | --------------------------------------------------------------------------------------------------------------------------------------- | ----------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[professor Jocile]]                                                                                               | 18.agosto - 07:04 | Sobre o autor deste site                                                                                                                                   |
 | [[about]]                                                                                                                     | 18.agosto - 06:25 | Sobre este site                                                                                                                                            |
 | [[Top 10 topicos]]                                                                                                   | 18.agosto - 06:24 | Os 10 tópicos com mais notas                                                                                                                               |
 | [[Zettelkasten]]                                                                                        | 18.agosto - 06:10 | funciona como um segundo cérebro que conecta ideias de forma orgânica.                                                                                     |
@@ -60,7 +61,6 @@ SORT file.mtime DESC LIMIT 24 -->
 | [[Estudo de Hebreus]]                                                                    | 16.agosto - 11:34 | destinada aos hebreus de cultura grega que se converteram ao evangelho, com o objetivo de fortalecimento da fé, apresentando Jesus                         |
 | [[Diagrama do novo testamento Panorama]]                              | 16.agosto - 11:32 | um panorama em um diagrama dos livros do Novo Testamento                                                                                                   |
 | [[Diagrama do novo testamento.excalidraw]]                          | 16.agosto - 11:31 | \-                                                                                                                                                         |
-| [[Cronologia do novo testamento]]                                            | 16.agosto - 11:29 | estabelecer um contexto histórico no surgimento dos livros do Novo Testamento.                                                                             |
 
 <!-- SerializedQuery END -->
 
