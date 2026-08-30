@@ -30,8 +30,8 @@ LIMIT 10 -->
 | [Inteligencia-artificial](tags/Inteligencia-artificial)                         | 22       |
 | [Teologia/tipologia](tags/Teologia/tipologia)                                   | 22       |
 | [Bíblia/Apocalipse](tags/Bíblia/Apocalipse)                                     | 19       |
-| [Teologia/Cristologia](tags/Teologia/Cristologia)                               | 18       |
+| [Teologia/Cristologia](tags/Teologia/Cristologia)                               | 19       |
+| [diagrama](tags/diagrama)                                                       | 18       |
 | [Webdesign](tags/Webdesign)                                                     | 18       |
-| [Webdesign/css](tags/Webdesign/css)                                             | 16       |
 
 <!-- SerializedQuery END -->

@@ -113,6 +113,7 @@ Esse diagrama visualiza as interações dos atores com o sistema, facilitando a 
 
 ## Referências
 
+- [[Diagramas Mermaid]]
 - [Class diagrams | Mermaid](https://mermaid.js.org/syntax/classDiagram.html)
 - [Editor de Diagramas mermaid](Editor%20de%20Diagramas%20mermaid.md)
 - [Arquitetura de Sistemas com diagramas UML](Arquitetura%20de%20Sistemas%20com%20diagramas%20UML.md)

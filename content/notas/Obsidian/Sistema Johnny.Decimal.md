@@ -1,7 +1,6 @@
 ---
-title: '**Sistema Johnny.Decimal**'
-description: é um método de organização de arquivos (digitais ou físicos) focado em
-  numeração e hierarquiae.
+title: Sistema Johnny.Decimal
+description: é um método de organização de arquivos (digitais ou físicos) focado em numeração e hierarquiae.
 date: '2026-08-18'
 draft: false
 tags:
