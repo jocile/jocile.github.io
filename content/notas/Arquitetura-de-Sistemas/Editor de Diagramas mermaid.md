@@ -142,3 +142,4 @@ gantt
 - Site oficial: [https://mermaid.js.org/](https://mermaid.js.org/)
 - Tutorial Mermaid: [https://mermaid.js.org/intro/getting-started.html](https://mermaid.js.org/intro/getting-started.html)
 - Editor Online Mermaid: [https://mermaid.live/](https://mermaid.live/)
+- [[Diagramas Mermaid]]

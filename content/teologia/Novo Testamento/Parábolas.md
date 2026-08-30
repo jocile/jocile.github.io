@@ -4,13 +4,10 @@ description: diagrama de tipos de parábolas
 date: '2026-08-16'
 draft: false
 tags:
-- diagramas
+- diagrama
 - parábolas
 - Teologia/tipologia
 ---
-
-# Parábolas
-
 
 **Na parábola, a imagem do mundo visível é emprestada e se faz acompanhar de uma verdade do mundo invisível ou espiritual. As parábolas são os Portadores, os canais da doutrina e da verdade espiritual.**
 

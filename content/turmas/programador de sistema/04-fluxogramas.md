@@ -4,7 +4,8 @@ draft: false
 tags:
   - programador
   - algoritmos
-  - diagramas
+  - diagrama
+description: Fluxograma é uma maneira de representar um processo por meio de um desenho, ou seja, é uma forma simples e fácil de identificar o fluxo com que as atividades acontecem.
 ---
 
 Fluxograma é uma maneira de representar um processo por meio de um desenho, ou seja, é uma forma simples e fácil de identificar o fluxo com que as atividades acontecem.

@@ -2,9 +2,10 @@
 title: Editor de Diagramas Mermaid
 draft: false
 tags:
-  - diagramas
+  - diagrama
   - uml
   - algoritmos
+description: é uma poderosa e versátil ferramenta de diagramação e criação de gráficos.
 ---
 Mermaid não é uma poderosa e versátil ferramenta de diagramação e criação de gráficos. 
 

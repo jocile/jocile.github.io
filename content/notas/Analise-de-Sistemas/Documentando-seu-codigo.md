@@ -74,6 +74,8 @@ B --> C[Baz]
 - Utilize legendas e descrições para tornar seus diagramas mais claros e informativos.
 - Teste sua documentação em diferentes visualizadores Markdown para garantir que a formatação esteja correta.
 
+>[!info] Veja mais exemplos de [[Diagramas Mermaid]]
+
 ## Prática usando o Gist
 
 Vamos praticar a criação de documentação Markdown com diagramas Mermaid usando o Gist:

@@ -4,7 +4,7 @@ description: um panorama em um diagrama dos livros do Novo Testamento
 date: '2026-08-16'
 draft: false
 tags:
-- diagramas
+- diagrama
 - excalidraw
 - Teologia/História/cronologia
 - Bíblia/novo-testamento
