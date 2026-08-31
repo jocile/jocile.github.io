@@ -67,7 +67,7 @@ title: Engenheiro de Agentes de IA
 > - Criando seu Setup para Programação Python
 
 > [!summary]- Engenharia de Prompts e Agentes
-> - Engenharia de Prompts
+> - [[engenharia de prompt|Engenharia de Prompts]] - [[Diagrama de Engenharia de Prompts.excalidraw|Diagrama]]
 > - Criando Agentes com Agno
 > - Agente de Curadoria de Noticias
 > - Agente de IA para criação de conteúdo

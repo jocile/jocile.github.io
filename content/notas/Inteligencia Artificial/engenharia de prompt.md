@@ -33,6 +33,8 @@ A engenharia de prompt tem diversas aplicações práticas. Por exemplo:
 
 ### **Componentes de um Prompt Eficaz**
 
+![[Diagrama de Engenharia de Prompts.excalidraw]]
+
 - **Persona:** Definir o papel ou a especialidade que o modelo deve assumir. Por exemplo, "Você é um especialista em marketing digital".
 - **Roteiro:** Descrever o que você quer que o modelo faça. Por exemplo, "Crie um roteiro para um vídeo no YouTube".
 - **Objetivo:** Especificar qual é o resultado desejado. Por exemplo, "O objetivo é aumentar o engajamento do público".
@@ -82,3 +84,4 @@ Você é um especialista em comunicação corporativa, responsável por criar me
 - [Custom instructions for ChatGPT | OpenAI Help Center](https://help.openai.com/en/articles/8096356-custom-instructions-for-chatgpt)
 - [Writing ChatGPT Prompts That Get Results (with Examples) \| Grammarly](https://www.grammarly.com/blog/ai/chatgpt-prompts/)
 - [Instrucoes Detalhadas no Prompt](Instrucoes%20Detalhadas%20no%20Prompt.md)
+- [[Diagrama de Engenharia de Prompts.excalidraw]]
