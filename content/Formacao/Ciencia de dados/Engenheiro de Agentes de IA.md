@@ -51,8 +51,7 @@ title: Engenheiro de Agentes de IA
 > - Fundamentos da IA Generativa
 > - Hermes Agent
 
-> [!summary]- Criando Agentes Pessoais com Hermes Agent
-> - Comece por aqui - Agentes com GPT
+> [!summary]- Criando Agentes com GPT
 > - Fundamentos da IA Generativa
 > - Criando agentes com GPT
 
