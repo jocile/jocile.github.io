@@ -9,4 +9,4 @@ tags:
 description: é uma poderosa e versátil ferramenta de diagramação e criação de gráficos.
 ---
 
-![[Editores de diagramas]]
+![[Editores de diagramas online]]

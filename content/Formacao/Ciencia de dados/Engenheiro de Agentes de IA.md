@@ -27,21 +27,21 @@ title: Engenheiro de Agentes de IA
 > - Masterclass Claude Code
 
 > [!summary]- Projetos para Professores
-> - Gerador de plano de aula alinhado a objetivo/BNCC
-> - Gerador de Slides
-> - Gerador de avaliações
+> - [ ]  Gerador de plano de aula alinhado a objetivo/BNCC
+> - [ ]  Gerador de Slides
+> - [ ]  Gerador de avaliações
 
 > [!summary]- Projetos para Nutricionistas
-> - Planejador Nutricional
-> - Lista de compras smart
-> - Gerador de panfletos educativos
+> - [ ] Planejador Nutricional
+> - [ ]  Lista de compras smart
+> - [ ]  Gerador de panfletos educativos
 
 > [!summary]- Projetos para Profissionais de RH
-> - Avaliador de Currículo
-> - Gerador de Currículo
-> - Criador de roteiro de entrevista
+> - [ ] Avaliador de Currículo
+> - [ ]  Gerador de Currículo
+> - [ ]  Criador de roteiro de entrevista
 
-> [!summary]- Projetos para Profissionais de RH
+> [!summary]- Dominando OpenClaw
 > - Fundamentos da IA Generativa
 > - Dominando o OpenClaw
 > - Criando um assistente pessoal com OpenClaw
@@ -55,28 +55,22 @@ title: Engenheiro de Agentes de IA
 > - Fundamentos da IA Generativa
 > - Criando agentes com GPT
 
+---
+
 ## Criando sistemas profissionais de inteligência artificial
 
-> [!summary]- Aplicações AI com Python
+> [!summary]- Aplicações inteligentes com IA
 > - Apresentação da trilha
 > - Fundamentos da IA Generativa
-> - Por dentro das LLMs
-> - Introdução à Lógica de Programação
-> - Aprendendo Python: Conceitos Básicos
-> - Criando seu Setup para Programação Python
+> - Pensando como um Programador (usando Python e IA)
+> - Coder Toolbox - Conceitos essenciais para programar com IA
+> - Masterclass - Criando Interfaces Absurdas com IA
+> - Criando Sistemas Agenticos com [[Langchain]]
+> - Por dentro das LLMs - como funcionam modelos como o ChatGPT?
+> - LangChain 1.0 na prática - Agentes e RAG com Python
 
-> [!summary]- Engenharia de Prompts e Agentes
-> - [[engenharia de prompt|Engenharia de Prompts]] - [[Diagrama de Engenharia de Prompts.excalidraw|Diagrama]]
-> - Criando Agentes com Agno
-> - Agente de Curadoria de Noticias
-> - Agente de IA para criação de conteúdo
-> - FilmPro - Agente para Recomendação de Filmes
-> - Auto Retoucher - Criando uma AI para fotógrafos
-
-> [!summary]- Webapps
-> - Git e GitHub - Controle de Versão e Colaboração
-> - APIs para iniciantes - HTTP, Requests e APIs com Python
-> - FastAPI na Prática: Criando APIs Modernas em Python
+> [!summary]- Projetos Aplicações inteligentes com IA
+> - [ ] Projeto: Langclean - Um agente de limpeza do computador
 
 > [!summary]- Ferramentas de AI para Desenvolvedores
 > - Comece por aqui - Ferramentas de Al para Desenvolvedores
@@ -95,6 +89,21 @@ title: Engenheiro de Agentes de IA
 > - UGC Factory - Crie um fluxo para produzir vídeos UGC
 > - Consumindo API's com n8n
 
+---
+
+> [!summary]- Engenharia de Prompts e Agentes
+> - [[engenharia de prompt|Engenharia de Prompts]] - [[Diagrama de Engenharia de Prompts.excalidraw|Diagrama]]
+> - Criando Agentes com Agno
+> - Agente de Curadoria de Noticias
+> - Agente de IA para criação de conteúdo
+> - FilmPro - Agente para Recomendação de Filmes
+> - Auto Retoucher - Criando uma AI para fotógrafos
+
+> [!summary]- Webapps
+> - Git e GitHub - Controle de Versão e Colaboração
+> - APIs para iniciantes - HTTP, Requests e APIs com Python
+> - FastAPI na Prática: Criando APIs Modernas em Python
+
 > [!summary]- Frameworks alternativos
 > - LangChain 1.0 na prática - Agentes e RAG com Python
 > - Sistemas Multi-agentes com CrewAI
@@ -105,12 +114,6 @@ title: Engenheiro de Agentes de IA
 > - [ ] IA de Agendamento no Google Agenda
 > - [ ] UGC Factory - Crie um fluxo para produzir vídeos UGC
 > - [ ] Provador de roupas virtual com SeeDream e Veo3
-
-> [!summary]- Nível Intermediário - Agentes conversacionais com N8N
-> - Dominando Automações com n8n
-> - N8N Open-Source: Use a ferramenta de forma gratuita
-> - Banco de Integrações: conectando n8n com qualquer ferramenta
-> - Criando agentes de atendimento profissionais no Whatsapp
 
 >[!check]- Desafios de projetos intermediários:
 > - [ ] Newsletter Financeira com Agno

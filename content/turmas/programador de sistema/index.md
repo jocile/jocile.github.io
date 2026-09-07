@@ -5,11 +5,11 @@ description: Páginas do curso de Programador de Sistemas
 tags:
   - turma
 Carga-horária: 200 horas em 50 aulas
-Período:
-Horário: Segunda a Sexta das 13:30 às 17:00
+Período: 14/09/2026 a 25/11/2026
+Horário: Segunda a Sexta das 08:00 às 11:30
 Unidades-curriculares: 4
 link: "[Senac - Programador de Sistema](https://cursos.ce.senac.br/produto/programador-de-sistema/)"
-status: ✅ Concluído
+status: "🆕 Iniciar"
 horas-aula:
   - 72
   - 72
@@ -26,5 +26,7 @@ O Modelo Pedagógico Senac estrutura o currículo do curso Programador de Sistem
 | UC1: Desenvolver sistemas de informação                    | 72 horas          |
 | UC2: Implementar banco de dados                            | 72 horas          |
 | UC3: Realizar testes e manutenção do sistema de informação | 36 horas          |
-| UC4: ProjetoIntegrador emProgramador deSistemas            | 20 horas          |
+| UC4: Projeto Integrador em Programador de Sistemas         | 20 horas          |
 | **Carga Horária Total**                                    | 200               |
+
+[![[Programador de sistemas.png]]](https://psg.ce.senac.br/oportunidade/programador-de-sistemas-4/)

@@ -14,10 +14,11 @@ Principais editores online para criação de diagramas:
 - [[Diagramas Mermaid]]
 - [editor de Diagramas-mermaid](Editor%20de%20Diagramas%20mermaid.md)
 - [excalidraw](https://excalidraw.com/)
+- [Draw.io app.diagrams.net](https://app.diagrams.net/)
+	- [Modelos de diagramas - draw.io](https://www.drawio.com/docs/diagram-types/use-cases/)
+	- [Draw.io exemplos](https://gist.github.com/jocile/b98add89c82e8629eb11b409c5dd0e69)
 - [PlantUML](https://plantuml.com/)
 - [drawDB - Online database diagram editor and SQL generator](https://www.drawdb.app/editor)
-- [Draw.io app.diagrams.net](https://app.diagrams.net/)
-- [Draw.io exemplos](https://gist.github.com/jocile/b98add89c82e8629eb11b409c5dd0e69)
 - [Modelos de diagramas Lucidchard UML](https://www.lucidchart.com/pages/pt/modelos-e-exemplos-de-diagramas-uml)
 
 ## Referências de análise e projeto de sistemas

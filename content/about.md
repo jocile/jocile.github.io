@@ -5,7 +5,7 @@ description: Sobre este site
 
 ## Sobre este site
 
-Alguns dizem que existem três tipos diferentes de anotadores: o arquiteto, o jardineiro, e o bibliotecário. Em poucas palavras, arquitetos gostam de planejar, jardineiros gostam de cultivar e bibliotecários gostam de colecionar.
+Alguns dizem que existem três tipos diferentes de anotadores: o arquiteto, o jardineiro, e o bibliotecário. Em poucas palavras, arquitetos gostam de planejar, jardineiros gostam de cultivar e bibliotecários gostam de colecionar. Eu gosto de um pouquinho de cada.
 
 ## Organização
 
@@ -21,8 +21,8 @@ A organização do cofre é baseada em domínios temáticos, utilizando uma hier
 
 - As notas são escritas em [[markdown]];
 - Organizadas com [[Obsidian]] e seus poderosos [[Plugins do Obsidian|plugins]] (como Dataview e Excalidraw);
-- O conteúdo é enriquecido por [[agentes de ia]] como [[Notebooklm]], [Copilot](https://www.obsidiancopilot.com/en), [Gemini](https://github.com/allenhutchison/obsidian-gemini), e local com [[Ollama local|ollama]];
-- O código fonte é salvo no ([github.com/jocile/jocile.github.io](https://github.com/jocile/jocile.github.io)) e publicado no [GitHub Pages](https://docs.github.com/pt/pages), usando o plugin [Quartz 5](https://quartz.jzhao.xyz/);
+- O conteúdo é enriquecido por [[agentes de ia]] como [[Notebooklm]], [Copilot](https://www.obsidiancopilot.com/en), [Gemini](https://github.com/allenhutchison/obsidian-gemini), e localmente com [[Ollama local|ollama]];
+- O código fonte é salvo no [Github](https://github.com/jocile/jocile.github.io) e publicado com o [GitHub Pages](https://docs.github.com/pt/pages), usando como modelo o [Quartz 5](https://quartz.jzhao.xyz/);
 - Recomendações ou problemas podem ser relatados em [ nossa página de discussões no GitHub](https://github.com/jocile/jocile.github.io/discussions) . Sinta-se à vontade para explorar e contribuir com este espaço.
 
 ## [[/tags/|Tópicos]]

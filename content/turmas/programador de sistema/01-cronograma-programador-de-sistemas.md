@@ -36,15 +36,13 @@ Competências:
 
 Conhecimentos:
 
-- Sistemas de informação: conceito e tipos.Elementos da Competência
+- Sistemas de informação: conceito e tipos.
 - Regras de negócio: conceitos; tipos, características; requisitos funcionais e não funcionais.
 - Lógica de Programação: conceito de algoritmo; algoritmos estruturados.
-- Variáveis e constantes: expressões e operadores; estrutura condicional simples e
-- composta; estrutura de repetição; vetores e matrizes.
+- Variáveis e constantes: expressões e operadores; estrutura condicional simples e composta; estrutura de repetição; vetores e matrizes.
 - Ferramentas de desenvolvimento de software.
 - Desenvolvimento colaborativo: conceito e ferramentas para o desenvolvimento de sistemas.
-- Linguagem de programação orientada a objetos: classes, atributos, métodos,
-- propriedades, herança, polimorfismo, encapsulamento e ambientes de programação (IDE).
+- Linguagem de programação orientada a objetos: classes, atributos, métodos, propriedades, herança, polimorfismo, encapsulamento e ambientes de programação (IDE).
 - Planejamento: conceito, tipos de metodologias para o desenvolvimento de sistemas.
 
 ### UC2: Implementar banco de dados

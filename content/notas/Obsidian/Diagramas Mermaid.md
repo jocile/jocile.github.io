@@ -696,3 +696,5 @@ flowchart TD
 
 - [Sintaxe de Diagrama \| Mermaid](https://mermaid.js.org/intro/syntax-reference.html)
 - [Editor Online de Fluxogramas e Diagramas - Mermaid Live Editor](https://mermaid.live/edit)
+- [Outros exemplos de diagramas - Draw.io Diagram use cases by profession \| draw.io](https://www.drawio.com/docs/diagram-types/use-cases/)
+- [Outros exemplos de diagramas - Diagrams.net models · GitHub](https://gist.github.com/jocile/b98add89c82e8629eb11b409c5dd0e69)
