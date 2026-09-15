@@ -9,7 +9,7 @@ Período: 14/09/2026 a 25/11/2026
 Horário: Segunda a Sexta das 08:00 às 11:30
 Unidades-curriculares: 4
 link: "[Senac - Programador de Sistema](https://cursos.ce.senac.br/produto/programador-de-sistema/)"
-status: "🆕 Iniciar"
+status: ▶️ Em andamento
 horas-aula:
   - 72
   - 72
@@ -17,16 +17,32 @@ horas-aula:
   - 20
 ---
 
+## Aulas
+
+<!-- QueryToSerialize: 
+TABLE WITHOUT ID
+date AS "Data",
+file.link AS "Aulas"
+FROM #programador-sistemas/uc1/aulas  -->
+<!-- SerializedQuery: TABLE WITHOUT ID date AS "Data", file.link AS "Aulas" FROM #programador-sistemas/uc1/aulas -->
+
+| Data       | Aulas                                                                                                                                                                           |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 2026.09.15 | [[uc1 - aula 02 - introducao a logica]]                                     |
+| 2026.09.14 | [[uc1 - aula 01 - introducao ao programador de Sistemas]] |
+
+<!-- SerializedQuery END -->
+
 ## Organização curricular
 
 O Modelo Pedagógico Senac estrutura o currículo do curso Programador de Sistemas com base nos fazeres profissionais – as competências –, organizados a partir das seguintes Unidades Curriculares: (UCs):
 
-| **Unidades Curriculares**                                  | **Carga Horária** |
-| ---------------------------------------------------------- | ----------------- |
-| UC1: Desenvolver sistemas de informação                    | 72 horas          |
-| UC2: Implementar banco de dados                            | 72 horas          |
-| UC3: Realizar testes e manutenção do sistema de informação | 36 horas          |
-| UC4: Projeto Integrador em Programador de Sistemas         | 20 horas          |
-| **Carga Horária Total**                                    | 200               |
+| **Unidades Curriculares**                                                                                      | **Carga Horária** |
+| -------------------------------------------------------------------------------------------------------------- | ----------------- |
+| [[turmas/programador de sistema/UC1 - Programador de Sistemas/index\|UC1: Desenvolver sistemas de informação]] | 72 horas          |
+| UC2: Implementar banco de dados                                                                                | 72 horas          |
+| UC3: Realizar testes e manutenção do sistema de informação                                                     | 36 horas          |
+| UC4: Projeto Integrador em Programador de Sistemas                                                             | 20 horas          |
+| **Carga Horária Total**                                                                                        | 200               |
 
 [![[Programador de sistemas.png]]](https://psg.ce.senac.br/oportunidade/programador-de-sistemas-4/)

@@ -2,7 +2,7 @@
 quartz-properties: true
 description: Dominando análise, manipulação e visualização de dados com Python.
 status: 🏗️ em progresso
-horas-aula: 28
+horas-aula: 104
 habilidades:
   - Análise de Dados
   - Python
