@@ -1,9 +1,9 @@
 ---
 quartz-properties: true
-title: uc1 - aula 02 - tipos de Sistemas
+title: uc1.02 - tipos de Sistemas
 description: Introdução e conceitos, algoritmos, variáveis, expressões
 tags:
-  - programador-sistemas/uc1/aulas
+  - programador-sistemas/aulas/uc1
 date: 2026.09.15
 uc: 1
 aula: 2

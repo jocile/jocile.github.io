@@ -1,10 +1,10 @@
 ---
 quartz-properties: true
-title: uc1 - aula 03 - introdução à lógica com Python
+title: uc1.03 - introdução à lógica com Python
 description: Introdução à lógica de programação
 tags:
-  - programador-sistemas/uc1/aulas
-date: 2026.09.15
+  - programador-sistemas/aulas/uc1
+date: 2026.09.16
 uc: 1
 aula: 3
 ---
@@ -26,4 +26,4 @@ aula: 3
 > - No Colab resolva 3 [[Exercícios de Lógica]], crie um algoritmo e o programa em Python.
 > - Desafio: resolva um [[Exercícios de Lógica aritmética]]
 
-⬅️ Aula anterior: [[uc1.02 - tipos de sistemas]]
+⬅️ Aula anterior: [[uc1.02 - tipos de sistemas]] | ➡️ Próxima aula: [[uc1.04 - logica condicional]]

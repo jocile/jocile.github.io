@@ -4,6 +4,7 @@ title: 👨🏻‍💻 Programador de Sistema
 description: Páginas do curso de Programador de Sistemas
 tags:
   - turma
+  - programador-sistemas/aulas
 Carga-horária: 200 horas em 50 aulas
 Período: 14/09/2026 a 25/11/2026
 Horário: Segunda a Sexta das 08:00 às 11:30
@@ -22,16 +23,18 @@ horas-aula:
 <!-- QueryToSerialize: 
 TABLE WITHOUT ID
 aula, date AS "Data",
-file.link AS "Descrição"
-FROM #programador-sistemas/uc1/aulas 
-WHERE !draft -->
-<!-- SerializedQuery: TABLE WITHOUT ID aula, date AS "Data", file.link AS "Descrição" FROM #programador-sistemas/uc1/aulas WHERE !draft -->
+file.link AS "Tema"
+FROM #programador-sistemas/aulas/uc1
+WHERE !draft
+SORT aula ASC-->
+<!-- SerializedQuery: TABLE WITHOUT ID aula, date AS "Data", file.link AS "Tema" FROM #programador-sistemas/aulas/uc1 WHERE !draft SORT aula ASC -->
 
-| aula | Data       | Descrição                                                                                                                                                         |
+| aula | Data       | Tema                                                                                                                                                              |
 | ---- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | 1    | 2026.09.14 | [[uc1.01 - introducao ao programador de Sistemas]] |
 | 2    | 2026.09.15 | [[uc1.02 - tipos de sistemas]]                                         |
-| 3    | 2026.09.15 | [[uc1.03 - introducao a logica com Python]]               |
+| 3    | 2026.09.16 | [[uc1.03 - introducao a logica com Python]]               |
+| 4    | 2026.09.17 | [[uc1.04 - logica condicional]]                                       |
 
 <!-- SerializedQuery END -->
 

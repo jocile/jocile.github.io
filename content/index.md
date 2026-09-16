@@ -14,7 +14,7 @@ cssclasses:
 
 <span class="avatar-container">![[avatar.jpeg|150x150]]</span>
 
->[!info] 🔭 Sou o [[professor Jocile|professor 🎓 Jocilé]] e atualmente estou em treinamento como [[Analista de Dados]] e [[Engenheiro de Agentes de IA]]
+>[!info] 🔭 Sou o [[professor Jocile|professor 🎓 Jocilé]] e atualmente estou em treinamento como [[Analista de Dados]] e [[Engenheiro de Agentes de IA]] e como instrutor de programadores no [Senac Ceará](https://www.fecomercio-ce.com.br/senacce/)
 
 - [📖 Teologia - Páginas de estudos bíblicos](teologia/index)
 - [[Formacao|🎓 Minha Formação]]
@@ -24,11 +24,9 @@ cssclasses:
 - [📚Blog de aulas passadas](https://jocile.github.io/site/blog/)
 - [🌐 Navegue pelos Tópicos](/tags/).
 
-## Próxima turma
+## Turma atual
 
-[![[Programador de sistemas.png]]](https://psg.ce.senac.br/oportunidade/programador-de-sistemas-4/)
-
-[[turmas/programador de sistema/index|Programador de Sistemas]]
+<a class="internal-link" href="/turmas/programador-de-sistema/"><button style="font-size: 14px; padding: 12px 20px; border-radius: 8px; border: none; cursor: pointer; background: var(--text-accent); font-weight: 600; color: var(--text-on-accent);">👨‍💻 Programador de Sistemas</button></a>
 
 ## Atualizações
 
@@ -44,9 +42,11 @@ SORT file.mtime DESC LIMIT 24 -->
 
 | ✨ Atualizações                                                                                                                                                                | Data                | 📄 Descrição                                                                                                                                                     |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[uc1.03 - introducao a logica com Python]]                           | 15.setembro - 09:10 | Introdução à lógica de programação                                                                                                                               |
+| [[uc1.04 - logica condicional]]                                                   | 16.setembro - 06:49 | Introdução e conceitos sobre expressões lógicas                                                                                                                  |
+| [[Condicionais com Python]]                                                    | 16.setembro - 06:49 | Expressões lógica e condicionais com Python                                                                                                                      |
+| [[uc1.03 - introducao a logica com Python]]                           | 16.setembro - 06:42 | Introdução à lógica de programação                                                                                                                               |
+| [[uc1.01 - introducao ao programador de Sistemas]]             | 16.setembro - 06:08 | Setup incial                                                                                                                                                     |
 | [[uc1.02 - tipos de sistemas]]                                                     | 15.setembro - 08:42 | Introdução e conceitos, algoritmos, variáveis, expressões                                                                                                        |
-| [[uc1.01 - introducao ao programador de Sistemas]]             | 15.setembro - 04:30 | Setup incial                                                                                                                                                     |
 | [[Referências de Lógica de Programação]]           | 14.setembro - 09:37 | Referências De Lógica De Programação                                                                                                                             |
 | [[Exercícios do livro de logica do cachola]]   | 14.setembro - 09:36 | Exercícios do livro de logica do cachola                                                                                                                         |
 | [[Segundo Algoritmo]]                                                 | 14.setembro - 09:31 | criando algoritmos para programas de computador resolvendo problemas                                                                                             |
@@ -66,7 +66,5 @@ SORT file.mtime DESC LIMIT 24 -->
 | [[2023-03-24-estruturas-de-controle]]                 | 14.setembro - 09:23 | Permite a escolha de um grupo de ações e estruturas a ser executado quando determinadas condições, representadas por expressões lógicas, são ou não satisfeitas. |
 | [[A historia do Python]]                                                          | 14.setembro - 09:17 | Linguagem de programação avançada usada em inteligência artificial e automação                                                                                   |
 | [[Referencias sobre Python]]                                                  | 14.setembro - 08:47 | \-                                                                                                                                                               |
-| [[Linguagem Python]]                                                                  | 14.setembro - 08:46 | Linguagem de programação avançada usada em inteligência artificial e automação                                                                                   |
-| [[Python com Colab]]                                                                  | 14.setembro - 08:45 | plataforma gratuita baseada em nuvem que permite aos usuários escrever e executar código Python diretamente em um navegador da web                               |
 
 <!-- SerializedQuery END -->
