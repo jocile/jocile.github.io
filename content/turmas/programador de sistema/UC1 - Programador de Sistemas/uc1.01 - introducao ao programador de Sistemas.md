@@ -5,6 +5,8 @@ description: Setup incial
 tags:
   - programador-sistemas/uc1/aulas
 date: 2026.09.14
+uc: 1
+aula: 1
 ---
 
 >[!note] Apresentação do Curso
@@ -27,4 +29,4 @@ date: 2026.09.14
 > |58|Vinicius de Souza|[Marshow115](https://github.com/Marshow115)|Fora da lista||
 > |59|Ma. Layanne|-|Fora da lista||
 
-➡️ Próxima aula: [[uc1 - aula 02 - introducao a logica]]
+➡️ Próxima aula: [[uc1.02 - tipos de sistemas]]

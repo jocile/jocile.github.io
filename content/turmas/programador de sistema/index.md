@@ -21,15 +21,17 @@ horas-aula:
 
 <!-- QueryToSerialize: 
 TABLE WITHOUT ID
-date AS "Data",
-file.link AS "Aulas"
-FROM #programador-sistemas/uc1/aulas  -->
-<!-- SerializedQuery: TABLE WITHOUT ID date AS "Data", file.link AS "Aulas" FROM #programador-sistemas/uc1/aulas -->
+aula, date AS "Data",
+file.link AS "Descrição"
+FROM #programador-sistemas/uc1/aulas 
+WHERE !draft -->
+<!-- SerializedQuery: TABLE WITHOUT ID aula, date AS "Data", file.link AS "Descrição" FROM #programador-sistemas/uc1/aulas WHERE !draft -->
 
-| Data       | Aulas                                                                                                                                                                           |
-| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 2026.09.15 | [[uc1 - aula 02 - introducao a logica]]                                     |
-| 2026.09.14 | [[uc1 - aula 01 - introducao ao programador de Sistemas]] |
+| aula | Data       | Descrição                                                                                                                                                         |
+| ---- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | 2026.09.14 | [[uc1.01 - introducao ao programador de Sistemas]] |
+| 2    | 2026.09.15 | [[uc1.02 - tipos de sistemas]]                                         |
+| 3    | 2026.09.15 | [[uc1.03 - introducao a logica com Python]]               |
 
 <!-- SerializedQuery END -->
 
