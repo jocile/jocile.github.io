@@ -40,7 +40,7 @@
     "@clack/prompts": "^0.11.0",
     "@floating-ui/dom": "^1.7.4",
     "@myriaddreamin/rehype-typst": "^0.7.0",
-    "@napi-rs/simple-git": "0.1.22",
+    "@napi-rs/simple-git": "1.1.0",
     "@quartz-community/alias-redirects": "^0.1.0",
     "@quartz-community/article-title": "^0.1.0",
     "@quartz-community/backlinks": "^0.1.0",
