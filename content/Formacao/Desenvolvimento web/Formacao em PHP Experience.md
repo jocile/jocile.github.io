@@ -7,7 +7,7 @@ horas-aula: 40
 habilidades:
   - Webdesign
   - Lógica de programação
-  - "[[Introdução aos algoritmos|Algoritmos]]"
+  - "[[Introducao aos algoritmos|Algoritmos]]"
   - PHP
 link: "[Trilha DIO - Formação PHP Experience](https://web.dio.me/track/formacao-php-experience)"
 certificado: "![[Formacao em PHP-1758579358036.png]]"

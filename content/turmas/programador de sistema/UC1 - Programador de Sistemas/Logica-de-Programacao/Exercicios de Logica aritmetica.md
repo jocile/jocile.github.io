@@ -264,4 +264,4 @@ fim.
 - [Programação em blocos com Scratch](https://scratch.mit.edu/)
 - [Portugol Webstudio editor online](https://dgadelha.github.io/Portugol-Webstudio/)
 - [Resolução no Google Colab](https://colab.research.google.com/drive/1UfD8tLOFLZp3ITW_qrpN1bw-2tLN0VRh?usp=sharing)
-- [[Exercícios de Lógica condicional solucao]]
+- [[Exercícios de Logica condicional solucao]]

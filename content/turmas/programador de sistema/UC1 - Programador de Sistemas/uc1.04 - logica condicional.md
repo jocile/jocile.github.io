@@ -19,7 +19,7 @@ aula: 4
 > - [[Condicionais com Python]]
 
 >[!todo] 🖥️ Atividades:
-> - No Colab resolva 3 [[Exercícios de Lógica]], crie um algoritmo e o programa em Python.
-> - Desafio: resolva um [[Exercícios de Lógica aritmética]]
+> - No Colab resolva 3 [[Exercicios de Logica]], crie um algoritmo e o programa em Python.
+> - Desafio: resolva um [[Exercicios de Logica aritmetica]]
 
-⬅️ Aula anterior: [[uc1.03 - introducao a logica com Python]]
+⬅️ Aula anterior: [[uc1.03 - introducao a logica com Python]] | ➡️ Próxima aula: [[uc1.05 - listas com python]]

@@ -11,7 +11,7 @@ tags:
 
 A programação em blocos, também conhecida como programação visual, é uma maneira intuitiva e divertida de aprender e criar programas de computador. 
 
-[01-cronograma-programador-de-sistemas ⬅️](Cronograma%20programador%20de%20sistemas.md) | [➡️ 03-introdução-aos-algoritmos](Introdução%20aos%20algoritmos.md)
+[01-cronograma-programador-de-sistemas ⬅️](Cronograma%20programador%20de%20sistemas.md) | [➡️ 03-introdução-aos-algoritmos](Introducao%20aos%20algoritmos.md)
 
 Imagine um quebra-cabeça, onde cada peça representa um comando ou ação. Ao encaixar as peças corretamente, você constrói a lógica do seu programa.
 

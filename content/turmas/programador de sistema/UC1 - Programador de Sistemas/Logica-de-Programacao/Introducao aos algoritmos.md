@@ -139,4 +139,4 @@ Podemos representar os algoritmos de forma gráfica com [fluxogramas](Fluxograma
 
 #programador/algoritmos 
 
-![Referências de Lógica de Programação](Referências%20de%20Lógica%20de%20Programação.md)
+![Referencias de Logica de Programacao](Referencias%20de%20Logica%20de%20Programacao.md)

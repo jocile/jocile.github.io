@@ -1,11 +1,10 @@
 ---
-title: Lógica de Programação
-description: É o conjunto de métodos utilizados para organizar pensamentos, raciocínios
-  e argumentos
-date: '2026-09-14'
+title: Conceito de Lógica de Programação
+description: É o conjunto de métodos utilizados para organizar pensamentos, raciocínios e argumentos
+date: 2026-09-14
 draft: false
 tags:
-- Lógica 
+  - Lógica
 ---
 
 ## Introdução à Lógica de Programação

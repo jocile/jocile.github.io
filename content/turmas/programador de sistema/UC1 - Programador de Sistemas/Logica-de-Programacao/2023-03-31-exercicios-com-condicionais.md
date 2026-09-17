@@ -209,7 +209,7 @@ programa {
 }
 ```
 
-[[Exercícios do livro de logica do cachola]]
+[[Exercicios do livro de logica do cachola]]
 
 ## Referências
 

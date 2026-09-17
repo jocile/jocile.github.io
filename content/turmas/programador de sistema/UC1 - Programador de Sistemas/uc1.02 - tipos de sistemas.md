@@ -56,9 +56,9 @@ aula: 2
 ---
 
 >[!note]  Introdução e conceitos, algoritmos, variáveis, expressões
-> - [[logica de programacao|Conhecendo a Lógica de programação]]
+> - [[Conceito de logica de programacao|Conhecendo a Lógica de programação]]
 > - [[Formacao em Logica|Formação em Lógica]]
-> - [[Introdução aos algoritmos]]
+> - [[Introducao aos algoritmos]]
 > - [[Aprendendo Lógica com blocos]]: [Code.org](https://studio.code.org/courses/express-2021/units/1), [Blockly](https://blockly.games/?lang=pt-br), [Scratch](https://scratch.mit.edu/)
 
 ---

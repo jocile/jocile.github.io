@@ -35,6 +35,7 @@ SORT aula ASC-->
 | 2    | 2026.09.15 | [[uc1.02 - tipos de sistemas]]                                         |
 | 3    | 2026.09.16 | [[uc1.03 - introducao a logica com Python]]               |
 | 4    | 2026.09.17 | [[uc1.04 - logica condicional]]                                       |
+| 5    | 2026.09.17 | [[uc1.05 - listas com python]]                                         |
 
 <!-- SerializedQuery END -->
 
@@ -49,5 +50,7 @@ O Modelo Pedagógico Senac estrutura o currículo do curso Programador de Sistem
 | UC3: Realizar testes e manutenção do sistema de informação                                                     | 36 horas          |
 | UC4: Projeto Integrador em Programador de Sistemas                                                             | 20 horas          |
 | **Carga Horária Total**                                                                                        | 200               |
+
+![[Timeline-UC1-Programador]]
 
 [![[Programador de sistemas.png]]](https://psg.ce.senac.br/oportunidade/programador-de-sistemas-4/)

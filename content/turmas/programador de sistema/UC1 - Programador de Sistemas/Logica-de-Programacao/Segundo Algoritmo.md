@@ -57,4 +57,4 @@ if(x == y):
  print("Os números são iguais")
 ```
 
-[[Exercícios de Lógica condicional]]
+[[Exercicios de Logica condicional]]

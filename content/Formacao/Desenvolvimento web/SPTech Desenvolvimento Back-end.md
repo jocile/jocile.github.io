@@ -6,7 +6,7 @@ horas-aula: 73
 habilidades:
   - Webdesign
   - Lógica de programação
-  - "[[Introdução aos algoritmos|Algoritmos]]"
+  - "[[Introducao aos algoritmos|Algoritmos]]"
   - PHP
   - Scrum
   - Git

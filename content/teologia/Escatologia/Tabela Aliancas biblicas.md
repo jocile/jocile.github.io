@@ -1,9 +1,8 @@
 ---
-title: Aliancas Biblicas
-description: 'As principais alianças bíblicas, incluindo a aliança das obras com Adão
-  e a aliança da graça com Jesus, podem ser resumidas na seguinte tabela:'
+title: Tabela Alianças Bíblicas
+description: "As principais alianças bíblicas, incluindo a aliança das obras com Adão e a aliança da graça com Jesus, podem ser resumidas na seguinte tabela:"
 tags:
-- Teologia
+  - Teologia/alianças
 ---
 
 ## As principais alianças bíblicas

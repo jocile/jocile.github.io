@@ -16,14 +16,15 @@ aula: 3
 > - [Editor online de Python](https://www.online-python.com/)
 > - [[Python com Colab]]
 > - [[Colab|Ambiente de desenvolvimento Google-Colab]]
-> - [Variáveis e constantes - Google Slides](https://docs.google.com/presentation/d/19obsTYpucf1e19y6CGrdZi4Ml6RfLVnRiSC7rXiFRpE/edit?usp=sharing)
+> - [[Variaveis e constantes]]
 > - [ Tipos de dados - Apresentações Google](https://docs.google.com/presentation/d/1Tu0u4QNNtnkVwZ50TqM2ou5aQG1gUA8ZV-_7lFk1HQ4/edit?usp=sharing)
 > - [Listas.pptx - Apresentações Google](https://docs.google.com/presentation/d/1I4ruiC5KZnOiYZMoRgQcTf8z1eGCQ8YF/edit?usp=sharing&ouid=106055613390581376281&rtpof=true&sd=true)
+> - [01 - Listas.pptx - Google Slides](https://docs.google.com/presentation/d/1I4ruiC5KZnOiYZMoRgQcTf8z1eGCQ8YF/edit?usp=sharing&ouid=106055613390581376281&rtpof=true&sd=true)
 > - [[Primeiro algoritmo]]
 
 >[!todo] 🖥️ Atividades:
 > - Criar um algoritmo com entrada de nome e idade e mostrar a saída: [Meu primeiro programa no Google Colab](https://colab.research.google.com/drive/129p3MJB4ypp0pPzJd6dnwCflU285HT-Z?usp=sharing)
-> - No Colab resolva 3 [[Exercícios de Lógica]], crie um algoritmo e o programa em Python.
-> - Desafio: resolva um [[Exercícios de Lógica aritmética]]
+> - No Colab resolva 3 [[Exercicios de Logica]], crie um algoritmo e o programa em Python.
+> - Desafio: resolva um [[Exercicios de Logica aritmetica]]
 
 ⬅️ Aula anterior: [[uc1.02 - tipos de sistemas]] | ➡️ Próxima aula: [[uc1.04 - logica condicional]]
