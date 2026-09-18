@@ -1,4 +1,4 @@
----
+﻿---
 title: Exercícios Do Livro De Logica Do Cachola
 description: 'Exercícios do livro de logica do cachola'
 date: '2026-09-14'
@@ -12,7 +12,7 @@ tags:
 
 ### Condicionais
 
-- Crie um programa para uma loja de sucos. O preço de cada suco é R$ 5.50, porém, se o cliente comprar mais de 10 sucos, o preço individual passa para R$ 4.50. O programa deve solicitar a quantidade de sucos desejados pelo cliente e apresentar o preço final a ser pago.
+- Crie um programa para uma loja de sucos. O preço de cada suco é R\$ 5.50, porém, se o cliente comprar mais de 10 sucos, o preço individual passa para R\$ 4.50. O programa deve solicitar a quantidade de sucos desejados pelo cliente e apresentar o preço final a ser pago.
 - Crie um programa para gerenciar uma fila de atendimento. O programa deve perguntar se a pessoa precisa de atendimento prioritário ou não. Se for respondido "sim", o programa deve mostrar a mensagem "Vá para os caixas 1, 2 e 3". Caso contrário, o programa deve mostrar a mensagem "Vá para qualquer caixa, exceto os 1, 2 e 3, que são prioritários."
 - Crie um programa para calcular e informar se compensa mais abastecer um automóvel com gasolina ou com etanol. O programa deve solicitar ao usuário o preço da gasolina e, em seguida, o preço do etanol. Depois efetuar a divisão do preço do etanol pelo preço da gasolina. Se o resultado for maior ou igual a 0.7, o programa deve apresentar a mensagem "Compensa abastecer com gasolina". Caso contrário, o programa deve apresentar a mensagem "Compensa abastecer com etanol."
 - Crie um programa que solicite ao usuário um número e apresente na tela qual é o dia da semana do respectivo número. Considere que os números fornecidos devem estar no intervalo entre 1 e 7. Considere que 1 é domingo, 2 é segunda e assim por diante.

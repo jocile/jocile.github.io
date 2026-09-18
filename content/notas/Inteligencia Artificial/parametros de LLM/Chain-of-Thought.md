@@ -1,4 +1,4 @@
----
+﻿---
 title: "Chain of Thought"
 description: "técnica de Cadeia de Pensamento é uma ferramenta inovadora em modelos de linguagem baseados em largura de banda (LLM) para melhorar a precisão e a transparência das respostas."
 tags:
@@ -56,7 +56,7 @@ Suponha que você esteja trabalhando com um problema de aritmética, como "Se o 
 
 1. "Preço original: R\$ 100"
 2. "Desconto: 20\% de R$ 100 = R\$ 20"
-3. "Preço final: R\$ 100 - R$ 20 = R\$ 80"
+3. "Preço final: R\$ 100 - R\$ 20 = R\$ 80"
 
 Nesse exemplo, as tags XML podem ser usadas para separar o processo de raciocínio da resposta final:
 

@@ -6,8 +6,6 @@ tags:
   - Inteligencia-artificial/Ollama
 ---
 
-# Ollama e Claude Code
-
 ## Dominando a IA Local com Ollama e Claude Code
 
 Bem-vindo à nova era da soberania digital. Como arquiteto de sistemas, vejo a transição para a IA local não apenas como uma mudança técnica, mas como a reconquista do seu "Compute". Este guia foi projetado para transformar seu hardware em uma fortaleza de inteligência, eliminando a latência da API e a gravidade dos dados que nos prende às nuvens corporativas.
@@ -32,7 +30,7 @@ O motor dessa transformação é o **Ollama**, o orquestrador que simplifica a c
 
 O Ollama surgiu como uma resposta à necessidade de democratizar Modelos de Linguagem de Grande Escala (LLMs). Ele atua como uma camada de gerenciamento que permite baixar e rodar modelos complexos com o mínimo de fricção.
 
-**Marco Histórico:** Fundada em 2023 por uma equipe enxuta de apenas duas pessoas com um financiamento inicial de US$ 100.000, a Ollama provou que a eficiência supera a escala bruta. Hoje, a plataforma suporta mais de 40.000 integrações, focando exclusivamente na promoção de modelos abertos.
+**Marco Histórico:** Fundada em 2023 por uma equipe enxuta de apenas duas pessoas com um financiamento inicial de US\$ 100.000, a Ollama provou que a eficiência supera a escala bruta. Hoje, a plataforma suporta mais de 40.000 integrações, focando exclusivamente na promoção de modelos abertos.
 
 Para um arquiteto, o Ollama é a fundação. Mas, para que a estrutura seja estável, o sistema precisa de "espaço para pensar", o que nos leva ao componente mais crítico: a memória.
 

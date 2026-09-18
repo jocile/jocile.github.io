@@ -1,12 +1,10 @@
----
+﻿---
 title: Comparativo ferramentas gratuitas versus pagas
 description: "como criar um aplicativo do zero usando ferramentas gratuitas versus ferramentas pagas"
 tags:
   - Inteligencia-artificial/Ferramentas
   - Inteligencia-artificial/Vídeo
 ---
-
-# Comparativo usando ferramentas gratuitas versus pagas
 
 ![Dá Pra Criar um App Profissional Só com Ferramentas Free? - YouTube](https://www.youtube.com/watch?v=FbS2uEw9GIk)
 
@@ -20,18 +18,18 @@ O vídeo demonstra como criar um aplicativo do zero usando ferramentas gratuitas
 
 ## As ferramentas utilizadas no vídeo
 
-- **Ferramentas gratuitas:**    
-    - Stitch (0:47-2:25)
-    - Google AI Studio (2:25-3:30)
-    - Supabase (8:13-9:16)
-    - Vercel (para hospedagem)
-- **Ferramentas pagas/profissionais:**    
-    - Claude Code (45:23-46:01)
-    - PostgreSQL (55:40-59:02)
-    - TestSprite (1:09:30-1:17:12)
-    - Vercel (para hospedagem)
-    - Next.js (1:23:38)
-    - Prisma (1:24:03)
+- **Ferramentas gratuitas:**
+  - Stitch (0:47-2:25)
+  - Google AI Studio (2:25-3:30)
+  - Supabase (8:13-9:16)
+  - Vercel (para hospedagem)
+- **Ferramentas pagas/profissionais:**
+  - Claude Code (45:23-46:01)
+  - PostgreSQL (55:40-59:02)
+  - TestSprite (1:09:30-1:17:12)
+  - Vercel (para hospedagem)
+  - Next.js (1:23:38)
+  - Prisma (1:24:03)
 
 ## **Processo de Criação do Aplicativo (Versão Gratuita)**
 
@@ -81,14 +79,14 @@ Abaixo estão os detalhes sobre como funcionam essas modalidades conforme as fon
 
 - **Acesso Gratuito:** O [[Antigravity ide]] está disponível em "Public Preview" sem custo para indivíduos com contas pessoais do Gmail. Ele oferece uma cota gratuita para usar modelos premium como o Gemini 3 Pro.
 - **Limites de Taxa (Rate Limits):** No plano gratuito, as APIs têm limites que, se atingidos, podem bloquear o uso por algumas horas (geralmente 4 a 5 horas) ou até dias.
-- **Opções Pagas:** Para uso profissional e ininterrupto, recomenda-se uma assinatura do Google (como o plano Pro de aproximadamente R$ 389/mês citado nas fontes), que garante limites maiores e evita esperas pelo reset das cotas. No Google AI Studio, o usuário pode configurar um método de pagamento no Google Cloud para continuar usando a ferramenta via chave de API própria caso esgote a cota gratuita.
+- **Opções Pagas:** Para uso profissional e ininterrupto, recomenda-se uma assinatura do Google (como o plano Pro de aproximadamente R\$ 389/mês citado nas fontes), que garante limites maiores e evita esperas pelo reset das cotas. No Google AI Studio, o usuário pode configurar um método de pagamento no Google Cloud para continuar usando a ferramenta via chave de API própria caso esgote a cota gratuita.
 
 ### 2. Google Stitch
 
 - **Cota Mensal Gratuita:** O Stitch é gratuito via Google Labs, mas opera com um sistema de créditos mensais que resetam a cada 30 dias.
 - **Limites por Modo:**
-    - **Modo Padrão (Gemini 2.5 Flash):** Até **350 gerações** por mês.
-    - **Modo Pro/Experimental (Gemini 2.5 Pro):** Entre **50 e 200 gerações** por mês, permitindo maior fidelidade e uso de imagens de referência.
+  - **Modo Padrão (Gemini 2.5 Flash):** Até **350 gerações** por mês.
+  - **Modo Pro/Experimental (Gemini 2.5 Pro):** Entre **50 e 200 gerações** por mês, permitindo maior fidelidade e uso de imagens de referência.
 - **Perspectiva Futura:** Como é um produto experimental, o Google pode introduzir planos pagos ou ajustar essas cotas conforme a ferramenta amadurece.
 
 ### 3. Hospedagem e Produção
@@ -96,7 +94,7 @@ Abaixo estão os detalhes sobre como funcionam essas modalidades conforme as fon
 Embora a criação do software possa ser gratuita, mantê-lo online exige decisões sobre planos:
 
 - **Vercel/Netlify:** Oferecem planos **Hobby (gratuitos)** para projetos pessoais. O plano gratuito da Vercel, por exemplo, é limitado a cerca de 50.000 visualizações por mês.
-- **Hostinger (VPS):** É uma opção **paga** (ex: planos a partir de R$ 35/mês) necessária para quem deseja que a aplicação rode 24h por dia em um servidor dedicado, independente do computador local estar ligado.
+- **Hostinger (VPS):** É uma opção **paga** (ex: planos a partir de R\$ 35/mês) necessária para quem deseja que a aplicação rode 24h por dia em um servidor dedicado, independente do computador local estar ligado.
 
 ### 4. Diferença Estratégica (Free vs. Pro)
 
@@ -117,5 +115,3 @@ Aqui estão alguns vídeos relacionados sobre como criar aplicativos, com foco e
 - **Como Criei UM APP com IA pra Vender em 12 horas** [http://www.youtube.com/watch?v=KnaW6AxXdCo:](http://www.youtube.com/watch?v=KnaW6AxXdCo:) Compartilha a experiência de criar um aplicativo usando IA em um curto período de tempo.
 - **O Google fez de novo: Crie e Publique Apps 100% GRÁTIS com o Google AI Studio** [http://www.youtube.com/watch?v=U4XNeOAsoq4:](http://www.youtube.com/watch?v=U4XNeOAsoq4:) Um vídeo que explora como criar e publicar aplicativos gratuitamente usando o Google AI Studio.
 - **Testei 9 IAs que CRIAM APPS! Qual é a MELHOR em 2025?** [http://www.youtube.com/watch?v=fAJr-fGQsQE:](http://www.youtube.com/watch?v=fAJr-fGQsQE:) Este vídeo testa nove plataformas de IA para criação de aplicativos para determinar qual é a melhor em 2025.
-
-[Criado com ![](https://www.gstatic.com/images/branding/productlogos/gemini_2025/v1/web-16dp/logo_gemini_2025_color_2x_web_16dp.png)Gemini](https://gemini.google.com/)

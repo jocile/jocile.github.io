@@ -138,7 +138,7 @@ function calcularTotal(precoProduto, quantidade) {
   
   // Outros cálculos ou validações poderiam ser adicionados aqui
   
-  return `O total da compra é R$ ${subtotal}`;
+  return `O total da compra é R$ \${subtotal}`;
 }
 
 console.log(calcularTotal(25.90, 3)); // Saída: O total da compra é R$ 77.7
@@ -204,7 +204,7 @@ document.getElementById('formularioExemplo').addEventListener('submit', function
   // Lógica de programação (exemplo: soma)
   const soma = num1 + num2;
   // Exibindo a saída no campo DOM
-  document.getElementById('resultado').textContent = `O resultado é: ${soma}`;
+  document.getElementById('resultado').textContent = `O resultado é: \${soma}`;
 });
 </script>
 ```

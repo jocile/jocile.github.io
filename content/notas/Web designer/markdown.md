@@ -15,24 +15,24 @@ Markdown é um estilo de texto na web. Você controla a exibição do documento;
 
 ## Títulos
 
-```
+```markdown
 ## Subtítulo nível 2
 ### Subtítulo nível 3
 ```
 
 ## Formatação
 
-```
+```markdown
 _Italico_
 **Negrito**
 **_Italico e negrito_**
 ```
 
-```
+```markdown
 Links: [Texto do link](https://jocile.com/)
 ```
 
-```
+```markdown
  Listas:
 - Item 1
 - Item 2
@@ -41,7 +41,7 @@ Links: [Texto do link](https://jocile.com/)
 
 ## Imagens
 
-```
+```markdown
  Imagens:
 Inline-style: 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
@@ -53,24 +53,22 @@ Reference-style:
 
 ## Código
 
-
 `Código` em linha tem `áspas ao redor`.
 
-
-````
+````markdown
 Blocos de código são envoltas por linhas com três áspas ```, 
 ou são identadas com quatro espaços.
 ````
 
 ## Tabelas
 
-```
+```markdown
 
 | Tabelas            | são                     | legais |
 | -----------------  |:-----------------------:| ------:|
-| col 3 é            | alinhada para à direita |  $1600 |
-| col 2 is           | centralizada            |    $12 |
-| listras das zebras | são legais              |     $1 |
+| col 3 é            | alinhada para à direita |  \$1600 |
+| col 2 is           | centralizada            |    \$12 |
+| listras das zebras | são legais              |     \$1 |
 
 Devem haver ao menos 3 hifens ('-') separando cada célula do cabeçalho.
 As barras externas (`|`) são opcionais e você não precisa fazer as células em Markdown estarem bem alinhadas.
@@ -84,9 +82,9 @@ Markdown | menos | bonito
 
 | Tabelas            | são                     | legais |
 | -----------------  |:-----------------------:| ------:|
-| col 3 é            | alinhada para à direita |  $1600 |
-| col 2 is           | centralizada            |    $12 |
-| listras das zebras | são legais              |     $1 |
+| col 3 é            | alinhada para à direita |  \$1600 |
+| col 2 is           | centralizada            |    \$12 |
+| listras das zebras | são legais              |     \$1 |
 
 ---
 
@@ -99,7 +97,7 @@ _ainda_ | `renderiza` | **bem**
 
 ## Citações
 
-```
+```markdown
 > Citações são muito úteis em em email para emular respostas textuais.
 > Esta linha faz parte da mesma citação.
 ```
@@ -113,7 +111,7 @@ Underscores
 
 ## Links no final do arquivo
 
-```
+```markdown
 Link normal [Join the Google Group](http://groups.google.com/group/celluloid-ruby)
 
 Link que seria repetido [Join the Google Group][google-group]

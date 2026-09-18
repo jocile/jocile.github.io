@@ -147,7 +147,7 @@ Os fluxos de trabalho dos agentes podem ser configurados de duas formas:
 
 O **LangSmith** (da LangChain) é uma plataforma essencial para monitorar, testar e debugar o comportamento de agentes em produção.
 - **Latência**: Permite visualizar o tempo gasto em cada etapa do fluxo (ex: 5.4 segundos para conectar à API, 106 segundos de latência total).
-- **Consumo e Custos**: Exibe detalhadamente a quantidade de tokens consumidos em cada chamada e o custo financeiro exato (ex: uma chamada complexa custando $0.04 USD).
+- **Consumo e Custos**: Exibe detalhadamente a quantidade de tokens consumidos em cada chamada e o custo financeiro exato (ex: uma chamada complexa custando \$0.04 USD).
 - **Trace de Execução**: Permite abrir a "caixa preta" do agente para ver exatamente quais instruções de memória de curto prazo entraram no modelo da Anthropic/OpenAI, quais ferramentas foram chamadas e qual foi o output exato.
 
 #### 6.2 Prática: Configuração de um Agente de Redes Sociais (X/Twitter e LinkedIn)

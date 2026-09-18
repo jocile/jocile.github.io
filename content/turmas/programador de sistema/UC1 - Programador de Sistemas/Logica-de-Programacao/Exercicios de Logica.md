@@ -32,8 +32,8 @@ Pratique os exercícios seguintes com o editor: [Portugol Webstudio](https://dga
 |        DADOS: |              |
 | ------------: | ------------ |
 | Comprimento : | $P = 2\pi R$ |
-|        Área : | $A = \pi R^2$ |
-|       Volume: | $V = \frac 3 4 \pi R^3$ |
+|         Area: | $A = \pi R^2$ |
+|       Volume: | $V = \frac{4}{3} \pi R^3$ |
 
 Resolução 1:
 
@@ -70,6 +70,7 @@ Inicio
     escreva(‘O volume da esfera é ‘, vol );
 fim.
 ```
+
 ## Média
 
 1. Faça um algoritmo que leia as três notas, as faltas e o nome de um aluno e imprima sua situação. ( “APROVADO”, “REPROVADO POR FALTA” ou “REPROVADO POR MÉDIA” )
@@ -188,10 +189,10 @@ fim
 ## Peso ideal
 
 Faça um algoritmo para calcular o peso ideal de uma pessoa sabendo sua altura.\
-DADO: 
+DADO:
 
-- para homens ( 72,7 * altura ) – 58;
-- para mulheres ( 62,1 * altura ) – 44,7.
+- para homens `( 72,7 * altura ) – 58`;
+- para mulheres `( 62,1 * altura ) – 44,7`.
 
 Resolução Nº1:
 
@@ -260,5 +261,3 @@ Inicio
     n1 <- aux;
 fim.
 ```
-
-#programador/algoritmos 
