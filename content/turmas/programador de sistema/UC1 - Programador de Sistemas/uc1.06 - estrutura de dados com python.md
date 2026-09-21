@@ -10,6 +10,7 @@ aula: 6
 ---
 
 > [!note] Dados estruturados com Python
+> - Introdução a [[Listas com Python]]
 > - Introdução a  [[Tuplas]]
 > - Introdução a [[Conjuntos]]
 > - Introdução aos [[Dicionarios]]
@@ -27,4 +28,4 @@ aula: 6
 > - [[Atividade Estruturas de Dados]]
 > - Desafio: Criar um algoritmo para receber 3 notas e calcular a média, e mostrar o resultado com aprovado se a média for maior ou igual a 7.
 
-⬅️ Aula anterior: [[uc1.05 - listas com python]]
+⬅️ Aula anterior: [[uc1.05 - listas com python]] | ➡️ Próxima aula: [[uc1.07 - estrutura de dados com dicionarios]]

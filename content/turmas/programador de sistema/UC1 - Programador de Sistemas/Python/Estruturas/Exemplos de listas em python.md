@@ -115,8 +115,6 @@ for elemento in lista1:
 print(f"A interseção das duas listas é {intersecao}")
 ```
 
-%%
-
 4. Crie um programa que receba uma lista de números e retorne uma lista com os números pares dessa lista.
 
 ```python
@@ -127,6 +125,8 @@ for numero in lista:
     pares.append(numero)
 print(f"Os números pares da lista são {pares}")
 ```
+
+%%
 
 5. Crie um programa que receba uma lista de nomes e retorne uma nova lista com os nomes em ordem alfabética.
 
@@ -181,6 +181,8 @@ for nome in lista:
 print(f"O maior nome da lista é {maior_nome}")
 ```
 
+%%
+
 10. Crie um programa que receba uma lista de números e retorne o número que aparece com maior frequência na lista.
 
 ```python
@@ -197,7 +199,6 @@ for numero, frequencia in frequencias.items():
         mais_frequente = numero
 print(f"O número mais frequente na lista é {mais_frequente}")
 ```
-%%
 
 ## Referências
 

@@ -143,5 +143,3 @@ for numero, frequencia in frequencias.items():
         mais_frequente = numero
 print(f"O número mais frequente na lista é {mais_frequente}")
 ```
-
-#programador/Python/estruturas

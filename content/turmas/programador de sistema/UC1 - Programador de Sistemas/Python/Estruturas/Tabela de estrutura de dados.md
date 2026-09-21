@@ -28,6 +28,6 @@ tags:
 - **[[Listas]]:** Armazenar uma lista de compras, organizar tarefas a serem concluídas, manter um histórico de dados.
 - **[[Tuplas]]:** Representar coordenadas geográficas, armazenar informações de um cliente (nome, idade, endereço), definir constantes globais.
 - **[[Conjuntos|Sets]]:** Eliminar duplicatas de uma lista, verificar se um elemento pertence a um conjunto, realizar cálculos com conjuntos (união, interseção, diferença).
-- **[[Dicionarios|Dicionários]]:** Armazenar dados de contato (nome, telefone, email), configurar um cache de dados, implementar um sistema de tradução de idiomas.
+- **[[Dicionarios - editar|Dicionários]]:** Armazenar dados de contato (nome, telefone, email), configurar um cache de dados, implementar um sistema de tradução de idiomas.
 
 Espero que esta tabela comparativa seja útil para você entender as características e escolher a estrutura de dados ideal para suas necessidades em Python.

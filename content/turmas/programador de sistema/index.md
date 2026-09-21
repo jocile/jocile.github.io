@@ -37,6 +37,7 @@ SORT aula ASC-->
 | 4    | 2026.09.17 | [[uc1.04 - logica condicional]]                                       |
 | 5    | 2026.09.18 | [[uc1.05 - listas com python]]                                         |
 | 6    | 2026.09.21 | [[uc1.06 - estrutura de dados com python]]                 |
+| 7    | 2026.09.22 | [[uc1.07 - estrutura de dados com dicionarios]]       |
 
 <!-- SerializedQuery END -->
 
