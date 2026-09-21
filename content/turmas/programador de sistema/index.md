@@ -35,7 +35,8 @@ SORT aula ASC-->
 | 2    | 2026.09.15 | [[uc1.02 - tipos de sistemas]]                                         |
 | 3    | 2026.09.16 | [[uc1.03 - introducao a logica com Python]]               |
 | 4    | 2026.09.17 | [[uc1.04 - logica condicional]]                                       |
-| 5    | 2026.09.17 | [[uc1.05 - listas com python]]                                         |
+| 5    | 2026.09.18 | [[uc1.05 - listas com python]]                                         |
+| 6    | 2026.09.21 | [[uc1.06 - estrutura de dados com python]]                 |
 
 <!-- SerializedQuery END -->
 

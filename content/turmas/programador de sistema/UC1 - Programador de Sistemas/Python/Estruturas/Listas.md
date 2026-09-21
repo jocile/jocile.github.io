@@ -1,11 +1,10 @@
 ---
-title: "Listas em Python"
+title: Listas
 date: 2026-09-17
 draft: false
 tags:
-  - python
-  - listas
-  - programacao
+  - diagrama
+  - programador/Python/estruturas
 description: "Guia completo sobre a estrutura de dados lista em Python, incluindo criação, acesso, fatiamento, iteração, compreensão de listas e métodos da classe list."
 ---
 
@@ -258,3 +257,4 @@ sorted(linguagens, key=lambda x: len(x), reverse=True) # ["python", "csharp", "j
 ## Links Úteis
 
 - [Repositório da Trilha](<https://github.com/profjocile/trilha-python/Estrutura> de dados/Listas)
+- [[Listas com Python]]

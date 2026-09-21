@@ -1,0 +1,31 @@
+---
+description: Tabela Comparativa de Características das Estruturas de Dados em Python
+tags:
+- programador/Python/Funcoes
+- programador/Python/estruturas
+---
+
+## Tabela Comparativa de Funções em Estruturas de Dados em Python (com Exemplos em Código)
+
+| Função      | Descrição                    | Disponível em:            | Exemplo de Código                            |
+| ----------- | -----------------------------| ------------------------- | -------------------------------------------- |
+| `append(elemento)`             | Adiciona um elemento ao final da estrutura.                                 | Listas                    | `minha_lista.append(10)` adiciona o elemento 10 ao final da lista `minha_lista`.                                                                                              |
+| `clear()`                      | Remove todos os elementos da estrutura.                                     | Listas, Sets, Dicionários | `minha_lista.clear()` remove todos os elementos da lista `minha_lista`.                                                                                                       |
+| `copy()`                       | Retorna uma cópia da estrutura.                                             | Listas, Sets, Dicionários | `nova_lista = minha_lista.copy()` cria uma nova lista `nova_lista` que é uma cópia da lista `minha_lista`.                                                                    |
+| `count(elemento)`              | Conta o número de ocorrências de um elemento.                               | Listas                    | `minha_lista.count(5)` conta o número de vezes que o elemento 5 aparece na lista `minha_lista`.                                                                               |
+| `difference(outro_conjunto)`   | Retorna um novo conjunto com a diferença entre dois conjuntos.              | Sets                      | `meu_conjunto.difference(outro_conjunto)` retorna um novo conjunto contendo apenas os elementos que estão em `meu_conjunto` mas não em `outro_conjunto`.                      |
+| `discard(elemento)`            | Remove um elemento do conjunto se existir.                                  | Sets                      | `meu_conjunto.discard(7)` remove o elemento 7 do conjunto `meu_conjunto` se ele existir.                                                                                      |
+| `extend(outra_estrutura)`      | Adiciona elementos de outra estrutura ao final da estrutura atual.          | Listas                    | `minha_lista.extend([2, 3, 4])` adiciona os elementos 2, 3 e 4 ao final da lista `minha_lista`.                                                                               |
+| `get(chave, valor_padrão)`     | Retorna o valor associado à chave ou o valor padrão se a chave não existir. | Dicionários               | `meu_dicionario.get("chave1")` retorna o valor associado à chave "chave1" no dicionário `meu_dicionario`. Se a chave não existir, retorna o valor padrão (que pode ser None). |
+| `index(elemento)`              | Retorna o índice do primeiro elemento encontrado.                           | Listas                    | `minha_lista.index("banana")` retorna o índice da primeira ocorrência da string "banana" na lista `minha_lista`.                                                              |
+| `insert(indice, elemento)`     | Insere um elemento em uma posição específica da estrutura.                  | Listas                    | `minha_lista.insert(1, "maçã")` insere a string "maçã" na posição 1 da lista `minha_lista`.                                                                                   |
+| `intersection(outro_conjunto)` | Retorna um novo conjunto com a intersecção entre dois conjuntos.            | Sets                      | `meu_conjunto.intersection(outro_conjunto)` retorna um novo conjunto contendo apenas os elementos que estão em ambos os conjuntos `meu_conjunto` e `outro_conjunto`.          |
+| `isdisjoint(outro_conjunto)`   | Verifica se dois conjuntos não possuem elementos em comum.                  | Sets                      | `meu_conjunto.isdisjoint(outro_conjunto)` retorna True se os conjuntos `meu_conjunto` e `outro_conjunto` não possuem elementos em comum, e False caso contrário.              |
+| `issubset(outro_conjunto)`     | Verifica se um conjunto está contido em outro.                              | Sets                      | `meu_conjunto.issubset(outro_conjunto)` retorna True se todos os elementos de `meu_conjunto` também estão em `outro_conjunto`, e False caso contrário.                        |
+| `issuperset(outro_conjunto)`   | Verifica se um conjunto contém outro.                                       | Sets                      | `meu_conjunto.issuperset(outro_conjunto)` retorna True se `outro_conjunto` está contido em `meu_conjunto`, e False caso contrário.                                            |
+| `items()`                      | Retorna uma lista de tuplas com os pares chave-valor.                       | Dicionários               | `meu_dicionario.items()` retorna uma lista de tuplas onde cada tupla contém a chave e o valor associado.                                                                      |
+| `keys()`                       | Retorna uma lista de chaves.                                                | Dicionários               | `meu_dicionario.keys()` retorna uma lista contendo todas as chaves do dicionário `meu_dicionario`.                                                                            |
+| `pop()`                        | Remove e retorna um elemento da estrutura.                                  | Listas, Sets              | `minha_lista.pop()` remove e retorna o último elemento da lista `minha_lista`.                                                                                                |
+| `pop(indice)`                  | Remove e retorna o elemento na posição especificada                         | Listas, Sets             | `minha_lista.pop(2)` remove e retorna o segundo elemento da lista `minha_lista`.                                                                                                  |
+
+

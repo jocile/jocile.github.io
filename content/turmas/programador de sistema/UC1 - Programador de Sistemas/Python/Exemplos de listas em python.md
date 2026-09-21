@@ -80,7 +80,6 @@ print(lista) # imprime [1, 2, 3, 6, 8, 10]
 9. Crie um programa que receba uma lista de nomes e retorne o nome mais longo da lista.
 10. Crie um programa que receba uma lista de números e retorne o número que aparece com maior frequência na lista.
 
-%%
 ## Solução
 
 1. Crie um programa que receba uma lista de números e retorne o maior valor dessa lista.
@@ -115,6 +114,8 @@ for elemento in lista1:
     intersecao.append(elemento)
 print(f"A interseção das duas listas é {intersecao}")
 ```
+
+%%
 
 4. Crie um programa que receba uma lista de números e retorne uma lista com os números pares dessa lista.
 
