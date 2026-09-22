@@ -18,7 +18,6 @@ aula: 8
 > - [[Comandos git e GitHub]]
 > - [[Projeto com Git e Github]]
 > - [[IDE VScode]]
-> - [[Extensoes do vscode com Python]]
 
 > [!todo] 🖥️ Atividades:
 > 1. **Instalação:** Instalar o Git e o VSCode na máquina local.
