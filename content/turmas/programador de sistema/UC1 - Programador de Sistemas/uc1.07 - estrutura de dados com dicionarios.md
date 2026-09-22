@@ -24,4 +24,4 @@ aula: 7
 > 3. **Métodos:** Utilize o método `.update()` para adicionar um novo aluno ao dicionário `alunos`.
 > 4. **Iteração:** Utilize um laço `for` junto com o método `.items()` para imprimir cada chave e valor do dicionário `alunos` no formato: `Chave: X - Dados: Y`.
 
-⬅️ Aula anterior: [[uc1.06 - estrutura de dados com python]]
+⬅️ Aula anterior: [[uc1.06 - estrutura de dados com python]]| ➡️ Próxima aula: [[uc1.08 - Configurando o setup para programacao]]

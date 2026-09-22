@@ -10,7 +10,7 @@ tags:
 description: "Guia prático para iniciar o versionamento de um projeto Django utilizando Git e GitHub."
 ---
 
-# Preparando o Projeto Django Inicial com Git
+## Preparando o Projeto Django Inicial com Git
 
 ### **1. Inicializando o Repositório Git:**
 
@@ -45,4 +45,8 @@ description: "Guia prático para iniciar o versionamento de um projeto Django ut
 - Os comandos Git apresentados acima são básicos e representam um ponto de partida para o versionamento do seu projeto.
 - O GitHub e o Git possuem uma vasta gama de comandos e funcionalidades. Explore a documentação oficial para aprofundar seus conhecimentos e otimizar seu fluxo de trabalho.
 
-[[Comandos git e GitHub]]
+## Referências
+
+- [[Configurando o Git]]
+- [[Comandos git e GitHub]]
+- [Guia de início rápido para repositórios - Documentos do GitHub](https://docs.github.com/pt/repositories/creating-and-managing-repositories/quickstart-for-repositories)

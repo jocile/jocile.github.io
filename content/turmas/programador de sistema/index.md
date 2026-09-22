@@ -38,6 +38,7 @@ SORT aula ASC-->
 | 5    | 2026.09.18 | [[uc1.05 - listas com python]]                                         |
 | 6    | 2026.09.21 | [[uc1.06 - estrutura de dados com python]]                 |
 | 7    | 2026.09.22 | [[uc1.07 - estrutura de dados com dicionarios]]       |
+| 8    | 2026.09.23 | [[uc1.08 - Configurando o setup para programacao]] |
 
 <!-- SerializedQuery END -->
 
