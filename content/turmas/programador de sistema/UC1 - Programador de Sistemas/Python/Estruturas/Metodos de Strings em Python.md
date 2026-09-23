@@ -29,6 +29,8 @@ Aqui está a tabela comparativa dos métodos de manipulação de strings em Pyth
 
 Essa tabela abrange uma variedade de métodos de manipulação de strings em Python, fornecendo uma descrição concisa e exemplos de uso para cada método.
 
+%%
+
 Aqui está o diagrama refatorado com as funções de strings em Python:
 
 ```mermaid
@@ -79,3 +81,4 @@ O --> O2["ex. `#quot; #quot;.isspace() == True`"]
 
 Este diagrama apresenta as funções básicas e avançadas de strings em Python, incluindo `len`, `upper`, `lower`, `strip`, `replace`, `split`, `join`, `find`, `isupper`, `islower`, `startswith`, `endswith`, `isalnum`, e `isspace`.
 
+%%

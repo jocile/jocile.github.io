@@ -1,9 +1,12 @@
 ---
-title: Python com Colab
-description: "plataforma gratuita baseada em nuvem que permite aos usuários escrever e executar código Python diretamente em um navegador da web"
+title: "Python com Colab"
+date: 2026-09-23
+draft: false
 tags:
-- Python
-- Colab
+  - python
+  - colab
+  - ferramentas
+description: "Guia de uso do Google Colab para programar em Python, incluindo introdução, práticas e exemplos."
 ---
 
 Aprender lógica usando Python no Google Colab pode ser uma ótima maneira de obter uma compreensão mais profunda dos conceitos lógicos enquanto se aprende a programar em Python.
@@ -150,8 +153,6 @@ print(log)
 ```
 
 ## Referências
-
-#programador/Python 
 
 - [W3schools Python reference](https://www.w3schools.com/python/default.asp)
 - [Colab - Introdução a programação com a linguagem Python](https://colab.research.google.com/drive/17DTWLVeBgIuwp-FYGIsAxlaj_mRNNMkK?usp=sharing#scrollTo=-F7LD5SJy2eq)

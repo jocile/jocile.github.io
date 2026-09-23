@@ -1,8 +1,12 @@
-﻿---
-title: Condicionais com Python
-description: Expressões lógica e condicionais com Python
+---
+title: "Condicionais com Python"
+date: 2026-09-23
+draft: false
 tags:
-- Python
+  - python
+  - programacao
+  - logica
+description: "Expressões lógica e condicionais com Python, incluindo if, else, elif, match case e tratamento de exceções."
 ---
 
 ## Estrutura if/else
@@ -327,4 +331,4 @@ Nesse código, pedimos ao usuário para digitar sua altura em metros e seu sexo.
 
 ## Referências
 
-![Referencias sobre Python](Referencias%20sobre%20Python.md)
+[[Referencias sobre Python]]

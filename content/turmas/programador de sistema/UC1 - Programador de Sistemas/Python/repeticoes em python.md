@@ -1,9 +1,12 @@
 ---
-title: Repetições em Python
-date: 2026-09-17
+title: "Repetições em Python"
+date: 2026-09-23
 draft: false
-tags: [logica, exercicios, python]
-description: "Criando algoritmos com repetições para programas de computador resolvendo problemas."
+tags:
+  - python
+  - logica
+  - exercicios
+description: "Criando algoritmos com estruturas de repetição (for, while) para resolver problemas em Python."
 ---
 
 Em Python, há três formas principais de repetição:
@@ -85,7 +88,6 @@ print("A média é:", media)
 Nesse algoritmo, definimos uma lista de números e usamos um loop for para percorrer a lista e somar todos os números. Em seguida, dividimos essa soma pelo número de elementos na lista (usando a função len()) para calcular a média. Por fim, exibimos a média usando a função print().
 
 > Lembre-se que repetição é uma parte fundamental da programação e é útil para tarefas como cálculos, filtragem de dados, busca, entre outros.
-{: .prompt-info }
 
 ## Saindo do loop
 
@@ -127,7 +129,6 @@ for num in numbers:
 7. Escreva um programa que peça ao usuário para digitar um número inteiro e verifique se ele é um número primo.
 8. Escreva um programa que peça ao usuário para digitar uma palavra e verifique se ela é um palíndromo (ou seja, se a palavra é igual quando lida de trás para frente).
 
-%%
 ## Solução em Python
 
 ### 1. números pares
@@ -242,8 +243,6 @@ else:
     print("A palavra não é um palíndromo.")
 
 ```
-
-%%
 
 ## Referências
 

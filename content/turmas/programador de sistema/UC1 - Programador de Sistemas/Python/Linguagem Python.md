@@ -1,7 +1,12 @@
 ---
+title: "Linguagem Python"
+date: 2026-09-23
+draft: false
 tags:
-- Python
-description: "Linguagem de programação avançada usada em inteligência artificial e automação"
+  - python
+  - programacao
+  - introducao
+description: "Visão geral da linguagem Python: características, aplicações e vantagens."
 ---
 
 A linguagem Python é uma linguagem de programação de alto nível, **interpretada**, **orientada a objetos**, de **tipagem dinâmica** e **forte**, com uma sintaxe clara e concisa que prioriza a legibilidade do código. É considerada uma linguagem versátil e popular, utilizada por grandes empresas como Google, Yahoo, Microsoft, Nokia e Disney.
@@ -43,4 +48,4 @@ Python é uma linguagem de uso geral, com aplicações em diversas áreas:
 
 A linguagem Python se destaca como uma ferramenta poderosa e versátil no mundo da programação, com ampla gama de aplicações e uma comunidade em constante crescimento. Sua sintaxe simples, foco em legibilidade e grande ecossistema a tornam uma escolha popular tanto para iniciantes quanto para programadores experientes.
 
-![Referencias sobre Python](Referencias%20sobre%20Python.md)
+[[Referencias sobre Python]]

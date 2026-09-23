@@ -1,10 +1,15 @@
 ---
+title: "A história do Python"
+date: 2026-09-23
+draft: false
 tags:
-- Python
-description: "Linguagem de programação avançada usada em inteligência artificial e automação"
---- 
+  - python
+  - historia
+  - programacao
+description: "Breve trajetória da linguagem Python, desde sua criação por Guido van Rossum até sua popularidade atual."
+---
 
-A linguagem de programação [Linguagem Python](Linguagem%20Python.md) foi criada por Guido van Rossum, um desenvolvedor de software neerlandês, em meados da década de 1990. Na época, Van Rossum era um engenheiro de sistemas do Laboratório Nacional Holandês (Netherlands National Laboratory) e estava procurando uma linguagem de programação mais fácil de aprender e mais flexível para uso em seus projetos.
+A linguagem de programação [[Linguagem Python]] foi criada por Guido van Rossum, um desenvolvedor de software neerlandês, em meados da década de 1990. Na época, Van Rossum era um engenheiro de sistemas do Laboratório Nacional Holandês (Netherlands National Laboratory) e estava procurando uma linguagem de programação mais fácil de aprender e mais flexível para uso em seus projetos.
 
 Em 1989, Van Rossum começou a trabalhar no projeto de uma linguagem de programação que seria "engraçada" e "fácil de aprender", inspirado pelas linguagens de programação ABC (ABC: A Better Card Game) e Modula-2. Ele escolheu o nome "Python" porque era um animal exótico e agradável, que ele achava adequado para uma linguagem de programação "amigável".
 
@@ -14,9 +19,9 @@ No entanto, a partir da versão 2.0 (lançada em 2000), o Python começou a ganh
 
 Hoje, o Python é amplamente utilizado em áreas como:
 
-1. Ciência de dados: análise estatística, [Machine Learning](Machine%20Learning.md), visualização de dados.
+1. Ciência de dados: análise estatística, [[Machine Learning]], visualização de dados.
 2. Automação: scripts para automatizar tarefas, integração com outros sistemas.
-3. Desenvolvimento web: frameworks como [Django](Django.md) e Flask.
+3. Desenvolvimento web: frameworks como [[Django]] e Flask.
 4. Robótica e Internet das Coisas (IoT).
 5. Ciência computacional: simulações, modelagem, análise de dados.
 

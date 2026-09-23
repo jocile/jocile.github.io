@@ -1,3 +1,13 @@
+---
+title: "Referências sobre Python"
+date: 2026-09-23
+draft: false
+tags:
+  - python
+  - referencias
+  - estudos
+description: "Lista de referências úteis para o aprendizado de Python, do básico ao avançado."
+---
 
 - [Livro na Biblioteca Virtual - Introdução à programação em Python - Sérgio Furgeri](https://bibliotecadigitalsenac.com.br/#/?contentInfo=3011)
 - [O tutorial de Python — documentação Python 3.11.10](https://docs.python.org/pt-br/3.11/tutorial/index.html)

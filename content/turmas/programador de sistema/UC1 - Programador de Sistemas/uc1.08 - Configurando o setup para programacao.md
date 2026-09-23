@@ -25,4 +25,4 @@ aula: 8
 > 3. **Extensões:** Instalar as extensões recomendadas de Python no VSCode.
 > 4. **Repositório:** Criar ou clonar um projeto no GitHub e realizar o primeiro commit.
 
-⬅️ Aula anterior: [[uc1.07 - estrutura de dados com dicionarios]]
+⬅️ Aula anterior: [[uc1.07 - estrutura de dados com dicionarios]] | ➡️ Próxima aula: [[uc1.09 - Manipulando Texto com Python]]

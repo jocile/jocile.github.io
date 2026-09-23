@@ -130,25 +130,24 @@ O seu repositório já está configurado e pronto para uso.
 
 ### CONTEÚDO DE ESTUDO 
 
-	Link com comandos de apoio para GIT
-	- http://rogerdudler.github.io/git-guide/index.pt_BR.html
-	- https://try.github.io/levels/1/challenges/1	
+Links com comandos de apoio para GIT:
+- [git - guia prático - sem complicação!](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+- [Set up Git - GitHub Docs](https://try.github.io/levels/1/challenges/1)	
 
-	- http://rogerdudler.github.io/git-guide/index.pt_BR.html
-	- https://pt.wikipedia.org/wiki/Sistema_de_controle_de_vers%C3%B5es
-	- https://www.youtube.com/watch?v=C18qzn7j4SM&list=PLQCmSnNFVYnRdgxOC_ufH58NxlmM6VYd1
-	- https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0
-	- https://www.youtube.com/watch?v=UMhskLXJuq4	
+- [git - guia prático - sem complicação!](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
+- [Sistema de controle de versões – Wikipédia, a enciclopédia livre](https://pt.wikipedia.org/wiki/Sistema_de_controle_de_vers%C3%B5es)
+- [Git #1 - Introdução - YouTube](https://www.youtube.com/watch?v=C18qzn7j4SM&list=PLQCmSnNFVYnRdgxOC_ufH58NxlmM6VYd1)
+- [Curso de Git para iniciantes - Aula 1 - YouTube](https://www.youtube.com/watch?v=WVLhm1AMeYE&list=PLInBAd9OZCzzHBJjLFZzRl6DgUmOeG3H0)
+- [Git e Github para iniciantes - YouTube](https://www.youtube.com/watch?v=UMhskLXJuq4)	
 
-	PUBLICAR WEB PAGE GIT
-	- https://pages.github.com/
-	- http://blog.virtuacreative.com.br/hospedar-website-gratis-com-github.html
-		
-	Comandos GIT Extras:
-	- Criar arquivo .gitignore (listar arquivos a serem ignorados no versionamento)
-		Entrar no site: https://www.gitignore.io/
-		Escolher o tipo de arquivo, clicar em "Create" e salvar o arquivo exibido.
-		Este arquivo ".gitignore" deve ester na raiz do projeto versionado
+PUBLICAR WEB PAGE GIT:
+- [GitHub Pages \| Websites for you and your projects, hosted directly from your GitHub repository. Just edit, push, and your changes are live.](https://pages.github.com/)
+
+Comandos GIT Extras:
+- Criar arquivo .gitignore (listar arquivos a serem ignorados no versionamento)
+	- Entrar no site: [gitignore.io - Crie Arquivos .gitignore Úteis Para Seu Projeto.](https://www.gitignore.io/)
+	- Escolher o tipo de arquivo, clicar em "Create" e salvar o arquivo exibido.
+	- Este arquivo ".gitignore" deve ester na raiz do projeto versionado
 
 ## GIT
 
