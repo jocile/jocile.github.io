@@ -20,4 +20,4 @@ aula: 9
 > 
 > ![[Exercícios com Strings em Python#Exercícios de Programação com Strings em Python]]
 
-⬅️ Aula anterior: [[uc1.08 - Configurando o setup para programacao]]
+⬅️ Aula anterior: [[uc1.08 - Configurando o setup para programacao]] | ➡️ Próxima aula: [[uc1.10 - Programacao Funcional]]

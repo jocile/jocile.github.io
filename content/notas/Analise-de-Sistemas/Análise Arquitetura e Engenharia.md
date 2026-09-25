@@ -36,6 +36,10 @@ Resumo comparativo:
 - Arquiteto: Foca na estrutura e nas decisões técnicas críticas.
 - Engenheiro: Foca no processo de construção e na qualidade técnica. [^9][^10][^11]
 
+## referências
+
+- [Arquitetura de Software: o que é, funções e tipos de arquitetura](https://hub.asimov.academy/blog/arquitetura-de-software-o-que/)
+
 [^1]: [https://ticoopbrasil.coop.br](https://ticoopbrasil.coop.br/engenharia-de-software-e-arquitetura-de-software-entenda-as-diferencas-e-a-importancia-de-cada-uma/#:~:text=Escopo:%20A%20engenharia%20cobre%20todo%20o%20ciclo,se%20concentra%20no%20design%20de%20alto%20n%C3%ADvel.)
 
 [^2]: [https://www.osbr.com.br](https://www.osbr.com.br/arquitetura-de-sistemas/)

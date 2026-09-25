@@ -57,3 +57,7 @@ git pull origin main
 |**Modifica seus arquivos locais de trabalho?**|Não|**Sim**|
 |**Pode gerar conflitos de merge na hora?**|Não|**Sim**|
 |**Nível de controle/segurança**|Alto (permite revisar antes)|Direto (aplica imediatamente)|
+
+## Referêncas
+
+- [Pull Request: o que é, como fazer importância no GitHub](https://hub.asimov.academy/blog/pull-request/)

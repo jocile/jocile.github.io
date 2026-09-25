@@ -28,6 +28,7 @@ Acesse o repositório do GitHub, clique em CODE (botão verde), e copie o link;
 - `git remote add origin https://github.com/jocile/sistema-bancario.git`
 - `git branch -M main`
 - `git push -u origin main`
+
 ### Controlando as versões dos arquivos
 
 - `git status` - mostra o estado atual do repositório local;
@@ -97,8 +98,8 @@ Acesse o repositório do GitHub, clique em CODE (botão verde), e copie o link;
 - `git checkout nome-do-branch` - trocar, alternar de branch (muda o projeto para o branch)
 - `git checkout master` - retornar a ultima versão do projeto
 - `git branch nome-do-branch` - criar um branch
-- `git checkout -b nome-do-branch` - criar um branch e selecioná-lo em apenas um passo (atalho
-- `git reset --hard nome-do-branch` - 
+- `git checkout -b nome-do-branch` - criar um branch e selecioná-lo em apenas um passo (atalho)
+- `git reset --hard nome-do-branch` - força o seu branch atual a ficar idêntico ao branch alvo
 - `git branch -d nome-do-branch` - deletar um branch
 - `git push origin nome-do-branch` - Para deletar um branch remoto enviar um push após deletar local
 - `git merge nome-do-branch` - une o branch ao branch em que o projeto se encontra
@@ -152,4 +153,5 @@ Principais comandos:
 - [Curso prático de Git e GitHub - prof. José de Assis](https://www.youtube.com/playlist?list=PLbEOwbQR9lqzK14I7OOeREEIE4k6rjgIj)
 - [GitHub como usar - Paula Grangeiro](https://www.youtube.com/watch?v=Q-OgXVDzGRY)
 - [Manual](https://git-scm.com/book/pt-br/v2/Fundamentos-de-Git-Obtendo-um-Reposit%C3%B3rio-Git)
+- [Pull Request: o que é, como fazer importância no GitHub](https://hub.asimov.academy/blog/pull-request/)
 - [[Projeto com Git e Github]]
