@@ -19,8 +19,10 @@ aula: 10
 > 
 > ![[Atividade - Funcoes em Python#Tarefas]]
 
->[!check]  [[Desafio sistema bancario]]
+![[solucao dos exercicios da uc1#Biblioteca]]
+
+>[!todo]  [[Desafio sistema bancario]]
 >
 > ![[Desafio sistema bancario#Desafio]]
 
-⬅️ Aula anterior: [[uc1.09 - Manipulando Texto com Python]]
+⬅️ Aula anterior: [[uc1.09 - Manipulando Texto com Python]] | ➡️ Próxima aula: [[uc1.11 - Interface Grafica]]

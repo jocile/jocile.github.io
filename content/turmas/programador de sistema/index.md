@@ -41,6 +41,7 @@ SORT aula ASC-->
 | 8    | 2026.09.23 | [[uc1.08 - Configurando o setup para programacao]] |
 | 9    | 2026.09.24 | [[uc1.09 - Manipulando Texto com Python]]                   |
 | 10   | 2026.09.25 | [[uc1.10 - Programacao Funcional]]                                 |
+| 11   | 2026.09.28 | [[uc1.11 - Interface Grafica]]                                         |
 
 <!-- SerializedQuery END -->
 
