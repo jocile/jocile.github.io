@@ -25,4 +25,4 @@ aula: 10
 >
 > ![[Desafio sistema bancario#Desafio]]
 
-⬅️ Aula anterior: [[uc1.09 - Manipulando Texto com Python]] | ➡️ Próxima aula: [[uc1.11 - Interface Grafica]]
+⬅️ Aula anterior: [[uc1.09 - Manipulando Texto com Python]] | ➡️ Próxima aula: [[uc1.11 - Resolucao de exercicios]]
