@@ -1,10 +1,10 @@
 ---
 quartz-properties: true
-title: "uc1.08 - Configurando Setup para programação"
-description: "Visita técnica e configuração do ambiente de desenvolvimento (Git/GitHub/VSCode)"
+title: uc1.08 - Configurando Setup para programação
+description: Visita técnica e configuração do ambiente de desenvolvimento (Git/GitHub/VSCode)
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.23
+date: 2026-09-23
 uc: 1
 aula: 8
 ---

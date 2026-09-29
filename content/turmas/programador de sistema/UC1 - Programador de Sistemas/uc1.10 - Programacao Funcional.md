@@ -1,10 +1,10 @@
 ---
 quartz-properties: true
 title: uc1.10 - Programação Funcional
-description: "Criando funções em Python"
+description: Criando funções em Python
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.25
+date: 2026-09-25
 uc: 1
 aula: 10
 ---

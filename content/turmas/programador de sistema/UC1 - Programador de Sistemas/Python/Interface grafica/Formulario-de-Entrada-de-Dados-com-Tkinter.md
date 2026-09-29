@@ -15,21 +15,19 @@ Exemplo de como construir formulários de entrada de dados utilizando a bibliote
 
 ![](Pasted%20image%2020241107114633.png)
 
-**Widgets Essenciais:**
+> [!INFO] Widgets Essenciais
+> - **`tkinter.Label`:** Utilizado para exibir textos informativos no formulário.
+> - **`tkinter.Entry`:** Permite a entrada de texto pelo usuário.
+> - **`tkinter.Text`:** Permite a entrada de múltiplas linhas de texto, ideal para campos maiores.
+> - **`tkinter.Button`:** Cria botões interativos para acionar funcionalidades, como enviar os dados do formulário.
+> - **`tkinter.Spinbox`:** Permite ao usuário selecionar um valor numérico dentro de um intervalo predefinido.
+> - **`tkinter.Combobox` (ou `ttk.Combobox`):** Cria um menu dropdown para o usuário selecionar uma opção dentre as disponíveis.
+> - **`tkinter.Checkbutton` (ou `ttk.Checkbutton`):** Cria caixas de seleção para o usuário marcar ou desmarcar opções.
 
-- **`tkinter.Label`:** Utilizado para exibir textos informativos no formulário.
-- **`tkinter.Entry`:** Permite a entrada de texto pelo usuário.
-- **`tkinter.Text`:** Permite a entrada de múltiplas linhas de texto, ideal para campos maiores.
-- **`tkinter.Button`:** Cria botões interativos para acionar funcionalidades, como enviar os dados do formulário.
-- **`tkinter.Spinbox`:** Permite ao usuário selecionar um valor numérico dentro de um intervalo predefinido.
-- **`tkinter.Combobox` (ou `ttk.Combobox`):** Cria um menu dropdown para o usuário selecionar uma opção dentre as disponíveis.
-- **`tkinter.Checkbutton` (ou `ttk.Checkbutton`):** Cria caixas de seleção para o usuário marcar ou desmarcar opções.
-
-**Organização dos Widgets:**
-
-- **Gerenciadores de Layout:** Utilize `pack`, `grid` ou `place` para organizar os widgets dentro do formulário. `pack` é o mais simples, centralizando os widgets, enquanto `grid` permite um posicionamento mais preciso em linhas e colunas.
-- **Frames:** Utilize `tkinter.Frame` (ou `ttk.Frame`) para agrupar widgets relacionados dentro do formulário, melhorando a organização e a aparência visual.
-- **Padding:** Ajuste o espaçamento entre widgets e bordas utilizando o atributo `padding` nos widgets ou nos gerenciadores de layout.
+> [!TIP] Dicas de Organização
+> - **Gerenciadores de Layout:** Utilize `pack`, `grid` ou `place` para organizar os widgets dentro do formulário. `pack` é o mais simples, centralizando os widgets, enquanto `grid` permite um posicionamento mais preciso em linhas e colunas.
+> - **Frames:** Utilize `tkinter.Frame` (ou `ttk.Frame`) para agrupar widgets relacionados dentro do formulário, melhorando a organização e a aparência visual.
+> - **Padding:** Ajuste o espaçamento entre widgets e bordas utilizando o atributo `padding` nos widgets ou nos gerenciadores de layout.
 
 ### Capturando e Processando os Dados
 
@@ -39,42 +37,40 @@ Exemplo de como construir formulários de entrada de dados utilizando a bibliote
 - **Método `get()`:** Utilize o método `get()` em entries, spinboxes e comboboxes para recuperar os valores inseridos pelo usuário.
 - **Eventos:** Utilize `bind` para associar eventos, como clicar em um botão ou selecionar um item em um combobox, a funções específicas.
 
-**Processamento dos Dados:**
+> [!WARNING] Validação e Processamento
+> - **Validação:** Implemente rotinas de validação para verificar se os dados inseridos são válidos, como verificar se campos obrigatórios foram preenchidos e se os dados possuem o formato correto.
+> - **Armazenamento:** Utilize bibliotecas como `openpyxl` para salvar os dados em um arquivo Excel ou `sqlite3` para armazená-los em um banco de dados SQLite.
+> - **Outras Ações:** Os dados podem ser processados de diversas formas, como enviar para um servidor web, gerar um arquivo PDF, gerar imagens com a API do ChatGPT, etc.
 
-- **Validação:** Implemente rotinas de validação para verificar se os dados inseridos são válidos, como verificar se campos obrigatórios foram preenchidos e se os dados possuem o formato correto.
-- **Armazenamento:** Utilize bibliotecas como `openpyxl` para salvar os dados em um arquivo Excel ou `sqlite3` para armazená-los em um banco de dados SQLite.
-- **Outras Ações:** Os dados podem ser processados de diversas formas, como enviar para um servidor web, gerar um arquivo PDF, gerar imagens com a API do ChatGPT, etc.
-
-**Exemplo de Implementação (Simplificado):**
-
-```python
-import tkinter as tk
-
-def enviar_dados():
-  nome = nome_entry.get()
-  idade = idade_spinbox.get()
-  print(f"Nome: {nome}, Idade: {idade}")
-
-window = tk.Tk()
-window.title("Formulário de Entrada")
-
-nome_label = tk.Label(window, text="Nome:")
-nome_label.grid(row=0, column=0)
-
-nome_entry = tk.Entry(window)
-nome_entry.grid(row=0, column=1)
-
-idade_label = tk.Label(window, text="Idade:")
-idade_label.grid(row=1, column=0)
-
-idade_spinbox = tk.Spinbox(window, from_=18, to=100)
-idade_spinbox.grid(row=1, column=1)
-
-enviar_button = tk.Button(window, text="Enviar", command=enviar_dados)
-enviar_button.grid(row=2, column=0, columnspan=2)
-
-window.mainloop()
-```
+> [!EXAMPLE] Exemplo de Implementação (Simplificado)
+> ```python
+> import tkinter as tk
+>
+> def enviar_dados():
+>   nome = nome_entry.get()
+>   idade = idade_spinbox.get()
+>   print(f"Nome: {nome}, Idade: {idade}")
+>
+> window = tk.Tk()
+> window.title("Formulário de Entrada")
+>
+> nome_label = tk.Label(window, text="Nome:")
+> nome_label.grid(row=0, column=0)
+>
+> nome_entry = tk.Entry(window)
+> nome_entry.grid(row=0, column=1)
+>
+> idade_label = tk.Label(window, text="Idade:")
+> idade_label.grid(row=1, column=0)
+>
+> idade_spinbox = tk.Spinbox(window, from_=18, to=100)
+> idade_spinbox.grid(row=1, column=1)
+>
+> enviar_button = tk.Button(window, text="Enviar", command=enviar_dados)
+> enviar_button.grid(row=2, column=0, columnspan=2)
+>
+> window.mainloop()
+> ```
 
 Este exemplo demonstra a criação de um formulário simples com campos de nome e idade. Ao clicar no botão "Enviar", os dados são recuperados dos widgets e exibidos no console. É importante destacar que este é apenas um exemplo básico, e a complexidade do seu formulário dependerá dos seus requisitos específicos.
 
@@ -88,55 +84,59 @@ Esta lista de tarefas descreve as etapas para a criação de um formulário de e
 
 **1. Configuração Inicial:**
 
-- **[TODO]** Importar bibliotecas necessárias:
-    - `tkinter` como `tk` para interface gráfica. 
-    - `ttk` para widgets com temas. 
-    - Bibliotecas adicionais, como `filedialog`, `messagebox`, e bibliotecas de processamento de dados (ex.: `openpyxl` para Excel).
-- **[TODO]** Criar a janela principal:
-    - Instanciar a janela (`window = tk.Tk()` ou `window = ctk.CTk()` para CustomTkinter). 
-    - Definir o título da janela usando `window.title()`. 
-    - Definir a geometria inicial da janela com `window.geometry()` (opcional).
+> [!TODO] Configuração Inicial
+> - Importar bibliotecas necessárias:
+>     - `tkinter` como `tk` para interface gráfica. 
+>     - `ttk` para widgets com temas. 
+>     - Bibliotecas adicionais, como `filedialog`, `messagebox`, e bibliotecas de processamento de dados (ex.: `openpyxl` para Excel).
+> - Criar a janela principal:
+>     - Instanciar a janela (`window = tk.Tk()` ou `window = ctk.CTk()` para CustomTkinter). 
+>     - Definir o título da janela usando `window.title()`. 
+>     - Definir a geometria inicial da janela com `window.geometry()` (opcional).
 
 **2. Design da Interface:**
 
-- **[TODO]** Criar widgets para o formulário:
-    - Labels com `tk.Label()`: para exibir texto descritivo.
-    - Entries com `tk.Entry()`: para entrada de texto do usuário.
-    - Botões com `tk.Button()`: para acionar ações.
-        - Definir a função a ser chamada no atributo `command`.
-    - Spinboxes com `tk.Spinbox()`: para selecionar valores numéricos em um intervalo.
-    - Comboboxes com `ttk.Combobox()`: para selecionar uma opção de uma lista.
-    - Checkbuttons com `tk.Checkbutton()`: para marcar ou desmarcar opções.
-- **[TODO]** Organizar os widgets com um gerenciador de layout:
-    - `grid()`: para organizar em linhas e colunas.
-        - Usar `row` e `column` para definir a posição.
-        - Usar `columnspan` para widgets ocuparem várias colunas.
-        - Usar `sticky` para controlar o comportamento ao redimensionar.
-    - `pack()`: para organizar sequencialmente e centralizar.
-        - Usar `fill` para preencher o espaço disponível.
-        - Usar `side` para posicionar (esquerda, direita, etc.).
-    - `place()`: para posicionar com coordenadas x e y.
-- **[TODO]** Adicionar espaçamento e padding:
-    - Usar `padx` e `pady` nos widgets ou no gerenciador de layout.
+> [!TODO] Design da Interface
+> - Criar widgets para o formulário:
+>     - Labels com `tk.Label()`: para exibir texto descritivo.
+>     - Entries com `tk.Entry()`: para entrada de texto do usuário.
+>     - Botões com `tk.Button()`: para acionar ações.
+>         - Definir a função a ser chamada no atributo `command`.
+>     - Spinboxes com `tk.Spinbox()`: para selecionar valores numéricos em um intervalo.
+>     - Comboboxes com `ttk.Combobox()`: para selecionar uma opção de uma lista.
+>     - Checkbuttons com `tk.Checkbutton()`: para marcar ou desmarcar opções.
+> - Organizar os widgets com um gerenciador de layout:
+>     - `grid()`: para organizar em linhas e colunas.
+>         - Usar `row` e `column` para definir a posição.
+>         - Usar `columnspan` para widgets ocuparem várias colunas.
+>         - Usar `sticky` para controlar o comportamento ao redimensionar.
+>     - `pack()`: para organizar sequencialmente e centralizar.
+>         - Usar `fill` para preencher o espaço disponível.
+>         - Usar `side` para posicionar (esquerda, direita, etc.).
+>     - `place()`: para posicionar com coordenadas x e y.
+> - Adicionar espaçamento e padding:
+>     - Usar `padx` e `pady` nos widgets ou no gerenciador de layout.
 
 **3. Funcionalidades do Formulário:**
 
-- **[TODO]** Criar funções para capturar os dados dos widgets:
-    - Usar `widget.get()` para entradas de texto, spinboxes e comboboxes.
-    - Usar `variavel_de_controle.get()` para checkbuttons.
-- **[TODO]** Implementar validação de dados:
-    - Verificar se os campos obrigatórios foram preenchidos.
-    - Verificar o formato dos dados (ex.: email, número de telefone).
-    - Usar `messagebox` para exibir mensagens de erro ou sucesso.
-- **[TODO]** Definir o processamento dos dados:
-    - Salvar em arquivo (Excel, TXT, etc.).
-    - Armazenar em banco de dados.
-    - Enviar para um servidor web.
-    - Gerar outros outputs (PDF, imagens, etc.).
+> [!TODO] Funcionalidades do Formulário
+> - Criar funções para capturar os dados dos widgets:
+>     - Usar `widget.get()` para entradas de texto, spinboxes e comboboxes.
+>     - Usar `variavel_de_controle.get()` para checkbuttons.
+> - Implementar validação de dados:
+>     - Verificar se os campos obrigatórios foram preenchidos.
+>     - Verificar o formato dos dados (ex.: email, número de telefone).
+>     - Usar `messagebox` para exibir mensagens de erro ou sucesso.
+> - Definir o processamento dos dados:
+>     - Salvar em arquivo (Excel, TXT, etc.).
+>     - Armazenar em banco de dados.
+>     - Enviar para um servidor web.
+>     - Gerar outros outputs (PDF, imagens, etc.).
 
 **4. Finalização:**
 
-- **[TODO]** Iniciar o loop de eventos com `window.mainloop()`.
+> [!TODO] Finalização
+> - Iniciar o loop de eventos com `window.mainloop()`.
 
 ### 1. Importe as Bibliotecas Necessárias
 
@@ -179,7 +179,7 @@ Utilize widgets para criar os elementos do seu formulário, como labels, entries
 **Entries:**
 
 - Crie entries com `tk.Entry(janela_pai)`.
-- Para campos de senha, utilize `show="*"` para ocultar os caracteres digitados.
+- Para campos de senha, utilize `show="*" ` para ocultar os caracteres digitados.
 
 **Botões:**
 
@@ -226,49 +226,46 @@ Utilize gerenciadores de layout para posicionar os widgets no formulário.
 - Ajuste o espaçamento com `padx` e `pady` nos widgets ou gerenciadores de layout.
 - Utilize o atributo `sticky` no `grid` para controlar o comportamento dos widgets ao redimensionar a janela.
 
-#### Exemplo de Código para Organização de Widgets em Tkinter
-
-Para ilustrar a organização de widgets em um formulário Tkinter, vamos usar o exemplo de um formulário simples para cadastro de um novo usuário, com campos para nome, email e senha.
-
-```python
-import tkinter as tk
-from tkinter import ttk
-
-# Criar a janela principal
-window = tk.Tk()
-window.title("Cadastro de Usuário")
-
-# Criar um frame para conter os widgets do formulário
-form_frame = ttk.Frame(window, padding="20")
-form_frame.grid(row=0, column=0, sticky="nsew")
-
-# Criar os widgets do formulário
-nome_label = ttk.Label(form_frame, text="Nome:")
-nome_entry = ttk.Entry(form_frame)
-
-email_label = ttk.Label(form_frame, text="Email:")
-email_entry = ttk.Entry(form_frame)
-
-senha_label = ttk.Label(form_frame, text="Senha:")
-senha_entry = ttk.Entry(form_frame, show="*")
-
-# Organizar os widgets usando o gerenciador de layout grid
-nome_label.grid(row=0, column=0, sticky="w")
-nome_entry.grid(row=0, column=1, sticky="ew")
-
-email_label.grid(row=1, column=0, sticky="w")
-email_entry.grid(row=1, column=1, sticky="ew")
-
-senha_label.grid(row=2, column=0, sticky="w")
-senha_entry.grid(row=2, column=1, sticky="ew")
-
-# Criar um botão para enviar o formulário
-enviar_button = ttk.Button(form_frame, text="Enviar")
-enviar_button.grid(row=3, column=0, columnspan=2, pady="10")
-
-# Iniciar o loop de eventos
-window.mainloop()
-```
+> [!EXAMPLE] Exemplo de Código para Organização de Widgets em Tkinter
+> ```python
+> import tkinter as tk
+> from tkinter import ttk
+>
+> # Criar a janela principal
+> window = tk.Tk()
+> window.title("Cadastro de Usuário")
+>
+> # Criar um frame para conter os widgets do formulário
+> form_frame = ttk.Frame(window, padding="20")
+> form_frame.grid(row=0, column=0, sticky="nsew")
+>
+> # Criar os widgets do formulário
+> nome_label = ttk.Label(form_frame, text="Nome:")
+> nome_entry = ttk.Entry(form_frame)
+>
+> email_label = ttk.Label(form_frame, text="Email:")
+> email_entry = ttk.Entry(form_frame)
+>
+> senha_label = ttk.Label(form_frame, text="Senha:")
+> senha_entry = ttk.Entry(form_frame, show="*")
+>
+> # Organizar os widgets usando o gerenciador de layout grid
+> nome_label.grid(row=0, column=0, sticky="w")
+> nome_entry.grid(row=0, column=1, sticky="ew")
+>
+> email_label.grid(row=1, column=0, sticky="w")
+> email_entry.grid(row=1, column=1, sticky="ew")
+>
+> senha_label.grid(row=2, column=0, sticky="w")
+> senha_entry.grid(row=2, column=1, sticky="ew")
+>
+> # Criar um botão para enviar o formulário
+> enviar_button = ttk.Button(form_frame, text="Enviar")
+> enviar_button.grid(row=3, column=0, columnspan=2, pady="10")
+>
+> # Iniciar o loop de eventos
+> window.mainloop()
+> ```
 
 **Explicação do Código:**
 
@@ -308,59 +305,58 @@ Crie funções para capturar os dados dos widgets, validá-los e processá-los.
 - Salve os dados em um arquivo Excel, banco de dados ou envie para um servidor web.
 - Utilize os dados para gerar outros outputs, como PDF, imagens, etc.
 
-#### Capturando Dados de Widgets em Tkinter
-
-Dando continuidade ao nosso passo a passo, vamos agora apresentar um exemplo de código para capturar os dados inseridos pelo usuário nos widgets do nosso formulário de cadastro. Para isso, vamos adicionar uma função ao código anterior que será chamada quando o botão "Enviar" for clicado. Essa função irá recuperar os valores dos campos de nome, email e senha.
-
-```python
-import tkinter as tk
-from tkinter import ttk
-from tkinter import messagebox
-
-# Função para capturar os dados do formulário
-def enviar_dados():
-    nome = nome_entry.get()
-    email = email_entry.get()
-    senha = senha_entry.get()
-
-    # Exibir os dados capturados em uma caixa de diálogo
-    messagebox.showinfo("Dados Capturados", f"Nome: {nome}\nEmail: {email}\nSenha: {senha}")
-
-# Criar a janela principal
-window = tk.Tk()
-window.title("Cadastro de Usuário")
-
-# Criar um frame para conter os widgets do formulário
-form_frame = ttk.Frame(window, padding="20")
-form_frame.grid(row=0, column=0, sticky="nsew")
-
-# Criar os widgets do formulário
-nome_label = ttk.Label(form_frame, text="Nome:")
-nome_entry = ttk.Entry(form_frame)
-
-email_label = ttk.Label(form_frame, text="Email:")
-email_entry = ttk.Entry(form_frame)
-
-senha_label = ttk.Label(form_frame, text="Senha:")
-senha_entry = ttk.Entry(form_frame, show="*")
-
-# Organizar os widgets usando o gerenciador de layout grid
-nome_label.grid(row=0, column=0, sticky="w")
-nome_entry.grid(row=0, column=1, sticky="ew")
-
-email_label.grid(row=1, column=0, sticky="w")
-email_entry.grid(row=1, column=1, sticky="ew")
-
-senha_label.grid(row=2, column=0, sticky="w")
-senha_entry.grid(row=2, column=1, sticky="ew")
-
-# Criar um botão para enviar o formulário
-enviar_button = ttk.Button(form_frame, text="Enviar", command=enviar_dados)
-enviar_button.grid(row=3, column=0, columnspan=2, pady="10")
-
-# Iniciar o loop de eventos
-window.mainloop()
-```
+> [!EXAMPLE] Capturando Dados de Widgets em Tkinter
+> Dando continuidade ao nosso passo a passo, vamos agora apresentar um exemplo de código para capturar os dados inseridos pelo usuário nos widgets do nosso formulário de cadastro. Para isso, vamos adicionar uma função ao código anterior que será chamada quando o botão "Enviar" for clicado. Essa função irá recuperar os valores dos campos de nome, email e senha.
+>
+> ```python
+> import tkinter as tk
+> from tkinter import ttk
+> from tkinter import messagebox
+>
+> # Função para capturar os dados do formulário
+> def enviar_dados():
+>     nome = nome_entry.get()
+>     email = email_entry.get()
+>     senha = senha_entry.get()
+>
+>     # Exibir os dados capturados em uma caixa de diálogo
+>     messagebox.showinfo("Dados Capturados", f"Nome: {nome}\nEmail: {email}\nSenha: {senha}")
+>
+> # Criar a janela principal
+> window = tk.Tk()
+> window.title("Cadastro de Usuário")
+>
+> # Criar um frame para conter os widgets do formulário
+> form_frame = ttk.Frame(window, padding="20")
+> form_frame.grid(row=0, column=0, sticky="nsew")
+>
+> # Criar os widgets do formulário
+> nome_label = ttk.Label(form_frame, text="Nome:")
+> nome_entry = ttk.Entry(form_frame)
+>
+> email_label = ttk.Label(form_frame, text="Email:")
+> email_entry = ttk.Entry(form_frame)
+>
+> senha_label = ttk.Label(form_frame, text="Senha:")
+> senha_entry = ttk.Entry(form_frame, show="*")
+>
+> # Organizar os widgets usando o gerenciador de layout grid
+> nome_label.grid(row=0, column=0, sticky="w")
+> nome_entry.grid(row=0, column=1, sticky="ew")
+>
+> email_label.grid(row=1, column=0, sticky="w")
+> email_entry.grid(row=1, column=1, sticky="ew")
+>
+> senha_label.grid(row=2, column=0, sticky="w")
+> senha_entry.grid(row=2, column=1, sticky="ew")
+>
+> # Criar um botão para enviar o formulário
+> enviar_button = ttk.Button(form_frame, text="Enviar", command=enviar_dados)
+> enviar_button.grid(row=3, column=0, columnspan=2, pady="10")
+>
+> # Iniciar o loop de eventos
+> window.mainloop()
+> ```
 
 **Análise do Código:**
 
@@ -385,4 +381,4 @@ O loop de eventos mantém a janela aberta e responde às interações do usuári
 
 ### Referência
 
-![Tkinter Data Entry Form tutorial for beginners - Python GUI project \[responsive layout\] - YouTube](https://www.youtube.com/watch?v=vusUfPBsggw&list=PLs3IFJPw3G9IiHm9PEP1UaMtuvACmxVMj&index=3)
+![Tkinter Data Entry Form tutorial for beginners - Python GUI project [responsive layout] - YouTube](https://www.youtube.com/watch?v=vusUfPBsggw&list=PLs3IFJPw3G9IiHm9PEP1UaMtuvACmxVMj&index=3)

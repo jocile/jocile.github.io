@@ -4,7 +4,7 @@ title: uc1.02 - tipos de Sistemas
 description: Introdução e conceitos, algoritmos, variáveis, expressões
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.15
+date: 2026-09-15
 uc: 1
 aula: 2
 ---

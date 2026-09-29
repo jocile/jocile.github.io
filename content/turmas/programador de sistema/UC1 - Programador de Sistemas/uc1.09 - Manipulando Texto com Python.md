@@ -1,10 +1,10 @@
 ---
 quartz-properties: true
 title: uc1.09 - Manipulando Texto com Python
-description: "Usando funções de Strings com Python"
+description: Usando funções de Strings com Python
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.24
+date: 2026-09-24
 uc: 1
 aula: 9
 ---

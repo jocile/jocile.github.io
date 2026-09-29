@@ -4,7 +4,7 @@ title: uc1.06 - estrutura de dados com python
 description: "Introdução a estruturas de dados em Python: Tuplas, Conjuntos e Dicionários"
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.21
+date: 2026-09-21
 uc: 1
 aula: 6
 ---

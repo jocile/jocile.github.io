@@ -1,10 +1,10 @@
 ---
 quartz-properties: true
 title: uc1.11 - Resolução de exercícios
-description: "Criando interfaces gráficas em janelas com Python"
+description: Criando interfaces gráficas em janelas com Python
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.28
+date: 2026-09-28
 uc: 1
 aula: 11
 ---

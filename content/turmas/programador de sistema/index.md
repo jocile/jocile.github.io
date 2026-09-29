@@ -29,20 +29,21 @@ WHERE !draft
 SORT aula ASC-->
 <!-- SerializedQuery: TABLE WITHOUT ID aula, date AS "Data", file.link AS "Tema" FROM #programador-sistemas/aulas/uc1 WHERE !draft SORT aula ASC -->
 
-| aula | Data       | Tema                                                                                                                                                              |
-| ---- | ---------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | 2026.09.14 | [[uc1.01 - introducao ao programador de Sistemas]] |
-| 2    | 2026.09.15 | [[uc1.02 - tipos de sistemas]]                                         |
-| 3    | 2026.09.16 | [[uc1.03 - introducao a logica com Python]]               |
-| 4    | 2026.09.17 | [[uc1.04 - logica condicional]]                                       |
-| 5    | 2026.09.18 | [[uc1.05 - listas com python]]                                         |
-| 6    | 2026.09.21 | [[uc1.06 - estrutura de dados com python]]                 |
-| 7    | 2026.09.22 | [[uc1.07 - estrutura de dados com dicionarios]]       |
-| 8    | 2026.09.23 | [[uc1.08 - Configurando o setup para programacao]] |
-| 9    | 2026.09.24 | [[uc1.09 - Manipulando Texto com Python]]                   |
-| 10   | 2026.09.25 | [[uc1.10 - Programacao Funcional]]                                 |
-| 11   | 2026.09.28 | [[uc1.11 - Resolucao de exercicios]]                             |
-| 12   | 2026.09.29 | [[uc1.12 - Interface Grafica]]                                         |
+| aula | Data               | Tema                                                                                                                                                              |
+| ---- | ------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | September 14, 2026 | [[uc1.01 - introducao ao programador de Sistemas]] |
+| 2    | September 15, 2026 | [[uc1.02 - tipos de sistemas]]                                         |
+| 3    | September 16, 2026 | [[uc1.03 - introducao a logica com Python]]               |
+| 4    | September 17, 2026 | [[uc1.04 - logica condicional]]                                       |
+| 5    | September 18, 2026 | [[uc1.05 - listas com python]]                                         |
+| 6    | September 21, 2026 | [[uc1.06 - estrutura de dados com python]]                 |
+| 7    | September 22, 2026 | [[uc1.07 - estrutura de dados com dicionarios]]       |
+| 8    | September 23, 2026 | [[uc1.08 - Configurando o setup para programacao]] |
+| 9    | September 24, 2026 | [[uc1.09 - Manipulando Texto com Python]]                   |
+| 10   | September 25, 2026 | [[uc1.10 - Programacao Funcional]]                                 |
+| 11   | September 28, 2026 | [[uc1.11 - Resolucao de exercicios]]                             |
+| 12   | September 29, 2026 | [[uc1.12 - Interface Grafica]]                                         |
+| 13   | September 30, 2026 | [[uc1.13 - Modulos em Python]]                                         |
 
 <!-- SerializedQuery END -->
 

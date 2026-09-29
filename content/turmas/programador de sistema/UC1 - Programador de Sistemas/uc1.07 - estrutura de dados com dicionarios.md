@@ -4,7 +4,7 @@ title: uc1.07 - estrutura de dados com dicionarios
 description: "Introdução a estruturas de dados em Python: Dicionários"
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.22
+date: 2026-09-22
 uc: 1
 aula: 7
 ---

@@ -1,10 +1,10 @@
 ---
 quartz-properties: true
 title: uc1.12 - Interface Gráfica
-description: "Criando interfaces gráficas em janelas com Python"
+description: Criando interfaces gráficas em janelas com Python
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.29
+date: 2026-09-29
 uc: 1
 aula: 12
 ---
@@ -28,4 +28,4 @@ aula: 12
 
 ![[solucao dos exercicios da uc1#Sistema bancário]]
 
-⬅️ Aula anterior: [[uc1.11 - Resolucao de exercicios]]
+⬅️ Aula anterior: [[uc1.11 - Resolucao de exercicios]] | ➡️ Próxima aula: [[uc1.13 - Modulos em Python]]

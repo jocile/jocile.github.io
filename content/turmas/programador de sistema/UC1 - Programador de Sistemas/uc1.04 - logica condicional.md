@@ -4,7 +4,7 @@ title: uc1.04 - lógica condicional
 description: Introdução e conceitos sobre expressões lógicas
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.17
+date: 2026-09-17
 uc: 1
 aula: 4
 ---

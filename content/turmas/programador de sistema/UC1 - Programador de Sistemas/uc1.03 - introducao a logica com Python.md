@@ -4,7 +4,7 @@ title: uc1.03 - introdução à lógica com Python
 description: Introdução à lógica de programação
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.16
+date: 2026-09-16
 uc: 1
 aula: 3
 ---

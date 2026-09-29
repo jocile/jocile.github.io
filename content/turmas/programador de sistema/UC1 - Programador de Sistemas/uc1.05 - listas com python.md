@@ -4,7 +4,7 @@ title: uc1.05 - listas com python
 description: Introdução a conjuntos de dados e listas em Python
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026.09.18
+date: 2026-09-18
 uc: 1
 aula: 5
 ---
