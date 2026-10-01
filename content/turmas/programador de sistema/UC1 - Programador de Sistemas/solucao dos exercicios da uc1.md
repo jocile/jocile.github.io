@@ -13,3 +13,8 @@
 
 >[!done]  Solução dos exercícios
 > - [Exercicios/desafio-bancario at main · profjocile/Exercicios · GitHub](https://github.com/profjocile/Exercicios/tree/main/desafio-bancario)
+
+## Cadastro de alunos
+
+>[!done]  Solução dos exercícios
+> - [Exercicios/cadastro-de-alunos at main · profjocile/Exercicios · GitHub](https://github.com/profjocile/Exercicios/tree/main/cadastro-de-alunos)

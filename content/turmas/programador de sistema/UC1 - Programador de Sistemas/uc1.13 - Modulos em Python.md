@@ -25,4 +25,4 @@ aula: 13
 
 ![[solucao dos exercicios da uc1#Sistema bancário]]
 
-⬅️ Aula anterior: [[uc1.12 - Interface Grafica]]
+⬅️ Aula anterior: [[uc1.12 - Interface Grafica]] | ➡️ Próxima aula: [[uc1.14 - Prática de desenvolvimento de sitema]]

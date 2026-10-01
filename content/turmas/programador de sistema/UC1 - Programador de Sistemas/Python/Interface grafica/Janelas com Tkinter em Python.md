@@ -137,6 +137,7 @@ Para aprofundar seus conhecimentos em Tkinter, recomendo os seguintes recursos:
 - [Documentação oficial do Tkinter](https://docs.python.org/3/library/tkinter.html)
 - [Tutoriais e exemplos](https://realpython.com/python-gui-tkinter/)
 - [Como Criar uma Interface Gráfica Python c/ CustomTkinter \[RÁPIDO\] - YouTube](https://www.youtube.com/watch?v=Px-DgrQ_wjI)
+- [GitHub - nucleonautomation/Gluonix-Designer · GitHub](https://github.com/nucleonautomation/Gluonix-Designer)
 - [Tkinter - Tutorial Completo de telas com Python - YouTube](https://www.youtube.com/watch?v=yHdZvQhSRiA)
 
 Desenvolvimento Rápido de Interfaces (RAD):

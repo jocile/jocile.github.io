@@ -29,7 +29,7 @@ tags:
 
 > [!summary]- Fundamentos da Arquitetura de User Experience (UX)
 > - Entendendo a Arquitetura de Produtos Digitais
->	- Planejamento e estrutura inicial: [[Briefing]], [[Analise do Briefing]], [[layout]], Grids.
+>	- Planejamento e estrutura inicial: [[Briefing]], [[Analise do Briefing de restaurante]], [[layout]], Grids.
 >	- Estruturação de telas e protótipos: [[wireframe]], [[prototipo]], [[mockup]].
 >	- Sistemas, conceitos e experiência: [[Design System]], [[MoodBoard]], usabilidade.
 > - Fundamentos da Arquitetura da Informação

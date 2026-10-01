@@ -99,7 +99,7 @@ Tabela comparativa com os links para a documentação dos editores de interface 
 > 
 > **Lembre-se de que a melhor maneira de aprender a usar uma biblioteca de interface gráfica é através da prática.** Comece com projetos simples e vá aumentando a complexidade à medida que você se familiariza com a biblioteca.
 
-Pesquisado usando: [chat.openai.com](https://chatgpt.com) e [Gemini: conversas que vão potencializar suas ideias](https://gemini.google.com)
+Veja também: [Best Python GUI Libraries Compared! (PyQt, Kivy, Tkinter, PySimpleGUI, WxPython & PySide) - YouTube](https://www.youtube.com/watch?v=Q72b6tDQMKQ)
 
 [PySimpleGUI]: https://pysimplegui.readthedocs.io/
 [WxPython]: https://wxpython.org/pages/docs/index.html
