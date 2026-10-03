@@ -1,5 +1,5 @@
 ---
-title: Atividade Prática Explorando a Biblioteca Padrão Python
+title: Atividade Pratica Módulos Padrão
 tags: [python, atividade, biblioteca-padrao]
 ---
 

@@ -2,7 +2,7 @@
 title: Desafio Cadastro De Alunos Resolvido
 description: Nesta atividade, você aprenderá a criar um programa de cadastro de alunos para uma escola. Começaremos sem o uso de funções, depois adicionaremos uma…
 date: 2026-09-26
-draft: true
+draft: false
 publish: false
 ---
 

@@ -45,7 +45,8 @@ SORT aula ASC-->
 | 12   | September 29, 2026 | [[uc1.12 - Interface Grafica]]                                         |
 | 13   | September 30, 2026 | [[uc1.13 - Modulos em Python]]                                         |
 | 14   | October 01, 2026   | [[uc1.14 - Prática de desenvolvimento de sitema]]   |
-| 15   | October 01, 2026   | [[uc1.15 - Prática de desenvolvimento de sistema]] |
+| 15   | October 02, 2026   | [[uc1.15 - Prática de desenvolvimento de sistema]] |
+| 16   | October 05, 2026   | [[uc1.16 - Manipulando arquivos]]                                   |
 
 <!-- SerializedQuery END -->
 

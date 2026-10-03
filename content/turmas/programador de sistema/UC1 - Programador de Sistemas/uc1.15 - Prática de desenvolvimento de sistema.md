@@ -4,7 +4,7 @@ title: uc1.15 - Prática de desenvolvimento de sistema
 description: Prática de desenvolvimento de sistema focada em proposta comercial e requisitos.
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026-10-01
+date: 2026-10-02
 uc: 1
 aula: 15
 ---
@@ -19,4 +19,4 @@ aula: 15
 
 ![[solucao dos exercicios da uc1#Cadastro de alunos]]
 
-⬅️ Aula anterior: [[uc1.14 - Prática de desenvolvimento de sitema]] | ➡️ Próxima aula: [[uc1.16]]
+⬅️ Aula anterior: [[uc1.14 - Prática de desenvolvimento de sitema]] | ➡️ Próxima aula: [[uc1.16 - Manipulando arquivos]]

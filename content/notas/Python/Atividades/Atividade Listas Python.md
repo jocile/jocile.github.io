@@ -10,8 +10,6 @@ tags:
 description: "Atividade prática para alunos da turma de programador de sistemas sobre criação, manipulação, acesso e métodos da classe list em Python."
 ---
 
-# Atividade Prática: Manipulação de Listas em Python
-
 ## Objetivo
 
 Praticar a criação, manipulação, acesso e utilização de métodos da classe `list` em Python.
