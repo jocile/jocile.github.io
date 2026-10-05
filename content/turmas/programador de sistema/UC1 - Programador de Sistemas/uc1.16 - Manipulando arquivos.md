@@ -19,4 +19,4 @@ aula: 16
 > 
 > ![[Desafio-total-de-compras#Fase inicial]]
 
-⬅️ Aula anterior: [[uc1.15 - Prática de desenvolvimento de sistema]] | ➡️ Próxima aula: uc1.17
+⬅️ Aula anterior: [[uc1.15 - Prática de desenvolvimento de sistema]] | ➡️ Próxima aula: [[uc1.17 - Programação Orientada a Objetos]]

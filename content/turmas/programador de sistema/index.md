@@ -47,6 +47,7 @@ SORT aula ASC-->
 | 14   | October 01, 2026   | [[uc1.14 - Prática de desenvolvimento de sitema]]   |
 | 15   | October 02, 2026   | [[uc1.15 - Prática de desenvolvimento de sistema]] |
 | 16   | October 05, 2026   | [[uc1.16 - Manipulando arquivos]]                                   |
+| 17   | October 06, 2026   | [[uc1.17 - Programação Orientada a Objetos]]             |
 
 <!-- SerializedQuery END -->
 

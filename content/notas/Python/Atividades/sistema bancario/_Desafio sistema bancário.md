@@ -1,12 +1,11 @@
 ---
-title: Desafio sistema bancário
-date: 2026-09-25
+title: 'Criar 3 operações bancárias: depósito, saque e extrato.'
+description: 'Criar um sistema bancário com as operações:'
+date: '2026-09-26'
 draft: false
 tags:
-  - python
-  - strings
-  - exercicios
-description: "Desafio de exercícios com Sistemas em Python."
+- programador/desafios
+- Python/POO
 ---
 
 Criar um sistema bancário com as operações:
@@ -38,51 +37,48 @@ Os valores devem ser exibidos utilizando o formato R$ xxx.xx, exemplo:
 
 1500.45 = R$ 1500.45
 
-## Fluxograma
-
-![[Desafio-bancario-fluxograma.excalidraw]]
-
-%%
-
 ## Exemplo de solução
 
 ```python
-# Criar 3 operações bancárias: depósito, saque e extrato.
 
 # Menu pra escolher
 menu = '''
 Escolha:
-  [d] depósitar
-  [s] sacar
-  [e] extrato
-  [x] sair
+ [d] depósitar
+ [s] sacar
+ [e] extrato
+ [x] sair
 '''
 saldo = 0
 limite_de_saque = 500
 quantidade_de_saques = 3
 while True:
-    opcao = input(menu)
-    if opcao == 'x': break
-    # Depósito
-    if opcao == 'd':
-        valor = float(input('Digite o valor do depósito: R$ '))
-        if valor > 0 :
-            saldo += valor  # equivale a saldo + valor
-            print(f'Depósito de R$ {valor} confirmado!\nSaldo: R$ {saldo}')
-    # Saque
-    if opcao == 's':
-        valor = float(input('Digite o valor do saque: R$ '))
-        if quantidade_de_saques > 0:
-            if valor <= saldo:
-                saldo -= valor
-                print(f'Saque de R$ {valor} confirmado!\nSaldo: R$ {saldo}')
-            else:
-                print(f'Infelizmente não será possível sacar o dinheiro por falta de saldo\nSaldo: R$ {saldo}')
-        else:
-            print(f'Infelizmente não será possível sacar o dinheiro por limite de saques')
+ opcao = input(menu)
+ if opcao == 'x': break
+ # Depósito
+ if opcao == 'd':
+ valor = float(input('Digite o valor do depósito: R$ '))
+ if valor > 0:
+ saldo += valor # equivale a saldo + valor
+ print(f'Depósito de R$ {valor} confirmado!\nSaldo: R$ {saldo}')
+ # Saque
+ if opcao == 's':
+ valor = float(input('Digite o valor do saque: R$ '))
+ if quantidade_de_saques > 0:
+ if valor <= saldo:
+ saldo -= valor
+ print(f'Saque de R$ {valor} confirmado!\nSaldo: R$ {saldo}')
+ else:
+ print(f'Infelizmente não será possível sacar o dinheiro por falta de saldo\nSaldo: R$ {saldo}')
+ else:
+ print(f'Infelizmente não será possível sacar o dinheiro por limite de saques')
 
 # Extrato
 
 ```
 
+%%
+## Referências
+
+![Repositórios de desafios](Repositórios%20de%20desafios.md)
 %%
