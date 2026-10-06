@@ -1,5 +1,5 @@
 ---
-title: Criando um objeto da classe Copo
+title: Conceitos de POO em Python
 description: A Programação Orientada a Objetos (POO) é um dos paradigmas de programação
   mais influentes e amplamente utilizados no desenvolvimento de software. Neste…
 date: '2026-09-17'

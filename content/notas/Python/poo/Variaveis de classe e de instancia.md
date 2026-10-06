@@ -1,5 +1,5 @@
 ---
-title: Acessando a variável de classe
+title: Variáveis de classe e de instancia
 description: Na Programação Orientada a Objetos (POO), entender a diferença entre
   variáveis de classe e variáveis de instância é fundamental para manipular dados
   de…

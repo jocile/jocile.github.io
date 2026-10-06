@@ -1,5 +1,5 @@
 ---
-title: Criando instâncias da classe Pessoa
+title: Diferença de Métodos de classe e estaticos
 description: Na Programação Orientada a Objetos (POO), entender a diferença entre
   métodos de classe e métodos estáti cos é fundamental para utilizar as classes de
   maneira…

@@ -70,21 +70,21 @@ classDiagram
  Animal <|-- Animal2
  Animal <|-- Animal3
  class Animal1{
- "Totó"
- "Mamífero"
- "Canídeo"
+ Toto
+ Mamifero
+ Canideo
  5
  }
  class Animal2{
- "Chiquinho"
- "Mamífero"
- "Felídeo"
+ Chiquinho
+ Mamifero
+ Felideo
  3
  }
  class Animal3{
- "Amarelo"
- "Ave"
- "Frigilidae"
+ Amarelo
+ Ave
+ Frigilidae
  1
  }
 ```
@@ -112,7 +112,7 @@ Os métodos:
 - CORRER: método que retira determinada quantidade de calorias e uma quantidade de força por ter realizado essa ação, caso o animal não esteja morto ou exausto.
 - DORMIR: método que retira determinada quantidade de calorias e insere uma quantidade de força, caso o animal não esteja morto.
 
-Atualizando o diagrama de classe:
+Atualizando o diagrama da classe e seus objetos:
 
 ```mermaid
 classDiagram
@@ -133,24 +133,21 @@ classDiagram
  Animal <|-- Animal2
  Animal <|-- Animal3
  class Animal1{
- <<objeto>>
- "Totó"
- "Mamífero"
- "Canídeo"
+ Toto
+ Mamifero
+ Canideo
  5
  }
  class Animal2{
- <<objeto>>
- "Chiquinho"
- "Mamífero"
- "Felídeo"
+ Chiquinho
+ Mamifero
+ Felideo
  3
  }
  class Animal3{
- <<objeto>>
- "Amarelo"
- "Ave"
- "Frigilidae"
+ Amarelo
+ Ave
+ Frigilidae
  1
  }
 ```

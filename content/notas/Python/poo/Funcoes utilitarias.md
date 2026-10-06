@@ -1,5 +1,5 @@
 ---
-title: util.py
+title: Funções utilitarias
 description: Funções utilitárias são funções auxiliares que realizam tarefas comuns
   e podem ser usadas em várias partes do código. Elas geralmente não pertencem a uma…
 date: '2026-09-17'

@@ -1,5 +1,5 @@
 ---
-title: Criando uma instância da classe
+title: Propriedades de variáveis em Python
 description: Na Programação Orientada a Objetos (POO), o uso de propriedades é uma
   técnica poderosa que permite controlar o acesso e a modificação de variáveis de…
 date: '2026-09-17'

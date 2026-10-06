@@ -1,5 +1,5 @@
 ---
-title: Definindo uma variável
+title: Módulos em Python
 description: Os módulos são uma das características mais poderosas de Python, permitindo
   a organização e a reutilização de código. Eles ajudam a dividir grandes programas…
 date: '2026-09-17'

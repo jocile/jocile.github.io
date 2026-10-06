@@ -1,5 +1,5 @@
 ---
-title: Criando um objeto da classe Carro
+title: Programação orientada a objetos com Python
 description: é um paradigma de programação que utiliza objetos – estruturas que combinam
   dados e comportamentos
 date: '2026-09-17'

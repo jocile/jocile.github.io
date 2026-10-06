@@ -1,5 +1,5 @@
 ---
-title: Exemplo de uso
+title: Iteradores
 description: Em Python, um iterador é um objeto que implementa os métodos iter() e
   next(), permitindo que você percorra seus elementos um por um. A utilização de…
 date: '2026-09-17'
