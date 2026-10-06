@@ -18,3 +18,8 @@
 
 >[!done]  Solução dos exercícios
 > - [Exercicios/cadastro-de-alunos at main · profjocile/Exercicios · GitHub](https://github.com/profjocile/Exercicios/tree/main/cadastro-de-alunos)
+
+## Desafio total de compras
+
+>[!done]  Solução dos exercícios
+> - [Exercicios/desafio-total-de-compras at main · profjocile/Exercicios · GitHub](https://github.com/profjocile/Exercicios/tree/main/desafio-total-de-compras)

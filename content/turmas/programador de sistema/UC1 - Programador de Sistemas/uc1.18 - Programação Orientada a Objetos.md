@@ -1,12 +1,12 @@
 ---
 quartz-properties: true
-title: uc1.17 - Programação Orientada a Objetos
+title: uc1.18 - Programação Orientada a Objetos
 description: Conceitos e prática de Programação Orientada a Objetos com Python.
 tags:
   - programador-sistemas/aulas/uc1
-date: 2026-10-06
+date: 2026-10-07
 uc: 1
-aula: 17
+aula: 18
 ---
 
 > [!note] Conhecimentos
@@ -19,4 +19,4 @@ aula: 17
 > - Nível 2: [[Desafio conta bancaria poo]]: Implementação de uma classe `ContaBancaria` com atributos de titular e saldo, contendo métodos para depositar, sacar (com validação de saldo) e exibir extrato.
 > - Nível 3: [[Desafio bancario criando contas]]: Atividade prática para desenvolver um sistema de abertura de contas com menu interativo, utilizando funções modulares, listas e dicionários para gerenciar (cadastrar, listar e remover) registros bancários.
 
-⬅️ Aula anterior: [[uc1.16 - Manipulando arquivos]] | ➡️ Próxima aula: [[uc1.18]]
+⬅️ Aula anterior: [[uc1.17 - Exercicios com Manipulação de arquivos]] | ➡️ Próxima aula: [[uc1.18]]
