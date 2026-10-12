@@ -24,10 +24,13 @@ tags:
 | 13 | Módulos em Python | Utilização de módulos padrão e pacotes. |
 | 14 | Prática de Sistemas I | Briefing, UX e análise de sistemas. |
 | 15 | Prática de Sistemas II | Requisitos, wireframe e projeto. |
+| 16 | Manipulando arquivos | Caminhos com pathlib e manipulação de arquivos txt. |
+| 17 | Exercícios com arquivos | Prática avançada de leitura e escrita de arquivos. |
+| 18 | Programação Orientada a Objetos | Fundamentos de POO em Python. |
 
 ## Diagrama de Linha do Tempo
 
-### Primeira semana
+### Primeira semana (Aulas 1-5)
 
 ```mermaid
 timeline
@@ -39,26 +42,36 @@ timeline
     Aula 5 : Listas e Repetições : Estruturas de Dados e Repetição
 ```
 
-### Segunda semana
+### Segunda semana (Aulas 6-10)
 
 ```mermaid
 timeline
     title Cronograma UC1 - Programador de Sistemas
     Aula 6 : Estrutura de dados : Listas, Tuplas e Conjuntos
     Aula 7 : Estrutura com dicionários : Organização com chave e valor
-    Aula 8 : Configurando o Setup para programação : instalação e configuração
+    Aula 8 : Configurando o Setup : Instalação e configuração do ambiente
     Aula 9 : Manipulação de textos : Criação e edição de Strings
     Aula 10 : Programação Funcional : Modularização com Funções em Python
 ```
 
-### Terceira semana
+### Terceira semana (Aulas 11-15)
 
 ```mermaid
 timeline
     title Cronograma UC1 - Programador de Sistemas
     Aula 11 : Resolução de Exercícios : Algoritmos e sistema bancário
-    Aula 12 : Interfaces Gráficas : Introdução ao Tkinter
+    Aula 12 : Interfaces Gráficas : Introdução ao Tkinter para interfaces
     Aula 13 : Módulos em Python : Módulos padrão e pacotes
-    Aula 14 : Prática de Sistemas I : Briefing, UX e análise
-    Aula 15 : Prática de Sistemas II : Requisitos e wireframe
+    Aula 14 : Prática de Sistemas I : Briefing, UX e análise de sistemas
+    Aula 15 : Prática de Sistemas II : Requisitos, wireframe e projeto
+```
+
+### Quarta semana (Aulas 16-18)
+
+```mermaid
+timeline
+    title Cronograma UC1 - Programador de Sistemas
+    Aula 16 : Manipulando arquivos : Caminhos com pathlib e leitura de arquivos
+    Aula 17 : Exercícios com arquivos : Prática avançada de operações de arquivos
+    Aula 18 : Programação Orientada a Objetos : Fundamentos de POO em Python
 ```

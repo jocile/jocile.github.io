@@ -1,5 +1,5 @@
 ---
-title: 01 Cronograma Programador de Sistemas
+title: Cronograma Programador de Sistemas
 description: é o profissional que especifica, desenvolve, testa e implanta sistema de informação
 tags:
   - Senac

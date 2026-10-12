@@ -10,7 +10,7 @@ aula: 1
 ---
 
 >[!note] Apresentação do Curso
-> - [[01-cronograma-programador-de-sistemas]]
+> - [[cronograma-programador-de-sistemas]]
 > - [[criando-documentacao]]
 
 

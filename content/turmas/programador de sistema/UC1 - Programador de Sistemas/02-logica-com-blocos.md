@@ -9,7 +9,7 @@ description: componentes montados como peças
 ---
 A programação em blocos, também conhecida como programação visual, é uma maneira intuitiva e divertida de aprender e criar programas de computador. 
 
-[01-cronograma-programador-de-sistemas ⬅️](01-cronograma-programador-de-sistemas.md) | [➡️ 03-introdução-aos-algoritmos](03-introdução-aos-algoritmos.md)
+[01-cronograma-programador-de-sistemas ⬅️](cronograma-programador-de-sistemas.md) | [➡️ 03-introdução-aos-algoritmos](03-introdução-aos-algoritmos.md)
 
 Imagine um quebra-cabeça, onde cada peça representa um comando ou ação. Ao encaixar as peças corretamente, você constrói a lógica do seu programa.
 
