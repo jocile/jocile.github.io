@@ -16,11 +16,11 @@ O **Design Thinking (DT)** é uma metodologia ativa estruturada para resolver pr
 
 O DT opera em um ciclo recursivo de **[[Acao-reflexao-segunda-acao|Ação-Reflexão-Ação]]**, onde cada etapa gera *insights* que alimentam a próxima ou exigem a reiteração da anterior.
 
-*   **Fase 1 – Empatia:** Investigação profunda das necessidades humanas (entrevistas, observação).
-*   **Fase 2 – Definição:** Sintetizar *insights* e definir o problema acionável (personas, mapas de empatia).
-*   **Fase 3 – Ideação:** Geração expansiva de ideias (brainstorming, sem julgamentos).
-*   **Fase 4 – Prototipagem:** Tangibilizar ideias (modelos físicos, esboços, simulações).
-*   **Fase 5 – Teste:** Validação com o usuário real e coleta de feedback para iteração.
+* **Fase 1 – Empatia:** Investigação profunda das necessidades humanas (entrevistas, observação).
+* **Fase 2 – Definição:** Sintetizar *insights* e definir o problema acionável (personas, mapas de empatia).
+* **Fase 3 – Ideação:** Geração expansiva de ideias (brainstorming, sem julgamentos).
+* **Fase 4 – Prototipagem:** Tangibilizar ideias (modelos físicos, esboços, simulações).
+* **Fase 5 – Teste:** Validação com o usuário real e coleta de feedback para iteração.
 
 ## 2. Padrão Operacional: Dinâmica e Papéis
 
@@ -37,10 +37,10 @@ Para garantir a produtividade, a turma deve ser organizada em grupos com papéis
 
 ### Time-boxing (Sugerido)
 
-*   **Empatia/Definição:** 20% do tempo.
-*   **Ideação:** 20% do tempo.
-*   **Prototipagem/Teste:** 50% do tempo.
-*   **Reflexão/Iteração:** 10% do tempo.
+* **Empatia/Definição:** 20% do tempo.
+* **Ideação:** 20% do tempo.
+* **Prototipagem/Teste:** 50% do tempo.
+* **Reflexão/Iteração:** 10% do tempo.
 
 ## 3. Padrão Social: Colaboração e Segurança
 
@@ -49,9 +49,10 @@ O DT prospera em um ambiente de **Segurança Psicológica**, onde o erro é vist
 ## 4. Padrão Pedagógico: O Papel do Docente
 
 O docente atua como **Mentor e Provocador**, não como detentor da solução.
-*   **Mediação:** Guia o processo, garantindo o foco nas necessidades do usuário.
-*   **Provocação:** Faz perguntas socráticas ("Como podemos...", "Por que isso é um problema?") em vez de dar respostas.
-*   **Reflexão:** Conduz o fechamento de cada fase para garantir que os estudantes aprendam com o processo, não apenas com o produto final.
+
+* **Mediação:** Guia o processo, garantindo o foco nas necessidades do usuário.
+* **Provocação:** Faz perguntas socráticas ("Como podemos...", "Por que isso é um problema?") em vez de dar respostas.
+* **Reflexão:** Conduz o fechamento de cada fase para garantir que os estudantes aprendam com o processo, não apenas com o produto final.
 
 ---
 
@@ -66,5 +67,5 @@ O docente atua como **Mentor e Provocador**, não como detentor da solução.
 
 ## Referências
 
-- [Design Thinking \| Plataforma Cubus](https://cubus.oitcinterfor.org/design-thinking/)
-- [Design Sprint \| Plataforma Cubus](https://cubus.oitcinterfor.org/design-sprint/)
+* [Design Thinking \| Plataforma Cubus](https://cubus.oitcinterfor.org/design-thinking/)
+* [Design Sprint \| Plataforma Cubus](https://cubus.oitcinterfor.org/design-sprint/)

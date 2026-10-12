@@ -113,3 +113,5 @@ clientes = listar_clientes(cursor)
 for cliente in clientes:
 	print(dict(cliente))
 ```
+
+>[!info] Para saber mais: [Python sqlite3 Module](https://www.w3schools.com/python/ref_module_sqlite3.asp)

@@ -37,6 +37,7 @@ A competência mobiliza quatro elementos simultâneos:
 #### 1.2 Critérios de uma Competência
 
 Para ser válida no MPS, a competência deve ser:
+
 1. **Observável:** O docente deve conseguir ver o aluno aplicando-a.
 2. **Criativa:** Permite que o aluno encontre diferentes caminhos para a solução.
 3. **Articulada:** Integra os elementos do CHAV de forma indissociável.
@@ -50,6 +51,7 @@ O MPS rompe com a aula expositiva tradicional através de duas estratégias cent
 #### 2.1 Ciclo Ação-Reflexão-Ação
 
 O aprendizado acontece em movimento ([[Acao-reflexao-segunda-acao]]):
+
 1. **Ação:** O aluno é desafiado com uma situação real (ex: "O banco de dados parou, o que você faz?").
 2. **Reflexão:** Com mediação do docente, o aluno pesquisa a teoria, analisa o erro e busca novos conhecimentos.
 3. **Nova Ação:** O aluno retorna ao desafio original com uma prática qualificada e fundamentada.
@@ -57,6 +59,7 @@ O aprendizado acontece em movimento ([[Acao-reflexao-segunda-acao]]):
 #### 2.2 Projeto Integrador (PI)
 
 É a Unidade Curricular (UC) transversal que conecta todas as outras competências do curso.
+
 - **Tema Gerador:** Um problema real do mercado que o aluno resolverá ao longo do curso.
 - **Fases:** Planejamento (Equipe Docente) -> Problematização -> Desenvolvimento -> Síntese (Apresentação).
 - **Protagonismo:** O aluno decide, cria e executa; o docente orienta.
@@ -86,6 +89,7 @@ A avaliação no Senac é **formativa e contínua**. O foco não é a nota, mas 
 - **NA (Não Atendido):** O aluno ainda não alcançou o desempenho esperado.
 
 **Resultado Final da UC:**
+
 - **D (Desenvolvida):** Atingiu todos os indicadores da competência.
 - **ND (Não Desenvolvida):** Não atingiu indicadores essenciais.
 
@@ -109,6 +113,7 @@ A avaliação no Senac é **formativa e contínua**. O foco não é a nota, mas 
 ### 6. Aproveitamento de Estudos
 
 O Senac reconhece o conhecimento prévio (formal ou informal):
+
 - **Formal:** Histórico escolar de cursos correlatos.
 - **Não Formal:** Experiência profissional comprovada ou autoaprendizado (via banca avaliadora).
 - **Critério:** Compatibilidade de pelo menos 75% da carga horária e objetivos.

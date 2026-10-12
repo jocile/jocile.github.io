@@ -1,3 +1,10 @@
+---
+title: solução dos exercicios da uc1 de Programador
+description: "Repositórios de exercícios"
+tags:
+  - exercícios
+  - Python
+---
 
 ## Strings
 
@@ -18,6 +25,11 @@
 
 >[!done]  Solução dos exercícios
 > - [Exercicios/cadastro-de-alunos at main · profjocile/Exercicios · GitHub](https://github.com/profjocile/Exercicios/tree/main/cadastro-de-alunos)
+
+## Bicicletario
+
+>[!done]  Solução dos exercícios
+> - [Exercicios/poo at main · profjocile/Exercicios · GitHub](https://github.com/profjocile/Exercicios/tree/main/poo)
 
 ## Desafio total de compras
 

@@ -19,4 +19,6 @@ aula: 18
 > - Nível 2: [[Desafio conta bancaria poo]]: Implementação de uma classe `ContaBancaria` com atributos de titular e saldo, contendo métodos para depositar, sacar (com validação de saldo) e exibir extrato.
 > - Nível 3: [[Desafio bancario criando contas]]: Atividade prática para desenvolver um sistema de abertura de contas com menu interativo, utilizando funções modulares, listas e dicionários para gerenciar (cadastrar, listar e remover) registros bancários.
 
+![[solucao dos exercicios da uc1#Bicicletario]]
+
 ⬅️ Aula anterior: [[uc1.17 - Exercicios com Manipulação de arquivos]] | ➡️ Próxima aula: [[uc1.18]]

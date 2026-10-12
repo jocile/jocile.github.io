@@ -18,9 +18,10 @@ Para implementar a ABJ de forma eficaz no contexto do [[Modelo pedagogico Senac]
 ### Padrão Sistêmico (O Ciclo de Aprendizagem)
 
 A ABJ opera no ciclo **[[Acao-reflexao-segunda-acao|Ação-Reflexão-Ação]]**:
-1.  **Ação:** O estudante interage com as mecânicas do jogo para resolver um problema ou desafio técnico.
-2.  **Reflexão:** Através de *feedbacks* imediatos do jogo e mediação do docente, o aluno analisa suas decisões.
-3.  **Nova Ação:** O conhecimento consolidado é aplicado em uma nova fase ou em um cenário real (transposição).
+
+1. **Ação:** O estudante interage com as mecânicas do jogo para resolver um problema ou desafio técnico.
+2. **Reflexão:** Através de *feedbacks* imediatos do jogo e mediação do docente, o aluno analisa suas decisões.
+3. **Nova Ação:** O conhecimento consolidado é aplicado em uma nova fase ou em um cenário real (transposição).
 
 ### Padrão Operacional (Dinâmica e Tempo)
 
@@ -37,6 +38,7 @@ A ABJ opera no ciclo **[[Acao-reflexao-segunda-acao|Ação-Reflexão-Ação]]**:
 ### Padrão Pedagógico (O Papel do Mediador)
 
 O docente deixa de ser o "instrutor" para se tornar o **Game Master / Facilitador**:
+
 - **Provocação:** Lança o desafio inicial sem entregar a solução.
 - **Mediação Ativa:** Observa as jogadas e faz perguntas socráticas (ex: "Por que essa estratégia não funcionou como esperado?").
 - **Conexão Teórica:** Ao final, ancora a experiência lúdica aos conceitos técnicos do plano de curso.
@@ -56,10 +58,10 @@ O docente deixa de ser o "instrutor" para se tornar o **Game Master / Facilitado
 
 ## 3. Ciclo de Implementação (Passo a Passo)
 
-1.  **Desafio Provocador:** Apresentação da "Missão". O problema deve ser contextualizado com o mundo do trabalho (ex: "Sua rede foi invadida, você tem 15 minutos para isolar o servidor").
-2.  **Execução (Sprint de Jogo):** Os alunos jogam (seja um simulador digital, RPG ou jogo de tabuleiro técnico).
-3.  **Retrospectiva (O Momento da Verdade):** Debate mediado sobre as estratégias usadas. É aqui que o aprendizado é formalizado.
-4.  **Transposição:** Como o que foi vivido no jogo se aplica na rotina de um profissional de TI ou de outra área técnica?
+1. **Desafio Provocador:** Apresentação da "Missão". O problema deve ser contextualizado com o mundo do trabalho (ex: "Sua rede foi invadida, você tem 15 minutos para isolar o servidor").
+2. **Execução (Sprint de Jogo):** Os alunos jogam (seja um simulador digital, RPG ou jogo de tabuleiro técnico).
+3. **Retrospectiva (O Momento da Verdade):** Debate mediado sobre as estratégias usadas. É aqui que o aprendizado é formalizado.
+4. **Transposição:** Como o que foi vivido no jogo se aplica na rotina de um profissional de TI ou de outra área técnica?
 
 ---
 
@@ -77,6 +79,7 @@ O docente deixa de ser o "instrutor" para se tornar o **Game Master / Facilitado
 ## 5. Aplicações e Contexto On-line
 
 A ABJ é altamente versátil para as turmas de **2025/2026**:
+
 - **Simulações Técnicas:** Redes, Segurança (CyberOps), Programação (Dojo-style games).
 - **Role-playing (RPG):** Atendimento ao cliente, gestão de conflitos ou ética profissional.
 - **Formato On-line:** Uso de salas simultâneas (Zoom/Teams), simuladores web (Replit, Cisco Packet Tracer) e ferramentas de quiz interativo (Kahoot, Quizizz).

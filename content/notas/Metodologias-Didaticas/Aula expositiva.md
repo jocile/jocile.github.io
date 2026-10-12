@@ -58,7 +58,7 @@ Para manter o interesse dos alunos, é essencial:
 
 ### **8. Conclusão: A Preleção como Ferramenta Pedagógica**
 
-Embora a preleção seja um método de ensino frequentemente utilizado e, às vezes, abusado, ela pode ser extremamente eficaz quando bem executada. Incorporar elementos interativos e utilizar ilustrações pode enriquecer o processo de ensino e aprendizagem. 
+Embora a preleção seja um método de ensino frequentemente utilizado e, às vezes, abusado, ela pode ser extremamente eficaz quando bem executada. Incorporar elementos interativos e utilizar ilustrações pode enriquecer o processo de ensino e aprendizagem.
 
 ## Uso em aulas científicas
 
@@ -96,5 +96,5 @@ Citations:\
 
 Incorporando estas referências e estratégias, os instrutores podem aprimorar suas habilidades na arte da preleção, garantindo que suas aulas sejam informativas, envolventes e eficazes.
 
- - Towns, Elmer L. O que Todo professor de Escola Dominical deve Saber. Rio de Janeiro. CPAD 2011.
+- Towns, Elmer L. O que Todo professor de Escola Dominical deve Saber. Rio de Janeiro. CPAD 2011.
 - [ChatGPT - MeraniBot](https://chatgpt.com/g/g-jb5ECrHay-meranibot). . Explique sobre esse texto conforme as referências citadas.

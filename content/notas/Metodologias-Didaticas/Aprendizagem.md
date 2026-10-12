@@ -84,6 +84,6 @@ Compreender que os alunos aprendem de maneiras diferentes é fundamental para o 
 - Bloom, B. S. (1956). Taxonomy of Educational Objectives: The Classification of Educational Goals. New York: David McKay Company.
 - Novak, J. D., & Gowin, D. B. (1984). Learning How to Learn. Cambridge: Cambridge University Press.
 - Towns, Elmer L. O que Todo professor de Escola Dominical deve Saber. Rio de Janeiro. CPAD 2011.
--  [ChatGPT - MeraniBot](https://chatgpt.com/g/g-jb5ECrHay-meranibot). . Explique sobre esse texto conforme as referências citadas.
+- [ChatGPT - MeraniBot](https://chatgpt.com/g/g-jb5ECrHay-meranibot). . Explique sobre esse texto conforme as referências citadas.
 
 Este artigo foi desenvolvido com base na análise das práticas pedagógicas contemporâneas e nas reflexões de um professor experiente, enfatizando a necessidade de personalizar o ensino para acomodar a diversidade dos alunos.

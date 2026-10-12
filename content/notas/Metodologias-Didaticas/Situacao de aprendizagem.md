@@ -92,6 +92,7 @@ Como instrutor de tecnologia, utilize preferencialmente:
 
 ---
 **Veja também:**
+
 - [[Modelo pedagogico Senac]]
 - [[Situacao de aprendizagem|Situações de Aprendizagem Previstas]]
 - [[Tecnico/Didatica/Metodologias Ativas.md|Metodologias Ativas]]

@@ -14,8 +14,8 @@ Atuar com as [[Metodologias ativas]] de [[Aprendizagem]] requer ressignificar o 
 
 Analisando as [[Metodologias ativas]] de [[Aprendizagem]] em relação à Educação Profissional e ao desenvolvimento de competências, pode-se dizer que:  
 
-- Não há um método de [[Aprendizagem]] ativa que seja mais ou menos indicado para o desenvolvimento de competências. 
-- Apesar de revelarem elementos comuns, cada método referenciado na literatura educacional sobre [[Aprendizagem]] ativa apresenta variações em seus pressupostos teóricos e didáticos. 
+- Não há um método de [[Aprendizagem]] ativa que seja mais ou menos indicado para o desenvolvimento de competências.
+- Apesar de revelarem elementos comuns, cada método referenciado na literatura educacional sobre [[Aprendizagem]] ativa apresenta variações em seus pressupostos teóricos e didáticos.
 - A escolha por um ou outro método de [[Aprendizagem]] ativa pode variar em função dos recursos disponíveis, do planejamento das situações de [[Aprendizagem]] ou até mesmo da preferência do docente.  
 
 A perspectiva da [[Aprendizagem]] com a utilização de [[Metodologias ativas]] organiza-se a partir de algumas premissas:  
@@ -107,8 +107,8 @@ Etapas:
 
 Na [[Aprendizagem]] Baseada em Casos (ABC) os casos são construídos ou selecionados a partir dos indicadores de competência e dos elementos a serem mobilizados na Unidade Curricular. Sobre a ABC, pode-se dizer que:  
 
-- O caso pode conter informações simples ou complexas, e o docente pode disponibilizar gráficos, tabelas e figuras para subsidiar a análise dos alunos. 
-- Há casos que apresentam o relato completo de uma situação com sua respectiva solução, enquanto outros são menos estruturados e apresentam perguntas fechadas, para que os alunos encontrem uma solução. 
+- O caso pode conter informações simples ou complexas, e o docente pode disponibilizar gráficos, tabelas e figuras para subsidiar a análise dos alunos.
+- Há casos que apresentam o relato completo de uma situação com sua respectiva solução, enquanto outros são menos estruturados e apresentam perguntas fechadas, para que os alunos encontrem uma solução.
 - Um caso deve envolver questões que provoquem o debate e o surgimento de diferentes perspectivas de análise, de maneira a oferecer mais de uma resposta certa.
 
 ### Sala de aula invertida

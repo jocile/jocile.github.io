@@ -1,6 +1,6 @@
 ---
 title: Gamificação
-description: : Engajamento e Protagonismo na Aprendizagem - utiliza elementos de design de jogos em contextos educacionais para transformar o aprendizado em uma experiência imersiva e motivadora.
+description: Engajamento e Protagonismo na Aprendizagem - utiliza elementos de design de jogos em contextos educacionais para transformar o aprendizado em uma experiência imersiva e motivadora.
 date: '2026-10-12'
 draft: false
 tags:

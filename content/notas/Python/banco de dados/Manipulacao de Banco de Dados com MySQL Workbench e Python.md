@@ -1,8 +1,6 @@
 ---
 title: Manipulação de Banco de Dados
-description: Nesta prática, vamos criar e manipular um banco de dados utilizando o
-  MySQL Workbench e acessar um servidor MySQL na rede local. Vamos aprender e praticar
-  os…
+description: "criar e manipular um banco de dados utilizando o MySQL Workbench e acessar um servidor MySQL na rede local"
 date: '2026-09-17'
 draft: false
 tags:

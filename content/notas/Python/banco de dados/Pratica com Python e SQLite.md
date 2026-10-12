@@ -2,7 +2,6 @@
 title: Prática com Python e SQLite
 description: Nesta prática, vamos desenvolver um aplicativo em Python que se conecta
   a um banco de dados SQLite, realiza operações CRUD (Create, Read, Update, Delete)
-  e…
 date: '2026-10-12'
 draft: false
 tags:
@@ -153,3 +152,5 @@ Nesta prática, você aprendeu a desenvolver um aplicativo em Python que se cone
 ```python
 conn.close()
 ```
+
+>[!info] Para saber mais: [Python sqlite3 Module](https://www.w3schools.com/python/ref_module_sqlite3.asp)

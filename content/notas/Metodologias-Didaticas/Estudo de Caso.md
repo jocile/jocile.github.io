@@ -1,6 +1,6 @@
 ---
 title: Estudo de Caso
-description: : Aprendizagem Baseada em Cenários Reais - mergulha o estudante em situações reais ou simuladas do mundo do trabalho.
+description: Aprendizagem Baseada em Cenários Reais - mergulha o estudante em situações reais ou simuladas do mundo do trabalho.
 date: 2026-10-12
 draft: false
 tags:
