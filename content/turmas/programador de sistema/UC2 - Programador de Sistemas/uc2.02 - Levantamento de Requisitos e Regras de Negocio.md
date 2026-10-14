@@ -10,11 +10,13 @@ aula: 02
 ---
 
 > [!note] Planejamento de Dados
+>
 > - Como planejar o banco de dados conforme as regras de negócio.
 > - Técnicas de levantamento de requisitos com o cliente.
 > - Dicionário de Dados: O que é e como documentar metadados
 
 > [!todo] 🖥️ Atividades
+>
 > - Continuação: [[Desafio conta bancaria poo]]: Implementação de uma classe `ContaBancaria` com atributos de titular e saldo, contendo métodos para depositar, sacar (com validação de saldo) e exibir extrato.
 
 >[!done]  Solução dos exercícios

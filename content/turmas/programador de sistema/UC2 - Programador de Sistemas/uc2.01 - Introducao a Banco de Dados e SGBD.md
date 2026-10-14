@@ -10,6 +10,7 @@ aula: 1
 ---
 
 > [!note] Fundamentos de Banco de Dados
+>
 > - Visão geral sobre o Sistema Gerenciador de Banco de Dados (SGBD): conceito e arquitetura.
 > - Introdução ao SQLite: um banco de dados SQL portátil, leve e "serverless" (sem servidor).
 
@@ -17,6 +18,7 @@ aula: 1
 > O que faz um Administrador de Banco de Dados (DBA)? Análise de Casos de Uso reais de mercado.
 
 > [!todo] 🖥️ Atividades
+>
 > - Continuação: [[Passo a Passo - Desafio POO]]: Ajudar o João a registrar as vendas de suas bicicletas utilizando Programação Orientada a Objetos (POO) em Python.
 
 ![[solucao dos exercicios da uc1#Bicicletario]]

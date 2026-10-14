@@ -34,6 +34,7 @@ SORT aula ASC-->
 | 1    | October 08, 2026 | [[uc2.01 - Introducao a Banco de Dados e SGBD]]                         |
 | 2    | October 09, 2026 | [[uc2.02 - Levantamento de Requisitos e Regras de Negocio]] |
 | 3    | October 13, 2026 | [[uc2.03 - Modelagem de Dados - Modelo Conceitual MER]]         |
+| 4    | October 14, 2026 | [[uc2.04 - SQL - Definição de Dados DDL]]                                     |
 
 <!-- SerializedQuery END -->
 
