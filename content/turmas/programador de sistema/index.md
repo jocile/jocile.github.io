@@ -35,6 +35,8 @@ SORT aula ASC-->
 | 2    | October 09, 2026 | [[uc2.02 - Levantamento de Requisitos e Regras de Negocio]] |
 | 3    | October 13, 2026 | [[uc2.03 - Modelagem de Dados - Modelo Conceitual MER]]         |
 | 4    | October 14, 2026 | [[uc2.04 - SQL - Definição de Dados DDL]]                                     |
+| 5    | October 15, 2026 | [[uc2.05 - SQL - Definição de Dados DDL]]                                     |
+| 6    | October 16, 2026 | [[uc2.06 - SQL - Pratica de criacao de CRUD]]                             |
 
 <!-- SerializedQuery END -->
 

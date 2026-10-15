@@ -1,8 +1,7 @@
 ---
-title: Prática com Python e SQLite
-description: Nesta prática, vamos desenvolver um aplicativo em Python que se conecta
-  a um banco de dados SQLite, realiza operações CRUD (Create, Read, Update, Delete)
-date: '2026-10-12'
+title: Prática com Python Pandas e SQLite
+description: Nesta prática, vamos desenvolver um aplicativo em Python que se conecta a um banco de dados SQLite, realiza operações CRUD (Create, Read, Update, Delete)
+date: 2026-10-12
 draft: false
 tags:
   - banco-de-dados
