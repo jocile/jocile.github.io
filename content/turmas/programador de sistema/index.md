@@ -37,6 +37,9 @@ SORT aula ASC-->
 | 4    | October 14, 2026 | [[uc2.04 - SQL - Definição de Dados DDL]]                                     |
 | 5    | October 15, 2026 | [[uc2.05 - SQL - Definição de Dados DDL]]                                     |
 | 6    | October 16, 2026 | [[uc2.06 - SQL - Pratica de criacao de CRUD]]                             |
+| 7    | October 19, 2026 | [[uc2.07 - Workshop Carreira Tech]]                                                 |
+| 8    | October 20, 2026 | [[uc2.08 - SQL - Pratica de criacao de CRUD parte 2]]             |
+| 9    | October 21, 2026 | [[uc2.09 - SQL - Pratica de criacao de CRUD parte 3]]             |
 
 <!-- SerializedQuery END -->
 

@@ -65,13 +65,14 @@ def cadastrar_cliente_seguro(nome, email):
             conn.close()
             print("Conexão fechada com segurança.")
 ```
+
 *(Estrutura de controle transacional e tratamento de falhas baseada nos materiais).*
 
 ---
 
 ### **3. Protegendo a Aplicação Web Bottle Contra Quedas**
 
-Em uma aplicação web, se uma rota tentar inserir dados inválidos sem tratamento de exceção, o Python lançará uma falha não capturada que derrubará a requisição HTTP com um erro desformatado no navegador. 
+Em uma aplicação web, se uma rota tentar inserir dados inválidos sem tratamento de exceção, o Python lançará uma falha não capturada que derrubará a requisição HTTP com um erro desformatado no navegador.
 
 Abaixo está o código completo do servidor **Bottle + SQLite** atualizado, onde as rotas contêm blocos `try/except/finally` com `rollback()` e redirecionam o usuário exibindo mensagens amigáveis na tela:
 
@@ -104,7 +105,7 @@ def inicializar_banco():
             conn.close()
 
 # 1. ROTA PRINCIPAL: Exibe alertas de erro e listagem de clientes
-@get('/')
+@route('/', method=['GET','POST'])
 def index():
     msg_erro = request.query.get('erro', '')
     clientes = []
@@ -183,7 +184,7 @@ def index():
     return template(html_template, lista_clientes=clientes, msg_erro=msg_erro)
 
 # 2. ROTA DE CADASTRO COM TRATAMENTO DE ERROS E ROLLBACK
-@post('/cadastrar')
+@route('/cadastrar', method=['GET','POST'])
 def cadastrar():
     nome = request.forms.get('nome')
     email = request.forms.get('email')
@@ -211,7 +212,7 @@ def cadastrar():
             conn.close()
 
 # 3. ROTA DE EDIÇÃO (EXIBIR FORMULÁRIO)
-@get('/editar/<id:int>')
+@route('/editar/<id:int>', method=['GET','POST'])
 def exibir_formulario_edicao(id):
     conn = None
     cliente = None
@@ -263,7 +264,7 @@ def exibir_formulario_edicao(id):
     return template(html_editar, cliente=cliente)
 
 # 4. ROTA DE EDIÇÃO (SALVAR ALTERAÇÕES COM ROLLBACK)
-@post('/editar/<id:int>')
+@route('/editar/<id:int>', method=['GET','POST'])
 def salvar_edicao(id):
     nome = request.forms.get('nome')
     email = request.forms.get('email')
@@ -288,7 +289,7 @@ def salvar_edicao(id):
             conn.close()
 
 # 5. ROTA DE EXCLUSÃO
-@get('/deletar/<id:int>')
+@route('/deletar/<id:int>', method=['GET','POST'])
 def deletar(id):
     conn = None
     try:

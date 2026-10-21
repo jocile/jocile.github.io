@@ -74,7 +74,7 @@ def inicializar_banco():
     conn.close()
 
 # 1. ROTA PRINCIPAL: Lista os clientes e exibe o formulário de cadastro
-@get('/')
+@route('/', method=['GET','POST'])
 def index():
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()
@@ -137,7 +137,7 @@ def index():
     return template(html_template, lista_clientes=clientes)
 
 # 2. ROTA DE CADASTRO: Recebe os dados do formulário via POST
-@post('/cadastrar')
+@route('/cadastrar', method=['GET','POST'])
 def cadastrar():
     nome = request.forms.get('nome')
     email = request.forms.get('email')
@@ -152,7 +152,7 @@ def cadastrar():
     redirect('/')
 
 # 3. ROTA DE EXCLUSÃO: Remove o registro do banco pelo ID
-@get('/deletar/<id:int>')
+@route('/deletar/<id:int>', method=['GET','POST'])
 def deletar(id):
     conn = sqlite3.connect(DB_NAME)
     cursor = conn.cursor()

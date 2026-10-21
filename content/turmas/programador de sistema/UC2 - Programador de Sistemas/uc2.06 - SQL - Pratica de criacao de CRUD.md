@@ -21,5 +21,9 @@ aula: 6
 > - [[Pratica CRUD Python Sqlite Segunda fase - Front End Web|Segunda fase criando o Front end]]
 > - [[Pratica CRUD Python Sqlite Terceira Fase - adicionando funcionalidade editar|Terceira fase adicionando funcionalidade editar]]
 > - [[Pratica CRUD Python Sqlite Quarta fase - tratamento de erros|Quarta fase tratando erros]]
+>
+>>[!done] Solução dos exercícios
+>>
+>> [GitHub - profjocile/cadastro-de-clientes: Exercício de um CRUD com banco de dados SQLite e front end Bottle · GitHub](https://github.com/profjocile/cadastro-de-clientes)
 
-⬅️ Aula anterior: [[uc2.05 - SQL - Definição de Dados DDL]] | ➡️ Próxima aula: ✨em edição!
+⬅️ Aula anterior: [[uc2.05 - SQL - Definição de Dados DDL]] | ➡️ Próxima aula: [[uc2.07 - Workshop Carreira Tech]]
