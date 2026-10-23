@@ -488,6 +488,9 @@ if __name__ == "__main__":
     run(host="localhost", port=8080, debug=True, reloader=True)
 ```
 
+>[!done]  Veja o código completo em:
+> [GitHub - profjocile/cadastro-de-clientes: Exercício de um CRUD com banco de dados SQLite e front end Bottle · GitHub](https://github.com/profjocile/cadastro-de-clientes)
+
 💡 Próximos passos: como tratar erros de banco de dados (usando `try/except` com `rollback()`) para evitar que a aplicação caia em caso de falha de conexão.
 
-[[Pratica CRUD Python Sqlite Quarta fase - tratamento de erros]]
+⬅️ [[Pratica CRUD Python Sqlite Segunda fase - Front End Web]] | ➡️ [[Pratica CRUD Python Sqlite Quarta fase - tratamento de erros]]

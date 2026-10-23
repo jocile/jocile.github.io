@@ -187,6 +187,9 @@ if __name__ == '__main__':
 
 ---
 
+>[!done]  Veja o código completo em:
+> [GitHub - profjocile/cadastro-de-clientes: Exercício de um CRUD com banco de dados SQLite e front end Bottle · GitHub](https://github.com/profjocile/cadastro-de-clientes)
+
 🌐 Próximos passos: adicionar uma funcionalidade para **editar/atualizar** os dados de um cliente existente diretamente pelo navegador
 
-[[Pratica CRUD Python Sqlite Terceira Fase - adicionando funcionalidade editar]]
+⬅️ [[Pratica CRUD Python Sqlite]] | ➡️ [[Pratica CRUD Python Sqlite Terceira Fase - adicionando funcionalidade editar]]

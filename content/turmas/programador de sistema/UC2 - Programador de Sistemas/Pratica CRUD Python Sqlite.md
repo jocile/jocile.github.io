@@ -151,6 +151,9 @@ print("Conexão fechada com segurança.")
 
 *(Fechamento e boas práticas baseados nos materiais).*
 
+>[!done]  Veja o código completo em:
+> [GitHub - profjocile/cadastro-de-clientes: Exercício de um CRUD com banco de dados SQLite e front end Bottle · GitHub](https://github.com/profjocile/cadastro-de-clientes)
+
 ---
 
 ### **Passo Bônus: Leitura Avançada com Pandas**

@@ -40,6 +40,8 @@ SORT aula ASC-->
 | 7    | October 19, 2026 | [[uc2.07 - Workshop Carreira Tech]]                                                 |
 | 8    | October 20, 2026 | [[uc2.08 - SQL - Pratica de criacao de CRUD parte 2]]             |
 | 9    | October 21, 2026 | [[uc2.09 - SQL - Pratica de criacao de CRUD parte 3]]             |
+| 10   | October 22, 2026 | [[uc2.10 - SQL - Pratica de criacao de CRUD parte 4]]             |
+| 11   | October 23, 2026 | [[uc2.11 - SQL - Pratica de criacao de CRUD parte 5]]             |
 
 <!-- SerializedQuery END -->
 

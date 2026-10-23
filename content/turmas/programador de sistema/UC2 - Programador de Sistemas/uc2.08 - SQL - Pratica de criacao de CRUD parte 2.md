@@ -10,13 +10,14 @@ aula: 8
 ---
 
 > [!note] Criando Estruturas CRUD no Sistema Web
-> 
+>
 > - [[SQLite o banco de dados de bolso]] : ferramenta poderosa e versátil que se destaca por sua portabilidade e simplicidade,  ótimo para projetos rápidos, testes automatizados, sistemas embarcados ou aplicativos móveis.
 > - Trabalhando no Front End com [[Templates no Bottle]]: permite que você escreva código HTML dinâmico utilizando a sintaxe do próprio Python.
 
 > [!todo] 🖥️ Atividades
 >
 > **Continuação  da prática passo a passo de Python com o banco de dados SQLite** em quatro fases:
+>
 > - [[Pratica CRUD Python Sqlite Segunda fase - Front End Web|Segunda fase criando o Front end]]
 >
 >>[!done]  Solução dos exercícios

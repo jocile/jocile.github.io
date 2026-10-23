@@ -321,4 +321,9 @@ if __name__ == '__main__':
 2. **Consistência do Banco de Dados**: A base de dados permanece livre de registros parciais ou transações abertas pendentes.
 3. **Gerenciamento Seguro de Recursos**: O bloco `finally` garante que `conn.close()` seja executado obrigatoriamente, evitando vazamento de conexões ou travamentos no arquivo do SQLite.
 
-💡 Próximos passos: como automatizar **backups seguros** do arquivo `.db` via Python sem interromper o funcionamento da sua aplicação web.
+>[!done]  Veja o código completo em:
+> [GitHub - profjocile/cadastro-de-clientes: Exercício de um CRUD com banco de dados SQLite e front end Bottle · GitHub](https://github.com/profjocile/cadastro-de-clientes)
+
+⬅️ [[Pratica CRUD Python Sqlite Terceira Fase - adicionando funcionalidade editar]]
+
+💡 Próximos passos: [[Pratica CRUD Python Sqlite cadastro de produtos]]
