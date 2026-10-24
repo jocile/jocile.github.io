@@ -665,4 +665,4 @@ No template `views/relatorio.tpl`, inclua o script do Chart.js via CDN, declare 
 
 ---
 
->[!tip] ⬅️ [[Pratica CRUD Python Sqlite cadastro de pedidos]] | ➡️ [[Chave primaria e chave extrangeira]]
+>[!tip] ⬅️ [[Pratica CRUD Python Sqlite cadastro de pedidos]] | ➡️ [[Chave primaria e chave extrangeira]] | ➡️ [[Pratica CRUD Python Sqlite com POO]]
