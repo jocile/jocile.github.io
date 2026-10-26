@@ -5,6 +5,7 @@ date: '2026-09-17'
 draft: false
 tags:
   - programador/Python/arquivos
+  - Pandas
 ---
 
 ## Manipulando arquivos com Pandas
@@ -13,7 +14,7 @@ Imagine que você tem uma caixa mágica onde pode colocar todos os seus brinqued
 
 ## O que é Pandas?
 
-Pandas é uma biblioteca de código aberto em Python, usada principalmente para manipulação e análise de dados. Ela oferece estruturas de dados e operações para manipular tabelas numéricas e séries temporais de forma fácil e eficiente. Com Pandas, você pode realizar tarefas como leitura de dados, limpeza, transformação e análise de maneira simplificada.
+[Pandas](https://pandas.pydata.org/) é uma biblioteca de código aberto em Python, usada principalmente para manipulação e análise de dados. Ela oferece estruturas de dados e operações para manipular tabelas numéricas e séries temporais de forma fácil e eficiente. Com Pandas, você pode realizar tarefas como leitura de dados, limpeza, transformação e análise de maneira simplificada.
 
 ## Utilidade Prática do Pandas
 

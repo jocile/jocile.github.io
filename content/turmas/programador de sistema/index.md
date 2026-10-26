@@ -42,6 +42,8 @@ SORT aula ASC-->
 | 9    | October 21, 2026 | [[uc2.09 - SQL - Pratica de criacao de CRUD parte 3]]             |
 | 10   | October 22, 2026 | [[uc2.10 - SQL - Pratica de criacao de CRUD parte 4]]             |
 | 11   | October 23, 2026 | [[uc2.11 - SQL - Pratica de criacao de CRUD parte 5]]             |
+| 12   | October 26, 2026 | [[uc2.12 - Manipulando dados com Pandas]]                                     |
+| 13   | October 27, 2026 | [[uc2.13 - Manipulando dados com Pandas e SqLite]]                   |
 
 <!-- SerializedQuery END -->
 

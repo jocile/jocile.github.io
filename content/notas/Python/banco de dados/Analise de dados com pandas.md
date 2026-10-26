@@ -1,7 +1,5 @@
 ---
 title: Análise de dados com pandas
-aliases:
-  - Pandas
 description: O pandas é uma biblioteca poderosa para a manipulação e análise de dados
   em Python. Ele fornece estruturas de dados rápidas, flexíveis e expressivas,…
 date: '2026-09-17'
@@ -9,9 +7,10 @@ draft: false
 tags:
   - banco-de-dados
   - Python
+  - Pandas
 ---
 
-O `pandas` é uma biblioteca poderosa para a manipulação e análise de dados em Python. Ele fornece estruturas de dados rápidas, flexíveis e expressivas, projetadas para tornar o trabalho com "dados relacionais" ou "etiquetados" fácil e intuitivo. Aqui estão algumas razões pelas quais é útil instalar o `pandas`:
+O [[Pandas]] é uma biblioteca poderosa para a manipulação e análise de dados em Python. Ele fornece estruturas de dados rápidas, flexíveis e expressivas, projetadas para tornar o trabalho com "dados relacionais" ou "etiquetados" fácil e intuitivo. Aqui estão algumas razões pelas quais é útil instalar o `pandas`:
 
 1. **Leitura de Dados**: Facilita a leitura de dados de várias fontes, como arquivos CSV, bancos de dados SQL, arquivos Excel, entre outros.
 2. **Manipulação de Dados**: Permite operações eficientes de manipulação de dados, como filtragem, agregação, ordenação e fusão.
@@ -92,3 +91,5 @@ plt.show()
 A utilização do `pandas` proporciona uma interface intuitiva e poderosa para trabalhar com dados, facilitando o processo de análise e visualização.
 
 O `pandas` é uma ferramenta essencial para qualquer cientista de dados ou desenvolvedor que trabalhe com grandes volumes de dados, fornecendo funcionalidades robustas para transformar e analisar dados de maneira eficiente.
+
+[[atividade_pandas]]

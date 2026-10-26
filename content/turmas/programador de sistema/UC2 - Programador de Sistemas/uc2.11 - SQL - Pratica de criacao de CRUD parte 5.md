@@ -26,4 +26,4 @@ aula: 11
 >>
 >> [GitHub - profjocile/cadastro-de-clientes: Exercício de um CRUD com banco de dados SQLite e front end Bottle · GitHub](https://github.com/profjocile/cadastro-de-clientes)
 
-⬅️ Aula anterior: [[uc2.09 - SQL - Pratica de criacao de CRUD parte 3]] | ➡️ Próxima aula: ✨em edição!
+⬅️ Aula anterior: [[uc2.09 - SQL - Pratica de criacao de CRUD parte 3]] | ➡️ Próxima aula: [[uc2.12 - Manipulando dados com Pandas]]
