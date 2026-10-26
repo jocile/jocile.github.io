@@ -213,8 +213,6 @@ Neste exemplo, dentro do bloco try, tentamos ler os valores e realizar a divisã
    - Para homens: peso ideal = (72.7 x altura) - 58
    - Para mulheres: peso ideal = (62.1 x altura) - 44.7
 
-%%
-
 ## Resolução dos exercícios
 
 ### 1. maior de idade
@@ -326,8 +324,6 @@ else:
 Nesse código, pedimos ao usuário para digitar sua altura em metros e seu sexo. Depois, usamos um if/elif/else para calcular o peso ideal com base na fórmula correspondente ao sexo. Note que usamos o método upper() para converter a string do sexo em letras maiúsculas, o que torna a comparação mais robusta (pois não depende do usuário digitar exatamente as letras maiúsculas ou minúsculas corretas).
 
 >[!tip] Esse código pode ser facilmente modificado para aceitar outros tipos de unidades (como centímetros) ou para permitir que o usuário digite sua idade ou outros fatores relevantes para o cálculo do peso ideal.
-
-%%
 
 ## Referências
 

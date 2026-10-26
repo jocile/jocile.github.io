@@ -77,8 +77,6 @@ while True:
 
 ```
 
-%%
 ## Referências
 
-![Repositórios de desafios](Repositórios%20de%20desafios.md)
-%%
+[[Repositórios de desafios]]
