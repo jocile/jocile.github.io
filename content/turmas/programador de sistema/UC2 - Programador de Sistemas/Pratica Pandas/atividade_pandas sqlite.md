@@ -1,6 +1,6 @@
 ---
 title: Atividade com Python e Pandas com Sqlite
-description: "Exemplo prático de manipulação de tabelas CSV com Python e Pandas."
+description: "Atividade prática: cruze alunos, cursos e matrículas com Pandas e SQLite para calcular matrículas ativas, faturamento e perfil dos alunos."
 tags:
   - banco-de-dados
   - Python/bd
@@ -9,22 +9,6 @@ tags:
 ---
 
 >[!note] ⬅️ [[atividade_pandas]]
-
----
-title: "Atividade Prática: Analista de Dados Educacionais"
-date: 2026-10-26
-draft: false
-tags:
-
-- pandas
-- sqlite
-- sql
-- python
-- analise-de-dados
-- atividade-pratica
-description: "Atividade prática: cruze alunos, cursos e matrículas com Pandas e SQLite para calcular matrículas ativas, faturamento e perfil dos alunos."
-
----
 
 > [!abstract] Objetivo
 > Manipular e cruzar múltiplas tabelas com [[Pandas]] e com SQL (SQLite) para gerar um relatório consolidado de alunos, cursos e faturamento da escola.
@@ -399,4 +383,4 @@ conn.close()
 
 Uma sequência boa é resolver cada pergunta **primeiro em Pandas e depois em SQL**, comparando os resultados lado a lado. Observe que `merge` = `JOIN`, `df[df.col == x]` = `WHERE` e `groupby` = `GROUP BY`. Se quiser, posso montar essa versão comparativa em duas colunas ou transformar tudo em um notebook `.ipynb` pronto para o Colab.
 
->[!done] [Resolução no Gooble Colab](https://colab.research.google.com/drive/1UzGG2mNQ_sps0ECVPhFu_Nu-AyBuo_wl?usp=sharing)
+>[!done] [Resolução no Gooble Colab](https://colab.research.google.com/drive/1t4RiMtGy8G618wU1hxLyBhumlSHOF4DV?usp=sharing)

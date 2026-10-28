@@ -35,4 +35,4 @@ aula: 13
 > 
 >>[!done] [Resolução no Google Colab](https://colab.research.google.com/drive/1UzGG2mNQ_sps0ECVPhFu_Nu-AyBuo_wl?usp=sharing)
 
-⬅️ Aula anterior: [[uc2.12 - Manipulando dados com Pandas]] | ➡️ Próxima aula: ✨em edição!
+⬅️ Aula anterior: [[uc2.12 - Manipulando dados com Pandas]] | ➡️ Próxima aula: [[uc2.14 - Analise de dados]]

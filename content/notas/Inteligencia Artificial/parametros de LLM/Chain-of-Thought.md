@@ -1,4 +1,4 @@
-﻿---
+---
 title: "Chain of Thought"
 description: "técnica de Cadeia de Pensamento é uma ferramenta inovadora em modelos de linguagem baseados em largura de banda (LLM) para melhorar a precisão e a transparência das respostas."
 tags:
