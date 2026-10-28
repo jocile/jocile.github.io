@@ -45,6 +45,7 @@ SORT aula ASC-->
 | 12   | October 26, 2026 | [[uc2.12 - Manipulando dados com Pandas]]                                     |
 | 13   | October 27, 2026 | [[uc2.13 - Manipulando dados com Pandas e SqLite]]                   |
 | 14   | October 28, 2026 | [[uc2.14 - Analise de dados]]                                                             |
+| 15   | October 29, 2026 | [[uc2.15 - Analise de dados com transacoes]]                               |
 
 <!-- SerializedQuery END -->
 

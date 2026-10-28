@@ -280,6 +280,8 @@ print("Conexão encerrada com segurança.")
 - [ ] A conexão foi fechada no Passo 7
 - [ ] Os três exercícios de fixação foram resolvidos
 
+>>[!done] [Resolução no Google Colab - atividade-produtos.ipynb - Colab](https://colab.research.google.com/drive/1sMVT0nM1iLU0fDJ3lrhq5io5IjTUC5zQ?usp=sharing)
+
 ## Próximo passo
 
 Continue em [[produtos-02-vendas-estoque|Vendas e estoque]], onde você adiciona a tabela de vendas e descobre o produto mais vendido.
