@@ -19,7 +19,6 @@ aula: 02
 >
 > - Continuação: [[Desafio conta bancaria poo]]: Implementação de uma classe `ContaBancaria` com atributos de titular e saldo, contendo métodos para depositar, sacar (com validação de saldo) e exibir extrato.
 
->[!done]  Solução dos exercícios
-> -[Exercicios/poo at main · profjocile/Exercicios · GitHub](https://github.com/profjocile/Exercicios/tree/main/poo)
+![[solucao dos exercicios da uc2#POO]]
 
 ⬅️ Aula anterior: [[uc2.01 - Introducao a Banco de Dados e SGBD]] | ➡️ Próxima aula: [[uc2.03 - Modelagem de Dados - Modelo Conceitual MER]]

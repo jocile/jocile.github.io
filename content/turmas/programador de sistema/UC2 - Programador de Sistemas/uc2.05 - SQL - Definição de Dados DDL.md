@@ -19,9 +19,7 @@ aula: 5
 > [!todo] 🖥️ Atividades
 >
 > Continuação: [[Passo a Passo - Desafio POO]]: Desenvolvendo templates HTML do Front End do App Bicicletário com micro Framework Bottle
->
->>[!done]  Solução dos exercícios
->>
->> [GitHub - profjocile/web-app-bottlepy · GitHub](https://github.com/profjocile/web-app-bottlepy)
+
+![[solucao dos exercicios da uc2#Web App]]
 
 ⬅️ Aula anterior: [[uc2.04 - SQL - Definição de Dados DDL]] | ➡️ Próxima aula: [[uc2.06 - SQL - Pratica de criacao de CRUD]]

@@ -1,10 +1,12 @@
 ---
-title: solução dos exercicios da uc1 de Programador
-description: "Repositórios de exercícios"
+title: solução dos exercícios da uc1 de Programador
+description: Repositórios de exercícios
 tags:
   - exercícios
   - Python
 ---
+
+[[solucao dos exercicios da uc2]]
 
 ## Strings
 

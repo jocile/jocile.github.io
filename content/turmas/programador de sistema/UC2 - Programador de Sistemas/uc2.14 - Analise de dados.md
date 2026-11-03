@@ -34,7 +34,7 @@ aula: 14
 >>
 >> - [[produtos-00-roteiro|Gestão de Produtos: roteiro da atividade]]
 >> - [[produtos-01-crud-analise]] - Nesta atividade você cria um banco relacional de **Gestão de Produtos e Categorias**, executa o ciclo completo do **CRUD** (Create, Read, Update, Delete) e responde a perguntas de negócio sobre o estoque usando SQL e Pandas.
->
->>[!done] [Resolução no Google Colab - atividade-produtos.ipynb - Colab](https://colab.research.google.com/drive/1sMVT0nM1iLU0fDJ3lrhq5io5IjTUC5zQ?usp=sharing)
+
+![[solucao dos exercicios da uc2#Produtos]]
 
 ⬅️ Aula anterior: [[uc2.13 - Manipulando dados com Pandas e SqLite]] | ➡️ Próxima aula: [[uc2.15 - Analise de dados com transacoes]]

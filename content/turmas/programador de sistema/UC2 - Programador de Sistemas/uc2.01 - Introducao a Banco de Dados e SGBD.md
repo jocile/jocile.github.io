@@ -21,6 +21,6 @@ aula: 1
 >
 > - Continuação: [[Passo a Passo - Desafio POO]]: Ajudar o João a registrar as vendas de suas bicicletas utilizando Programação Orientada a Objetos (POO) em Python.
 
-![[solucao dos exercicios da uc1#Bicicletario]]
+![[solucao dos exercicios da uc2#Bicicletario]]
 
 ⬅️ Aula anterior: [[uc1.18 - Programação Orientada a Objetos]] | ➡️ Próxima aula: [[uc2.02 - Levantamento de Requisitos e Regras de Negocio]]

@@ -21,9 +21,7 @@ aula: 11
 > - Vamos expandir o sistema criando o módulo de **Cadastro de Produtos** integrado ao cadastro de **Clientes**: [[Pratica CRUD Python Sqlite cadastro de produtos]]
 > - Criaremos a tabela de **Pedidos** relacionando **Clientes** e **Produtos**: [[Pratica CRUD Python Sqlite cadastro de pedidos]]
 > - Finalmente vamos criar **relatórios consolidado de vendas com gráficos**: [[Pratica CRUD Python Sqlite criando relatorios]]
->
->>[!done]  Solução dos exercícios
->>
->> [GitHub - profjocile/cadastro-de-clientes: Exercício de um CRUD com banco de dados SQLite e front end Bottle · GitHub](https://github.com/profjocile/cadastro-de-clientes)
+
+![[solucao dos exercicios da uc2#Cadastro de clientes]]
 
 ⬅️ Aula anterior: [[uc2.09 - SQL - Pratica de criacao de CRUD parte 3]] | ➡️ Próxima aula: [[uc2.12 - Manipulando dados com Pandas]]

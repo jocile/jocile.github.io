@@ -1,6 +1,6 @@
 ---
 quartz-properties: true
-title: uc2.14 - Análise de dados com transações
+title: uc2.15 - Análise de dados com transações
 description: prática passo a passo de como agrupar informações
 tags:
   - programador-sistemas/aulas/uc2
@@ -35,4 +35,6 @@ aula: 15
 >> - [[produtos-00-roteiro|Gestão de Produtos: roteiro da atividade]]
 >> - [[produtos-02-vendas-estoque]] - Nesta atividade você registra **vendas**, dá baixa no estoque de forma segura e descobre qual produto é o campeão de vendas.
 
-⬅️ Aula anterior: [[uc2.14 - Analise de dados]] | ➡️ Próxima aula: ✨em edição!
+![[solucao dos exercicios da uc2#Produtos]]
+
+⬅️ Aula anterior: [[uc2.14 - Analise de dados]] | ➡️ Próxima aula: [[uc2.16 - Analise de dados com graficos]]

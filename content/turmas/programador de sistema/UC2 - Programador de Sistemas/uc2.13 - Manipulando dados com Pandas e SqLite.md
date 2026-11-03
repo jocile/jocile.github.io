@@ -32,7 +32,7 @@ aula: 13
 >> | 📒 **alunos** | quem são os alunos (nome, idade, cidade) |
 >> | 📗 **cursos** | quais cursos existem e quanto custa a mensalidade |
 >> | 📘 **matrículas** | qual aluno está em qual curso e se a matrícula está ativa |
-> 
->>[!done] [Resolução no Google Colab](https://colab.research.google.com/drive/1UzGG2mNQ_sps0ECVPhFu_Nu-AyBuo_wl?usp=sharing)
+
+![[solucao dos exercicios da uc2#Pandas e Sqlite]]
 
 ⬅️ Aula anterior: [[uc2.12 - Manipulando dados com Pandas]] | ➡️ Próxima aula: [[uc2.14 - Analise de dados]]

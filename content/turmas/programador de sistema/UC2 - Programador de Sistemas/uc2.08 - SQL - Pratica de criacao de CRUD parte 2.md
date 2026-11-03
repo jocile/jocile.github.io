@@ -19,9 +19,7 @@ aula: 8
 > **Continuação  da prática passo a passo de Python com o banco de dados SQLite** em quatro fases:
 >
 > - [[Pratica CRUD Python Sqlite Segunda fase - Front End Web|Segunda fase criando o Front end]]
->
->>[!done]  Solução dos exercícios
->>
->> [GitHub - profjocile/cadastro-de-clientes: Exercício de um CRUD com banco de dados SQLite e front end Bottle · GitHub](https://github.com/profjocile/cadastro-de-clientes)
+
+![[solucao dos exercicios da uc2#Cadastro de clientes]]
 
 ⬅️ Aula anterior: [[uc2.06 - SQL - Pratica de criacao de CRUD]] | ➡️ Próxima aula: [[uc2.09 - SQL - Pratica de criacao de CRUD parte 3]]

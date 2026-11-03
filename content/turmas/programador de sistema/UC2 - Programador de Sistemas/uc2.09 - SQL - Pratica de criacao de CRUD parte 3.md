@@ -18,9 +18,7 @@ aula: 9
 >
 > **Continuação  da prática passo a passo de Python com o banco de dados SQLite** em quatro fases:
 > - [[Pratica CRUD Python Sqlite Terceira Fase - adicionando funcionalidade editar|Terceira fase adicionando funcionalidade editar]]
->
->>[!done]  Solução dos exercícios
->>
->> [GitHub - profjocile/cadastro-de-clientes: Exercício de um CRUD com banco de dados SQLite e front end Bottle · GitHub](https://github.com/profjocile/cadastro-de-clientes)
+
+![[solucao dos exercicios da uc2#Cadastro de clientes]]
 
 ⬅️ Aula anterior: [[uc2.08 - SQL - Pratica de criacao de CRUD parte 2]] | ➡️ Próxima aula: [[uc2.10 - SQL - Pratica de criacao de CRUD parte 4]]

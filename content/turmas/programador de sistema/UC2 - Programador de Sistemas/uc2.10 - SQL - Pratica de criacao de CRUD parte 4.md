@@ -19,9 +19,7 @@ aula: 10
 >
 > - [[Pratica CRUD Python Sqlite Quarta fase - tratamento de erros|Quarta fase tratando erros]]
 > - Envolver a execução dos comandos SQL dentro de um bloco de tratamento de exceções, prevenindo que o registro tenha emails duplicados no cadastro.
->
->>[!done]  Solução dos exercícios
->>
->> [GitHub - profjocile/cadastro-de-clientes: Exercício de um CRUD com banco de dados SQLite e front end Bottle · GitHub](https://github.com/profjocile/cadastro-de-clientes)
+
+![[solucao dos exercicios da uc2#Cadastro de clientes]]
 
 ⬅️ Aula anterior: [[uc2.09 - SQL - Pratica de criacao de CRUD parte 3]] | ➡️ Próxima aula: ✨em edição!

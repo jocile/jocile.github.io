@@ -25,7 +25,8 @@ aula: 12
 >>[!done]  Descrição da atividade
 >>
 > - ![[atividade_pandas#Passo a passo]]
-> 
-> - >[!done] [Resolução no Google Colab](https://colab.research.google.com/drive/1RvLnozsApF7ce2_SQJCry6gAze8d93LO)
+
+![[solucao dos exercicios da uc2#Pandas]]
+
 
 ⬅️ Aula anterior: [[uc2.11 - SQL - Pratica de criacao de CRUD parte 5]] | ➡️ Próxima aula: [[uc2.13 - Manipulando dados com Pandas e SqLite]]
