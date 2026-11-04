@@ -47,6 +47,8 @@ SORT aula ASC-->
 | 14   | October 28, 2026  | [[uc2.14 - Analise de dados]]                                                             |
 | 15   | October 29, 2026  | [[uc2.15 - Analise de dados com transacoes]]                               |
 | 16   | November 03, 2026 | [[uc2.16 - Analise de dados com graficos]]                                   |
+| 17   | November 04, 2026 | [[uc2.17 - Consolidando o CRUD na Interface Web]]                     |
+| 18   | November 05, 2026 | [[uc2.18 - Gestao de Dados Acessos e Permissoes]]                     |
 
 <!-- SerializedQuery END -->
 

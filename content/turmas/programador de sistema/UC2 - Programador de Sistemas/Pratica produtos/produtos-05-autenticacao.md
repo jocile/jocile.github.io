@@ -7,10 +7,13 @@ tags:
   - bottle
   - seguranca
   - autenticacao
+  - atividade-pratica/produtos
 description: "Proteja o relatório do Bottle com login: senhas armazenadas como hash PBKDF2 com salt, cookie de sessão assinado e segredo lido do ambiente."
 ---
 
 O relatório de vendas é uma informação corporativa e não deve estar aberto a qualquer pessoa. Nesta atividade você adiciona **login e sessão** à aplicação da nota anterior, guardando as senhas da forma correta.
+
+⬅️ [[produtos-04-api-bottle]] ⬆️ [[produtos-00-roteiro]] ➡️ [[produtos-06-formulario-cadastro]]
 
 > [!info] Ficha da atividade
 >
@@ -451,4 +454,4 @@ Esta atividade cobre o essencial, mas um sistema real também precisaria de:
 
 ## Fechamento
 
-Você percorreu o ciclo completo de uma aplicação de dados: **modelagem**, **CRUD**, **transações**, **análise**, **visualização**, **API**, **página web** e **autenticação**. Volte ao [[produtos-00-roteiro|roteiro]] para revisar os critérios de avaliação.
+Você percorreu o ciclo completo de uma aplicação de dados: **modelagem**, **CRUD**, **transações**, **análise**, **visualização**, **API**, **página web** e **autenticação**. Na sequência, em [[produtos-06-formulario-cadastro|Formulário de cadastro]], você usa essa proteção para gravar produtos pela web, incluindo a defesa contra CSRF citada acima. Volte ao [[produtos-00-roteiro|roteiro]] para revisar os critérios de avaliação.

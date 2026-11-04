@@ -45,3 +45,7 @@ tags:
 >
 > - [Resolução no Google Colab - atividade-produtos.ipynb - Colab](https://colab.research.google.com/drive/1sMVT0nM1iLU0fDJ3lrhq5io5IjTUC5zQ?usp=sharing)
 > - [GitHub - profjocile/atividade-produtos · GitHub](https://github.com/profjocile/atividade-produtos)
+
+## Produtos 04
+
+>[!done]  [GitHub - profjocile/projeto-bottle-produtos-vendas: Atividade Gestão de Produtos 4 - API e relatório web com Bottle · GitHub](https://github.com/profjocile/projeto-bottle-produtos-vendas)

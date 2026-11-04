@@ -7,10 +7,13 @@ tags:
   - python/bd
   - sqlite
   - pandas
+  - atividade-pratica/produtos
 description: "Atividade guiada de CRUD com Python e SQLite: criar tabelas, inserir, consultar, atualizar, excluir e analisar o estoque com SQL e Pandas."
 ---
 
 Nesta atividade você cria um banco relacional de **Gestão de Produtos e Categorias**, executa o ciclo completo do **CRUD** (Create, Read, Update, Delete) e responde a perguntas de negócio sobre o estoque usando SQL e Pandas.
+
+⬆️ [[produtos-00-roteiro]] ➡️ [[produtos-02-vendas-estoque]]
 
 > [!info] Ficha da atividade
 >

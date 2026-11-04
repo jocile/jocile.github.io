@@ -6,6 +6,7 @@ tags:
   - banco-de-dados
   - python/bd
   - sqlite
+  - atividade-pratica/produtos
 description: "Roteiro de cinco práticas que levam um banco SQLite de produtos do CRUD até uma aplicação web com login, usando Python, Pandas e Bottle."
 ---
 
@@ -16,13 +17,14 @@ Esta sequência de atividades parte de um banco de dados vazio e termina em uma 
 
 ## Sequência
 
-| Nota | Tema | Ambiente | Tempo |
-| --- | --- | --- | --- |
-| [[produtos-01-crud-analise\|1. CRUD e análise de dados]] | Tabelas, inserção, consulta, atualização, exclusão, SQL e Pandas | Google Colab | 60 min |
-| [[produtos-02-vendas-estoque\|2. Vendas e estoque]] | Chave estrangeira, transação e produto mais vendido | Google Colab | 40 min |
-| [[produtos-03-visualizacao\|3. Visualização]] | Gráfico de barras e exportação do PNG | Google Colab | 30 min |
-| [[produtos-04-api-bottle\|4. API e relatório com Bottle]] | Rota JSON, página HTML e arquivos estáticos | Computador local | 50 min |
-| [[produtos-05-autenticacao\|5. Autenticação]] | Hash de senha, cookie assinado e rota protegida | Computador local | 60 min |
+| Nota                                                      | Tema                                                             | Ambiente         | Tempo  |
+| --------------------------------------------------------- | ---------------------------------------------------------------- | ---------------- | ------ |
+| [[produtos-01-crud-analise\|1. CRUD e análise de dados]]  | Tabelas, inserção, consulta, atualização, exclusão, SQL e Pandas | Google Colab     | 60 min |
+| [[produtos-02-vendas-estoque\|2. Vendas e estoque]]       | Chave estrangeira, transação e produto mais vendido              | Google Colab     | 40 min |
+| [[produtos-03-visualizacao\|3. Visualização]]             | Gráfico de barras e exportação do PNG                            | Google Colab     | 30 min |
+| [[produtos-04-api-bottle\|4. API e relatório com Bottle]] | Rota JSON, página HTML e arquivos estáticos                      | Computador local | 50 min |
+| [[produtos-05-autenticacao\|5. Autenticação]]             | Hash de senha, cookie assinado e rota protegida                  | Computador local | 60 min |
+| [[produtos-06-formulario-cadastro\|6. Formulário de cadastro]] | Formulário web, validação no servidor, token CSRF e Post/Redirect/Get | Computador local | 60 min |                                                          |                                                                  |                  |        |
 
 ## Onde cada parte roda
 
@@ -69,6 +71,3 @@ O mesmo conjunto de operações aparece em quatro camadas ao longo das notas:
 | Comunicação visual | Gráfico com título, rótulos e destaque coerentes | 3 |
 | Aplicação web | API e página funcionando, com acentos corretos | 4 |
 | Autenticação | Senha armazenada como hash, rota protegida, segredo fora do código | 5 |
-
-> [!tip] Ajuste os pesos
-> A tabela indica *o que observar*. Defina a pontuação de cada critério conforme a carga horária e o objetivo da sua turma.

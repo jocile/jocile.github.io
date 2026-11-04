@@ -7,10 +7,13 @@ tags:
   - python/bd
   - sqlite
   - pandas
+  - atividade-pratica/produtos
 description: "Desafio com SQLite: criar a tabela Vendas com chave estrangeira, registrar vendas com baixa de estoque em transação e descobrir o produto mais vendido."
 ---
 
 Até aqui o banco só guarda produtos. Nesta atividade você registra **vendas**, dá baixa no estoque de forma segura e descobre qual produto é o campeão de vendas.
+
+⬅️ [[produtos-01-crud-analise]] ⬆️ [[produtos-00-roteiro]] ➡️ [[produtos-03-visualizacao]]
 
 > [!info] Ficha da atividade
 >
@@ -265,6 +268,8 @@ Use o `df_vendas` para responder:
 - [ ] O produto mais vendido é a Camisa Polo (10 unidades)
 - [ ] O experimento de estoque insuficiente não alterou nenhum dado
 - [ ] O experimento de exclusão foi recusado pelo banco
+
+![[solucao dos exercicios da uc2#Produtos]]
 
 ## Próximo passo
 

@@ -7,10 +7,13 @@ tags:
   - bottle
   - sqlite
   - api-rest
+  - atividade-pratica/produtos
 description: "Publique o ranking de vendas em uma API JSON e em uma página HTML com o micro-framework Bottle, rodando localmente com VS Code e terminal."
 ---
 
 Agora os dados saem do banco e chegam ao navegador. Você vai criar uma aplicação com o micro-framework **Bottle** que oferece duas formas de consultar o ranking de vendas: uma **API JSON** (para outros sistemas) e uma **página HTML** com tabela e gráfico (para pessoas).
+
+⬅️ [[produtos-03-visualizacao]] ⬆️ [[produtos-00-roteiro]] ➡️ [[produtos-05-autenticacao]]
 
 > [!info] Ficha da atividade
 >
@@ -295,6 +298,8 @@ curl http://localhost:8080/api/ranking-vendas
 - [ ] `/relatorio/ranking` mostra o gráfico e a tabela com acentos corretos
 - [ ] O banco é localizado mesmo quando o terminal está em outra pasta
 - [ ] Pelo menos um dos desafios foi resolvido
+
+![[solucao dos exercicios da uc2#Produtos 04]]
 
 ## Próximo passo
 

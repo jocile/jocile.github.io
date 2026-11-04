@@ -7,10 +7,13 @@ tags:
   - pandas
   - seaborn
   - visualizacao-de-dados
+  - atividade-pratica/produtos
 description: "Gere um gráfico de barras horizontal do ranking de vendas com Seaborn e Matplotlib, salve o arquivo PNG e prepare os arquivos para a aplicação web."
 ---
 
 Um ranking em tabela mostra os números. Um gráfico bem construído mostra a **conclusão**. Nesta atividade você transforma o ranking de vendas em um gráfico de barras horizontal e **salva a imagem em arquivo**, pois ela será usada na página web da próxima nota.
+
+⬅️ [[produtos-02-vendas-estoque]] ⬆️ [[produtos-00-roteiro]] ➡️ [[produtos-04-api-bottle]]
 
 > [!info] Ficha da atividade
 >
@@ -191,6 +194,8 @@ files.download("gestao_produtos.db")
 - [ ] Apenas a barra do líder está em destaque
 - [ ] O arquivo `static/ranking_vendas.png` existe e abre corretamente
 - [ ] Os arquivos `ranking_vendas.png` e `gestao_produtos.db` foram baixados
+
+![[solucao dos exercicios da uc2#Produtos]]
 
 ## Próximo passo
 

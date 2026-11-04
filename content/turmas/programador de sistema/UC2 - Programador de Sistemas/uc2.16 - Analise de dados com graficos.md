@@ -38,4 +38,4 @@ aula: 16
 
 ![[solucao dos exercicios da uc2#Produtos]]
 
-⬅️ Aula anterior: [[uc2.15 - Analise de dados com transacoes]] | ➡️ Próxima aula: ✨em edição!
+⬅️ Aula anterior: [[uc2.15 - Analise de dados com transacoes]] | ➡️ Próxima aula: [[uc2.17 - Consolidando o CRUD na Interface Web]]
