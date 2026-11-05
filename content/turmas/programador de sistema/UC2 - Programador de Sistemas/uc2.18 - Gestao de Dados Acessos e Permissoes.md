@@ -35,4 +35,6 @@ aula: 18
 >> - [[produtos-05-autenticacao]] - Nesta atividade você transforma o ranking de vendas em um gráfico de barras horizontal.
 >> - [[produtos-06-formulario-cadastro]] - um formulário protegido por login que cadastra novos produtos no banco, com validação no servidor e proteção contra requisições forjadas.
 
+![[solucao dos exercicios da uc2#Produtos 05]]
+
 ⬅️ Aula anterior: [[uc2.17 - Consolidando o CRUD na Interface Web]] | ➡️ Próxima aula: ✨em edição!

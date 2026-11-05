@@ -452,6 +452,8 @@ Esta atividade cobre o essencial, mas um sistema real também precisaria de:
 - [ ] O logout encerra a sessão
 - [ ] Os cinco testes de segurança foram registrados
 
+![[solucao dos exercicios da uc2#Produtos 05]]
+
 ## Fechamento
 
 Você percorreu o ciclo completo de uma aplicação de dados: **modelagem**, **CRUD**, **transações**, **análise**, **visualização**, **API**, **página web** e **autenticação**. Na sequência, em [[produtos-06-formulario-cadastro|Formulário de cadastro]], você usa essa proteção para gravar produtos pela web, incluindo a defesa contra CSRF citada acima. Volte ao [[produtos-00-roteiro|roteiro]] para revisar os critérios de avaliação.

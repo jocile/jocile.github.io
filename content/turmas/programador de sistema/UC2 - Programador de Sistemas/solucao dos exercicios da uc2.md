@@ -48,4 +48,12 @@ tags:
 
 ## Produtos 04
 
->[!done]  [GitHub - profjocile/projeto-bottle-produtos-vendas: Atividade Gestão de Produtos 4 - API e relatório web com Bottle · GitHub](https://github.com/profjocile/projeto-bottle-produtos-vendas)
+>[!done] Resolução App cadastro de produtos com relatório web
+>
+>  [GitHub - profjocile/projeto-bottle-produtos-vendas: Atividade Gestão de Produtos 4 - API e relatório web com Bottle · GitHub](https://github.com/profjocile/projeto-bottle-produtos-vendas)
+
+## Produtos 05
+
+>[!done] Resolução App cadastro de produtos com autenticação web
+>
+>  [GitHub - profjocile/projeto-bottle-produtos-vendas at produtos5-autenticacao · GitHub](https://github.com/profjocile/projeto-bottle-produtos-vendas/tree/produtos5-autenticacao)
