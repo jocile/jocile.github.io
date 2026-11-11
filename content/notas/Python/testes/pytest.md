@@ -1,16 +1,18 @@
 ---
 title: Pytest
-description: O pytest é um framework de teste unitário popular e poderoso para Python.
-  Ele fornece uma interface simples e intuitiva para escrever e executar testes, além…
+description: O pytest é um framework de teste unitário popular e poderoso para Python. Ele fornece uma interface simples e intuitiva para escrever e executar testes, além de oferecer recursos avançados para facilitar o desenvolvimento orientado a testes (TDD).
 date: '2026-09-17'
 draft: false
 tags:
-- programador
+  - tecnico/testing
+  - python/pytest
+  - tdd/postrun
+  - auto-teste/unitario
 ---
 
 ## Criando testes com o pytest
 
-O `pytest` é um framework de teste unitário popular e poderoso para Python. Ele fornece uma interface simples e intuitiva para escrever e executar testes, além de oferecer recursos avançados para facilitar o desenvolvimento orientado a testes (TDD).
+O `pytest` é um framework de teste unitário popular e poderoso para Python. Ele fornece uma interface simples e intuitiva para escrever e executar testes, além de oferecer recursos avançados para facilitar o desenvolvimento orientado a testes (TDD) [[tdd/postrun]].
 
 ### Benefícios do pytest
 
@@ -80,7 +82,7 @@ def test_add_positive_numbers():
  assert add(2, 3) == 5
 
 def test_add_negative_numbers():
- assert add(-2, -3) == -5
+ assert add(-2, 3) == -5
 
 def test_add_zero():
  assert add(0, 0) == 0
@@ -126,7 +128,7 @@ import pytest
 
 def test_raises():
  with pytest.raises(ZeroDivisionError):
- 1 / 0
+  1 / 0
 ```
 
 ## Conclusão
@@ -137,7 +139,7 @@ Você pode encontrar mais detalhes e funcionalidades avançadas na [documentaç�
 
 Se precisar de exemplos mais avançados ou de como integrar o `pytest` em um ambiente de desenvolvimento específico, sinta-se à vontade para perguntar!
 
-> [!TIP] O `pytest` é uma excelente alternativa ao `unittest` para escrever testes unitários em Python. Sua sintaxe simples, descoberta automática de testes e recursos avançados o tornam uma escolha popular entre os desenvolvedores Python.
+> [!TIP] O `pytest` é uma excelente alternativa ao [[unittest]] para escrever testes unitários em Python. Sua sintaxe simples, descoberta automática de testes e recursos avançados o tornam uma escolha popular entre os desenvolvedores Python. Consulte também as melhores práticas de teste em [[Testes automatizados]].
 
 ## Referências
 
@@ -145,4 +147,3 @@ Se precisar de exemplos mais avançados ou de como integrar o `pytest` em um amb
 - [Tutoriais e exemplos de pytest](https://realpython.com/pytest-python-testing/)
 - [Boas práticas de testes com pytest](https://docs.pytest.org/en/stable/goodpractices.html)
 - [Como criar testes Unitários com Python: Tutorial de Pytest - YouTube](https://www.youtube.com/watch?v=7U1P1N_Kzik)
-- /testes

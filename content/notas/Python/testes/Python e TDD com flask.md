@@ -26,9 +26,9 @@ Para manter o projeto organizado, separe o código da aplicação dos testes:
 meu_projeto/
 │
 ├── app.py             # Código do seu aplicativo Flask
-├── conftest.py        # Configurações globais e fixtures do Pytest
 └── tests/
     ├── __init__.py
+    ├── conftest.py    # Configurações globais e fixtures do Pytest
     └── test_api.py    # Seus arquivos de teste
 ```
 

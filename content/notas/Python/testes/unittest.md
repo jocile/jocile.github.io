@@ -1,12 +1,13 @@
 ---
 title: Unittest
-description: O unittest é um framework de teste unitário integrado ao Python. Ele
-  fornece uma estrutura para escrever, executar e organizar testes automatizados para
-  seu…
-date: '2026-09-17'
+description: O unittest é um framework de teste unitário integrado ao Python. Ele fornece uma estrutura para escrever, executar e organizar testes automatizados para seu…
+date: 2026-09-17
 draft: false
 tags:
-- programador
+  - tecnico/testing
+  - python/unittest
+  - tdd/postrun
+  - auto-teste/unitario
 ---
 
 ## Explicando o unittest no Python

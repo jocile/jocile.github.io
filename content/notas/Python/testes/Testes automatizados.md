@@ -1,12 +1,13 @@
 ---
 title: test_calculator.py
-description: 'Test-Driven Development (TDD) é uma abordagem de desenvolvimento de
-  software que se baseia na repetição de um curto ciclo de desenvolvimento: primeiro
-  o…'
-date: '2026-09-17'
+description: "Test-Driven Development (TDD) é uma abordagem de desenvolvimento de software que se baseia na repetição de um curto ciclo de desenvolvimento: primeiro o…"
+date: 2026-09-17
 draft: false
 tags:
-- programador
+  - tecnico/testing
+  - python/tdd
+  - tdd/postrun
+  - auto-teste/unitario
 ---
 
 ## TDD - testes automatizados
