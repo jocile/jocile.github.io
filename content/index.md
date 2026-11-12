@@ -24,7 +24,7 @@ cssclasses:
 - [📚Blog de aulas passadas](https://jocile.github.io/site/blog/)
 - [🌐 Navegue pelos Tópicos](/tags/).
 - 💼 [Oportunidades de trabalho em Sobral Ceará](https://carreiras.ce.senac.br/vagas?cidade=Sobral)
-- 🎓 Oportunidade de cursos presenciais no [[cursos_senac_sobral-anterior|Senac em Sobral]] e [[cursos_senac_sobral_psg-anterior|gratuitos]]
+- 🎓 Oportunidade de cursos presenciais no [[cursos_senac_sobral|Senac em Sobral]] e [[cursos_senac_sobral_psg|gratuitos]]
 
 ## Turma atual
 
@@ -46,8 +46,8 @@ SORT file.mtime DESC LIMIT 24 -->
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | [[cursos_senac_sobral_psg]]                                                                                                                                | 11.novembro - 09:40 | \-                                                                                                                                                                |
 | [[uc3.05 - Analisando resultados e medindo cobertura]]              | 11.novembro - 09:36 | Análise dos resultados de teste da versão 0.9, priorização de defeitos e medição da cobertura de código com pytest-cov no sistema Gestão de Produtos              |
-| [[produtos-03-visualizacao]]                                                 | 11.novembro - 09:35 | Gere um gráfico de barras horizontal do ranking de vendas com Seaborn e Matplotlib, salve o arquivo PNG e prepare os arquivos para a aplicação web.               |
 | [[produtos-02-vendas-estoque]]                                             | 11.novembro - 09:35 | Desafio com SQLite: criar a tabela Vendas com chave estrangeira, registrar vendas com baixa de estoque em transação e descobrir o produto mais vendido.           |
+| [[produtos-03-visualizacao]]                                                 | 11.novembro - 09:35 | Gere um gráfico de barras horizontal do ranking de vendas com Seaborn e Matplotlib, salve o arquivo PNG e prepare os arquivos para a aplicação web.               |
 | [[produtos-01-crud-analise]]                                                 | 11.novembro - 09:35 | Atividade guiada de CRUD com Python e SQLite: criar tabelas, inserir, consultar, atualizar, excluir e analisar o estoque com SQL e Pandas.                        |
 | [[atividade_pandas sqlite]]                                                     | 11.novembro - 09:35 | Atividade prática: cruze alunos, cursos e matrículas com Pandas e SQLite para calcular matrículas ativas, faturamento e perfil dos alunos.                        |
 | [[Gabarito Atividade Analista de Dados Educacionais]] | 11.novembro - 09:35 | Soluções em Pandas e SQLite, resultados esperados, erros comuns e respostas dos desafios da atividade de análise de dados.                                        |
