@@ -4,8 +4,7 @@ description: Modelos e exemplos para elaborar um plano de teste de uma página e
 date: 2026-11-11
 draft: false
 tags:
-  - programador-sistemas/aulas/uc3
-  - testes
+  - testes/modelo
   - documentacao
 ---
 

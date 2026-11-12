@@ -105,7 +105,7 @@ Qual é o número total de matrículas ativas **por curso**? Cursos sem matrícu
 Qual é o faturamento total mensal da escola? **Some o preço da mensalidade de cada matrícula ativa.**
 
 > [!success]- Resposta esperada
-> **R$ 580,00** (150 + 130 + 150 + 150). As matrículas `Trancado` e `Cancelado` não entram.
+> **R\$ 580,00** (150 + 130 + 150 + 150). As matrículas `Trancado` e `Cancelado` não entram.
 
 ### Pergunta 4: Perfil dos alunos
 
@@ -129,7 +129,7 @@ Quais alunos **não têm nenhuma matrícula**?
 Qual curso gera o **maior faturamento** considerando apenas matrículas ativas?
 
 > [!success]- Resposta esperada
-> Python para Dados, com **R$ 450**.
+> Python para Dados, com **R\$ 450**.
 
 ## 🗄️ 4. Versão com SQLite no Google Colab
 
@@ -316,7 +316,7 @@ WHERE status = 'Ativo'
 """, conn)
 ```
 
-Esperado: R$ 580.
+Esperado: R\$ 580.
 
 **4. Idade média em "Python para Dados"**
 

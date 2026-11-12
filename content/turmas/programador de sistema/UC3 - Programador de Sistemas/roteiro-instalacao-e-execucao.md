@@ -4,10 +4,9 @@ description: Passo a passo para extrair o repositório-base, criar o ambiente vi
 date: 2026-11-11
 draft: false
 tags:
-  - programador-sistemas/aulas/uc3
   - python/web
   - flask
-  - testes
+  - testes/roteiro
 ---
 
 Antes de testar um sistema, é preciso fazê-lo funcionar no seu computador. Este roteiro leva você do projeto base até o sistema aberto no navegador.
@@ -92,40 +91,51 @@ Devem aparecer, no mínimo, `Flask` e `pytest`.
 
 O sistema assina o cookie de login com um **segredo** que **não fica escrito no código**: ele vem de uma variável de ambiente.
 
-**Linux e macOS:**
+O segredo assina o cookie de sessão. Sem ele, o sistema usa um valor temporário e **você será deslogado toda vez que o servidor reiniciar**.
 
-```bash
-export APP_SECRET=$(python -c "import secrets; print(secrets.token_hex(32))")
-```
+| Sistema | Comando |
+| --- | --- |
+| Windows (PowerShell) | `$env:APP_SECRET = "troque-por-um-texto-longo-e-aleatorio"` |
+| Linux e macOS | `export APP_SECRET="troque-por-um-texto-longo-e-aleatorio"` |
 
-**Windows (PowerShell):**
-
-```powershell
-$env:APP_SECRET = python -c "import secrets; print(secrets.token_hex(32))"
-```
+>[!tip] O comando seguinte cria o segredo aleatório
+>
+> **Windows (PowerShell):**
+>
+> ```powershell
+> $env:APP_SECRET = python -c "import secrets; print(secrets.token_hex(32))"
+> ```
+>
+> **Linux e macOS:**
+>
+> ```bash
+> export APP_SECRET=$(python -c "import secrets; print(secrets.token_hex(32))")
+> ```
 
 > [!note] A variável vale só para este terminal
 > Se você fechar o terminal, repita este passo. Sem a variável, o sistema pode gerar um segredo temporário, e o login cai a cada reinício.
 
 ## Passo 6: criar o banco e o usuário de teste
 
-Se o repositório-base já trouxer o arquivo `gestao_produtos.db`, pule para o passo 7. Caso contrário, siga as instruções do docente para criar o banco, e depois cadastre um usuário:
+Se o repositório-base já trouxer o arquivo `gestao_produtos.db`, pule para o passo 7. Caso contrário, siga  para criar o banco, e depois cadastre um usuário:
 
 ```bash
+python criar_banco.py
 python criar_usuario.py
 ```
 
-Informe um nome de usuário e uma senha de pelo menos 8 caracteres. **Anote os dois**: você vai usá-los nos testes.
+O segundo comando pede o nome do usuário e a senha (mínimo de 8 caracteres). A senha não aparece enquanto você digita. **Anote os dois**: você vai usá-los nos testes.
 
 ## Passo 7: executar o sistema
 
 ```bash
-python app.py
+flask --app app run --debug
 ```
 
-O terminal mostrará o endereço do servidor (algo como `http://127.0.0.1:5000`). Copie esse endereço, abra no navegador e faça login.
+O terminal mostrará o endereço do servidor (algo como `http://127.0.0.1:5000`). Copie esse endereço, abra no navegador e faça login com o usuário criado.
 
 > [!example] Resultado esperado
+>
 > - A tela de login aparece.
 > - Depois de entrar, é possível abrir a lista de produtos.
 > - O terminal continua aberto, mostrando cada requisição que você faz. Para encerrar o servidor, use `Ctrl + C`.

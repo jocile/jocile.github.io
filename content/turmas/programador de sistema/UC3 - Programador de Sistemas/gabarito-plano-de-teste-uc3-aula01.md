@@ -1,19 +1,21 @@
 ---
-title: Gabarito - Plano de teste da Aula 1 da UC3 (uso do docente)
+title: Gabarito - Plano de teste da Aula 1 da UC3
 description: Gabarito do docs/plano-de-teste.md da uc3.01, com notas de correção. Não publicar.
 date: 2026-11-11
-draft: true
+draft: false
 tags:
   - programador-sistemas/gabarito
   - uc3
 ---
 
+%%
+# Plano de teste: Sistema Gestão de Produtos
+
 > [!warning] Uso exclusivo do docente
 > Não publicar no Quartz. Este gabarito supõe o repositório-base em **versão correta**, ou seja, sem os defeitos da v0.9 (que só entram na Aula 4). Por isso os 6 casos devem sair **Aprovados**. Um caso Reprovado na Aula 1 indica problema no repositório-base ou erro de execução do aluno.
 
 ---
-
-# Plano de teste: Sistema Gestão de Produtos
+%%
 
 ## 1. Identificação
 
@@ -157,6 +159,8 @@ O sistema é aprovado nesta etapa quando **os 6 casos têm status Aprovado** e n
 | Status | Aprovado |
 | Evidência | `evidencias/ct06-cadastro-valido.png` |
 
+%%
+
 ---
 
 # Notas do docente
@@ -209,3 +213,5 @@ Trate como oportunidade da própria SA1:
 
 > [!tip] Sugestão para o feedback imediato
 > Comece pelo que a dupla fez bem e use a pergunta do Guia: "o que você acha que pode ser feito para melhorar a clareza dos passos?". Evite "está errado" e prefira "a dupla colega não conseguiu repetir o passo 3 porque...".
+
+%%

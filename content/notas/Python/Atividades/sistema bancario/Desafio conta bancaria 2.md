@@ -35,9 +35,9 @@ A tabela abaixo apresenta exemplos com alguns dados de entrada e suas respectiva
 
 | Entrada                                                 | Saída                                           |
 | ------------------------------------------------------- | ----------------------------------------------- |
-| João, 500  <br>Maria, 1000  <br>FIM                     | João: R$ 500, Maria: R$ 1000                    |
-| Ana, 150  <br>Bruno, 250  <br>FIM                       | Ana: R$ 150, Bruno: R$ 250                      |
-| Fernando, 50  <br>Gustavo, 75  <br>Helena, 125  <br>FIM | Fernando: R$ 50, Gustavo: R$ 75, Helena: R$ 125 |
+| João, 500  <br>Maria, 1000  <br>FIM                     | João: R\$ 500, Maria: R\$ 1000                    |
+| Ana, 150  <br>Bruno, 250  <br>FIM                       | Ana: R\$ 150, Bruno: R\$ 250                      |
+| Fernando, 50  <br>Gustavo, 75  <br>Helena, 125  <br>FIM | Fernando: R\$ 50, Gustavo: R\$ 75, Helena: R\$ 125 |
 
 
 ```python
@@ -93,7 +93,7 @@ sistema.listar_contas()
 5. **Método `listar_contas()`**:    
     - Cria uma lista com todas as contas formatadas
     - Usa `", ".join()` para juntar todas as contas em uma única linha separadas por vírgula e espaço
-    - Formato de cada conta: "Titular: R$ Saldo"
+    - Formato de cada conta: "Titular: R\$ Saldo"
 6. **Saída**: Agora todas as contas são exibidas em uma única linha, conforme mostrado na tabela de exemplos.
 
 O sistema agora pode criar múltiplas contas bancárias e listá-las todas ao final da execução quando o usuário digitar "FIM".

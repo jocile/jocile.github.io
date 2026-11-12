@@ -172,7 +172,7 @@ Antes de abrir a solução, pense nestas perguntas:
 >     print(f"Produto: {nome} (ID: {id_p})")
 >     print(f"Categoria: {categoria}")
 >     print(f"Unidades vendidas: {total_qtd}")
->     print(f"Faturamento gerado: R$ {faturamento:.2f}")
+>     print(f"Faturamento gerado: R\$ {faturamento:.2f}")
 > ```
 >
 > **4. Ranking completo (Pandas)**
@@ -206,15 +206,15 @@ Antes de abrir a solução, pense nestas perguntas:
 > ```
 
 > [!example] Resultado esperado
-> O produto mais vendido deve ser a **Camisa Polo**, com 10 unidades e R$ 800,00 de faturamento. O ranking completo:
+> O produto mais vendido deve ser a **Camisa Polo**, com 10 unidades e R\$ 800,00 de faturamento. O ranking completo:
 >
 > | Produto | Qtd. vendida | Faturamento | Estoque restante |
 > | --- | --- | --- | --- |
-> | Camisa Polo | 10 | R$ 800,00 | 15 |
-> | Smartphone | 7 | R$ 11.200,00 | 3 |
-> | Cadeira de Escritório | 5 | R$ 1.750,00 | 7 |
-> | Notebook | 2 | R$ 7.000,00 | 3 |
-> | Sofá | 1 | R$ 800,00 | 2 |
+> | Camisa Polo | 10 | R\$ 800,00 | 15 |
+> | Smartphone | 7 | R\$ 11.200,00 | 3 |
+> | Cadeira de Escritório | 5 | R\$ 1.750,00 | 7 |
+> | Notebook | 2 | R\$ 7.000,00 | 3 |
+> | Sofá | 1 | R\$ 800,00 | 2 |
 
 ## Por que usar uma transação?
 
@@ -248,9 +248,9 @@ Use o `df_vendas` para responder:
 
 > [!success]- Respostas esperadas
 >
-> 1. **Smartphone**, com R$ 11.200,00. O produto mais vendido em unidades (Camisa Polo) *não* é o que mais fatura.
+> 1. **Smartphone**, com R\$ 11.200,00. O produto mais vendido em unidades (Camisa Polo) *não* é o que mais fatura.
 > 2. **Vestuário**, com 10 unidades (Eletrônicos vendeu 9 e Móveis, 6).
-> 3. **Eletrônicos**, com R$ 18.200,00.
+> 3. **Eletrônicos**, com R\$ 18.200,00.
 
 ## Desafio extra
 

@@ -271,10 +271,10 @@ print(f'R$ {total:.2f}')
 >
 > ```python
 > total = ativos['preco_mensalidade'].sum()
-> print(f'R$ {total:.2f}')
+> print(f'R\$ {total:.2f}')
 > ```
 >
-> Resultado: **R$ 580.00**, que vem de 150 + 130 + 150 + 150.
+> Resultado: **R\$ 580.00**, que vem de 150 + 130 + 150 + 150.
 >
 > A matrícula cancelada de Carlos (120) **não entra**, porque ela já foi filtrada em `ativos`.
 
@@ -324,7 +324,7 @@ print(f'{media:.1f} anos')
 | --- | --- |
 | 1. Alunos ativos | Ana Silva, Bruno Costa, Diana Martins |
 | 2. Matrículas ativas por curso | Python para Dados: 3 · Banco de Dados SQL: 1 |
-| 3. Faturamento mensal | R$ 580,00 |
+| 3. Faturamento mensal | R\$ 580,00 |
 | 4. Idade média em Python | 22,3 anos |
 
 > [!question] Compare com o que você previu no começo

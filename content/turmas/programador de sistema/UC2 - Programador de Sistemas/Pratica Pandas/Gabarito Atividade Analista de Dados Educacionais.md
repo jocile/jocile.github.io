@@ -198,13 +198,13 @@ print(f'R$ {fat_pd:.2f}')
 ```
 
 > [!success] Esperado
-> **R$ 580,00** = 150 (Ana/Python) + 130 (Ana/SQL) + 150 (Bruno/Python) + 150 (Diana/Python).
+> **R\$ 580,00** = 150 (Ana/Python) + 130 (Ana/SQL) + 150 (Bruno/Python) + 150 (Diana/Python).
 
 > [!bug] Erros comuns
 >
-> - **R$ 710**: contar a matrícula `Trancado` da Diana (130).
-> - **R$ 830**: não filtrar o status (soma as 6 matrículas, incluindo `Cancelado` e `Trancado`).
-> - **R$ 700**: somar `Cancelado` e `Ativo` e esquecer só o `Trancado` (ou qualquer filtro que deixe passar a matrícula 1004, de 120, com a 1006 de fora).
+> - **R\$ 710**: contar a matrícula `Trancado` da Diana (130).
+> - **R\$ 830**: não filtrar o status (soma as 6 matrículas, incluindo `Cancelado` e `Trancado`).
+> - **R\$ 700**: somar `Cancelado` e `Ativo` e esquecer só o `Trancado` (ou qualquer filtro que deixe passar a matrícula 1004, de 120, com a 1006 de fora).
 
 ## 5. Pergunta 4: idade média em "Python para Dados"
 
@@ -295,7 +295,7 @@ assert top_pd.iloc[0] == top_sql.loc[0, 'faturamento'] == 450
 ```
 
 > [!success] Esperado
-> Python para Dados, com **R$ 450** (3 × 150).
+> Python para Dados, com **R\$ 450** (3 × 150).
 
 ## 8. Gráficos (desafio 6)
 
@@ -345,10 +345,10 @@ plt.show()
 ```
 
 > [!success] Esperado
-> Barras 3 / 1 / 0 (a barra do Web Design aparece com o rótulo 0). Pizza com Python 77,6% (R$ 450) e SQL 22,4% (R$ 130); Web Design fica de fora da pizza porque o faturamento é 0.
+> Barras 3 / 1 / 0 (a barra do Web Design aparece com o rótulo 0). Pizza com Python 77,6% (R\$ 450) e SQL 22,4% (R\$ 130); Web Design fica de fora da pizza porque o faturamento é 0.
 
 > [!bug] Erro comum
-> Plotar `consolidado` sem filtrar: o gráfico passa a somar R$ 830 e Web Design aparece com R$ 120.
+> Plotar `consolidado` sem filtrar: o gráfico passa a somar R\$ 830 e Web Design aparece com R\$ 120.
 
 ## 9. Desafios extras: respostas
 
@@ -375,7 +375,7 @@ assert fat_cidade_pd.to_dict() == {'São Paulo': 430, 'Rio de Janeiro': 150}
 ```
 
 > [!success] Esperado
-> São Paulo: R$ 430 (Ana 150 + 130, Diana 150) · Rio de Janeiro: R$ 150. Belo Horizonte e Fortaleza não aparecem, porque não têm matrícula ativa.
+> São Paulo: R\$ 430 (Ana 150 + 130, Diana 150) · Rio de Janeiro: R\$ 150. Belo Horizonte e Fortaleza não aparecem, porque não têm matrícula ativa.
 
 ### Desafios 1 a 4: o que acontece
 

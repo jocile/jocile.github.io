@@ -24,8 +24,6 @@ aula: 1
 
 > [!todo] 🖥️ Atividades
 >
-> Trabalhem em **duplas**.
->
 > **1. Preparar o sistema**
 >
 > - Extrair o [repositório-base](https://github.com/jocile/gestao-produtos-base) do sistema Gestão de Produtos e abrir no VS Code.
@@ -88,4 +86,8 @@ aula: 1
 > - plano de teste de uma página (objetivo, escopo, ambiente, tipos de teste)
 > - 6 casos de teste, com resultado obtido e status
 
-⬅️ Aula anterior: [[uc2.18 - Gestao de Dados Acessos e Permissoes]] | ➡️ Próxima aula: ✨em edição!
+>[!done] Resolução do Plano de teste e testes manuais
+> [[gabarito-plano-de-teste-uc3-aula01]]
+
+
+⬅️ Aula anterior: [[uc2.18 - Gestao de Dados Acessos e Permissoes]] | ➡️ Próxima [[uc3.02 - testes automatizados com pytest]]

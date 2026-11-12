@@ -208,7 +208,7 @@ Neste exemplo, dentro do bloco try, tentamos ler os valores e realizar a divisã
    - De R\$ 1.903,99 até R\$ 2.826,65: 7,5%
    - De R\$ 2.826,66 até R\$ 3.751,05: 15%
    - De R\$ 3.751,06 até R\$ 4.664,68: 22,5%
-   - Acima de R$ 4.664,68: 27,5%
+   - Acima de R\$ 4.664,68: 27,5%
 6. Escreva um programa que peça ao usuário para digitar a sua altura e o seu peso e informe se ele está abaixo do peso, no peso ideal ou acima do peso. Para isso, utilize o índice de massa corporal (IMC), que é calculado pela fórmula:
    - Para homens: peso ideal = (72.7 x altura) - 58
    - Para mulheres: peso ideal = (62.1 x altura) - 44.7
@@ -281,7 +281,7 @@ Escreva um programa que peça ao usuário para digitar o seu salário e informe 
 - De R\$ 1.903,99 até R\$ 2.826,65: 7,5%
 - De R\$ 2.826,66 até R\$ 3.751,05: 15%
 - De R\$ 3.751,06 até R\$ 4.664,68: 22,5%
-- Acima de R$ 4.664,68: 27,5%
+- Acima de R\$ 4.664,68: 27,5%
 
 ```python
 salario = float(input("Digite o seu salário: "))

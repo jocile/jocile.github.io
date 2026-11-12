@@ -56,7 +56,7 @@ Combinar os componentes anteriores (Python, SQL, APIs) em aplicações web reais
 | **Relacional** (SQL) | ACID | Dificulta | Imediata |
 | **NoSQL** | BASE | Alta | Possivelmente 30 min |
 
->[!info] 📊 Exemplo prático: "Se você perde uma transação a cada mil para o Facebook, quem se importa? Você vai chorar se pagar $1.000 ao proprietário e isso some."
+>[!info] 📊 Exemplo prático: "Se você perde uma transação a cada mil para o Facebook, quem se importa? Você vai chorar se pagar \$1.000 ao proprietário e isso some."
 
 ### Comandos Internos do SQLite Shell
 
@@ -417,9 +417,9 @@ curl http://seu-ip-localhost:8000
 
 | Tamanho | RAM | CPU | LLM Suportado | Preço/Mês |
 |---------|-----|-----|----------------|-----------|
-| **$4** | 1GB | 2 vCPU | SM-LLM (135M) | $4 |
-| **$6** | 2GB | 2 vCPU | SM-LLM + modelos básicos | $6 |
-| **$12** | 2GB | 2 vCPU | Granite 350M, 7B | $12 |
+| **\$4** | 1GB | 2 vCPU | SM-LLM (135M) | \$4 |
+| **\$6** | 2GB | 2 vCPU | SM-LLM + modelos básicos | \$6 |
+| **\$12** | 2GB | 2 vCPU | Granite 350M, 7B | \$12 |
 
 >[!info] 💰 **Estratégia de Custo**: Se usar por horas/dias → Desligue e destrole o droplet para zero custo.
 
@@ -527,7 +527,7 @@ python web_app.py --port 8080
 3. **Cache = Performance**: LLMs são caros e lentos. Cacheia 90% das consultas repetidas.
 4. **Segurança First**: Templates sanitizam inputs; POST > GET para dados sensíveis; Use parâmetros sempre.
 5. **Deploy Não é Mágica**: 8-12 passos, mas todos testáveis. Verifique EngineX, Gunicorn antes de DNS final.
-6. **Custo Real vs Preço**: Digital Ocean permite pagar por horas (destrole e pague $0).
+6. **Custo Real vs Preço**: Digital Ocean permite pagar por horas (destrole e pague \$0).
 
 ---
 

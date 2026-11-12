@@ -139,12 +139,12 @@ for id_p, nome, preco, estoque in linhas:
 > [!example] Saída esperada
 >
 > ```text
-> ID: 1 | Produto: Smartphone | Preço: R$ 1500.00 | Estoque: 10
-> ID: 2 | Produto: Notebook | Preço: R$ 3500.00 | Estoque: 5
-> ID: 3 | Produto: Sofá | Preço: R$ 800.00 | Estoque: 3
-> ID: 4 | Produto: Cadeira de Escritório | Preço: R$ 350.00 | Estoque: 12
-> ID: 5 | Produto: Camisa Polo | Preço: R$ 80.00 | Estoque: 25
-> ID: 6 | Produto: Calça Jeans | Preço: R$ 120.00 | Estoque: 15
+> ID: 1 | Produto: Smartphone | Preço: R\$ 1500.00 | Estoque: 10
+> ID: 2 | Produto: Notebook | Preço: R\$ 3500.00 | Estoque: 5
+> ID: 3 | Produto: Sofá | Preço: R\$ 800.00 | Estoque: 3
+> ID: 4 | Produto: Cadeira de Escritório | Preço: R\$ 350.00 | Estoque: 12
+> ID: 5 | Produto: Camisa Polo | Preço: R\$ 80.00 | Estoque: 25
+> ID: 6 | Produto: Calça Jeans | Preço: R\$ 120.00 | Estoque: 15
 > ```
 
 ### Passo 5: atualizar e excluir (Update e Delete)
@@ -168,7 +168,7 @@ conn.commit()
 > [!tip] Confira o `rowcount`
 > Se `rowcount` for `0`, o `WHERE` não encontrou nada, normalmente por erro de digitação no nome. O SQLite não considera isso um erro, então a verificação é sua.
 
-Execute novamente o código do Passo 4 e confirme que o Smartphone custa R$ 1600,00 e que a Calça Jeans sumiu.
+Execute novamente o código do Passo 4 e confirme que o Smartphone custa R\$ 1600,00 e que a Calça Jeans sumiu.
 
 ### Passo 6: análise de dados
 
@@ -198,9 +198,9 @@ for categoria, qtd, valor in cursor.fetchall():
 >
 > | Categoria | Itens | Valor em estoque |
 > | --- | --- | --- |
-> | Eletrônicos | 2 | R$ 33.500,00 |
-> | Móveis | 2 | R$ 6.600,00 |
-> | Vestuário | 1 | R$ 2.000,00 |
+> | Eletrônicos | 2 | R\$ 33.500,00 |
+> | Móveis | 2 | R\$ 6.600,00 |
+> | Vestuário | 1 | R\$ 2.000,00 |
 
 #### Pergunta 2 (Pandas): qual o resumo estatístico dos preços e estoques?
 
@@ -278,7 +278,7 @@ print("Conexão encerrada com segurança.")
 
 - [ ] O arquivo `gestao_produtos.db` foi criado
 - [ ] O Passo 4 lista 6 produtos antes do Passo 5
-- [ ] Após o Passo 5, o Smartphone custa R$ 1600,00 e a Calça Jeans não aparece
+- [ ] Após o Passo 5, o Smartphone custa R\$ 1600,00 e a Calça Jeans não aparece
 - [ ] A Pergunta 1 retorna Eletrônicos como categoria de maior valor em estoque
 - [ ] A conexão foi fechada no Passo 7
 - [ ] Os três exercícios de fixação foram resolvidos

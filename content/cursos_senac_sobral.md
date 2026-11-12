@@ -3,31 +3,137 @@ tags:
   - "senac"
   - "cursos"
 unidade: "Senac Sobral"
-coletado_em: "2026-11-02 20:17"
-description: "Oportunidade de cursos presenciais no Senac Sobral"
+coletado_em: "2026-11-11 20:46"
 ---
 
 # Cursos do Senac Sobral
 
 Catálogo consultado em [Senac Ceará](https://cursos.ce.senac.br/unidade/senac-sobral/).
 
-**Coletado em:** 2026-11-02 20:17
+**Coletado em:** 2026-11-11 20:46
 
 | Curso | Início | Fim | Dias | Horário | Carga horária | Preço (R\$) | Idade mín. |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| [POWER BI EXPERT - 2026.12.397](https://cursos.ce.senac.br/produto/power-bi-expert-2026-12-397/) | 2026-11-10 | 2026-12-03 | TER QUI | 18:30 às 21:30 | 32h | 196.00 | 14 |
+| [INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4](https://cursos.ce.senac.br/produto/informatica-basica-sobral-noite-2027-12-4/) | 2027-01-11 | 2027-02-22 | SEG QUA SEX | 18:00 às 21:10 | 66h | 185.50 | 13 |
+| [INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3](https://cursos.ce.senac.br/produto/informatica-basica-sobral-tarde-2027-12-3/) | 2027-01-11 | 2027-02-02 | SEG TER QUA QUI SEX | 13:30 às 17:00 | 66h | 185.50 | 13 |
+| [CAKE DESIGN - SOBRAL - NOITE - 2027.12.2](https://cursos.ce.senac.br/produto/cake-design-sobral-noite-2027-12-2/) | 2027-01-18 | 2027-01-29 | SEG TER QUA QUI SEX | 18:00 às 21:00 | 40h | 266.00 | 16 |
+| [TÉCNICO EM ÓPTICA - SOBRAL - NOITE - 2027.12.1 - MÓDULO I*](https://cursos.ce.senac.br/produto/tecnico-em-optica-sobral-noite-2027-12-1-modulo-i/) | 2027-01-18 | 2028-03-24 | SEG TER QUA QUI SEX | 18:30 às 21:30 | 1200h \| 3 módulos | 995.76 | 16 |
+| [POWER BI EXPERT - 2026.12.397](https://cursos.ce.senac.br/produto/power-bi-expert-2026-12-397/) | 2026-11-30 | 2026-12-16 | SEG QUA SEX | 18:30 às 21:30 | 32h | 196.00 | 14 |
 | [ALFAIATARIA FEMININA (MODELAGEM TRIDIMENSIONAL E COSTURA) - SOBRAL - 2026.12.305](https://cursos.ce.senac.br/produto/alfaiataria-feminina-modelagem-tridimensional-e-costura-sobral-2026-12-305/) | 2026-11-16 | 2026-12-07 | SEG TER QUA QUI SEX | 18:30 às 21:30 | 60h | 402.50 | 18 |
-| [CABELEIREIRO - SOBRAL - NOITE - 2026.12.355](https://cursos.ce.senac.br/produto/cabeleireiro-sobral-noite-2026-12-355/) | 2026-11-09 | 2027-02-18 | SEG TER QUA QUI SEX | 18:30 às 21:30 | 280h | 1656.90 | 18 |
-| [OPERAÇÃO DE DRONES - SOBRAL - MANHÃ/TARDE/NOITE - 2026.12.349](https://cursos.ce.senac.br/produto/operacao-de-drones-sobral-manha-tarde-noite-2026-12-349/) | 2026-11-06 | 2026-11-14 | SEX SÁB | SEX (18:00 às 21:00) , SÁB (08:00 às 11:30 / 13:30 às 17:00) | 20h | 267.40 | 17 |
-| [GESTÃO E LIDERANÇA DE EQUIPES - SOBRAL - NOITE - 2026.12.384](https://cursos.ce.senac.br/produto/gestao-e-lideranca-de-equipes-sobral-noite-2026-12-384/) | 2026-11-03 | 2026-12-03 | TER QUA QUI | 18:30 às 21:30 | 60h | 319.20 | 18 |
-| [SALGADOS COMERCIAIS - SOBRAL - NOITE - 2026.12.394](https://cursos.ce.senac.br/produto/salgados-comerciais-sobral-noite-2026-12-394/) | 2026-11-09 | 2026-11-13 | SEG TER QUA QUI SEX | 18:30 às 21:30 | 20h | 170.10 | 16 |
+| [GESTÃO E LIDERANÇA DE EQUIPES - SOBRAL - NOITE - 2026.12.384](https://cursos.ce.senac.br/produto/gestao-e-lideranca-de-equipes-sobral-noite-2026-12-384/) | 2026-11-16 | 2026-12-07 | SEG TER QUA QUI SEX | 18:30 às 21:30 | 60h | 319.20 | 18 |
+| [SALGADOS COMERCIAIS - SOBRAL - NOITE - 2026.12.394](https://cursos.ce.senac.br/produto/salgados-comerciais-sobral-noite-2026-12-394/) | 2026-11-16 | 2026-11-23 | SEG TER QUA QUI SEX | 18:30 às 21:30 | 20h | 170.10 | 16 |
+
+## INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4
+
+[Abrir página do curso](https://cursos.ce.senac.br/produto/informatica-basica-sobral-noite-2027-12-4/)
+
+> [!info] 11/01/2027 a 22/02/2027 · 66h
+> **Horário:** SEG QUA SEX · 18:00 às 21:10
+> **Preço:** ~~R\$ 265,00~~ **R\$ 185,50** (até 4x de R\$ 46,38)
+> **Requisitos:** Idade mínima: 13 anos e Ensino Fundamental I (1º ao 5º ano) Incompleto.
+>
+> > [!abstract]+ Descrição
+> > Dê o primeiro passo para entrar no mundo digital e se diferencie no mercado de trabalho. Neste curso, você aprende a utilizar o sistema operacional Windows e aplicativos de escritório como Word, Excel e navegadores de internet. Matricule-se agora e vem ser Senac!
+>
+> > [!example]- Conteúdo programático
+> > Comunicar-se com clareza e objetividade. Flexibilidade nas diversas situações de trabalho. Fundamentos de internet, conceitos básicos, navegação na internet explorer, serviços de pesquisa e download. Correio eletrônico (e-mail), criação de conta, envio e recebimento, respondendo, enviando com anexo. Gerenciador de apresentação power point. Conhecendo o ambiente, os elementos e as ferramentas do gerenciador, criando slides com auto-layouts. Modos de classificação e exibição de slides, trabalhando com marcadores.
+>
+> > [!tip]- Formas de pagamento
+> > Cartão de Débito em até 1x de R\$ 265,00
+> > Cartão de Crédito em até 6x de R\$ 44,17
+> > Depósito Bancário em até 1x de R\$ 265,00 (Para essa forma de pagamento entrar em contato pelo número (85) 3270 5400 ou WhatsApp (85) 9 9191 3667.)
+>
+> > [!warning]- Mais informações
+> > Informamos que este curso só ocorrerá se for atingido o número mínimo de alunos por turma. Caso precise de maiores informações, ligue para (85) 3270 5400 ou envie mensagem para o WhatsApp (85) 9 9191 3667.
+
+## INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3
+
+[Abrir página do curso](https://cursos.ce.senac.br/produto/informatica-basica-sobral-tarde-2027-12-3/)
+
+> [!info] 11/01/2027 a 02/02/2027 · 66h
+> **Horário:** SEG TER QUA QUI SEX · 13:30 às 17:00
+> **Preço:** ~~R\$ 265,00~~ **R\$ 185,50** (até 4x de R\$ 46,38)
+> **Requisitos:** Idade mínima: 13 anos e Ensino Fundamental I (1º ao 5º ano) Incompleto.
+>
+> > [!abstract]+ Descrição
+> > Dê o primeiro passo para entrar no mundo digital e se diferencie no mercado de trabalho. Neste curso, você aprende a utilizar o sistema operacional Windows e aplicativos de escritório como Word, Excel e navegadores de internet. Matricule-se agora e vem ser Senac!
+>
+> > [!example]- Conteúdo programático
+> > Comunicar-se com clareza e objetividade. Flexibilidade nas diversas situações de trabalho. Fundamentos de internet, conceitos básicos, navegação na internet explorer, serviços de pesquisa e download. Correio eletrônico (e-mail), criação de conta, envio e recebimento, respondendo, enviando com anexo. Gerenciador de apresentação power point. Conhecendo o ambiente, os elementos e as ferramentas do gerenciador, criando slides com auto-layouts. Modos de classificação e exibição de slides, trabalhando com marcadores.
+>
+> > [!tip]- Formas de pagamento
+> > Cartão de Débito em até 1x de R\$ 265,00
+> > Cartão de Crédito em até 6x de R\$ 44,17
+> > Depósito Bancário em até 1x de R\$ 265,00 (Para essa forma de pagamento entrar em contato pelo número (85) 3270 5400 ou WhatsApp (85) 9 9191 3667.)
+>
+> > [!warning]- Mais informações
+> > Informamos que este curso só ocorrerá se for atingido o número mínimo de alunos por turma. Caso precise de maiores informações, ligue para (85) 3270 5400 ou envie mensagem para o WhatsApp (85) 9 9191 3667.
+
+## CAKE DESIGN - SOBRAL - NOITE - 2027.12.2
+
+[Abrir página do curso](https://cursos.ce.senac.br/produto/cake-design-sobral-noite-2027-12-2/)
+
+> [!info] 18/01/2027 a 29/01/2027 · 40h
+> **Horário:** SEG TER QUA QUI SEX · 18:00 às 21:00
+> **Preço:** ~~R\$ 380,00~~ **R\$ 266,00** (até 6x de R\$ 44,33)
+> **Requisitos:** Idade mínima: 16 anos, Ensino Fundamental Completo e requisito/conhecimento específico: experiência na elaboração de bolos.
+>
+> > [!abstract]+ Descrição
+> > Sem bolo, não há comemoração e o  Senac oferta este curso para quem deseja aperfeiçoar seu talento e suas técnicas para confecção e decoração de bolos artísticos. Aprenda com os melhores instrutores a aplicação de métodos clássicos de coberturas de bolos como  glacê  mármore  e  pasta  americana;  montagem  e  estruturação  de  bolos  modulados,  bolos cenários e bolos temáticos; e ainda técnicas de finalização e acabamento -como drapeados, laços, faixas, fitas, dentre outros. Matricule-se agora e vem ser Senac!
+>
+> > [!example]- Conteúdo programático
+> > Aplicar técnicas de cake design. bolo base para cake design, tipos de massas (amanteigada e pão de ló), recheios (trufados e brigadeiros), caldas (frias, sucos, leite e para cobertura de bolo). Combinar sabores e estética. Criatividade no design de bolos. Documentos orientadores, ficha técnica de produção, ordem de serviço entre outros. Elaborar proposta de cake design. Etapas de estruturação de bolos, empilhamento, prensagem, blindagem (com chocolates, buttercream, entre outros), nivelamento de bolo, cobertura. Flexibilidade nas diversas situações de trabalho. Insumo do cake design, tipos e características. Interpretar ficha técnica de produção. Legislação e procedimentos, boas práticas para serviço de alimentação quanto a higiene pessoal, ambiental, equipamentos, móveis, utensílios de trabalho e insumos (recebimento, armazenamento, pré-preparo, preparo, resfriamento, envase, embalamento, distribuição e transporte). Riscos de contaminação cruzada (uso de utensílios e equipamentos contaminados), multiplicação de micro-organismos e descarte de resíduos. Mise en place, conceito e aplicabilidade. Otimização de tempo, recursos, produtos e ingredientes. Princípios Sustentabilidade na gestão de recursos, produtos e insumos. Responsabilidade com a segurança dos alimentos e com o local de trabalho. Técnicas de decoração de coberturas para bolos, glacê real, glacê fluído, pasta americana, pastilhagem, massa elástica. Técnicas de finalização e apresentação de produções de cake design, drapeados, laços texturizados, rendas comestíveis, plissados, babados e passa fita, acabamento metalizado e perolado, pintura com o uso do aerógrafo. Técnicas de montagem de bolos falsos com a utilização de isopor. Utilizar as boas práticas para serviços de alimentação. Zelo pela qualidade das preparações culinárias.
+>
+> > [!tip]- Formas de pagamento
+> > Cartão de Débito em até 1x de R\$ R\$ 380,00
+> > Cartão de Crédito em até 9x de R\$ 42,22
+> > Depósito Bancário em até 1x de R\$ 380,00 (Para essa forma de pagamento entrar em contato pelo número (85) 3270- 5400 ou WhatsApp (85) 991913667.)
+>
+> > [!warning]- Mais informações
+> > Informamos que este curso só ocorrerá se for atingido o número mínimo de alunos por turma. Caso precise de maiores informações, ligue para (85) 3270 5400 ou envie mensagem para o WhatsApp 85 9 9191 3667.
+
+## TÉCNICO EM ÓPTICA - SOBRAL - NOITE - 2027.12.1 - MÓDULO I*
+
+[Abrir página do curso](https://cursos.ce.senac.br/produto/tecnico-em-optica-sobral-noite-2027-12-1-modulo-i/)
+
+> [!info] 18/01/2027 a 24/03/2028 · 1200h | 3 módulos
+> **Horário:** SEG TER QUA QUI SEX · 18:30 às 21:30
+> **Preço:** ~~R\$ 1.991,52~~ **R\$ 995,76** (até 12x de R\$ 82,98)
+> **Requisitos:** Idade mínima: 16 anos e cursando, no mínimo, o 2º ano do Ensino Médio.
+>
+> > [!abstract]+ Descrição
+> > O Técnico em Óptica atua em laboratórios, estabelecimentos ópticos e no setor de vendas, exercendo funções como consultor, surfaçagista, montador de lentes e gestor comercial. O curso desenvolve competências em óptica oftálmica e contatologia, preparando o profissional para trabalhar com lentes, armações e equipamentos ópticos. Matricule-se agora e vem ser Senac!
+>
+> > [!example]- Conteúdo programático
+> >
+> > - Competências Profissionais: Desenvolvimento de ações profissionais observáveis e criativas, integrando conhecimentos, habilidades e atitudes.
+> > - Prática Pedagógica Contextualizada: Enfrentamento de desafios reais, promovendo a mobilização e articulação de saberes necessários para a ação profissional.
+> > - Planejamento de Carreira: Integração do tema desde o início, incentivando a reflexão sobre trajetória profissional, objetivos a curto, médio e longo prazo, estratégias de carreira, e conexão com as Marcas Formativas.
+> > - Projeto Integrador (UCPI): Estímulo à pesquisa e soluções inovadoras para desafios da ocupação, com fases de problematização, desenvolvimento e síntese.
+> > - Marcas Formativas: Domínio técnico-científico, visão crítica, colaboração, comunicação, criatividade, atitude empreendedora, autonomia digital e atitude sustentável.
+> > - Orientações Específicas:
+> > - UC9 – Adaptar lentes de contato: Pesquisa sobre avanços tecnológicos, socialização de resultados por meio de seminários.
+> > - UC11 – Elaborar laudos técnicos de produtos ópticos: Análise de casos práticos, elaboração de laudos técnicos com soluções justificadas.
+> > - UC7 e UC12 – Verificar acuidade visual e Promover ações de educação e saúde visual: Parcerias com outros cursos, realização de ações educativas e verificação da acuidade visual.
+>
+> > [!tip]- Formas de pagamento
+> > ESTE CURSO É DIVIDIDO EM 3 MÓDULOS
+> > Módulo 1 – R\$ 1.991,52 – Pagamento no site
+> > Cartão de Débito em até 1x de R\$ 1.991,52
+> > Cartão de Crédito em até 12x de R\$ 165,96
+> > Depósito Bancário em até 1x de R\$ 1.991,52 (Para esta forma de pagamento, entre em contato pelo número (85) 3270 5400 ou WhatsApp (85) 9 9191 3667.)
+> > Módulo 2 – R\$ 1.567,40 – Pagamento no ato da rematrícula (Para mais informações sobre as formas de pagamento, entre em contato pelo número (85) 3270 5400 ou WhatsApp (85) 9 9191 3667.)
+> > Módulo 3 – R\$ 1.981,08 – Pagamento no ato da rematrícula (Para mais informações sobre as formas de pagamento, entre em contato pelo número (85) 3270 5400 ou WhatsApp (85) 9 9191 3667.)
+>
+> > [!warning]- Mais informações
+> > Informamos que este curso só ocorrerá se for atingido o número mínimo de alunos por turma. Caso precise de maiores informações, ligue para (85) 3270 5400 ou envie mensagem para o WhatsApp (85) 9 9191 3667.
 
 ## POWER BI EXPERT - 2026.12.397
 
 [Abrir página do curso](https://cursos.ce.senac.br/produto/power-bi-expert-2026-12-397/)
 
-> [!info] 10/11/2026 a 03/12/2026 · 32h
-> **Horário:** TER QUI · 18:30 às 21:30
+> [!info] 30/11/2026 a 16/12/2026 · 32h
+> **Horário:** SEG QUA SEX · 18:30 às 21:30
 > **Preço:** ~~R\$ 280,00~~ **R\$ 196,00** (até 4x de R\$ 49,00)
 > **Requisitos:** Idade mínima: 14 anos, Ensino Fundamental II (6º ao 9º Ano) Incompleto e Requisito/Conhecimento Específico: Básico em Power BI.
 >
@@ -80,63 +186,12 @@ Catálogo consultado em [Senac Ceará](https://cursos.ce.senac.br/unidade/senac-
 > > [!warning]- Mais informações
 > > Informamos que este curso só ocorrerá se for atingido o número mínimo de alunos por turma. Caso precise de maiores informações, ligue para (85) 3270 5400 ou envie mensagem para o WhatsApp (85) 9 9191 3667.
 
-## CABELEIREIRO - SOBRAL - NOITE - 2026.12.355
-
-[Abrir página do curso](https://cursos.ce.senac.br/produto/cabeleireiro-sobral-noite-2026-12-355/)
-
-> [!info] 09/11/2026 a 18/02/2027 · 280h
-> **Horário:** SEG TER QUA QUI SEX · 18:30 às 21:30
-> **Preço:** ~~R\$ 2.367,00~~ **R\$ 1.656,90** (até 12x de R\$ 138,08)
-> **Requisitos:** Idade mínima: 18 anos e Ensino Fundamental Completo.
->
-> > [!abstract]+ Descrição
-> > O segmento de beleza no Brasil é um dos três maiores do mundo. Para ganhar destaque dentro de um setor dinâmico e competitivo, é preciso ser um profissional completo. Neste curso com 400 horas de treinamento, você aprenderá as técnicas mais modernas de beleza capilar, tratamento, corte, escova, penteado, coloração, descoloração, ondulação e alisamento com perfeição e habilidade. O Senac é referência na área e você poderá tornar-se um profissional de excelência. Matricule-se agora e vem ser Senac!
->
-> > [!example]- Conteúdo programático
-> > Bases de corte, reta, arredondada, inclinação em V e inclinação inversa. Bases em camadas. Criatividade na realização de cortes de cabelos. Cuidado no manuseio dos cabelos e couro cabeludo. Cumprimento das normas de saúde e segurança. Divisões e subdivisões para corte dos cabelos. Estrutura anatômica da cabeça, face externa do crânio e esqueleto da face. Estrutura e características do cabelo para a realização do corte. Geometria do corte, formas, linhas de direção, simetria, ângulos e eixo. Manter a limpeza e a organização do local de trabalho. Manusear instrumentos, equipamentos e materiais do cabeleireiro. Materiais, instrumentos, equipamentos e produtos para corte de cabelo, característica, validade, função, quantidade, qualidade e formas de descarte. Organizar materiais, produtos, instrumentos e equipamentos. Padrão de crescimento dos fios. Parcimônia na utilização de recursos. Preparar os cabelos para o corte. Visagismo aplicado a cortes de cabelos, estrutura da cabeça, geometria do rosto, cor de pele, formato dos olhos, boca, nariz e sobrancelhas.
->
-> > [!tip]- Formas de pagamento
-> > Cartão de Débito em até 1x de R\$ 2.367,00
-> > Cartão de Crédito em até 12x de R\$ 197,25
-> > Depósito Bancário em até 1x de R\$ 2.367,00 (Para essa forma de pagamento entrar em contato pelo número (85) 3270- 5400 ou WhatsApp (85) 991913667.)
->
-> > [!warning]- Mais informações
-> > Informamos que este curso só ocorrerá se for atingido o número mínimo de alunos por turma. Caso precise de maiores informações, ligue para (85) 3270 5400 ou envie mensagem para o WhatsApp (85) 99191 3667.
-
-## OPERAÇÃO DE DRONES - SOBRAL - MANHÃ/TARDE/NOITE - 2026.12.349
-
-[Abrir página do curso](https://cursos.ce.senac.br/produto/operacao-de-drones-sobral-manha-tarde-noite-2026-12-349/)
-
-> [!info] 06/11/2026 a 14/11/2026 · 20h
-> **Horário:** SEX SÁB · SEX (18:00 às 21:00) , SÁB (08:00 às 11:30 / 13:30 às 17:00)
-> **Preço:** ~~R\$ 382,00~~ **R\$ 267,40** (até 6x de R\$ 44,57)
-> **Requisitos:** Idade mínima: 17 anos e Ensino Fundamental Completo.
->
-> > [!example]- Conteúdo programático
-> >
-> > - Aplicações Práticas: Estudos de caso e exemplos de aplicações reais Discussão sobre oportunidades de mercado Exercícios práticos de voo e manuseio
-> > - Captura e Transmissão de Imagens: Tipos de câmeras e sensores em Drones Configuração de câmeras e ajustes de exposição Transmissão de imagens ao vivo
-> > - Componentes Básicos dos Drones: Estrutura e design de Drones Motores, hélices e baterias Sistemas de propulsão e controle
-> > - Introdução aos Drones: Definição de Drones e sua evolução tecnológica Tipos de Drones e suas aplicações Aspectos legais e regulamentações para operação de Drones
-> > - Operação e Manuseio do Drone: Procedimentos pré-voo e pós-voo Checklists de segurança Técnicas de decolagem, voo e aterrissagem
-> > - Princípios de Voo: Noções básicas de aerodinâmica Controles de voo e estabilidade Gerenciamento de altitude e velocidade
-> > - Segurança e Emergências: Prevenção de acidentes Procedimentos em emergências Normas de segurança para operadores
-> > - Sistemas de Navegação e GPS: Funcionamento de sistemas de navegação por satélite Uso de GPS em Drones Planejamento de rotas de voo.
->
-> > [!tip]- Formas de pagamento
-> > Cartão de Débito em até 1x de R\$ 382,00
-> > Cartão de Crédito em até 9x de R\$ 42,44
-> > Depósito Bancário em até 1x de R\$ 382,00 (Para essa forma de pagamento entrar em contato pelo número (85) 3270 5400 ou WhatsApp (85) 9 9191 3667.)
->
-> > [!warning]- Mais informações
-> > Informamos que este curso só ocorrerá se for atingido o número mínimo de alunos por turma. Caso precise de maiores informações, ligue para (85) 3270 5400 ou envie mensagem para o WhatsApp (85) 9 9191 3667.
-
 ## GESTÃO E LIDERANÇA DE EQUIPES - SOBRAL - NOITE - 2026.12.384
 
 [Abrir página do curso](https://cursos.ce.senac.br/produto/gestao-e-lideranca-de-equipes-sobral-noite-2026-12-384/)
 
-> [!info] 03/11/2026 a 03/12/2026 · 60h
-> **Horário:** TER QUA QUI · 18:30 às 21:30
+> [!info] 16/11/2026 a 07/12/2026 · 60h
+> **Horário:** SEG TER QUA QUI SEX · 18:30 às 21:30
 > **Preço:** ~~R\$ 456,00~~ **R\$ 319,20** (até 7x de R\$ 45,60)
 > **Requisitos:** Idade mínima: 18 anos e Ensino Médio Completo.
 >
@@ -164,7 +219,7 @@ Catálogo consultado em [Senac Ceará](https://cursos.ce.senac.br/unidade/senac-
 
 [Abrir página do curso](https://cursos.ce.senac.br/produto/salgados-comerciais-sobral-noite-2026-12-394/)
 
-> [!info] 09/11/2026 a 13/11/2026 · 20h
+> [!info] 16/11/2026 a 23/11/2026 · 20h
 > **Horário:** SEG TER QUA QUI SEX · 18:30 às 21:30
 > **Preço:** ~~R\$ 243,00~~ **R\$ 170,10** (até 4x de R\$ 42,53)
 > **Requisitos:** Idade mínima: 16 anos e Ensino Fundamental II (6º ao 9º Ano) Incompleto.

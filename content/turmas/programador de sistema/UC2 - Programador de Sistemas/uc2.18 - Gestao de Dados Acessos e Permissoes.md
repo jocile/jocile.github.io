@@ -37,4 +37,4 @@ aula: 18
 
 ![[solucao dos exercicios da uc2#Produtos 05]]
 
-⬅️ Aula anterior: [[uc2.17 - Consolidando o CRUD na Interface Web]] | ➡️ Próxima aula: ✨em edição!
+⬅️ Aula anterior: [[uc2.17 - Consolidando o CRUD na Interface Web]] | ➡️ Próxima aula: [[uc3.01 - Plano de teste e testes manuais]]

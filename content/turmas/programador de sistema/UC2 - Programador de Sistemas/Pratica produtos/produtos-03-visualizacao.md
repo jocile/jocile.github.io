@@ -161,7 +161,7 @@ files.download("gestao_produtos.db")
 >
 > lider_fat = df_fat.iloc[0]
 > ax.set_title(f"{lider_fat['Produto']} lidera em faturamento", fontsize=13, fontweight="bold")
-> ax.set_xlabel("Faturamento (R$)")
+> ax.set_xlabel("Faturamento (R\$)")
 > ax.set_ylabel("")
 > sns.despine(top=True, right=True)
 > plt.tight_layout()
@@ -170,13 +170,13 @@ files.download("gestao_produtos.db")
 > plt.show()
 > ```
 >
-> O líder em faturamento é o **Smartphone** (R$ 11.200,00), enquanto o líder em unidades é a Camisa Polo. Um produto barato vende muito, mas um produto caro pode render mais. A métrica escolhida muda a conclusão.
+> O líder em faturamento é o **Smartphone** (R\$ 11.200,00), enquanto o líder em unidades é a Camisa Polo. Um produto barato vende muito, mas um produto caro pode render mais. A métrica escolhida muda a conclusão.
 
 > [!question] Desafio 2: faturamento por categoria
 > Agrupe `df_vendas` por `Categoria`, some o faturamento e gere um gráfico de barras. Qual categoria lidera?
 
 > [!tip]- Dica
-> Use `df_vendas.groupby("Categoria")["Faturamento_Total"].sum().sort_values(ascending=False)` e passe o resultado para `sns.barplot`. A categoria líder é **Eletrônicos**, com R$ 18.200,00.
+> Use `df_vendas.groupby("Categoria")["Faturamento_Total"].sum().sort_values(ascending=False)` e passe o resultado para `sns.barplot`. A categoria líder é **Eletrônicos**, com R\$ 18.200,00.
 
 ## Erros comuns
 

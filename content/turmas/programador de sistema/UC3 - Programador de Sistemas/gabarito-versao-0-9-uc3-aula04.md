@@ -1,0 +1,235 @@
+---
+title: Gabarito - Versão 0.9 e registros da Aula 4 da UC3 (uso do docente)
+description: Como gerar a versão 0.9 com 3 defeitos, resultado esperado do pytest, tabelas e registros preenchidos e notas de correção da uc3.04. Não publicar.
+date: 2026-11-16
+draft: true
+tags:
+  - programador-sistemas/gabarito
+  - uc3
+---
+
+> [!warning] Uso exclusivo do docente
+> Não publicar. A pasta `versao-0.9/` com os 3 arquivos **alterados** vai para os alunos. As alterações abaixo e o gabarito são só seus.
+
+## 0. Como gerar a `versao-0.9/`
+
+Parta de uma cópia do **repositório-base correto** (o mesmo que os alunos receberam na Aula 1), altere os três pontos abaixo e copie `app.py`, `dados.py` e `validacao.py` para a pasta `versao-0.9/`.
+
+> [!bug] Os trechos vêm do código Bottle da UC2
+> Confirme os nomes no Flask antes de alterar. Os alunos substituem os arquivos **inteiros**, então a base deles precisa ser **idêntica** à sua. Se algum aluno tiver editado `app.py`, `dados.py` ou `validacao.py` na SA1, perderá essas edições.
+
+### Defeito 1: preço negativo aceito (`validacao.py`)
+
+```diff
+-        if not math.isfinite(preco) or preco < 0:
++        if not math.isfinite(preco):
+             raise ValueError
+```
+
+### Defeito 2: venda registrada sem baixa quando falta estoque (`dados.py`)
+
+Substitua `registrar_venda` por:
+
+```python
+def registrar_venda(conn, id_produto, quantidade):
+    """Registra a venda e baixa o estoque (versão 0.9)."""
+    estoque = conn.execute(
+        "SELECT estoque FROM Produto WHERE id_produto = ?;", (id_produto,)
+    ).fetchone()[0]
+
+    with conn:
+        conn.execute(
+            "INSERT INTO Vendas (id_produto, quantidade) VALUES (?, ?);",
+            (id_produto, quantidade),
+        )
+        if estoque >= quantidade:
+            conn.execute(
+                "UPDATE Produto SET estoque = estoque - ? WHERE id_produto = ?;",
+                (quantidade, id_produto),
+            )
+```
+
+Sem a baixa, o `CHECK(estoque >= 0)` nunca dispara. A venda é gravada **sem erro** e o estoque fica igual.
+
+### Defeito 3: página de novo produto sem login (`app.py`)
+
+```diff
+ @app.get("/produtos/novo")
+-@requer_autenticacao
+ def exibir_formulario():
+```
+
+Só o `GET` fica aberto. O `POST /produtos` continua protegido por login e CSRF.
+
+## 1. Verificação antes da aula
+
+Rode `pytest -v --tb=short` com a v0.9 sobre o projeto completo (SA1 pronta, só testes obrigatórios). Resultado esperado: **13 testes, 10 passam e 3 falham**.
+
+```text
+FAILED tests/test_validacao.py::test_preco_negativo_e_recusado
+       - assert {'nome': 'Mouse sem fio', 'preco': -5.0, ...} is None
+FAILED tests/test_integracao.py::test_venda_com_estoque_insuficiente_nao_altera_nada
+       - Failed: DID NOT RAISE <class 'sqlite3.IntegrityError'>
+FAILED tests/test_integracao.py::test_pagina_de_novo_produto_sem_login_redireciona_para_o_login
+       - assert 200 == 302
+```
+
+Com os testes opcionais que alguns alunos escreveram, podem falhar também:
+
+| Teste opcional | Falha por causa de |
+| --- | --- |
+| `test_preco_logo_abaixo_de_zero_e_recusado` | Defeito 1 |
+| Parametrizados `("preco","-5")` e `("preco","-0,01")` | Defeito 1 |
+| `test_dados_invalidos_retornam_400` | Defeito 1 (veja o quadro abaixo) |
+
+> [!info] Por que o Defeito 1 aparece "disfarçado" na web
+> O banco ainda tem `CHECK(preco >= 0.0)`. Com a v0.9, o produto negativo passa pela validação e o **banco o recusa**. O app captura o `IntegrityError` e devolve **400 com a mensagem genérica** "O banco de dados recusou os dados informados." em vez de "Informe um preço válido...". O teste `test_dados_invalidos_retornam_400` falha pelo **texto da mensagem**, não pelo status. Nada inválido é gravado, e **por isso a severidade é baixa**. Ótimo assunto para a plenária: *defesa em profundidade*, a segunda camada segurou o que a primeira deixou passar.
+
+> [!warning] Os 3 defeitos aparecem de forma diferente
+> - **Defeito 1:** nos testes unitários **e** no caso manual CT01.
+> - **Defeito 3:** nos testes de integração **e** no caso manual CT02.
+> - **Defeito 2:** **só** no teste automatizado. O plano manual da Aula 1 não cobre vendas. Use isso na Aula 5, quando a cobertura mostrar a parte não testada.
+
+### Dica para quem não entender o "DID NOT RAISE"
+
+O teste para no `pytest.raises` e não mostra o que sobrou no banco. Quem pedir ajuda pode escrever um teste de diagnóstico (que **não** é para manter):
+
+```python
+# tests/test_diagnostico_venda.py   (apagar depois)
+from contextlib import closing
+
+import dados
+
+
+def test_diagnostico_venda(banco):
+    with closing(dados.abrir_conexao()) as conn:
+        dados.registrar_venda(conn, 3, 100)
+
+    estoque = banco.execute("SELECT estoque FROM Produto WHERE id_produto = 3;").fetchone()[0]
+    vendas = banco.execute("SELECT COUNT(*) FROM Vendas;").fetchone()[0]
+    print("estoque:", estoque, "| vendas:", vendas)
+```
+
+Execute com `pytest -s tests/test_diagnostico_venda.py`: aparece `estoque: 3 | vendas: 1`. Essa é a **falha completa**: venda registrada, estoque inalterado, nenhum erro.
+
+## 2. `docs/resultados-de-teste.md` (gabarito, só testes obrigatórios)
+
+> **Versão 0.9, ambiente local, 16/11/2026**
+
+| Caso | Título | Resultado esperado | Resultado obtido | Status |
+| --- | --- | --- | --- | --- |
+| CT01 | Cadastro com preço negativo | Mensagem junto do campo preço; nada gravado | Formulário reexibido (400) com a mensagem genérica "O banco de dados recusou os dados informados." no topo; sem mensagem no campo preço; nada gravado | **Reprovado** |
+| CT02 | Acesso sem login | Redireciona para `/login` | Formulário de novo produto exibido sem login | **Reprovado** |
+| CT03 | Login com senha errada | Mensagem genérica, sem acesso | Mensagem "Usuário ou senha incorretos." | Aprovado |
+| CT04 | Envio sem token CSRF | Erro 403, nada gravado | 403 com a mensagem esperada | Aprovado |
+| CT05 | HTML no nome | Texto literal, sem negrito | Texto literal | Aprovado |
+| CT06 | Cadastro válido | Redireciona com aviso de sucesso; sem duplicar no F5 | Como esperado | Aprovado |
+
+| Arquivo | Total | Passaram | Falharam |
+| --- | --- | --- | --- |
+| tests/test_validacao.py | 6 | 5 | 1 |
+| tests/test_seguranca.py | 3 | 3 | 0 |
+| tests/test_integracao.py | 4 | 2 | 2 |
+
+**Números para a Aula 5** (só obrigatórios; variam com os opcionais de cada dupla):
+
+| Conjunto | Aprovados ÷ total | Taxa |
+| --- | --- | --- |
+| Casos manuais | 4 ÷ 6 | 66,7% |
+| Testes automatizados | 10 ÷ 13 | 76,9% |
+| Todos | 14 ÷ 19 | 73,7% |
+
+## 3. `docs/registro-de-defeitos.md` (gabarito)
+
+### DEF-01: Venda com estoque insuficiente é registrada sem baixa e sem erro
+
+| Campo | Conteúdo |
+| --- | --- |
+| Versão | 0.9 |
+| Rota ou módulo | Registro de vendas (`dados.py`, suspeita) |
+| Casos relacionados | `test_venda_com_estoque_insuficiente_nao_altera_nada` |
+| Passos para reproduzir | 1. Com o banco de teste, escolher o Sofá (estoque 3) 2. Registrar uma venda de 100 unidades 3. Conferir o estoque e a tabela `Vendas` |
+| Resultado esperado | Venda recusada com erro; estoque continua 3; nenhuma venda registrada |
+| Resultado obtido | Venda aceita **sem erro**; estoque continua 3; **1 venda registrada** |
+| Severidade | **Crítica** (ou Alta) |
+| Justificativa | Vendas registradas sem baixa tornam o estoque e o faturamento inconsistentes |
+| Prioridade | Alta |
+| Status | Aberto |
+
+### DEF-02: Página de novo produto abre sem login
+
+| Campo | Conteúdo |
+| --- | --- |
+| Versão | 0.9 |
+| Rota ou módulo | `/produtos/novo` (`app.py`, suspeita) |
+| Casos relacionados | CT02; `test_pagina_de_novo_produto_sem_login_redireciona_para_o_login` |
+| Passos para reproduzir | 1. Abrir uma janela anônima 2. Acessar `/produtos/novo` |
+| Resultado esperado | Redirecionamento para `/login` |
+| Resultado obtido | Formulário exibido (200) sem autenticação |
+| Severidade | **Média** |
+| Justificativa | O formulário fica exposto a qualquer pessoa, mas o envio continua protegido por login e CSRF |
+| Prioridade | Alta |
+| Status | Aberto |
+
+### DEF-03: Cadastro aceita preço negativo na validação
+
+| Campo | Conteúdo |
+| --- | --- |
+| Versão | 0.9 |
+| Rota ou módulo | Cadastro de produto (`validacao.py`, suspeita) |
+| Casos relacionados | CT01; `test_preco_negativo_e_recusado` |
+| Passos para reproduzir | 1. Fazer login 2. Abrir `/produtos/novo` 3. Preencher preço `-10` e dados válidos 4. Enviar |
+| Resultado esperado | Mensagem de preço inválido junto do campo; nada gravado |
+| Resultado obtido | Mensagem genérica do banco no topo; nada gravado |
+| Severidade | **Baixa** |
+| Justificativa | O banco recusa o dado, então nada inválido é gravado; o usuário só recebe uma mensagem pouco clara |
+| Prioridade | Média |
+| Status | Aberto |
+
+> [!info] Ordem de correção para a Aula 5
+> Sugestão: **DEF-01 → DEF-02 → DEF-03**. Aceite outras ordens bem justificadas, como DEF-02 primeiro por ser a correção mais simples. O ponto da aula é separar **severidade** de **prioridade**.
+
+## 4. Erros frequentes
+
+| Erro | Como aparece | Como orientar |
+| --- | --- | --- |
+| Um registro por linha vermelha | 4 ou 5 "defeitos" | Pergunte: "o CT01 e o teste do preço negativo descrevem o mesmo comportamento?" |
+| Defeito descrito como a mensagem do teste | "Defeito: `assert 200 == 302`" | Isso é a **falha**; a pergunta é qual comportamento está errado |
+| Severidade igual à prioridade, sempre | Tudo "Alta/Alta" | Use o exemplo do DEF-03: pouco impacto, mas precisa corrigir |
+| Passos que dependem de contexto | "Fazer o teste que falhou" | A dupla colega não consegue reproduzir |
+| Esperado e obtido iguais | O aluno escreveu o obtido igual ao esperado | Peça a evidência |
+| Só a falha do pytest para o DEF-01 | "DID NOT RAISE" como resultado obtido | Estimule o teste de diagnóstico |
+| Abriu o código e já quer corrigir | Edita `dados.py` na Aula 4 | Lembre: corrigir é a Aula 6; hoje é observar e registrar |
+| Resultados só dos manuais | Esquece a suíte | A tabela tem duas seções |
+
+## 5. Cronograma sugerido (240 min)
+
+| Tempo | Atividade |
+| --- | --- |
+| 0 a 50 min | Substituir os arquivos, executar `pytest` e os casos manuais, anotar livremente |
+| 50 a 110 min | Perguntas-guia, modelos de resultados e de defeito, severidade × prioridade; plenária comparando as anotações livres com os modelos |
+| 110 a 195 min | Preencher resultados e defeitos (≈ 45 min); trocar e reproduzir com a outra dupla (≈ 40 min) |
+| 195 a 230 min | Ajustes e commit |
+| 230 a 240 min | Fechamento: como equipes de qualidade registram defeitos no mercado |
+
+> [!tip] Quando liberar os modelos
+> A 1ª ação é "anotar do seu jeito". Publique `modelo-resultados-de-teste` e `modelo-registro-de-defeitos` **só no momento da reflexão**, ou peça aos alunos que não os abram antes. O contraste entre o registro livre e o modelo é o ponto da plenária.
+
+## 6. Menção parcial do Indicador 2 (acompanhamento)
+
+*Tabula o resultado, de acordo com as informações obtidas no teste realizado.*
+
+| Critério | A | PA | NA |
+| --- | --- | --- | --- |
+| **Tabela de resultados** | Todos os casos e testes, versão e data, esperado × obtido específico | Falta algum caso, ou obtido vago | Tabela incompleta ou sem relação com o que foi executado |
+| **Registro de defeitos** | Um por defeito distinto, passos reproduzíveis, severidade justificada | Registro por falha (não por defeito), ou severidade sem justificativa | Registros sem passos ou sem esperado × obtido |
+| **Reprodutibilidade** | A dupla colega reproduziu todos sem ajuda | Reproduziu com perguntas à dupla | Não conseguiu reproduzir |
+
+Registre como **acompanhamento** (A, PA ou NA), com feedback imediato. A menção oficial do indicador vem na Avaliação 2, na Aula 6.
+
+> [!tip] Feedback sugerido
+> "Seu registro permitiu que a outra dupla chegasse ao passo 4 sem perguntar nada. Para o próximo passo, justifiquem a severidade em uma frase: o que acontece de ruim se o defeito chegar ao cliente?"
+
+## 7. O que vem na Aula 5
+
+Cada dupla terá resultados e defeitos próprios. Na Aula 5 usam a tabela para calcular a **taxa de aprovação**, propor a **ordem de correção** e gerar o **relatório de cobertura**. O DEF-01, que só a suíte automatizada pegou, tende a aparecer como "parte pouco testada": guarde essa conversa.

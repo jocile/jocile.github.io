@@ -165,7 +165,7 @@ Crie um modelo de exemplo de um briefing para um sistema web de um restaurante c
 
 ### 6. Restrições
 
-* **Budgetário:** Orçamento estimado: R$ [XXX, X0]. Margem para ajustes depende da complexidade final.
+* **Budgetário:** Orçamento estimado: R\$ [XXX, X0]. Margem para ajustes depende da complexidade final.
 * **Prazos:** Entrega prevista para [Data de Início] até [Data de Fim].
 * **Legais/Comerciais:** Deve ser possível integrar informações básicas como CNPJ e endereço (verificar necessidades específicas com a equipe jurídica do restaurante).
 
@@ -233,7 +233,7 @@ A equipe deve focar em:
 * **Período Crítico para Decisões Iniciais:** 2 semanas após esta delimitação.
 
 ### 8. Orçamento e Restrições (Restrições Legais)
-* **Orçamento Estimado:** R$ 15.000,00 +/- 10%.
+* **Orçamento Estimado:** R\$ 15.000,00 +/- 10%.
 * **Ferramentas/Recursos Disponíveis:** Utilizará bibliotecas CSS modernas (não permite preprocessadores específicos sem orçamento adicional).
 * **Restrições Legais:** Deve ser compatível com acessibilidade WCAG 2.1 Level AA.
 
