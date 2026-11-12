@@ -20,3 +20,9 @@ horas-aula:
 > 3. Elabora e edita textos e apresentações eletrônicas, conforme recursos dos aplicativos de escritório.
 > 4. Elabora e edita dados numéricos e gráficos de acordo com os recursos do editor de planilhas eletrônicas.
 > 5. Armazena e compartilha dados de acordo com os requisitos da solução.
+
+## Próximas turmas
+
+![[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4]]
+
+![[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3]]

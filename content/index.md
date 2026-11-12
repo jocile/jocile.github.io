@@ -30,6 +30,10 @@ cssclasses:
 
 <a class="internal-link" href="/turmas/programador-de-sistema/"><button style="font-size: 14px; padding: 12px 20px; border-radius: 8px; border: none; cursor: pointer; background: var(--text-accent); font-weight: 600; color: var(--text-on-accent);">👨‍💻 Programador de Sistemas</button></a>
 
+## Próximas turmas
+
+[[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4|INFORMÁTICA BÁSICA - SOBRAL - a NOITE]] | [[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3| a TARDE]]
+
 ## Atualizações
 
 <!-- QueryToSerialize: TABLE WITHOUT ID
@@ -44,6 +48,8 @@ SORT file.mtime DESC LIMIT 24 -->
 
 | ✨ Atualizações                                                                                                                                                                         | Data                | 📄 Descrição                                                                                                                                                      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Informatica basica]]                                                                                                                                   | 11.novembro - 09:53 | Operar sistemas operacionais cliente, aplicativos de escritório e periféricos.                                                                                    |
+| [[cursos_senac_sobral]]                                                                                                                                        | 11.novembro - 09:52 | \-                                                                                                                                                                |
 | [[cursos_senac_sobral_psg]]                                                                                                                                | 11.novembro - 09:40 | \-                                                                                                                                                                |
 | [[uc3.05 - Analisando resultados e medindo cobertura]]              | 11.novembro - 09:36 | Análise dos resultados de teste da versão 0.9, priorização de defeitos e medição da cobertura de código com pytest-cov no sistema Gestão de Produtos              |
 | [[produtos-02-vendas-estoque]]                                             | 11.novembro - 09:35 | Desafio com SQLite: criar a tabela Vendas com chave estrangeira, registrar vendas com baixa de estoque em transação e descobrir o produto mais vendido.           |
@@ -57,7 +63,6 @@ SORT file.mtime DESC LIMIT 24 -->
 | [[Condicionais com Python]]                                                                                                                   | 11.novembro - 09:35 | Expressões lógica e condicionais com Python, incluindo if, else, elif, match case e tratamento de exceções.                                                       |
 | [[Desafio sistema bancario]]                                                                                     | 11.novembro - 09:35 | Desafio de exercícios com Sistemas em Python.                                                                                                                     |
 | [[Desafio conta bancaria 2]]                                                                                     | 11.novembro - 09:35 | Implemente um sistema que gerencie várias contas bancárias. Cada conta será representada como uma instância da classe ContaBancaria criada no desafio…            |
-| [[cursos_senac_sobral]]                                                                                                                                        | 11.novembro - 09:35 | \-                                                                                                                                                                |
 | [[uc3.04 - Executando testes e registrando defeitos]]                | 11.novembro - 09:06 | Execução do plano de teste e da suíte automatizada na versão 0.9 do sistema Gestão de Produtos, com tabulação dos resultados e registro de defeitos reprodutíveis |
 | [[uc3.03 - Testes de integracao com fixtures]]                              | 11.novembro - 09:05 | Testes automatizados de integração com banco temporário, rotas Flask e fixtures do pytest no sistema Gestão de Produtos, e Avaliação 1 da UC3                     |
 | [[roteiro-instalacao-e-execucao]]                                                        | 11.novembro - 09:04 | Passo a passo para extrair o repositório-base, criar o ambiente virtual, instalar as dependências e executar o sistema Gestão de Produtos em Flask                |
@@ -67,6 +72,5 @@ SORT file.mtime DESC LIMIT 24 -->
 | [[modelo-registro-de-defeitos]]                                                            | 11.novembro - 08:41 | Modelo, níveis de severidade e prioridade e exemplo de registro de defeito reprodutível                                                                           |
 | [[uc3.01 - Plano de teste e testes manuais]]                                  | 11.novembro - 06:00 | Elaboração de um plano de teste e de casos de teste, executados manualmente no sistema Gestão de Produtos                                                         |
 | [[uc3.02 - testes automatizados com pytest]]                                  | 11.novembro - 06:00 | Conversão de casos de teste manuais em testes automatizados com pytest, para a validação de produtos e a segurança de senhas do sistema Gestão de Produtos        |
-| [[uc2.18 - Gestao de Dados Acessos e Permissoes]]                        | 11.novembro - 05:30 | prática passo a passo de como agrupar informações                                                                                                                 |
 
 <!-- SerializedQuery END -->
