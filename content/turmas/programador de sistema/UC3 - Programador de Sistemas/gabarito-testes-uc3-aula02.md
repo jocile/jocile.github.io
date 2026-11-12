@@ -1,15 +1,18 @@
 ---
 title: Gabarito - Testes automatizados da Aula 2 da UC3 (uso do docente)
-description: Gabarito de testar_validacao.py, tests/test_validacao.py e tests/test_seguranca.py da uc3.02, com versão parametrizada e notas de correção. Não publicar.
+description: Gabarito de testar_validacao.py, tests/test_validacao.py e tests/test_seguranca.py da uc3.02, com versão parametrizada e notas de correção.
 date: 2026-11-12
-draft: true
+draft: false
 tags:
   - programador-sistemas/gabarito
   - uc3
 ---
 
+%%
 > [!warning] Uso exclusivo do docente
 > Não publicar no Quartz. Este gabarito supõe o repositório-base **sem defeitos** (a v0.9 só entra na Aula 4). Por isso todos os testes devem **passar**. Se algum falhar, ou o aluno escreveu o esperado errado, ou o repositório-base difere do que está nas notas `produtos-05` e `produtos-06`.
+
+%%
 
 > [!info] Contrato assumido
 >
@@ -290,7 +293,7 @@ def test_precos_validos_sao_convertidos(preco, esperado):
     assert dados["preco"] == esperado
 ```
 
-> [!info] O que mostrar à turma
+> [!info] Procedimento
 >
 > - Rode `pytest -v`: os 15 casos inválidos aparecem separados, e se um falhar o relatório diz **qual combinação** (por exemplo, `preco-nan`).
 > - Compare com escrever 15 funções iguais. Pergunte: **o que ganhamos? E o que perdemos em clareza?**
@@ -399,7 +402,7 @@ Esta demonstração prepara a SA2 (Aulas 4 a 6). Faça **no seu computador**, n�
 
 ---
 
-## 7. Erros frequentes dos alunos
+## 7. Erros frequentes
 
 | Erro | Como aparece | Como orientar |
 | --- | --- | --- |
@@ -415,8 +418,11 @@ Esta demonstração prepara a SA2 (Aulas 4 a 6). Faça **no seu computador**, n�
 | Testar duas coisas com o mesmo `assert` | `assert "preco" in erros or "estoque" in erros` | Separe |
 | Teste que sempre passa | `assert True` ou verificação trivial | Faça o aluno **quebrar** a função e ver se o teste falha |
 
+%%
 > [!tip] Um bom teste para ensinar
 > Peça que cada dupla **sabote a função de propósito** (como na seção 6) e confira se seus testes detectam. Se nada falhar, o teste não protege nada.
+
+%%
 
 ---
 
@@ -433,6 +439,8 @@ Esta demonstração prepara a SA2 (Aulas 4 a 6). Faça **no seu computador**, n�
 | Commit com mensagem clara | `git log --oneline` |
 | Banco, `.venv` e segredo fora do commit | Prepara a Aula 7 |
 
+%%
+
 > [!info] Pontos de observação para o feedback
 >
 > - A dupla alternou piloto e navegador de fato?
@@ -442,3 +450,5 @@ Esta demonstração prepara a SA2 (Aulas 4 a 6). Faça **no seu computador**, n�
 
 > [!tip] Sugestão de feedback
 > "Seus nomes de teste dizem o que está sendo verificado, e isso ajuda quem lê o relatório. Para o próximo passo, experimentem o valor `0` no preço: é o ponto exato em que a regra muda."
+
+%%

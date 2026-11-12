@@ -2,12 +2,13 @@
 title: Gabarito - Testes de integração da Aula 3 da UC3 (uso do docente)
 description: conftest.py, tests/test_integracao.py, demonstração do teste no banco real e rubrica da Avaliação 1 da uc3.03. Não publicar.
 date: 2026-11-13
-draft: true
+draft: false
 tags:
   - programador-sistemas/gabarito
   - uc3
 ---
 
+%%
 > [!warning] Uso exclusivo do docente
 > Não publicar no Quartz. O `conftest.py` abaixo é **material que você entrega aos alunos** no repositório-base (`tests/conftest.py`); o restante é só seu.
 
@@ -20,6 +21,85 @@ tags:
 > - Rotas: `/login` (POST: `usuario`, `senha`), `/produtos`, `/produtos/novo`, `POST /produtos`, com as mesmas mensagens da nota `produtos-06`.
 > - O segredo vem da variável `APP_SECRET`, lida **quando o app é importado**.
 > - Tabelas `Categoria`, `Produto`, `Vendas` e `Usuario`, como nas notas da UC2.
+
+%%
+
+**Testar a venda no banco real**
+
+- **Antes de começar, faça uma cópia do banco:** `cp gestao_produtos.db gestao_produtos.bak` (no Windows: `copy gestao_produtos.db gestao_produtos.bak`).
+- Crie o arquivo `tests/test_rascunho_banco_real.py`.
+- Escreva **um teste** que confirme: _uma venda de 100 unidades de um produto com 3 em estoque não altera o estoque nem registra a venda._
+- Como o banco real não tem um produto com exatamente 3 em estoque, o próprio teste deve **cadastrar um produto de teste** com estoque 3 antes de tentar a venda.
+- Execute o teste **duas vezes** `pytest .\tests\test_rascunho_banco_real.py -v` e olhe o banco (`/produtos`) depois de cada execução.
+
+## `tests/test_rascunho_banco_real.py`
+
+```python
+import sqlite3
+from contextlib import closing
+from pathlib import Path
+
+import pytest
+
+import dados
+
+
+def test_venda_maior_que_estoque_nao_altera_nada():
+    caminho_bd = str(Path(__file__).parent.parent / "gestao_produtos.db")
+    with closing(dados.abrir_conexao(caminho_bd)) as conn:
+        conn.execute(
+            "INSERT INTO Produto (nome, preco, estoque, id_categoria) "
+            "VALUES ('Produto de teste', 10.0, 3, 1);"
+        )
+        conn.commit()
+        id_produto = conn.execute("SELECT MAX(id_produto) FROM Produto;").fetchone()[0]
+
+    with pytest.raises(sqlite3.IntegrityError):
+        dados.registrar_venda(caminho_bd, id_produto, 100)
+
+```
+
+Outra versão:
+
+```python
+# tests/test_rascunho_banco_real.py   (APAGAR depois da conversa)
+from contextlib import closing
+
+import pytest
+import sqlite3
+
+import dados
+
+
+def test_venda_maior_que_estoque_nao_altera_nada():
+    with closing(dados.abrir_conexao()) as conn:
+        conn.execute(
+            "INSERT INTO Produto (nome, preco, estoque, id_categoria) "
+            "VALUES ('Produto de teste', 10.0, 3, 1);"
+        )
+        conn.commit()
+        id_produto = conn.execute("SELECT MAX(id_produto) FROM Produto;").fetchone()[0]
+
+        with pytest.raises(sqlite3.IntegrityError):
+            dados.registrar_venda(conn, id_produto, 100)
+
+        estoque = conn.execute(
+            "SELECT estoque FROM Produto WHERE id_produto = ?;", (id_produto,)
+        ).fetchone()[0]
+        assert estoque == 3
+```
+
+>[!info] O que observar
+>
+> - O teste **passa**, mas deixa um "Produto de teste" no banco real a cada execução.
+> - Na segunda execução existem **dois** produtos de teste, o `MAX(id_produto)` é outro e a lista do sistema foi poluída.
+> - Se o teste falhasse no meio, ficaria pior: dados órfãos sem ninguém saber.
+>
+>>[!question] Respostas esperadas
+>>
+>> - **Por que o teste mexeu nos dados?** Porque preparou o cenário **no banco real**, e ninguém desfaz.
+>> - **O que mudou na segunda execução?** Há mais um produto, o id mudou e o resultado passa a depender do estado anterior.
+>> - **Como preparar um cenário sempre igual?** Um banco novo e descartável a cada teste: a **fixture**.
 
 ## 0. `registrar_venda` (acrescentar a `dados.py` se não existir)
 
@@ -39,7 +119,7 @@ def registrar_venda(conn, id_produto, quantidade):
 
 Se o estoque ficaria negativo, o `CHECK(estoque >= 0)` levanta `sqlite3.IntegrityError` e o `with conn` desfaz tudo.
 
-## 1. `tests/conftest.py` (entregar aos alunos)
+## 1. `tests/conftest.py`
 
 ```python
 """
@@ -281,14 +361,14 @@ def obter_token_csrf(cliente_logado):
 
 ```
 
-> [!tip] Pontos para comentar com a turma
+> [!tip] Pontos para observar
 >
 > - `tmp_path` e `monkeypatch` são fixtures **do próprio pytest**.
 > - `yield` separa "preparar" (antes) de "limpar" (depois).
 > - `scope="session"` evita refazer o hash a cada teste. Sem isso, cada teste pagaria o custo do PBKDF2 duas vezes.
 > - `monkeypatch.setattr` troca o `DB_PATH` **só durante o teste**.
 
-## 2. `tests/test_integracao.py` (gabarito)
+## 2. `tests/test_integracao.py`
 
 ```python
 import sqlite3
@@ -403,51 +483,7 @@ tests/test_integracao.py ....  (ou ......, com os opcionais)
 > [!example] Prova de independência
 > Rode `pytest` duas vezes seguidas, depois `pytest -p no:randomly tests/test_integracao.py`, e confira que o resultado é o mesmo. O banco temporário é recriado a cada teste.
 
-## 3. Demonstração: o teste no banco real (primeira parte da aula)
-
-Os alunos escrevem algo assim. Mostre depois, se não chegarem lá:
-
-```python
-# tests/test_rascunho_banco_real.py   (APAGAR depois da conversa)
-from contextlib import closing
-
-import pytest
-import sqlite3
-
-import dados
-
-
-def test_venda_maior_que_estoque_nao_altera_nada():
-    with closing(dados.abrir_conexao()) as conn:
-        conn.execute(
-            "INSERT INTO Produto (nome, preco, estoque, id_categoria) "
-            "VALUES ('Produto de teste', 10.0, 3, 1);"
-        )
-        conn.commit()
-        id_produto = conn.execute("SELECT MAX(id_produto) FROM Produto;").fetchone()[0]
-
-        with pytest.raises(sqlite3.IntegrityError):
-            dados.registrar_venda(conn, id_produto, 100)
-
-        estoque = conn.execute(
-            "SELECT estoque FROM Produto WHERE id_produto = ?;", (id_produto,)
-        ).fetchone()[0]
-        assert estoque == 3
-```
-
-**O que o aluno observa:**
-
-- O teste **passa**, mas deixa um "Produto de teste" no banco real a cada execução.
-- Na segunda execução existem **dois** produtos de teste, o `MAX(id_produto)` é outro e a lista do sistema foi poluída.
-- Se o teste falhasse no meio, ficaria pior: dados órfãos sem ninguém saber.
-
-> [!question] Respostas esperadas
->
-> - **Por que o teste mexeu nos dados?** Porque preparou o cenário **no banco real**, e ninguém desfaz.
-> - **O que mudou na segunda execução?** Há mais um produto, o id mudou e o resultado passa a depender do estado anterior.
-> - **Como preparar um cenário sempre igual?** Um banco novo e descartável a cada teste: a **fixture**.
-
-## 4. Mapa das metodologias por funcionalidade (gabarito para a tabela dos alunos)
+## 3. Mapa das metodologias por funcionalidade
 
 Há mais de uma resposta defensável. O que conta é a **justificativa**.
 
@@ -463,6 +499,7 @@ Há mais de uma resposta defensável. O que conta é a **justificativa**.
 > [!info] Coluna "automatizado em"
 > Esperado ao final: CT01 → `tests/test_validacao.py`; CT02 e CT03 → `tests/test_integracao.py` (CT03 só no login válido; senha errada fica como desafio); CT04 e CT06 → desafios 5 e 6, se feitos. Aceite "não automatizado" quando justificado.
 
+%%
 ## 5. Rubrica da Avaliação 1 (Indicador 1)
 
 > [!info] Indicador 1
@@ -477,7 +514,7 @@ Há mais de uma resposta defensável. O que conta é a **justificativa**.
 | **Suíte automatizada** | Testes unitários **e** de integração passando, com fixtures, independentes entre si | Suíte roda, mas há dependência entre testes, ou só um dos tipos | Suíte não roda ou os testes não verificam nada |
 | **Comunicação** | Explica um teste de integração e responde "passar garante ausência de defeitos?" com a ideia de que **não** | Explica com apoio do docente | Não consegue explicar o que a dupla fez |
 
-**Menção do Indicador 1 (por aluno, não só por dupla):**
+**Menção do Indicador 1**
 
 - **A:** todos os critérios em A, ou 4 em A e 1 em PA, **sem** NA e **com** a adequação da metodologia em A.
 - **PA:** avanço visível, mas a adequação da metodologia está em PA, ou há NA em um critério secundário.
@@ -507,3 +544,5 @@ Há mais de uma resposta defensável. O que conta é a **justificativa**.
 
 > [!info] Recuperação imediata
 > Quem receber PA ou NA recebe feedback ao final da apresentação e, na Aula 4, reescreve o ponto frágil (por exemplo, a justificativa das metodologias) enquanto os colegas fazem a tabulação. A nota diz "recuperação imediata" no PTD: registre a data e o que foi refeito.
+
+%%

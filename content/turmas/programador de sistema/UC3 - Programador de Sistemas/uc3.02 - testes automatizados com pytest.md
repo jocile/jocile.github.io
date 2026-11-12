@@ -26,7 +26,7 @@ aula: 2
 > [!todo] 🖥️ Atividades
 >
 > **1. Verificar sem pytest**
-> - Crie um arquivo `testar_validacao.py` na raiz do projeto.
+> - Crie um [[gabarito-testes-uc3-aula02#1. Item 1 script sem pytest (`testar_validacao.py`)|arquivo `testar_validacao.py`]] na raiz do projeto.
 > - Escreva um script que chama a função `validar_produto` com **3 entradas**: uma válida, uma com preço negativo e uma com nome vazio.
 > - Use `assert` para conferir o que a função devolve em cada caso.
 > - Execute com `python testar_validacao.py`.
@@ -40,8 +40,8 @@ aula: 2
 > - Leia o guia inicial da documentação do pytest e descubra: **como o pytest encontra os testes?** (nome de arquivo, nome de função)
 >
 > **3. Converter o script em testes automatizados**
-> - Crie o arquivo `tests/test_validacao.py` com **6 testes** para `validar_produto`: um caso válido, preço negativo, preço infinito, estoque decimal, categoria inexistente e nome vazio.
-> - Crie o arquivo `tests/test_seguranca.py` com testes para as funções de senha: a mesma senha gera **hashes diferentes** (por causa do salt), a senha correta é **aceita** e a errada é **recusada**.
+> - Crie o [[gabarito-testes-uc3-aula02#2. Item 3 `tests/test_validacao.py` (versão simples, 6 testes obrigatórios)|arquivo `tests/test_validacao.py`]] com **6 testes** para `validar_produto`: um caso válido, preço negativo, preço infinito, estoque decimal, categoria inexistente e nome vazio.
+> - Crie o [[gabarito-testes-uc3-aula02#4. Item 3 `tests/test_seguranca.py` (3 testes obrigatórios)|arquivo `tests/test_seguranca.py`]] com testes para as funções de senha: a mesma senha gera **hashes diferentes** (por causa do salt), a senha correta é **aceita** e a errada é **recusada**.
 > - Execute `pytest` e registre o resultado.
 > - Faça o commit local.
 
@@ -136,7 +136,7 @@ aula: 2
 >
 > Experimente **quebrar um teste de propósito** (troque `is None` por `is not None`), leia a mensagem de falha e desfaça a mudança.
 
-> [!warning] Se aparecer `ModuleNotFoundError: No module named 'validacao'`
+> [!warning]- Se aparecer `ModuleNotFoundError: No module named 'validacao'`
 > O pytest precisa saber onde está o código do sistema. Na raiz do projeto, crie o arquivo `pytest.ini` com:
 >
 > ```ini
@@ -145,14 +145,14 @@ aula: 2
 > testpaths = tests
 > ```
 
-> [!info] Programação em pares
+> [!info]- Programação em pares
 > No item 3, trabalhem com **dois papéis** e **troquem a cada teste**:
 > - **Piloto:** digita o código
 > - **Navegador:** lê, confere o caso e sugere melhorias
 >
 > Vale uma regra: o piloto só digita o que o navegador consegue explicar.
 
-> [!tip] Fazendo o commit local
+> [!tip]- Fazendo o commit local
 >
 > ```bash
 > git status
@@ -171,5 +171,10 @@ aula: 2
 > [!question] Para refletir
 > - O que um teste automatizado oferece que o caso de teste manual de ontem não oferecia?
 > - Se um teste passar, isso prova que a função **não tem defeitos**? Por quê?
+
+>[!done] Resolução de testes automatizados com pytest
+>
+> - [[gabarito-testes-uc3-aula02]]
+> - [GitHub - profjocile/gestao-de-produtos · GitHub](https://github.com/profjocile/gestao-de-produtos/tree/main)
 
 ⬅️ Aula anterior: [[uc3.01 - Plano de teste e testes manuais]] | ➡️ Próxima aula: [[uc3.03 - Testes de integracao com fixtures]]

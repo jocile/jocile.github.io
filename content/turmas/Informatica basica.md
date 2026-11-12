@@ -23,6 +23,6 @@ horas-aula:
 
 ## Próximas turmas
 
-![[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4]]
+![[cursos_senac_sobral antes#INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4]]
 
-![[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3]]
+![[cursos_senac_sobral antes#INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3]]

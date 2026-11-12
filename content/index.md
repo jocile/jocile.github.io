@@ -24,7 +24,7 @@ cssclasses:
 - [📚Blog de aulas passadas](https://jocile.github.io/site/blog/)
 - [🌐 Navegue pelos Tópicos](/tags/).
 - 💼 [Oportunidades de trabalho em Sobral Ceará](https://carreiras.ce.senac.br/vagas?cidade=Sobral)
-- 🎓 Oportunidade de cursos presenciais no [[cursos_senac_sobral|Senac em Sobral]] e [[cursos_senac_sobral_psg|gratuitos]]
+- 🎓 Oportunidade de cursos presenciais no [[cursos_senac_sobral antes|Senac em Sobral]] e [[cursos_senac_sobral_psg|gratuitos]]
 
 ## Turma atual
 
@@ -32,7 +32,7 @@ cssclasses:
 
 ## Próximas turmas
 
-[[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4|INFORMÁTICA BÁSICA - SOBRAL - a NOITE]] | [[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3| a TARDE]]
+[[cursos_senac_sobral antes#INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4|INFORMÁTICA BÁSICA - SOBRAL - a NOITE]] | [[cursos_senac_sobral antes#INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3| a TARDE]]
 
 ## Atualizações
 
@@ -48,8 +48,14 @@ SORT file.mtime DESC LIMIT 24 -->
 
 | ✨ Atualizações                                                                                                                                                                         | Data                | 📄 Descrição                                                                                                                                                      |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| [[Informatica basica]]                                                                                                                                   | 11.novembro - 09:53 | Operar sistemas operacionais cliente, aplicativos de escritório e periféricos.                                                                                    |
-| [[cursos_senac_sobral]]                                                                                                                                        | 11.novembro - 09:52 | \-                                                                                                                                                                |
+| [[uc3.03 - Testes de integracao com fixtures]]                              | 12.novembro - 07:05 | Testes automatizados de integração com banco temporário, rotas Flask e fixtures do pytest no sistema Gestão de Produtos, e Avaliação 1 da UC3                     |
+| [[gabarito-integracao-uc3-aula03]]                                                      | 12.novembro - 07:04 | conftest.py, tests/test_integracao.py, demonstração do teste no banco real e rubrica da Avaliação 1 da uc3.03. Não publicar.                                      |
+| [[uc3.02 - testes automatizados com pytest]]                                  | 12.novembro - 06:40 | Conversão de casos de teste manuais em testes automatizados com pytest, para a validação de produtos e a segurança de senhas do sistema Gestão de Produtos        |
+| [[gabarito-plano-de-teste-uc3-aula01]]                                              | 12.novembro - 06:35 | Gabarito do docs/plano-de-teste.md da uc3.01, com notas de correção. Não publicar.                                                                                |
+| [[gabarito-testes-uc3-aula02]]                                                              | 12.novembro - 05:07 | Gabarito de testar_validacao.py, tests/test_validacao.py e tests/test_seguranca.py da uc3.02, com versão parametrizada e notas de correção.                       |
+| [[cursos_senac_sobral]]                                                                                                                                        | 12.novembro - 04:34 | \-                                                                                                                                                                |
+| [[Informatica basica]]                                                                                                                                   | 12.novembro - 04:34 | Operar sistemas operacionais cliente, aplicativos de escritório e periféricos.                                                                                    |
+| [[Vagas em Sobral]]                                                                                                                                                | 12.novembro - 04:22 | \-                                                                                                                                                                |
 | [[cursos_senac_sobral_psg]]                                                                                                                                | 11.novembro - 09:40 | \-                                                                                                                                                                |
 | [[uc3.05 - Analisando resultados e medindo cobertura]]              | 11.novembro - 09:36 | Análise dos resultados de teste da versão 0.9, priorização de defeitos e medição da cobertura de código com pytest-cov no sistema Gestão de Produtos              |
 | [[produtos-02-vendas-estoque]]                                             | 11.novembro - 09:35 | Desafio com SQLite: criar a tabela Vendas com chave estrangeira, registrar vendas com baixa de estoque em transação e descobrir o produto mais vendido.           |
@@ -61,16 +67,10 @@ SORT file.mtime DESC LIMIT 24 -->
 | [[Briefing]]                                                                                                                                              | 11.novembro - 09:35 | é uma apresentação concisa das informações necessárias para iniciar um projeto com clareza e direção certa.                                                       |
 | [[Introducao ao SQL e Bottle para construir Apps em Python]]                                                 | 11.novembro - 09:35 | guia completo sobre como utilizar SQLite - banco de dados SQL em combinação com Python e Bottle.                                                                  |
 | [[Condicionais com Python]]                                                                                                                   | 11.novembro - 09:35 | Expressões lógica e condicionais com Python, incluindo if, else, elif, match case e tratamento de exceções.                                                       |
-| [[Desafio sistema bancario]]                                                                                     | 11.novembro - 09:35 | Desafio de exercícios com Sistemas em Python.                                                                                                                     |
 | [[Desafio conta bancaria 2]]                                                                                     | 11.novembro - 09:35 | Implemente um sistema que gerencie várias contas bancárias. Cada conta será representada como uma instância da classe ContaBancaria criada no desafio…            |
+| [[Desafio sistema bancario]]                                                                                     | 11.novembro - 09:35 | Desafio de exercícios com Sistemas em Python.                                                                                                                     |
 | [[uc3.04 - Executando testes e registrando defeitos]]                | 11.novembro - 09:06 | Execução do plano de teste e da suíte automatizada na versão 0.9 do sistema Gestão de Produtos, com tabulação dos resultados e registro de defeitos reprodutíveis |
-| [[uc3.03 - Testes de integracao com fixtures]]                              | 11.novembro - 09:05 | Testes automatizados de integração com banco temporário, rotas Flask e fixtures do pytest no sistema Gestão de Produtos, e Avaliação 1 da UC3                     |
 | [[roteiro-instalacao-e-execucao]]                                                        | 11.novembro - 09:04 | Passo a passo para extrair o repositório-base, criar o ambiente virtual, instalar as dependências e executar o sistema Gestão de Produtos em Flask                |
 | [[modelo-analise-de-resultados]]                                                          | 11.novembro - 08:42 | Modelo e exemplo para interpretar os resultados de teste, priorizar defeitos e registrar a cobertura de código em cinco linhas de análise                         |
-| [[modelo-resultados-de-teste]]                                                              | 11.novembro - 08:41 | Modelo e exemplo para registrar os resultados dos casos de teste manuais e automatizados de uma versão do sistema                                                 |
-| [[modelo-plano-de-teste]]                                                                        | 11.novembro - 08:41 | Modelos e exemplos para elaborar um plano de teste de uma página e casos de teste formais, com glossário de defeito, falha e erro                                 |
-| [[modelo-registro-de-defeitos]]                                                            | 11.novembro - 08:41 | Modelo, níveis de severidade e prioridade e exemplo de registro de defeito reprodutível                                                                           |
-| [[uc3.01 - Plano de teste e testes manuais]]                                  | 11.novembro - 06:00 | Elaboração de um plano de teste e de casos de teste, executados manualmente no sistema Gestão de Produtos                                                         |
-| [[uc3.02 - testes automatizados com pytest]]                                  | 11.novembro - 06:00 | Conversão de casos de teste manuais em testes automatizados com pytest, para a validação de produtos e a segurança de senhas do sistema Gestão de Produtos        |
 
 <!-- SerializedQuery END -->

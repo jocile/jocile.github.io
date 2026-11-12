@@ -3,25 +3,48 @@ tags:
   - "senac"
   - "cursos"
 unidade: "Senac Sobral"
-coletado_em: "2026-11-11 20:46"
+coletado_em: "2026-11-12 16:32"
 ---
 
 # Cursos do Senac Sobral
 
 Catálogo consultado em [Senac Ceará](https://cursos.ce.senac.br/unidade/senac-sobral/).
 
-**Coletado em:** 2026-11-11 20:46
+**Coletado em:** 2026-11-12 16:32
 
 | Curso | Início | Fim | Dias | Horário | Carga horária | Preço (R\$) | Idade mín. |
 | --- | --- | --- | --- | --- | --- | --- | --- |
+| [ALFAIATARIA FEMININA (MODELAGEM TRIDIMENSIONAL E COSTURA) - SOBRAL - 2027.12.5](https://cursos.ce.senac.br/produto/alfaiataria-feminina-modelagem-tridimensional-e-costura-sobral-2027-12-5/) | 2027-01-18 | 2027-02-16 | SEG TER QUA QUI | 18:00 às 22:00 | 60h | 420.00 | 18 |
 | [INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4](https://cursos.ce.senac.br/produto/informatica-basica-sobral-noite-2027-12-4/) | 2027-01-11 | 2027-02-22 | SEG QUA SEX | 18:00 às 21:10 | 66h | 185.50 | 13 |
 | [INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3](https://cursos.ce.senac.br/produto/informatica-basica-sobral-tarde-2027-12-3/) | 2027-01-11 | 2027-02-02 | SEG TER QUA QUI SEX | 13:30 às 17:00 | 66h | 185.50 | 13 |
 | [CAKE DESIGN - SOBRAL - NOITE - 2027.12.2](https://cursos.ce.senac.br/produto/cake-design-sobral-noite-2027-12-2/) | 2027-01-18 | 2027-01-29 | SEG TER QUA QUI SEX | 18:00 às 21:00 | 40h | 266.00 | 16 |
 | [TÉCNICO EM ÓPTICA - SOBRAL - NOITE - 2027.12.1 - MÓDULO I*](https://cursos.ce.senac.br/produto/tecnico-em-optica-sobral-noite-2027-12-1-modulo-i/) | 2027-01-18 | 2028-03-24 | SEG TER QUA QUI SEX | 18:30 às 21:30 | 1200h \| 3 módulos | 995.76 | 16 |
 | [POWER BI EXPERT - 2026.12.397](https://cursos.ce.senac.br/produto/power-bi-expert-2026-12-397/) | 2026-11-30 | 2026-12-16 | SEG QUA SEX | 18:30 às 21:30 | 32h | 196.00 | 14 |
-| [ALFAIATARIA FEMININA (MODELAGEM TRIDIMENSIONAL E COSTURA) - SOBRAL - 2026.12.305](https://cursos.ce.senac.br/produto/alfaiataria-feminina-modelagem-tridimensional-e-costura-sobral-2026-12-305/) | 2026-11-16 | 2026-12-07 | SEG TER QUA QUI SEX | 18:30 às 21:30 | 60h | 402.50 | 18 |
 | [GESTÃO E LIDERANÇA DE EQUIPES - SOBRAL - NOITE - 2026.12.384](https://cursos.ce.senac.br/produto/gestao-e-lideranca-de-equipes-sobral-noite-2026-12-384/) | 2026-11-16 | 2026-12-07 | SEG TER QUA QUI SEX | 18:30 às 21:30 | 60h | 319.20 | 18 |
 | [SALGADOS COMERCIAIS - SOBRAL - NOITE - 2026.12.394](https://cursos.ce.senac.br/produto/salgados-comerciais-sobral-noite-2026-12-394/) | 2026-11-16 | 2026-11-23 | SEG TER QUA QUI SEX | 18:30 às 21:30 | 20h | 170.10 | 16 |
+
+## ALFAIATARIA FEMININA (MODELAGEM TRIDIMENSIONAL E COSTURA) - SOBRAL - 2027.12.5
+
+[Abrir página do curso](https://cursos.ce.senac.br/produto/alfaiataria-feminina-modelagem-tridimensional-e-costura-sobral-2027-12-5/)
+
+> [!info] 18/01/2027 a 16/02/2027 · 60h
+> **Horário:** SEG TER QUA QUI · 18:00 às 22:00
+> **Preço:** ~~R\$ 600,00~~ **R\$ 420,00** (até 10x de R\$ 42,00)
+> **Requisitos:** Idade mínima: 18 anos, Ensino Fundamental II (6º ao 9º Ano) Incompleto e Requisito/Conhecimento Específico: Curso de Modelagem e Costura ou conhecimentos práticos.
+>
+> > [!abstract]+ Descrição
+> > Este curso tem como objetivo desenvolver técnicas de modelagem, corte e costura para confeccionar roupas sob medida, como blazers, calças e camisas, respeitando normas técnicas, de qualidade e princípios estéticos, buscando estimular os alunos a criar peças personalizadas que atendam às preferências e medidas individuais dos clientes, combinando conforto e requinte. É destinado a profissionais da moda e afins. Matricule-se agora e vem ser Senac!
+>
+> > [!example]- Conteúdo programático
+> > Conteúdos abordam fundamentos da alfaiataria feminina, incluindo história, materiais, ferramentas, geometria, medidas e operações matemáticas aplicadas à modelagem.Incluem técnicas de modelagem tridimensional e plana, tomada de medidas, desenvolvimento de moldes, costura, montagem e acabamentos de peças do vestuário.Também desenvolvem competências profissionais como comunicação, trabalho em equipe, organização, proatividade, responsabilidade, postura profissional e respeito à diversidade.
+>
+> > [!tip]- Formas de pagamento
+> > Cartão de Débito em até 1x de R\$ 600,00
+> > Cartão de Crédito em até 12x de R\$ 50,00
+> > Depósito Bancário em até 1x de R\$ 600,00 (Para essa forma de pagamento entrar em contato pelo número (85) 3270 5400 ou WhatsApp (85) 9 9191 3667.)
+>
+> > [!warning]- Mais informações
+> > Informamos que este curso só ocorrerá se for atingido o número mínimo de alunos por turma. Caso precise de maiores informações, ligue para (85) 3270 5400 ou envie mensagem para o WhatsApp (85) 9 9191 3667.
 
 ## INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4
 
@@ -162,29 +185,6 @@ Catálogo consultado em [Senac Ceará](https://cursos.ce.senac.br/unidade/senac-
 >
 > > [!warning]- Mais informações
 > > Informamos que este curso só ocorrerá se for atingido o número mínimo de alunos por turma. Caso precise de maiores informações, ligue para (85) 3270 5400 ou envie mensagem para o WhatsApp (85) 99191 3667.
-
-## ALFAIATARIA FEMININA (MODELAGEM TRIDIMENSIONAL E COSTURA) - SOBRAL - 2026.12.305
-
-[Abrir página do curso](https://cursos.ce.senac.br/produto/alfaiataria-feminina-modelagem-tridimensional-e-costura-sobral-2026-12-305/)
-
-> [!info] 16/11/2026 a 07/12/2026 · 60h
-> **Horário:** SEG TER QUA QUI SEX · 18:30 às 21:30
-> **Preço:** ~~R\$ 575,00~~ **R\$ 402,50** (até 10x de R\$ 40,25)
-> **Requisitos:** Idade mínima: 18 anos, Ensino Fundamental II (6º ao 9º Ano) Incompleto e Requisito/Conhecimento Específico: Curso de Modelagem e Costura ou conhecimentos práticos.
->
-> > [!abstract]+ Descrição
-> > Este curso tem como objetivo desenvolver técnicas de modelagem, corte e costura para confeccionar roupas sob medida, como blazers, calças e camisas, respeitando normas técnicas, de qualidade e princípios estéticos, buscando estimular os alunos a criar peças personalizadas que atendam às preferências e medidas individuais dos clientes, combinando conforto e requinte. É destinado a profissionais da moda e afins. Matricule-se agora e vem ser Senac!
->
-> > [!example]- Conteúdo programático
-> > Conteúdos abordam fundamentos da alfaiataria feminina, incluindo história, materiais, ferramentas, geometria, medidas e operações matemáticas aplicadas à modelagem.Incluem técnicas de modelagem tridimensional e plana, tomada de medidas, desenvolvimento de moldes, costura, montagem e acabamentos de peças do vestuário.Também desenvolvem competências profissionais como comunicação, trabalho em equipe, organização, proatividade, responsabilidade, postura profissional e respeito à diversidade.
->
-> > [!tip]- Formas de pagamento
-> > Cartão de Débito em até 1x de R\$ 575,00
-> > Cartão de Crédito em até 12x de R\$ 47,92
-> > Depósito Bancário em até 1x de R\$ 575,00 (Para essa forma de pagamento entrar em contato pelo número (85) 3270 5400 ou WhatsApp (85) 9 9191 3667.)
->
-> > [!warning]- Mais informações
-> > Informamos que este curso só ocorrerá se for atingido o número mínimo de alunos por turma. Caso precise de maiores informações, ligue para (85) 3270 5400 ou envie mensagem para o WhatsApp (85) 9 9191 3667.
 
 ## GESTÃO E LIDERANÇA DE EQUIPES - SOBRAL - NOITE - 2026.12.384
 

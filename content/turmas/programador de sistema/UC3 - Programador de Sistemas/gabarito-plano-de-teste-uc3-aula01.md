@@ -69,6 +69,19 @@ O sistema é aprovado nesta etapa quando **os 6 casos têm status Aprovado** e n
 
 ## 7. Casos de teste
 
+### Tabela de plano de testes
+  
+| ID    | Objetivo                      | Pré-condição        | Passos                                                                    | Resultado esperado          | Resultado obtido      | Status | Automatizado? |
+| ----- | ----------------------------- | ------------------- | ------------------------------------------------------------------------- | --------------------------- | --------------------- | ------ | ------------- |
+| CT-01 | Validação do cadastro         | fazer login         | preencher produto com Preço negativo                                      | erro não cadastrar          | erro                  | ✅      | manual        |
+| CT-02 | Acesso restrito               | sem login           | Abrir /produtos/novo sem login                                            | acesso restrito             | erro=restrito         | ✅      | manual        |
+| CT-03 | Conferir senha                | Cadastrar o usuário | Acessar a tela de login                                                   | senha inválida              | senha inválida        | ✅      | manual        |
+| CT-04 | Proteção do formulário (CSRF) | Fazer login         | Acessar formulário de produto e teclar f12 e apagar o token do formulário | erro                        | Requisição inválida   | ✅      | manual        |
+| CT-05 | Exibição de texto             | Fazer login         | Acessar formulário de produto e cadastrar Produto chamado `<b>teste</b>`  | não executar código         | o código foi exibido  | ✅      | manual        |
+| CT-06 | Cadastro válido               | Fazer login         | Acessar formulário de produto e cadastrar Produto Smartv                  | produto exibido em produtos | o produto foi exibido | ✅      | manual        |
+
+> **Status:** Passou, Falhou ou Bloqueado. **Passos:** escreva de forma que outra pessoa consiga repetir sem perguntar nada.
+
 ### CT01: Cadastro com preço negativo
 
 | Campo | Conteúdo |

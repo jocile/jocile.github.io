@@ -27,10 +27,10 @@ aula: 3
 > **1. Testar a venda no banco real**
 >
 > - **Antes de começar, faça uma cópia do banco:** `cp gestao_produtos.db gestao_produtos.bak` (no Windows: `copy gestao_produtos.db gestao_produtos.bak`).
-> - Crie o arquivo `tests/test_rascunho_banco_real.py`.
+> - Crie o [[gabarito-integracao-uc3-aula03#`tests/test_rascunho_banco_real.py`|arquivo `tests/test_rascunho_banco_real.py`.]]
 > - Escreva **um teste** que confirme: *uma venda de 100 unidades de um produto com 3 em estoque não altera o estoque nem registra a venda.*
 > - Como o banco real não tem um produto com exatamente 3 em estoque, o próprio teste deve **cadastrar um produto de teste** com estoque 3 antes de tentar a venda.
-> - Execute o teste **duas vezes** e olhe o banco (`/produtos`) depois de cada execução.
+> - Execute o teste **duas vezes** `pytest .\tests\test_rascunho_banco_real.py -v` e olhe o banco (`/produtos`) depois de cada execução.
 >
 >> [!question] Questões
 >>
@@ -40,19 +40,19 @@ aula: 3
 >
 > **2. Conhecer as fixtures**
 >
-> - Abra o arquivo `tests/conftest.py`, entregue pelo docente, e leia os comentários.
+> - Abra o [[gabarito-integracao-uc3-aula03#1. `tests/conftest.py`]] arquivo `tests/conftest.py`, e leia os comentários.
 > - Identifique: o que cada fixture prepara e o que acontece com o banco temporário **depois** de cada teste.
 > - Apague o arquivo `tests/test_rascunho_banco_real.py` e restaure a cópia: `cp gestao_produtos.bak gestao_produtos.db`.
 >
 > **3. Decidir o tipo de teste de cada funcionalidade**
 >
-> - Em `docs/plano-de-teste.md`, acrescente à tabela dos casos **CT01 a CT06** duas colunas: **tipo de teste mais adequado** (manual, unitário, integração ou aceitação) e **justificativa**.
+> - Em [[gabarito-plano-de-teste-uc3-aula01#Tabela de plano de testes|`docs/plano-de-teste.md`]], acrescente à tabela dos casos **CT01 a CT06** duas colunas: **tipo de teste mais adequado** (manual, unitário, integração ou aceitação) e **justificativa**.
 >
 > **4. Escrever os testes de integração**
 >
-> - Crie `tests/test_integracao.py` com os **4 testes obrigatórios** da tabela abaixo.
+> - Crie [[gabarito-integracao-uc3-aula03#2. `tests/test_integracao.py`|`tests/test_integracao.py`]] com os **4 testes obrigatórios** da tabela abaixo.
 > - Execute **toda a suíte** (`pytest`) e confira que os testes das Aulas 2 e 3 passam.
-> - No `docs/plano-de-teste.md`, marque **quais casos foram automatizados** e em qual arquivo.
+> - No [[gabarito-integracao-uc3-aula03#3. Mapa das metodologias por funcionalidade|`docs/plano-de-teste.md`]], marque **quais casos foram automatizados** e em qual arquivo.
 > - Faça o commit local.
 >
 > **5. Avaliação 1**
@@ -69,7 +69,7 @@ aula: 3
 >
 > Nenhum substitui os outros. A pergunta é: **para esta funcionalidade, qual tipo encontra os problemas mais importantes com menos esforço?**
 
-> [!info] O que é uma fixture
+>[!question] O que é uma fixture
 > Uma **fixture** é um **cenário preparado antes de cada teste e descartado depois**, como uma bancada de laboratório montada e limpa a cada experimento.
 >
 > No pytest, você **pede** a fixture escrevendo o nome dela como parâmetro do teste:
@@ -83,7 +83,7 @@ aula: 3
 >
 > O pytest vê o parâmetro `cliente`, procura a fixture com esse nome no `conftest.py`, prepara o cenário e entrega o resultado ao teste.
 
-> [!info] Fixtures entregues no `tests/conftest.py`
+> [!info] Fixtures entregues no [[gabarito-integracao-uc3-aula03#1. `tests/conftest.py`|`tests/conftest.py`]]
 >
 > | Fixture | O que entrega |
 > | --- | --- |
@@ -163,6 +163,7 @@ aula: 3
 > - Os testes **não devem depender da ordem** em que rodam.
 > - Se um teste falhar, leia a mensagem completa antes de mexer no código.
 
+%%
 > [!warning] Avaliação 1 (última hora da aula)
 > Cada dupla apresenta em **cerca de 8 minutos**:
 >
@@ -179,6 +180,8 @@ aula: 3
 > - `docs/plano-de-teste.md` atualizado: tipo de teste e justificativa por caso, e os casos automatizados marcados
 > - O resultado do `pytest` **sem falhas** (captura de tela ou saída copiada)
 > - Um commit local com mensagem clara
+
+%%
 
 > [!question] Para refletir
 >
