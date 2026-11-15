@@ -29,6 +29,10 @@ source = .
 omit =
     tests/*
     .venv/*
+    versao-0.9/*
+    htmlcov/*
+    criar_usuario.py
+    testar_validacao.py
 
 [report]
 show_missing = True
@@ -74,10 +78,10 @@ Cada dupla terá números próprios se escreveu testes opcionais. O que se confe
 
 | Arquivo | Cobertura estimada | O que provavelmente fica de fora |
 | --- | --- | --- |
-| `validacao.py` | Muito alta (≈ 95 a 100%) | Quase tudo é executado pelos 6 testes |
-| `seguranca.py` | Muito alta (≈ 100%) | `gerar_hash_senha` e `verificar_senha` são chamadas |
-| `dados.py` | Média | `consultar_ranking` (só o relatório e a API usam) e `inserir_produto` (só o POST válido usa) |
-| `app.py` | Média | Rota do relatório e da API de ranking, logout, rota de arquivos estáticos e o caminho de sucesso do `POST /produtos` |
+| `validacao.py` | Muito alta (≈ 95 a 100%) | Quase nada |
+| `seguranca.py` | Muito alta (≈ 100%) | Quase nada |
+| `dados.py` | Média | `cadastrar_usuario`, `buscar_produto`, `listar_vendas`, o raise `FileNotFoundError` de `abrir_conexao`, o return antecipado de `popular_exemplo` e `inserir_produto` (até haver um POST válido) |
+| `app.py` | Média | `/logout`, a rota /, o sucesso de `cadastrar_produto`, o ramo de token errado em `token_csrf_valido` e o bloco `if __name__` |
 | **Total** | Entre 70 e 85% de linhas | Com `branch = True`, o número cai alguns pontos |
 
 > [!info] Hipóteses esperadas dos alunos
@@ -219,9 +223,9 @@ tests/test_cobertura.py ..  (ou ......, com os extras)
 
 ## 6. Análise em 5 linhas (gabarito)
 
-1. Dos 19 casos, 14 passaram (73,7%), mas as 3 falhas estão em **venda**, **acesso** e **cadastro de produto**, áreas de impacto alto para a loja.
+1. Dos 23 casos e testes, 17 passaram (73,9%), mas as 4 falhas estão em venda, acesso e cadastro de produto, áreas de impacto alto para a loja.
 2. O maior risco é a venda registrada sem baixa de estoque, porque corrompe o estoque e o faturamento sem gerar nenhum erro visível.
-3. A cobertura mostrou que o relatório e a API de ranking nunca eram executados, e os casos manuais da Aula 1 também não os cobriam.
+3. A cobertura mostrou que o logout, a rota raiz e o cadastro válido nunca eram executados por nenhum teste, e os casos manuais da Aula 1 também não cobriam o logout.
 4. Os testes não provam que o sistema suporta muitos usuários ao mesmo tempo, e cobertura alta não garante que todos os resultados estejam corretos: as linhas dos defeitos já eram executadas.
 5. Recomendamos corrigir a venda e o acesso antes da entrega e manter a suíte rodando a cada versão.
 

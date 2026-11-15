@@ -10,7 +10,7 @@ tags:
 
 Os números do teste não falam sozinhos. A **análise** transforma "14 casos passaram e 5 falharam" em uma conclusão que a Loja do Bairro consegue usar: **o sistema pode ser entregue? Onde está o risco? O que fazer primeiro?**
 
-⬆️ [[uc3.05 - Analisando resultados e medindo cobertura]]
+⬆️ [[uc3.04 - Aplicando TDD]]
 
 ## Modelo para `docs/analise-de-resultados.md`
 
@@ -81,4 +81,4 @@ Os números do teste não falam sozinhos. A **análise** transforma "14 casos pa
 - [ ] A conclusão tem 5 linhas e fala de **risco**, não só de números
 - [ ] A conclusão reconhece **o que os testes não provam**
 
-⬆️ Volte para [[uc3.05 - Analisando resultados e medindo cobertura]].
+⬆️ Volte para [[uc3.04 - Aplicando TDD]].

@@ -1,5 +1,5 @@
 ---
-title: Gabarito - Testes de integração da Aula 3 da UC3 (uso do docente)
+title: Gabarito - Testes de integração da Aula 3 da UC3
 description: conftest.py, tests/test_integracao.py, demonstração do teste no banco real e rubrica da Avaliação 1 da uc3.03. Não publicar.
 date: 2026-11-13
 draft: false

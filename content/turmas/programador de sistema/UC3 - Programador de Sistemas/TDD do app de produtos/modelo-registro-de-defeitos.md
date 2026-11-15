@@ -10,7 +10,7 @@ tags:
 
 O registro de defeito é um **pedido de correção** que precisa ser entendido por quem não estava na sala. Se a pessoa que vai corrigir não conseguir reproduzir o problema, ele não será corrigido.
 
-⬆️ [[uc3.04 - Executando testes e registrando defeitos]]
+⬆️ [[uc3.05 - Executando testes e registrando defeitos]]
 
 ## Modelo para `docs/registro-de-defeitos.md`
 
@@ -96,4 +96,4 @@ Quando duas falhas descrevem **o mesmo comportamento errado**, elas são **sinto
 - [ ] Há evidência anexada
 - [ ] O status de todos é **Aberto**
 
-⬆️ Volte para [[uc3.04 - Executando testes e registrando defeitos]].
+⬆️ Volte para [[uc3.05 - Executando testes e registrando defeitos]].

@@ -8,60 +8,47 @@ tags:
   - uc3
 ---
 
-> [!warning] Uso exclusivo do docente
-> Não publicar. A pasta `versao-0.9/` com os 3 arquivos **alterados** vai para os alunos. As alterações abaixo e o gabarito são só seus.
+## 0. Como gerar a `versao-0.9/` para os testes
 
-## 0. Como gerar a `versao-0.9/`
+Rode `gerar_versao_0_9.py` **só sobre a cópia limpa** da versão correta. O script aplica 3 trocas e para com erro se um trecho não for encontrado exatamente uma vez.
 
-Parta de uma cópia do **repositório-base correto** (o mesmo que os alunos receberam na Aula 1), altere os três pontos abaixo e copie `app.py`, `dados.py` e `validacao.py` para a pasta `versao-0.9/`.
+| Defeito | Arquivo | Troca |
+| --- | --- | --- |
+| DEF-03 (preço negativo) | `validacao.py` | `if not math.isfinite(preco) or preco < 0:` → `if not math.isfinite(preco):` |
+| DEF-01 (venda sem baixa) | `dados.py` | `registrar_venda` grava a venda e só baixa o estoque se houver saldo, **sem erro** |
+| DEF-02 (sem login) | `app.py` | Remove `@login_required` de `exibir_formulario` (`GET /produtos/novo`) |
 
-> [!bug] Os trechos vêm do código Bottle da UC2
-> Confirme os nomes no Flask antes de alterar. Os alunos substituem os arquivos **inteiros**, então a base deles precisa ser **idêntica** à sua. Se algum aluno tiver editado `app.py`, `dados.py` ou `validacao.py` na SA1, perderá essas edições.
-
-### Defeito 1: preço negativo aceito (`validacao.py`)
-
-```diff
--        if not math.isfinite(preco) or preco < 0:
-+        if not math.isfinite(preco):
-             raise ValueError
-```
-
-### Defeito 2: venda registrada sem baixa quando falta estoque (`dados.py`)
-
-Substitua `registrar_venda` por:
-
-```python
-def registrar_venda(conn, id_produto, quantidade):
-    """Registra a venda e baixa o estoque (versão 0.9)."""
-    estoque = conn.execute(
-        "SELECT estoque FROM Produto WHERE id_produto = ?;", (id_produto,)
-    ).fetchone()[0]
-
-    with conn:
-        conn.execute(
-            "INSERT INTO Vendas (id_produto, quantidade) VALUES (?, ?);",
-            (id_produto, quantidade),
-        )
-        if estoque >= quantidade:
-            conn.execute(
-                "UPDATE Produto SET estoque = estoque - ? WHERE id_produto = ?;",
-                (quantidade, id_produto),
-            )
-```
-
-Sem a baixa, o `CHECK(estoque >= 0)` nunca dispara. A venda é gravada **sem erro** e o estoque fica igual.
-
-### Defeito 3: página de novo produto sem login (`app.py`)
-
-```diff
- @app.get("/produtos/novo")
--@requer_autenticacao
- def exibir_formulario():
-```
-
-Só o `GET` fica aberto. O `POST /produtos` continua protegido por login e CSRF.
+> [!info] Mensagem que continua prometendo a regra
+> Na v0.9 a mensagem "Informe um preço válido, igual ou maior que zero" continua no código, mas a regra deixou de ser aplicada. Bom exemplo para a plenária: o texto **promete** algo que o sistema não cumpre.
 
 ## 1. Verificação antes da aula
+
+Com a v0.9 copiada para uma cópia do projeto, rode `pytest -v --tb=short`. São **17 testes**: 13 passam e 4 falham.
+
+| Falha | Defeito |
+| --- | --- |
+| `test_validacao.py::test_preco_negativo_e_recusado` | DEF-03 |
+| `test_integracao.py::test_dados_invalidos_retornam_400` | DEF-03 |
+| `test_integracao.py::test_venda_com_estoque_insuficiente_nao_altera_nada` | DEF-01 |
+| `test_integracao.py::test_pagina_de_novo_produto_sem_login_redireciona_para_o_login` | DEF-02 |
+
+Mensagens esperadas:
+
+```text
+test_preco_negativo_e_recusado    -> assert {'nome': ..., 'preco': -5.0, ...} is None
+test_venda_com_estoque_insuficiente... -> Failed: DID NOT RAISE <class 'sqlite3.IntegrityError'>
+test_pagina_de_novo_produto_sem_login... -> assert 200 == 302
+test_dados_invalidos_retornam_400 -> falha no SEGUNDO assert (texto), não no status
+```
+
+> [!info] Por que `test_dados_invalidos_retornam_400` falha pelo texto
+> Com a v0.9 o preço `-10` passa pela validação, mas o banco recusa pelo `CHECK(preco >= 0.0)`. O app captura o `IntegrityError` e responde **400** com "O banco de dados recusou os dados informados." Então o **status** (400) está certo, e o que falha é o texto "Informe um preço válido". Nada inválido é gravado, e por isso a severidade do DEF-03 é baixa. A saída do pytest mostra a página HTML inteira, o que é um bom motivo para ensinar a **resumir a mensagem em uma linha** no registro.
+
+> [!warning] Confira antes da aula
+> - Onde o formulário mostra a mensagem `geral` (acima dos campos ou junto deles). Anote o texto real para CT01.
+> - O `tests/test_rascunho_banco_real.py` **não pode estar** na pasta `tests/`: com a v0.9 ele também falharia e confundiria a contagem.
+> - Duas das falhas (DEF-03) têm a mesma causa: é a prova viva da regra "um registro por defeito". Use isso na plenária.
+
 
 Rode `pytest -v --tb=short` com a v0.9 sobre o projeto completo (SA1 pronta, só testes obrigatórios). Resultado esperado: **13 testes, 10 passam e 3 falham**.
 
@@ -114,32 +101,39 @@ Execute com `pytest -s tests/test_diagnostico_venda.py`: aparece `estoque: 3 | v
 
 ## 2. `docs/resultados-de-teste.md` (gabarito, só testes obrigatórios)
 
-> **Versão 0.9, ambiente local, 16/11/2026**
+**Versão 0.9, ambiente local.**
 
-| Caso | Título | Resultado esperado | Resultado obtido | Status |
-| --- | --- | --- | --- | --- |
-| CT01 | Cadastro com preço negativo | Mensagem junto do campo preço; nada gravado | Formulário reexibido (400) com a mensagem genérica "O banco de dados recusou os dados informados." no topo; sem mensagem no campo preço; nada gravado | **Reprovado** |
-| CT02 | Acesso sem login | Redireciona para `/login` | Formulário de novo produto exibido sem login | **Reprovado** |
-| CT03 | Login com senha errada | Mensagem genérica, sem acesso | Mensagem "Usuário ou senha incorretos." | Aprovado |
-| CT04 | Envio sem token CSRF | Erro 403, nada gravado | 403 com a mensagem esperada | Aprovado |
-| CT05 | HTML no nome | Texto literal, sem negrito | Texto literal | Aprovado |
-| CT06 | Cadastro válido | Redireciona com aviso de sucesso; sem duplicar no F5 | Como esperado | Aprovado |
+| Caso | Título | Obtido | Status |
+| --- | --- | --- | --- |
+| CT01 | Preço negativo | Formulário reexibido (400) com a mensagem genérica do banco; sem mensagem no campo preço; nada gravado | **Reprovado** |
+| CT02 | Acesso sem login | Formulário de novo produto exibido sem login | **Reprovado** |
+| CT03 a CT06 | Senha errada, CSRF, HTML escapado, cadastro válido | Como esperado | Aprovados |
 
 | Arquivo | Total | Passaram | Falharam |
 | --- | --- | --- | --- |
-| tests/test_validacao.py | 6 | 5 | 1 |
+| tests/test_validacao.py | 8 | 7 | 1 |
 | tests/test_seguranca.py | 3 | 3 | 0 |
-| tests/test_integracao.py | 4 | 2 | 2 |
+| tests/test_integracao.py | 6 | 3 | 3 |
 
-**Números para a Aula 5** (só obrigatórios; variam com os opcionais de cada dupla):
+**Números para a Aula 5** (variam conforme os testes opcionais de cada dupla):
 
 | Conjunto | Aprovados ÷ total | Taxa |
 | --- | --- | --- |
 | Casos manuais | 4 ÷ 6 | 66,7% |
-| Testes automatizados | 10 ÷ 13 | 76,9% |
-| Todos | 14 ÷ 19 | 73,7% |
+| Testes automatizados | 13 ÷ 17 | 76,5% |
+| Todos | 17 ÷ 23 | 73,9% |
 
 ## 3. `docs/registro-de-defeitos.md` (gabarito)
+
+| ID | Defeito | Casos relacionados | Severidade | Prioridade |
+| --- | --- | --- | --- | --- |
+| DEF-01 | Venda com estoque insuficiente é registrada, sem baixa e sem erro | `test_venda_com_estoque_insuficiente...` | Crítica ou Alta | Alta |
+| DEF-02 | Página de novo produto abre sem login | CT02; `test_pagina_de_novo_produto_sem_login...` | Média | Alta |
+| DEF-03 | Validação aceita preço negativo | CT01; `test_preco_negativo...`; `test_dados_invalidos...` | Baixa | Média |
+
+O DEF-01 só aparece na suíte automatizada: o plano manual da Aula 1 não cobre vendas. Guarde isso para a Aula 5.
+
+Os passos para reproduzir e as justificativas de severidade são os mesmos do gabarito anterior. O DEF-01 deve usar o teste de diagnóstico da resposta passada (`registrar_venda(banco_temporario, 3, 100)`), que na v0.9 imprime `estoque: 3 | vendas: 1`.
 
 ### DEF-01: Venda com estoque insuficiente é registrada sem baixa e sem erro
 

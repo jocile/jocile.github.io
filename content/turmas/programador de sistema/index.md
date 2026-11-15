@@ -29,13 +29,13 @@ WHERE !draft
 SORT aula ASC-->
 <!-- SerializedQuery: TABLE WITHOUT ID aula, date AS "Data", file.link AS "Tema" FROM #programador-sistemas/aulas/uc3 WHERE !draft SORT aula ASC -->
 
-| aula | Data              | Tema                                                                                                                                                                      |
-| ---- | ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | November 11, 2026 | [[uc3.01 - Plano de teste e testes manuais]]                     |
-| 2    | November 12, 2026 | [[uc3.02 - testes automatizados com pytest]]                     |
-| 3    | November 13, 2026 | [[uc3.03 - Testes de integracao com fixtures]]                 |
-| 4    | November 16, 2026 | [[uc3.04 - Executando testes e registrando defeitos]]   |
-| 5    | November 17, 2026 | [[uc3.05 - Analisando resultados e medindo cobertura]] |
+| aula | Data              | Tema                                                                                                                                                                    |
+| ---- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | November 11, 2026 | [[uc3.01 - Plano de teste e testes manuais]]                   |
+| 2    | November 12, 2026 | [[uc3.02 - testes automatizados com pytest]]                   |
+| 3    | November 13, 2026 | [[uc3.03 - Testes de integracao com fixtures]]               |
+| 4    | November 16, 2026 | [[uc3.04 - Aplicando TDD]]                                                       |
+| 5    | November 17, 2026 | [[uc3.05 - Executando testes e registrando defeitos]] |
 
 <!-- SerializedQuery END -->
 
