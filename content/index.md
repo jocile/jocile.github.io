@@ -24,7 +24,7 @@ cssclasses:
 - [📚Blog de aulas passadas](https://jocile.github.io/site/blog/)
 - [🌐 Navegue pelos Tópicos](/tags/).
 - 💼 [Oportunidades de trabalho em Sobral Ceará](https://carreiras.ce.senac.br/vagas?cidade=Sobral)
-- 🎓 Oportunidade de cursos presenciais no [[cursos_senac_sobral antes|Senac em Sobral]] e [[cursos_senac_sobral_psg|gratuitos]]
+- 🎓 Oportunidade de cursos presenciais no [[cursos_senac_sobral|Senac em Sobral]] e [[cursos_senac_sobral_psg|gratuitos]]
 
 ## Turma atual
 
@@ -32,7 +32,7 @@ cssclasses:
 
 ## Próximas turmas
 
-[[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4|INFORMÁTICA BÁSICA - SOBRAL - a NOITE]] | [[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3| a TARDE]]
+[[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - NOITE - 2027.12.4|💻 INFORMÁTICA BÁSICA - SOBRAL - a NOITE]] | [[cursos_senac_sobral#INFORMÁTICA BÁSICA - SOBRAL - TARDE - 2027.12.3| a TARDE]] | ✨[[logica de programacao]]
 
 ## Atualizações
 
@@ -48,10 +48,10 @@ SORT file.mtime DESC LIMIT 24 -->
 
 | ✨ Atualizações                                                                                                                                                                         | Data                | 📄 Descrição                                                                                                                                                                                                           |
 | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[curriculo-en]]                                                                                                                                                      | 15.novembro - 06:02 | IT instructor and systems developer. Teaching since 2018, projects in React, Java and Python, and ongoing training in data analysis.                                                                                   |
+| [[curriculo]]                                                                                                                                                            | 15.novembro - 06:02 | Instrutor de TI e desenvolvedor de sistemas. Docência desde 2018, projetos em React, Java e Python e formação em análise de dados.                                                                                     |
+| [[professor_Jocile]]                                                                                                                                              | 15.novembro - 06:01 | Instrutor de TI e desenvolvedor de sistemas. Sobre o autor deste site: experiência, formação e projetos.                                                                                                               |
 | [[1. Aplicando TDD com app carrinho de compras]]      | 15.novembro - 05:56 | Desenvolvimento da classe CarrinhoDeCompras aplicando Test-Driven Development (TDD) com pytest no ciclo Red-Green-Refactor, cobrindo inicialização, adicionar item, calcular total, remover item e validação de erros. |
-| [[curriculo-en]]                                                                                                                                                      | 15.novembro - 05:36 | IT instructor and systems developer. Teaching since 2018, projects in React, Java and Python, and ongoing training in data analysis.                                                                                   |
-| [[curriculo]]                                                                                                                                                            | 15.novembro - 05:35 | Instrutor de TI e desenvolvedor de sistemas. Docência desde 2018, projetos em React, Java e Python e formação em análise de dados.                                                                                     |
-| [[professor_Jocile]]                                                                                                                                              | 15.novembro - 05:35 | Instrutor de TI e desenvolvedor de sistemas. Sobre o autor deste site: experiência, formação e projetos.                                                                                                               |
 | [[cursos_senac_sobral]]                                                                                                                                        | 15.novembro - 05:24 | \-                                                                                                                                                                                                                     |
 | [[uc3.04 - Aplicando TDD]]                                                                      | 15.novembro - 05:23 | Desenvolvimento do Carrinho de Compras seguindo TDD com pytest e ciclo Red-Green-Refactor                                                                                                                              |
 | [[uc3.05 - Executando testes e registrando defeitos]]                | 15.novembro - 05:23 | Execução do plano de teste e da suíte automatizada na versão 0.9 do sistema Gestão de Produtos, com tabulação dos resultados e registro de defeitos reprodutíveis                                                      |
