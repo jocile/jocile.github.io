@@ -10,7 +10,7 @@ tags:
 
 A tabela de resultados responde: **o que foi executado, em qual versão, e o que aconteceu**. Sem ela, ninguém consegue comparar duas versões do sistema.
 
-⬆️ [[uc3.05 - Executando testes e registrando defeitos]]
+⬆️ [[uc3.06 - Executando testes e registrando defeitos]]
 
 ## Modelo para `docs/resultados-de-teste.md`
 
@@ -76,4 +76,4 @@ A tabela de resultados responde: **o que foi executado, em qual versão, e o que
 - [ ] O resultado obtido descreve **o que aconteceu**, não só "funcionou" ou "falhou"
 - [ ] Toda linha Reprovada tem evidência
 
-⬆️ Volte para [[uc3.05 - Executando testes e registrando defeitos]].
+⬆️ Volte para [[uc3.06 - Executando testes e registrando defeitos]].

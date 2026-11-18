@@ -188,4 +188,4 @@ aula: 3
 > - Qual funcionalidade vale mais a pena testar à mão, e qual vale mais a pena automatizar? Por quê?
 > - O que aconteceria com a suíte se cada teste usasse o banco real?
 
-⬅️ Aula anterior: [[uc3.02 - testes automatizados com pytest]] | ➡️ Próxima aula: [[uc3.05 - Executando testes e registrando defeitos]]
+⬅️ Aula anterior: [[uc3.02 - testes automatizados com pytest]] | ➡️ Próxima aula: [[uc3.06 - Executando testes e registrando defeitos]]

@@ -1,12 +1,12 @@
 ---
 quartz-properties: true
-title: uc3.04 - Executando testes e registrando defeitos
+title: uc3.06 - Executando testes e registrando defeitos
 description: Execução do plano de teste e da suíte automatizada na versão 0.9 do sistema Gestão de Produtos, com tabulação dos resultados e registro de defeitos reprodutíveis
 tags:
   - programador-sistemas/aulas/uc3
-date: 2026-11-17
+date: 2026-11-19
 uc: 3
-aula: 5
+aula: 6
 ---
 
 > [!note] Executando testes e registrando defeitos
@@ -95,4 +95,4 @@ aula: 5
 > - Se dois registros de defeito descrevem o mesmo problema, o que se perde na hora de corrigir?
 > - Por que "o sistema deu erro" não serve como resultado obtido?
 
-⬅️ Aula anterior: [[uc3.03 - Testes de integracao com fixtures]] | ➡️ Próxima aula: [[uc3.04 - Aplicando TDD]]
+⬅️ Aula anterior: [[uc3.05 - Aplicando TDD fase 2]] | ➡️ Próxima aula: ✨ Em edição

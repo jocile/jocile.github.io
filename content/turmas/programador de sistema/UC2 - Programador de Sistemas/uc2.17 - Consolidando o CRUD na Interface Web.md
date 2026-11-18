@@ -1,6 +1,6 @@
 ---
 quartz-properties: true
-title: uc2.17 - ### Consolidando o CRUD na Interface Web
+title: uc2.17 - Consolidando o CRUD na Interface Web
 description: prática passo a passo de como agrupar informações
 tags:
   - programador-sistemas/aulas/uc2

@@ -34,8 +34,9 @@ SORT aula ASC-->
 | 1    | November 11, 2026 | [[uc3.01 - Plano de teste e testes manuais]]                   |
 | 2    | November 12, 2026 | [[uc3.02 - testes automatizados com pytest]]                   |
 | 3    | November 13, 2026 | [[uc3.03 - Testes de integracao com fixtures]]               |
-| 4    | November 16, 2026 | [[uc3.04 - Aplicando TDD]]                                                       |
-| 5    | November 17, 2026 | [[uc3.05 - Executando testes e registrando defeitos]] |
+| 4    | November 17, 2026 | [[uc3.04 - Aplicando TDD]]                                                       |
+| 5    | November 18, 2026 | [[uc3.05 - Aplicando TDD fase 2]]                                         |
+| 6    | November 19, 2026 | [[uc3.06 - Executando testes e registrando defeitos]] |
 
 <!-- SerializedQuery END -->
 

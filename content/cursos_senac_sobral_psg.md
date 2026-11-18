@@ -13,6 +13,24 @@ coletado_em: "2026-11-11 20:50"
 | Oportunidade | Categoria | Início | Fim | Carga horária | Prazo de inscrição |
 | --- | --- | --- | --- | --- | --- |
 | [2026.12.376 – Instalação elétrica predial](https://psg.ce.senac.br/oportunidade/2026-12-376-instalacao-eletrica-predial/) | INSTALAÇÃO MANUTENÇÃO E REPARAÇÃO | 2026-11-23 | 2026-12-10 | 40h | 2026-11-25 |
+| [Lógica de Programação](#) | LÓGICA DE PROGRAMAÇÃO | 26/11/2026 | 16/12/2026 | 60h | - |
+
+## Lógica de Programação
+
+> [!info] **Início:** 26/11/2026 | **conclusão:** 16/12/2026
+> **Horário:** 08h às 11h30
+> **Dias:** Segunda a Sexta
+> **Carga horária:** 60 horas
+
+> [!tip] 📍 Local: Cadeia Criativa
+> ✅ **Requisitos:**
+> - Idade mínima de 14 anos;
+> Ensino Fundamental completo.
+
+> [!abstract]+ Inscrições e documentação
+> 📍 **Inscrições:** presencialmente na unidade Senac Sobral – Rua Dr. João do Monte, nº 980, Centro.
+> 📄 **Documentos necessários:** RG, CPF, Comprovante de residência, Comprovante de escolaridade.
+> 📱 **Formato aceito:** Os documentos podem ser apresentados em formato digital (foto ou PDF) ou original.
 
 ## 2026.12.376 – Instalação elétrica predial
 
