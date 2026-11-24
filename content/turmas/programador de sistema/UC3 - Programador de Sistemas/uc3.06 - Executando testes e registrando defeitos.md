@@ -1,10 +1,10 @@
 ---
 quartz-properties: true
 title: uc3.06 - Executando testes e registrando defeitos
-description: Execução do plano de teste e da suíte automatizada na versão 0.9 do sistema Gestão de Produtos, com tabulação dos resultados e registro de defeitos reprodutíveis
+description: Execução do plano de teste e da suíte automatizada do sistema Gestão de Produtos, com tabulação dos resultados e registro de defeitos reprodutíveis
 tags:
   - programador-sistemas/aulas/uc3
-date: 2026-11-19
+date: 2026-11-17
 uc: 3
 aula: 6
 ---
@@ -54,45 +54,6 @@ aula: 6
 >
 > - Em `docs/registro-de-defeitos.md`, crie **um registro por defeito distinto**, seguindo o [[modelo-registro-de-defeitos]]. **Falhas que descrevem o mesmo comportamento errado entram no mesmo registro.**
 > - Anexe evidências (saída do pytest, captura de tela).
->
-> **5. Trocar com outra dupla**
->
-> - Entregue seu `docs/registro-de-defeitos.md` a outra dupla. Ela tenta **reproduzir cada defeito usando somente o texto escrito**.
-> - Ajuste o que a outra dupla não conseguiu seguir.
 
-> [!info] Falha, defeito e a regra "um registro por defeito"
-> A tela de erro, a linha vermelha do pytest e o produto errado na lista são **falhas**: o que você observa. O **defeito** é a causa no código. Hoje vocês ainda não sabem onde ela está, mas podem perceber que **falhas diferentes descrevem o mesmo comportamento errado**. O número de linhas vermelhas **não** é o número de defeitos.
 
-> [!info] Severidade × prioridade
->
-> | | Pergunta | Quem decide | Exemplo |
-> | --- | --- | --- | --- |
-> | **Severidade** | Qual o **impacto** do problema no sistema e no negócio? | Quem testa | Crítica, alta, média, baixa |
-> | **Prioridade** | Qual a **urgência** de corrigir? | Equipe e cliente | Alta, média, baixa |
->
-> As duas podem divergir. Um erro de grafia no logotipo tem severidade baixa, mas pode ter prioridade alta antes de uma apresentação ao cliente.
->
-> **Justifique** a severidade em uma frase: o que acontece de ruim se esse defeito chegar ao cliente?
-
-> [!tip] Guardando evidências
->
-> ```bash
-> mkdir docs/evidencias
-> pytest -v --tb=short > docs/evidencias/pytest-v0.9.txt
-> ```
->
-> Se o arquivo ficar ilegível no PowerShell, use uma captura de tela. Para as falhas manuais, capture a tela com o resultado visível e salve em `docs/evidencias/`.
-
-> [!abstract] O que você vai entregar
->
-> - `docs/resultados-de-teste.md`: um registro por caso executado
-> - `docs/registro-de-defeitos.md`: um registro por defeito distinto, **reproduzível por outra dupla**
-> - Evidências em `docs/evidencias/`
-> - Um commit local com mensagem clara
-
-> [!question] Para refletir
->
-> - Se dois registros de defeito descrevem o mesmo problema, o que se perde na hora de corrigir?
-> - Por que "o sistema deu erro" não serve como resultado obtido?
-
-⬅️ Aula anterior: [[uc3.05 - Aplicando TDD fase 2]] | ➡️ Próxima aula: ✨ Em edição
+⬅️ Aula anterior: [[uc3.05 - Aplicando TDD fase 2]] | ➡️ Próxima aula: [[uc3.07 - Executando testes e registrando defeitos]]

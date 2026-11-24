@@ -4,7 +4,7 @@ title: uc3.01 - Plano de teste e testes manuais
 description: Elaboração de um plano de teste e de casos de teste, executados manualmente no sistema Gestão de Produtos
 tags:
   - programador-sistemas/aulas/uc3
-date: 2026-11-11
+date: 2026-11-10
 uc: 3
 aula: 1
 ---

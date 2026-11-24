@@ -4,7 +4,7 @@ title: uc3.03 - Testes de integração com fixtures
 description: Testes automatizados de integração com banco temporário, rotas Flask e fixtures do pytest no sistema Gestão de Produtos, e Avaliação 1 da UC3
 tags:
   - programador-sistemas/aulas/uc3
-date: 2026-11-13
+date: 2026-11-12
 uc: 3
 aula: 3
 ---

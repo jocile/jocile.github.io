@@ -24,19 +24,16 @@ horas-aula:
 TABLE WITHOUT ID
 aula, date AS "Data",
 file.link AS "Tema"
-FROM #programador-sistemas/aulas/uc3
+FROM #programador-sistemas/aulas/uc4
 WHERE !draft
 SORT aula ASC-->
-<!-- SerializedQuery: TABLE WITHOUT ID aula, date AS "Data", file.link AS "Tema" FROM #programador-sistemas/aulas/uc3 WHERE !draft SORT aula ASC -->
+<!-- SerializedQuery: TABLE WITHOUT ID aula, date AS "Data", file.link AS "Tema" FROM #programador-sistemas/aulas/uc4 WHERE !draft SORT aula ASC -->
 
-| aula | Data              | Tema                                                                                                                                                                    |
-| ---- | ----------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| 1    | November 11, 2026 | [[uc3.01 - Plano de teste e testes manuais]]                   |
-| 2    | November 12, 2026 | [[uc3.02 - testes automatizados com pytest]]                   |
-| 3    | November 13, 2026 | [[uc3.03 - Testes de integracao com fixtures]]               |
-| 4    | November 17, 2026 | [[uc3.04 - Aplicando TDD]]                                                       |
-| 5    | November 18, 2026 | [[uc3.05 - Aplicando TDD fase 2]]                                         |
-| 6    | November 19, 2026 | [[uc3.06 - Executando testes e registrando defeitos]] |
+| aula | Data              | Tema                                                                                                                   |
+| ---- | ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| 1    | November 20, 2026 | [[uc4.01 - Projeto integrador]] |
+| 2    | November 23, 2026 | [[uc4.02 - Projeto integrador]] |
+| 3    | November 24, 2026 | [[uc4.03 - Projeto integrador]] |
 
 <!-- SerializedQuery END -->
 
@@ -49,7 +46,7 @@ O Modelo Pedagógico Senac estrutura o currículo do curso Programador de Sistem
 | [[turmas/programador de sistema/UC1 - Programador de Sistemas/index\|UC1: Desenvolver sistemas de informação]] | 72 horas          |
 | [[turmas/programador de sistema/UC2 - Programador de Sistemas/index\|UC2: Implementar banco de dados]]         | 72 horas          |
 | [[turmas/programador de sistema/UC3 - Programador de Sistemas/index\|UC3:Realizar testes e manutenção do sistema de informação]] | 36 horas          |
-| UC4: Projeto Integrador em Programador de Sistemas                                                             | 20 horas          |
+| [[turmas/programador de sistema/UC4 - Programador de Sistemas/index\|UC4: Projeto Integrador em Programador de Sistemas]] | 20 horas          |
 | **Carga Horária Total**                                                                                        | 200               |
 
 ![[Timeline-UC1-Programador]]

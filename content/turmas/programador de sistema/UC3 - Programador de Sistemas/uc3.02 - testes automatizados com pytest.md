@@ -4,7 +4,7 @@ title: uc3.02 - Primeiros testes automatizados com pytest
 description: Conversão de casos de teste manuais em testes automatizados com pytest, para a validação de produtos e a segurança de senhas do sistema Gestão de Produtos
 tags:
   - programador-sistemas/aulas/uc3
-date: 2026-11-12
+date: 2026-11-11
 uc: 3
 aula: 2
 ---

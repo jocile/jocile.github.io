@@ -1,10 +1,12 @@
 ---
 title: Harmonia dos Evangelhos - Timeline
-description: "A vida de Jesus cronologicamente"
+description: "A vida de Jesus cronologicamente em uma  tabela cronológica e temática que mapeia a vida de Jesus através da comparação dos quatro Evangelhos canônicos"
 tags:
   - Teologia/Cristologia
   - timeline
 ---
+
+O documento apresentado é uma tabela cronológica e temática que mapeia a vida de Jesus através da comparação dos quatro Evangelhos canônicos: Mateus, Marcos, Lucas e João. Sua principal finalidade é destacar os pontos de contato e complementaridade entre os textos sagrados, organizando eventos desde a sua ancestralidade e nascimento até o seu ministério, morte e ressurreição. Por meio dessa visão harmônica e sinótica, o leitor consegue visualizar facilmente quais passagens são relatadas por cada autor bíblico e quais episódios são exclusivos de determinado Evangelho.
 
 ## A preexistência de Cristo
 

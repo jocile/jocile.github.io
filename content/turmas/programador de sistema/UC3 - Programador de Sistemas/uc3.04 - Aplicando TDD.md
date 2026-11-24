@@ -4,7 +4,7 @@ title: uc3.04 - Aplicando TDD
 description: Desenvolvimento do Carrinho de Compras seguindo TDD com pytest e ciclo Red-Green-Refactor
 tags:
   - programador-sistemas/aulas/uc3
-date: 2026-11-17
+date: 2026-11-13
 uc: 3
 aula: 4
 ---
