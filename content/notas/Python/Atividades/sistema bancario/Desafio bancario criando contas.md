@@ -27,7 +27,6 @@ Cada tipo de conta possui requisitos diferentes. O aluno deve criar funções es
 - **`criar_poupanca(nome, saldo_inicial)`**: Além dos dados básicos, pode incluir a definição de uma data de aniversário da conta.
 - **`criar_pj(nome_fantasia, cnpj, saldo_inicial)`**: Exige um parâmetro extra (**CNPJ**), demonstrando como funções podem lidar com diferentes quantidades de informações.
 
-
 #### 2. Implementação do Menu e Controle de Fluxo
 
 Para garantir que o programa seja interativo, deve-se utilizar uma estrutura de repetição **`while` (Enquanto)**, permitindo que o usuário realize várias operações sem que o sistema feche sozinho. Dentro do laço, uma estrutura **`if-elif-else`** direcionará a escolha do usuário para a função correta.
@@ -85,7 +84,6 @@ while opcao!= 0:
 2. **Organização por Paradigma Funcional:** Em vez de um código gigante e confuso, as funções permitem que a lógica de cada conta seja testada e mantida separadamente.
 3. **Abstração:** Ao criar a conta PJ, o aluno percebe que pode adicionar campos novos (como o CNPJ) sem quebrar a lógica das outras funções.
 4. **Uso de Variáveis e Atribuição:** A prática reforça o conceito de que variáveis são "caixas" que armazenam temporariamente os dados digitados pelo usuário até que sejam processados pelas funções.
-
 
 ## Fase 2 Criando registros em dicionários
 
@@ -208,4 +206,4 @@ Essa abordagem modular facilita a **manutenção do software**, pois permite que
 ## Referências
 
 - [Desafio Sistema Bancário - Google Colab](https://colab.research.google.com/drive/1DFPg5VakbWUVJ1RYquyTBBKTE9MKWSJX?usp=sharing)
-- [[Aulas de Logica]]
+- [[2026.01.21 Aulas de Logica]]

@@ -17,18 +17,21 @@ tags:
   - JavaScript
   - Lógica
 ---
-# Formação em Lógica de programação
+## Formação em Lógica de programação
 
 >[!check]- Desafios de projeto:
+>
 > - [x] [Classificador de Nível de Herói](https://github.com/jocile/classificador-de-nivel)
 > - [x] [Calculadora de Partidas Rankeadas](https://github.com/jocile/calculadora-de-partidas)
 > - [x] [Escrevendo as Classes de Um Jogo](https://github.com/jocile/classe-hero)
 
 > [!summary]- Bem-Vindo à Sua Jornada de Lógica de programação
+>
 > - Aperte Start com Lógica de Programação
 
 > [!summary]- Introdução à Lógica de Programação
-> - [[logica de programacao|Introdução aos Conceitos Básicos em Lógica de Programação]]
+>
+> - [[turmas/logica de programacao/index|Introdução aos Conceitos Básicos em Lógica de Programação]]
 > - Entendendo Algoritmos e Fluxogramas
 > - Estrutura de um Software e Seu Ambiente de Desenvolvimento
 > - Trabalhando com Variáveis
@@ -36,6 +39,7 @@ tags:
 > - Parabéns Por Dominar os Conceitos Básicos
 
 > [!summary]- Explorando Operadores
+>
 > - Introdução ao Mundo de Operadores De Programação
 > - Entendendo Operadores e Expressões
 > - Trabalhando Com Operadores Aritméticos
@@ -44,6 +48,7 @@ tags:
 > - Parabéns Por Dominar Os Operadores
 
 > [!summary]- Dominando Estruturas de Controle
+>
 > - Introdução as Estruturas de Controle
 > - Trabalhando Com Estruturas Condicionais (if, else if, else)
 > - Trabalhando Com Estruturas de Decisão (Estrutura Switch Case)
@@ -52,6 +57,7 @@ tags:
 > - Parabéns Por Dominar as Estruturas de Controle
 
 > [!summary]- Trabalhando com Funções
+>
 > - Introdução ao Mundo de Funções
 > - O Que São Funções e Como Criar
 > - Funções com Parâmetros
@@ -60,6 +66,7 @@ tags:
 > - Parabéns Por Dominar Funções
 
 > [!summary]- Refinando Sua Técnica com Desafios de Código Básicos em Lógica
+>
 > - Aperfeiçoe Sua Lógica e Pensamento Computacional
 > - Jornada do Herói
 > - Pontos de Experiência
@@ -70,8 +77,9 @@ tags:
 > - Gerenciamento de Itens Mágicos
 
 > [!summary]- Estruturas de Dados e Objetos
+>
 > - Introdução Ao Mundo Dos Objetos
 > - Estrutura de Dados JSON
-> - O Que São Classes e Objetos 
+> - O Que São Classes e Objetos
 > - Desafio de projeto: Escrevendo as Classes de Um Jogo
 > - Parabéns Por Dominar as Estruturas de Dados

@@ -203,7 +203,7 @@ Este módulo conceitual introduziu os fundamentos de testes em Python:
 
 - [[Videos]] - Material complementar do curso DIO "Introdução a Testes"
 - [[Formação/Python]] - Trilha de aprendizado em Python  
-- [[private/Python/index]] - Mapa de conteúdo completo sobre Python
+- [[notas/Python/index]] - Mapa de conteúdo completo sobre Python
 - [[uc1.02 - modelo de aula.md]] - Modelo de estrutura de aulas didáticas
 
 ---

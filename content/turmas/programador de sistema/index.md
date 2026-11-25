@@ -10,7 +10,7 @@ Período: 14/09/2026 a 25/11/2026
 Horário: Segunda a Sexta das 08:00 às 11:30
 Unidades-curriculares: 4
 link: "[Senac - Programador de Sistema](https://cursos.ce.senac.br/produto/programador-de-sistema/)"
-status: ▶️ Em andamento
+status: ✅ Concluído
 horas-aula:
   - 72
   - 72
@@ -29,8 +29,8 @@ WHERE !draft
 SORT aula ASC-->
 <!-- SerializedQuery: TABLE WITHOUT ID aula, date AS "Data", file.link AS "Tema" FROM #programador-sistemas/aulas/uc4 WHERE !draft SORT aula ASC -->
 
-| aula | Data              | Tema                                                                                                                   |
-| ---- | ----------------- | ---------------------------------------------------------------------------------------------------------------------- |
+| aula | Data              | Tema                                                                                                                        |
+| ---- | ----------------- | --------------------------------------------------------------------------------------------------------------------------- |
 | 1    | November 20, 2026 | [[uc4.01 - Projeto integrador]] |
 | 2    | November 23, 2026 | [[uc4.02 - Projeto integrador]] |
 | 3    | November 24, 2026 | [[uc4.03 - Projeto integrador]] |
