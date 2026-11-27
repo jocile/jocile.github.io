@@ -12,7 +12,7 @@ tags:
 
 ### O começo da história
 
-**Marcos 1:1-4**
+**Marcos 1:1-4** [Marcos 1 Novo Testamento Judaico Bolls Bible](https://bolls.life/NTJud/41/1/01/)
 
 Marcos começa a história de Jesus desde muito atrás. A história de Jesus não começa com seu nascimento na Terra; nem sequer começa com a aparição no deserto de João Batista; começou com os sonhos dos profetas, muito, muitíssimo tempo atrás; isto equivale a dizer que começou faz muito, muito tempo, na mente de Deus. Os estóicos acreditavam firmemente no ordenado intuito divino das coisas.
 

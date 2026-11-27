@@ -26,9 +26,10 @@ WHERE !draft
 SORT aula ASC-->
 <!-- SerializedQuery: TABLE WITHOUT ID aula, date AS "Data", file.link AS "Tema" FROM #logica/aulas/uc1 WHERE !draft SORT aula ASC -->
 
-| aula | Data              | Tema                                                                                           |
-| ---- | ----------------- | ---------------------------------------------------------------------------------------------- |
-| 1    | November 26, 2026 | [[uc1.01 - introducao a logica]] |
+| aula | Data              | Tema                                                                                                                                         |
+| ---- | ----------------- | -------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1    | November 26, 2026 | [[uc1.01 - Introducao a logica e algoritmos]]                     |
+| 2    | November 27, 2026 | [[uc1.02 - Variaveis constantes e primeiros programas]] |
 
 <!-- SerializedQuery END -->
 
